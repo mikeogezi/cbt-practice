@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#0066FF</color>-->
+    <!--<color name="colorPrimaryDark">#0055EE</color>-->
+    <!--<color name="colorAccent">#55AAFF</color>-->
+
+    <color name="correct">@color/teal_dark</color>
+    <color name="wrong">@color/red_dark</color>
+
+    <color name="colorPrimary">@color/md_blue_700</color>
+    <color name="colorPrimaryDark">@color/md_blue_800</color>
+    <color name="colorAccent">@color/md_blue_300</color>
+
+    <color name="textPrimary">@color/md_blue_grey_700</color>
+    <color name="textSecondary">@color/md_blue_grey_400</color>
+
+    <color name="placeholder">@color/gray</color>
+
+    <color name="onboarding">@color/colorPrimary</color>
+
+    <color name="transparent">#0FFF</color>
+    <color name="transparent_bg">#5000</color>
+    <color name="transparent_bg_dark">#8000</color>
+    <color name="white">#FFF</color>
+
+    <color name="success_color">#4CAF50</color>
+    <color name="error_color">#F44336</color>
+
+    <color name="gray_light">#CCC</color>
+    <color name="gray">#999</color>
+    <color name="gray_dark">#777</color>
+    <color name="gray_darker">#444</color>
+
+    <color name="success_dialog">@color/teal_dark</color>
+    <color name="failure_dialog">@color/orange_darker</color>
+
+    <color name="yellow">#ffeb3b</color>
+    <color name="yellow_light">#fff176</color>
+    <color name="yellow_dark">#fbc02d</color>
+    <color name="yellow_darker">#f57f17</color>
+
+    <color name="orange">#ff9800</color>
+    <color name="orange_light">#ffb74d</color>
+    <color name="orange_dark">#f57c00</color>
+    <color name="orange_darker">#e65100</color>
+
+    <color name="red">#F44336</color>
+    <color name="red_light">#E57373</color>
+    <color name="red_dark">#D32F2F</color>
+    <color name="red_darker">#B71C1C</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="green_light">#81C784</color>
+    <color name="green_dark">#388E3C</color>
+    <color name="green_darker">#1B5E20</color>
+
+    <color name="teal">#009688</color>
+    <color name="teal_light">#4db6ac</color>
+    <color name="teal_dark">#00796b</color>
+    <color name="teal_darker">#004d40</color>
+
+    <color name="indigo">#3f51b5</color>
+    <color name="indigo_light">#7986cb</color>
+    <color name="indigo_dark">#303f9f</color>
+    <color name="indigo_darker">#1a237e</color>
+
+    <color name="purple">#9c27b0</color>
+    <color name="purple_light">#ce93d8</color>
+    <color name="purple_dark">#7b1fa2</color>
+    <color name="purple_darker">#4a148c</color>
+</resources>

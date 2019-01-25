@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".screens.CorrectionActivity">
+
+    <include
+        android:id="@+id/toolbar_container"
+        layout="@layout/search_toolbar" />
+
+    <LinearLayout
+        android:layout_below="@id/toolbar_container"
+        android:padding="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/correction_r_v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="@dimen/ad_bottom_padding"
+            android:clipToPadding="false" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/ad_layout"
+        layout="@layout/banner_correction_activity" />
+
+</RelativeLayout>

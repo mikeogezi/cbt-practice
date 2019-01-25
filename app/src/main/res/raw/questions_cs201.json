@@ -1,0 +1,2236 @@
+{
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "question": "Who invented C++?",
+            "options": [
+                "Ronaldo and Messi",
+                "Haskell",
+                "Ray Ban",
+                "John Stroustrup",
+                "Bjarne Stroustrup",
+                "Alan Turing"
+            ],
+            "correctOption": "Bjarne Stroustrup"
+        },
+        {
+            "question": "Which of the following is not a characteristic of OOP?",
+            "options": [
+                "Encapsulation",
+                "Polymorphism",
+                "Inheritance",
+                "Togetherness"
+            ],
+            "correctOption": "Togetherness"
+        },
+        {
+            "question": "A sequence of instructions written to perform a specified task on a computer is called __________",
+            "options": [
+                "Software",
+                "Hardware",
+                "Gadget",
+                "Instructions"
+            ],
+            "correctOption": "Software"
+        },
+        {
+            "question": "There are currently __________ generations of computer programming languages.",
+            "options": [
+                "Four",
+                "Five",
+                "Three",
+                "Six"
+            ],
+            "correctOption": "Five"
+        },
+        {
+            "question": "1GL is synonymous with __________",
+            "options": [
+                "First General Language",
+                "1st Gathering in Lamingo",
+                "First Grand Language",
+                "First Generation Language"
+            ],
+            "correctOption": "First Generation Language"
+        },
+        {
+            "question": "Fifth generation languages are currently being used for __________",
+            "options": [
+                "Databases",
+                "Interpreters",
+                "Neural Networks",
+                "Batteries"
+            ],
+            "correctOption": "Neural Networks"
+        },
+        {
+            "question": "For this course the language of study is an example of __________ generation programming language.",
+            "options": [
+                "Third",
+                "Second",
+                "Fourth",
+                "First"
+            ],
+            "correctOption": "Third"
+        },
+        {
+            "question": "__________ Programming models software in terms similar to real world objects.",
+            "options": [
+                "Hardware",
+                "Structured",
+                "Software",
+                "Object Oriented"
+            ],
+            "correctOption": "Object Oriented"
+        },
+        {
+            "question": "Structured Programming existed before Object Oriented Programming.",
+            "options": [
+                "False",
+                "Maybe",
+                "True",
+                "None of these"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Which of the following is a feature of Object Oriented Programming?",
+            "options": [
+                "Classes",
+                "Inheritance",
+                "Polymorphism",
+                "All of the above"
+            ],
+            "correctOption": "All of the above"
+        },
+        {
+            "question": "Which is not a control structure in structured programming?",
+            "options": [
+                "Processor",
+                "Repetition",
+                "Selection",
+                "Sequence"
+            ],
+            "correctOption": "Processor"
+        },
+        {
+            "question": "Which of the program codes matches the second generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correctOption": "MUL X,Y"
+        },
+        {
+            "question": "Which of the program codes matches the first generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correctOption": "10000001101"
+        },
+        {
+            "question": "Which of the program codes matches the third generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correctOption": "A = SEC + GEN"
+        },
+        {
+            "question": "Which of the program codes matches the fourth generation programming language?",
+            "options": [
+                "MUL X,Y",
+                "10000001101",
+                "A = SEC + GEN",
+                "SELECT * FROM student;"
+            ],
+            "correctOption": "SELECT * FROM student;"
+        },
+        {
+            "question": "SQL is an example of __________ generation language.",
+            "options": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth"
+            ],
+            "correctOption": "Fourth"
+        },
+        {
+            "question": "Structured programs can be written in terms of three types of control structures except__________",
+            "options": [
+                "Repetition",
+                "Sequence",
+                "Selection",
+                "Manipulation"
+            ],
+            "correctOption": "Manipulation"
+        },
+        {
+            "question": "The __________ selection statement is used to execute one action when a condition is true and a different action when that condition is false.",
+            "options": [
+                "If",
+                "If else",
+                "Switch",
+                "For else"
+            ],
+            "correctOption": "If else"
+        },
+        {
+            "question": "What additional features did C++ add to C?",
+            "options": [
+                "Structured Programming",
+                "Object Oriented Programming Disabilities",
+                "Plusplus",
+                "Object Oriented Programming Capabilities"
+            ],
+            "correctOption": "Object Oriented Programming Capabilities"
+        },
+        {
+            "question": "What additional feature did C++ add to C?",
+            "options": [
+                "Standard Books",
+                "Standard cout",
+                "Standard Libraries",
+                "Loops"
+            ],
+            "correctOption": "Standard Libraries"
+        },
+        {
+            "question": "What are the parts of a C++ program?",
+            "options": [
+                "First and Last parts",
+                "Structured and Unstructured parts",
+                "Directive and main program",
+                "Director and Personal Assistance"
+            ],
+            "correctOption": "Directive and main program"
+        },
+        {
+            "question": "Which of the following is a valid name for an identifier?",
+            "options": [
+                "Miles",
+                "3Musketeers",
+                "The space",
+                "Three%ofFifty"
+            ],
+            "correctOption": "Miles"
+        },
+        {
+            "question": "Which of the following is an invalid identifier?",
+            "options": [
+                "Miles",
+                "Root—of—2",
+                "Root_of_2",
+                "Erase"
+            ],
+            "correctOption": "Root—of—2"
+        },
+        {
+            "question": "Which of the following is an invalid identifier?",
+            "options": [
+                "The space",
+                "Nospace",
+                "Correct",
+                "Verycorrect"
+            ],
+            "correctOption": "The space"
+        },
+        {
+            "question": "Which of the following is an invalid identifier?",
+            "options": [
+                "3Musketeers",
+                "Musketeers3",
+                "M3usketeers",
+                "_Musketeers"
+            ],
+            "correctOption": "3Musketeers"
+        },
+        {
+            "question": "__________ control structure execute steps or statements in the order they appear.",
+            "options": [
+                "Selection",
+                "Sequence",
+                "Repetition",
+                "Manipulation"
+            ],
+            "correctOption": "Sequence"
+        },
+        {
+            "question": "__________ is a one path choice selection statement.",
+            "options": [
+                "If",
+                "If else",
+                "Where else",
+                "Switch"
+            ],
+            "correctOption": "If"
+        },
+        {
+            "question": "__________ is a multiple path choice selection statement.",
+            "options": [
+                "If",
+                "Where else",
+                "Switch"
+            ],
+            "correctOption": "Switch"
+        },
+        {
+            "question": "C++ evolved from the __________ programming language.",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correctOption": "C"
+        },
+        {
+            "question": "C programming language evolved from __________",
+            "options": [
+                "BCPL and B",
+                "BPPL and B",
+                "BCPL and BC",
+                "B"
+            ],
+            "correctOption": "BCPL and B"
+        },
+        {
+            "question": "Complete this statement: C++ was developed by __________",
+            "options": [
+                "Bjarne Stroustrup in the 1980s and Standardized in 1998",
+                "Bjarne Stroustrup in the 1980s and Standardized in 1988",
+                "Bjarne Stroustrup in the 1970s and Standardized in 1998",
+                "James Stroustrup in the 1980s and Standardized in 1998"
+            ],
+            "correctOption": "Bjarne Stroustrup in the 1980s and Standardized in 1998"
+        },
+        {
+            "question": "C++ Directives includes the following except __________",
+            "options": [
+                "#include",
+                "#define",
+                "Comment",
+                "Statements"
+            ],
+            "correctOption": "Statements"
+        },
+        {
+            "question": "Single line commenting is made by using __________",
+            "options": [
+                "Single slash (/)",
+                "Slash and an asterisk (/*)",
+                "Asterisk and an slash (*/)",
+                "Double slash (//)"
+            ],
+            "correctOption": "Double slash (//)"
+        },
+        {
+            "question": "Multiple lines commenting is made by using __________",
+            "options": [
+                "Single slash (/)",
+                "Triple slash (///)",
+                "Slashes and an asterisks (/* */)",
+                "Double slash (//)"
+            ],
+            "correctOption": "Slashes and an asterisks (/* */)"
+        },
+        {
+            "question": "A __________ represents the set of values that a variable may accept or assume during program execution.",
+            "options": [
+                "Literal",
+                "Comment",
+                "Variable",
+                "Data type"
+            ],
+            "correctOption": "Data type"
+        },
+        {
+            "question": "Which of the following is not an importance of datatypes?",
+            "options": [
+                "Indicate the permissible operations for a variable",
+                "Indicate the amount of memory allocated to it",
+                "Indicate the range of values a variable can take",
+                "Indicate the number of variables to declare"
+            ],
+            "correctOption": "Indicate the number of variables to declare"
+        },
+        {
+            "question": "C++ is a __________ language.",
+            "options": [
+                "Untyped",
+                "Typed",
+                "Strict",
+                "Hard"
+            ],
+            "correctOption": "Typed"
+        },
+        {
+            "question": "Data in C++ either falls into or is made up of the following basic or simple categories except __________",
+            "options": [
+                "Floating Point Numbers",
+                "Integers",
+                "String",
+                "Boolean"
+            ],
+            "correctOption": "String"
+        },
+        {
+            "question": "Which of the following is not a kind of integer?",
+            "options": [
+                "Int",
+                "Double",
+                "Long",
+                "Short"
+            ],
+            "correctOption": "Double"
+        },
+        {
+            "question": "Which of the following is not a type of floating point number?",
+            "options": [
+                "Long double",
+                "Long",
+                "Double",
+                "Float"
+            ],
+            "correctOption": "Long"
+        },
+        {
+            "question": "Which of the following is not an integer literal?",
+            "options": [
+                "Decimal Number",
+                "Octal Number",
+                "Hexadecimal Number",
+                "Exponential"
+            ],
+            "correctOption": "Exponential"
+        },
+        {
+            "question": "String literals must be enclosed in __________",
+            "options": [
+                "Double quotes",
+                "Triple slash",
+                "Single slash",
+                "Double slash"
+            ],
+            "correctOption": "Double quotes"
+        },
+        {
+            "question": "What is the % operator called?",
+            "options": [
+                "Percent",
+                "Modulo",
+                "Div",
+                "Exponentiation"
+            ],
+            "correctOption": "Modulo"
+        },
+        {
+            "question": "Evaluate 3 != 2",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Evaluate (a*b >= c); If a=2, b=3 and c=6 ",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Evaluate 7==5+2 ? 4 : 3",
+            "options": [
+                "7",
+                "5",
+                "3",
+                "4"
+            ],
+            "correctOption": "4"
+        },
+        {
+            "question": "Evaluate abs(­8.76)",
+            "options": [
+                "8.8",
+                "8.76",
+                "8.77",
+                "­8.76"
+            ],
+            "correctOption": "8.76"
+        },
+        {
+            "question": "Evaluate (!((14/3) <= 4)) && (25 > (6*5))",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "84"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Evaluate (2 % 3)",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "0"
+            ],
+            "correctOption": "2"
+        },
+        {
+            "question": "What does (\\n) represent in C++?",
+            "options": [
+                "Old line",
+                "Back space",
+                "New line",
+                "Tab"
+            ],
+            "correctOption": "New line"
+        },
+        {
+            "question": "Give the output of the statements below. int x = 10000; cout << left << setw(10) << setfill(@) << x << endl;",
+            "options": [
+                "10000@@@@@",
+                "@@@@@10000",
+                "10000",
+                "@@@@@"
+            ],
+            "correctOption": "10000@@@@@"
+        },
+        {
+            "question": "Structured Programming existed before Object Oriented Programming.",
+            "options": [
+                "False",
+                "Maybe",
+                "True",
+                "None of these"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "The __________ selection statement is used to execute one action when a condition is true or a different action when that condition is false.",
+            "options": [
+                "If",
+                "If else",
+                "Switch",
+                "For else"
+            ],
+            "correctOption": "If else"
+        },
+        {
+            "question": "C++ was developed by __________ in the __________ and Standardized in __________",
+            "options": [
+                "Bjarne Stroustrup in the 1980s and Standardized in 1998",
+                "Bjarne Stroustrup in the 1980s and Standardized in 1988",
+                "Bjarne Stroustrup in the 1970s and Standardized in 1998",
+                "James Stroustrup in the 1980s and Standardized in 1998"
+            ],
+            "correctOption": "Bjarne Stroustrup in the 1980s and Standardized in 1998"
+        },
+        {
+            "question": "Multiple lines commenting is made by using __________",
+            "options": [
+                "Single slash (/)",
+                "Triple slash(///)",
+                "Slashes and an asterisks (/* */)",
+                "Double slash (//)"
+            ],
+            "correctOption": "Slashes and an asterisks (/* */)"
+        },
+        {
+            "question": "Evaluate (3!= 2)",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "If a=4, b=3 and c=6, Evaluate (a*b >= c)",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Evaluate (!((14/3) <= 4)) && (25 > (6*5))",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "84"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Lvalue means __________",
+            "options": [
+                "left value",
+                "locator value",
+                "leftmost value"
+            ],
+            "correctOption": "locator value"
+        },
+        {
+            "question": "Rvalue means __________",
+            "options": [
+                "right value",
+                "real value",
+                "rightmost value"
+            ],
+            "correctOption": "real value"
+        },
+        {
+            "question": "__________ is also known as the lvalue",
+            "options": [
+                "image value",
+                "colour value",
+                "data value",
+                "address value"
+            ],
+            "correctOption": "address value"
+        },
+        {
+            "question": "__________ is also called the rvalue",
+            "options": [
+                "integer value",
+                "colour value",
+                "data value",
+                "address value"
+            ],
+            "correctOption": "data value"
+        },
+        {
+            "question": "__________ are used in C++ to access memory and to manipulate address.",
+            "options": [
+                "variable",
+                "pointers",
+                "identifier",
+                "flash"
+            ],
+            "correctOption": "pointers"
+        },
+        {
+            "question": "in C++ If v is a named variable, then &v is its __________",
+            "options": [
+                "data",
+                "value",
+                "address",
+                "color"
+            ],
+            "correctOption": "address"
+        },
+        {
+            "question": "Which of the following is the syntax for declaring pointer variables.",
+            "options": [
+                "datatype* variablename;",
+                "variablename* datatype ;",
+                "datatype Identifier",
+                "returntype identifier"
+            ],
+            "correctOption": "datatype* variablename;"
+        },
+        {
+            "question": "__________ is the inverse of & in the context of pointers",
+            "options": [
+                "/",
+                "­^",
+                "+",
+                "*"
+            ],
+            "correctOption": "*"
+        },
+        {
+            "question": "Which of the following is not needed in order to call by reference using pointers.",
+            "options": [
+                "Declare a pointer in the function header",
+                "Declare receiving variable",
+                "Use the dereference pointer in the function body",
+                "Pass an address as an argument when the function is called."
+            ],
+            "correctOption": "Declare receiving variable"
+        },
+        {
+            "question": "__________ functions calls itself as part of its definition.",
+            "options": [
+                "Recursive",
+                "Main",
+                "Common",
+                "None of these"
+            ],
+            "correctOption": "Recursive"
+        },
+        {
+            "question": "Base and recursive parts are the two main parts of which function?",
+            "options": [
+                "Main",
+                "Return",
+                "Common",
+                "Recursive"
+            ],
+            "correctOption": "Recursive"
+        },
+        {
+            "question": "Fibonacci Series, Greatest Common Divisor (GCD) and Geometric Series can be programmed with the application of __________ function",
+            "options": [
+                "int Main",
+                "anyhow",
+                "recursive",
+                "common"
+            ],
+            "correctOption": "recursive"
+        },
+        {
+            "question": "An array name is an address or a pointer value.",
+            "options": [
+                "None of the options",
+                "False",
+                "True",
+                "Maybe"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "What is the separation of the essential qualities of an object from the details of how it works or is composed?",
+            "options": [
+                "Subtraction",
+                "Addition",
+                "Extraction",
+                "Abstraction"
+            ],
+            "correctOption": "Abstraction"
+        },
+        {
+            "question": "__________ and __________ are used to define Abstract data types in C++.",
+            "options": [
+                "pointers and variables",
+                "Structures and classes",
+                "identifiers and datatypes",
+                "images and colours"
+            ],
+            "correctOption": "Structures and classes"
+        },
+        {
+            "question": "Structures does not allow the programmer to aggregate components into a single name.",
+            "options": [
+                "True",
+                "False",
+                "Maybe",
+                "None of these"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "__________ is used to access members of the structure types.",
+            "options": [
+                "member access operator (.)",
+                "outsider access operator (*)",
+                "referencer",
+                "modifier"
+            ],
+            "correctOption": "member access operator (.)"
+        },
+        {
+            "question": "Member Selection (—>) Operator is used to access members of a structure if a pointer variable is assigned the address of a structure.",
+            "options": [
+                "Why?",
+                "False",
+                "True",
+                "How?"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "__________ can hold both data and functions.",
+            "options": [
+                "Pointers",
+                "Classes",
+                "Variables",
+                "Arrays"
+            ],
+            "correctOption": "Classes"
+        },
+        {
+            "question": "An Instance of a class is called a(n)__________",
+            "options": [
+                "Subject",
+                "Value",
+                "Object",
+                "Particles"
+            ],
+            "correctOption": "Object"
+        },
+        {
+            "question": "private members are accessible from anywhere where the object is visible.",
+            "options": [
+                "True",
+                "False",
+                "Maybe",
+                "Why?"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Which of the following is not an access specifier?",
+            "options": [
+                "Private",
+                "Public",
+                "Social",
+                "Protected"
+            ],
+            "correctOption": "Social"
+        },
+        {
+            "question": "Data and functions are both members of the object.",
+            "options": [
+                "False",
+                "True",
+                "Maybe",
+                "None of these"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "A function that is used to give initial values to all attributes of a class is called a __________",
+            "options": [
+                "Menu",
+                "Submenu",
+                "Constructor",
+                "Builder"
+            ],
+            "correctOption": "Constructor"
+        },
+        {
+            "question": "What kind of function has the same name as it Class?",
+            "options": [
+                "Main",
+                "public",
+                "protected",
+                "constructor"
+            ],
+            "correctOption": "constructor"
+        },
+        {
+            "question": "Which of the following function should have a non void return type.",
+            "options": [
+                "Modifiers",
+                "Accessors",
+                "Modifiers and Accessors",
+                "None of these"
+            ],
+            "correctOption": "Accessors"
+        },
+        {
+            "question": "__________ describes grouping related data and functions together as objects and defining an interface to those objects.",
+            "options": [
+                "Polymorphism",
+                "Encapsulation",
+                "Class",
+                "Inheritance"
+            ],
+            "correctOption": "Encapsulation"
+        },
+        {
+            "question": "__________ involves allowing code to be reused between related classes.",
+            "options": [
+                "Polymorphism",
+                "Encapsulation",
+                "Class",
+                "Inheritance"
+            ],
+            "correctOption": "Inheritance"
+        },
+        {
+            "question": "In defining derived classes, we only need to specify what’s different about them from their base classes. This powerful technique is called __________",
+            "options": [
+                "Programming by difference",
+                "Programming with style",
+                "Programming by addition",
+                "Programming with Joy"
+            ],
+            "correctOption": "Programming by difference"
+        },
+        {
+            "question": "__________ involves allowing a value to be one of several types, and determining at runtime which functions to call on it based on its type.",
+            "options": [
+                "Polymorphism",
+                "Encapsulation",
+                "Class",
+                "Inheritance"
+            ],
+            "correctOption": "Polymorphism"
+        },
+        {
+            "question": "What generation of programming language does this statement belong?\nstudentName = FirstName + LastName;",
+            "options": [
+                "1GL",
+                "2GL",
+                "3GL",
+                "4GL"
+            ],
+            "correctOption": "3GL"
+        },
+        {
+            "question": "What generation of programming language does this statement belong?\nSELECT * FROM studentTb WHERE age = 13 and height > 4.0;",
+            "options": [
+                "1GL",
+                "2GL",
+                "3GL",
+                "4GL"
+            ],
+            "correctOption": "4GL"
+        },
+        {
+            "question": "What generation of programming language does this statement belong?\nSUB X, Y",
+            "options": [
+                "1GL",
+                "2GL",
+                "3GL",
+                "4GL"
+            ],
+            "correctOption": "2GL"
+        },
+        {
+            "question": "Which of the following is not an Integer literal?",
+            "options": [
+                "decimal",
+                "hexadecimal",
+                "short",
+                "octal"
+            ],
+            "correctOption": "short"
+        },
+        {
+            "question": "What is the most appropriate data type for 'b'",
+            "options": [
+                "String",
+                "Integer",
+                "Character",
+                "Boolean"
+            ],
+            "correctOption": "Character"
+        },
+        {
+            "question": "The syntax below depicts __________ Data_type identifier = data_value in C++",
+            "options": [
+                "Initialization of array",
+                "Initialization of variables",
+                "Initialization of numbers",
+                "Initialization of pointer"
+            ],
+            "correctOption": "Initialization of variables"
+        },
+        {
+            "question": "What is the result of the following expression? 3%3",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "What is the result of the following expression?\n4 + 3*(4%5)",
+            "options": [
+                "4",
+                "12",
+                "0",
+                "16"
+            ],
+            "correctOption": "16"
+        },
+        {
+            "question": "What is the result of the following C++ expression?\nstring s = sin(0.0) == 0 ? \"yes\":\"no\"; cout << s;",
+            "options": [
+                "True",
+                "yes",
+                "False",
+                "no"
+            ],
+            "correctOption": "yes"
+        },
+        {
+            "question": "What is the result of the following C++ expression?\nstring s = ((2 * 3) + 82) % 91 > 74 && (2 * 3) < 4 ? \"yes\" : \"no\"; cout << s;",
+            "options": [
+                "True",
+                "yes",
+                "False",
+                "no"
+            ],
+            "correctOption": "no"
+        },
+        {
+            "question": "getch, putch and getche are functions used for __________",
+            "options": [
+                "String Input and Output",
+                "Character Input and Output",
+                "Integer printing",
+                "Getting values"
+            ],
+            "correctOption": "Character Input and Output"
+        },
+        {
+            "question": "What is the output of the following C++ program?\n\ncout << 25 << \" in hexadecimal is: \" << hex << 25 << endl;",
+            "options": [
+                "25 in hexadecimal is: 11",
+                "25 in hexadecimal is: 12",
+                "25 in hexadecimal is: 17",
+                "25 in hexadecimal is: 19"
+            ],
+            "correctOption": "25 in hexadecimal is: 19"
+        },
+        {
+            "question": "What is the output of the following C++ program?\n\nint a = ceil(24.7);\ncout << hex << a << endl;",
+            "options": [
+                "12",
+                "13",
+                "19",
+                "29"
+            ],
+            "correctOption": "19"
+        },
+        {
+            "question": "What will be the output of the statements?\ncout << setbase(16) << 25;",
+            "options": [
+                "12",
+                "19",
+                "4",
+                "29"
+            ],
+            "correctOption": "19"
+        },
+        {
+            "question": "What is the output of the following C++ program?\n\ncout << setw(10) << setfill('_') << 12345 << endl;",
+            "options": [
+                "12345",
+                "12345_____",
+                "None of these",
+                "Maybe"
+            ],
+            "correctOption": "12345_____"
+        },
+        {
+            "question": "The test expression of an if statement should evaluate to a __________ value.",
+            "options": [
+                "Float",
+                "Integer",
+                "Boolean",
+                "String"
+            ],
+            "correctOption": "Boolean"
+        },
+        {
+            "question": "what term best describes an If statement placed inside another if statement?",
+            "options": [
+                "Nested If",
+                "Nurtured If",
+                "Steady If",
+                "Deep If",
+                "Two Step If",
+                "Operative If"
+            ],
+            "correctOption": "Nested If"
+        },
+        {
+            "question": "The switch default statement is equivalent to the __________ in if statement.",
+            "options": [
+                "else",
+                "if else",
+                "Maybe",
+                "None of these"
+            ],
+            "correctOption": "else"
+        },
+        {
+            "question": "Which type is best suited to represent the logical values?",
+            "options": [
+                "integer",
+                "boolean",
+                "character",
+                "all of the above"
+            ],
+            "correctOption": "boolean"
+        },
+        {
+            "question": "Identify the user defined types from the following?\n",
+            "options": [
+                "enumeration",
+                "classes",
+                "both enumeration and classes",
+                "int"
+            ],
+            "correctOption": "both enumeration and classes"
+        },
+        {
+            "question": "The value 132.54 can represented using which data type?",
+            "options": [
+                "double",
+                "void",
+                "int",
+                "bool",
+                "long",
+                "char"
+            ],
+            "correctOption": "double"
+        },
+        {
+            "question": "Pick the odd one out",
+            "options": [
+                "integer, characters, booleans, floats",
+                "enumerations, classes",
+                "integers, enums, void",
+                "arrays, pointers, classes"
+            ],
+            "correctOption": "arrays, pointers, classes"
+        },
+        {
+            "question": "Pick the odd one out",
+            "options": [
+                "array type",
+                "character type",
+                "boolean type ",
+                "integer type"
+            ],
+            "correctOption": "array type"
+        },
+        {
+            "question": "What is the output of the following C++ program?\n\n    #include <iostream>\n    using namespace std;\n    int f(int p, int q)\n    {\n        if (p > q)\n            return p;\n        else\n            return q;\n    }\n\n    int main()\n    {\n        int a = 5, b = 10;\n        int k;\n        bool x = true;\n        bool y = f(a, b);\n        k =((a * b) + (x + y));\n        cout << k;\n    }",
+            "options": [
+                "55",
+                "62",
+                "52",
+                "none of the above"
+            ],
+            "correctOption": "52"
+        },
+        {
+            "question": "Evaluate the following\n\n(false && true) || false || true",
+            "options": [
+                "0",
+                "1",
+                "false",
+                "none of the above"
+            ],
+            "correctOption": "1"
+        },
+        {
+            "question": "The operator used for dereferencing or indirection is __________",
+            "options": [
+                "*",
+                "&",
+                "—>>",
+                "<<—"
+            ],
+            "correctOption": "*"
+        },
+        {
+            "question": "Choose the right option\n    string *x, y;",
+            "options": [
+                "x is a pointer to a string, y is a string",
+                "y is a pointer to a string, x is a string",
+                "both x and y are pointer to string types",
+                "none of the mentioned"
+            ],
+            "correctOption": "x is a pointer to a string, y is a string"
+        },
+        {
+            "question": "Which of the following is illegal?",
+            "options": [
+                "int *ip;",
+                "string s, *sp = 0;",
+                "int i; double* dp = &i;",
+                "int *pi = 0;"
+            ],
+            "correctOption": "int i; double* dp = &i;"
+        },
+        {
+            "question": "What will happen in this code?\n int a = 100, b = 200;\n    int *p = &a, *q = &b;\n    p = q;",
+            "options": [
+                "b is assigned to a",
+                "p now points to b",
+                "a is assigned to b ",
+                "q now points to a"
+            ],
+            "correctOption": "p now points to b"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n        char *ptr;\n        char Str[] = \"abcdefg\";\n        ptr = Str;\n        ptr += 5;\n        cout << ptr;\n        return 0;\n    }",
+            "options": [
+                "fg",
+                "cdef",
+                "defg",
+                "abcd"
+            ],
+            "correctOption": "fg"
+        },
+        {
+            "question": "Which of the following correctly declares an array?",
+            "options": [
+                "int array[10];",
+                "int array;",
+                "array{10};",
+                "array array[10];"
+            ],
+            "correctOption": "int array[10];"
+        },
+        {
+            "question": "What is the index number of the last element of an array with 9 elements?",
+            "options": [
+                "9",
+                "8",
+                "0",
+                "programmer difined"
+            ],
+            "correctOption": "8"
+        },
+        {
+            "question": "What is a array?",
+            "options": [
+                "An array is a series of elements of the same type in contiguous memory locations ",
+                "An array is a series of element ",
+                "An array is a series of elements of the same type placed in non contiguous memory locations ",
+                "None of the mentioned"
+            ],
+            "correctOption": "An array is a series of elements of the same type in contiguous memory locations "
+        },
+        {
+            "question": "Which of the following accesses the seventh element stored in array?",
+            "options": [
+                "array[6];",
+                "array[7];",
+                "array(7);",
+                "array;"
+            ],
+            "correctOption": "array[6];"
+        },
+        {
+            "question": "Which of the following gives the memory address of the first element in array?",
+            "options": [
+                "array[0];",
+                "array[1];",
+                "array(2);",
+                "array;"
+            ],
+            "correctOption": "array;"
+        },
+        {
+            "question": "Arrays in Python and C++ are _________ indexed",
+            "options": [
+                "0",
+                "1",
+                "dual"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "Arrays in Python and C++ are zero indexed",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "What will be the output of this program?\n  #include <iostream>\n    using namespace std;\n    int array1[] = {1200, 200, 2300, 1230, 1543};\n    int array2[] = {12, 14, 16, 18, 20};\n    int temp, result = 0;\n\n    int main()\n    {\n        for (temp = 0; temp < 5; temp++) {\n            result += array1[temp];\n        }\n        for (temp = 0; temp < 4; temp++) {\n            result += array2[temp];\n        }\n        cout << result;\n        return 0;\n    }",
+            "options": [
+                "6553 ",
+                "6533",
+                "6522 ",
+                "12200"
+            ],
+            "correctOption": "6533"
+        },
+        {
+            "question": "What will be the output of the this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main ()\n    {\n        int array[] = {0, 2, 4, 6, 7, 5, 3};\n        int n, result = 0;\n        for (n = 0; n < 8; n++) {\n            result += array[n];\n        }\n        cout << result;\n        return 0;\n    }",
+            "options": [
+                "25",
+                "26",
+                "27",
+                "None of the mentioned"
+            ],
+            "correctOption": "None of the mentioned"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <stdio.h>\n    using namespace std;\n\n    int main()\n    {\n        int a = 5, b = 10, c = 15;\n        int arr[3] = {&a, &b, &c};\n        cout << *arr[*arr[1] - 8];\n        return 0;\n    }",
+            "options": [
+                "15",
+                "18",
+                "garbage value",
+                "compile time error"
+            ],
+            "correctOption": "compile time error"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n        char str[5] = \"ABC\";\n        cout << str[3];\n        cout << str;\n        return 0;\n    }",
+            "options": [
+                "ABC",
+                "ABCD ",
+                "AB ",
+                "None of the mentioned"
+            ],
+            "correctOption": "ABC"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n        int array[] = {10, 20, 30};\n        cout << -2[array];\n        return 0;\n    }",
+            "options": [
+                "-15 ",
+                "-30 ",
+                "compile time error",
+                "garbage value"
+            ],
+            "correctOption": "-30 "
+        },
+        {
+            "question": "Where does the execution of a C++ program start?",
+            "options": [
+                "user defined function",
+                "main function ",
+                "void function ",
+                "none of the mentioned"
+            ],
+            "correctOption": "main function "
+        },
+        {
+            "question": "Which is more effective while calling the functions?",
+            "options": [
+                "call by value ",
+                "call by reference",
+                "call by pointer ",
+                "none of the mentioned"
+            ],
+            "correctOption": "call by reference"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n    void mani()\n    void mani()\n    {\n        cout << \"hai\";\n    }\n\n    int main()\n    {\n        mani();\n        return 0;\n    }",
+            "options": [
+                "hai ",
+                "haihai ",
+                "compile time error ",
+                "none of the mentioned"
+            ],
+            "correctOption": "compile time error "
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n    void fun(int x, int y)\n    {\n        x = 20;\n        y = 10;\n    }\n\n    int main()\n    {\n        int x = 10;\n        fun(x, x);\n        cout << x;\n        return 0;\n    }",
+            "options": [
+                "10",
+                "20 ",
+                "compile time error ",
+                "none of the mentioned"
+            ],
+            "correctOption": "10"
+        },
+        {
+            "question": "What is the scope of the variable declared in the user definied function?",
+            "options": [
+                "whole program",
+                "only inside the function block",
+                "none of the mentioned"
+            ],
+            "correctOption": "only inside the function block"
+        },
+        {
+            "question": "What's the minimum number of functions needed in a C++ program?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctOption": "1"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n     cout << \"5 + 5\";\n      return 0;\n    }\n   ",
+            "options": [
+                "10",
+                "5 + 5",
+                "55",
+                "Error"
+            ],
+            "correctOption": "5 + 5"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n     cout << \"5 + 5\";\n    }\n   ",
+            "options": [
+                "10",
+                "5 + 5",
+                "55",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n     string prince = \"vera\";\n     cout << \"vince\";\n      return 0;\n    }\n   ",
+            "options": [
+                "vera",
+                "vince",
+                "vera prince",
+                "Error"
+            ],
+            "correctOption": "vince"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n     //cout << \"5 + 5\";\n      return 0;\n    }\n   ",
+            "options": [
+                "5 + 5",
+                "55",
+                "10",
+                "none of the above"
+            ],
+            "correctOption": "none of the above"
+        },
+        {
+            "question": "What is the output of the following program?\n\n#include<iostream>\nusing namespace std;\n\nmain () { \n   float t = 2;\n\t\n\tswitch(t) {\n      case 2: cout << 'Hi';\n\t\tdefault: cout << \"Hello\";\n\t}\n}",
+            "options": [
+                "Hi",
+                "Hello",
+                "HiHello",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "A single line comment in C++ language source code can begin with __________\n",
+            "options": [
+                ";",
+                ":",
+                "/*",
+                "//"
+            ],
+            "correctOption": "//"
+        },
+        {
+            "question": "All of these are features of Object Oriented Programming (OOP) EXCEPT",
+            "options": [
+                "class",
+                "parent",
+                "inheritance",
+                "polymorphism"
+            ],
+            "correctOption": "parent"
+        },
+        {
+            "question": "Which of the following is not a form of control in structured programing?",
+            "options": [
+                "series",
+                "sequence",
+                "selection",
+                "repetition"
+            ],
+            "correctOption": "series"
+        },
+        {
+            "question": "What's the output of this code?\n\n#include <iostream>\nusing std::cout;\nusing std::cin;\n\nint main(){\ncout << 2 + 2 << endl;\nreturn 0;\n}",
+            "options": [
+                "2 + 2",
+                "4",
+                "2 + 2=4",
+                "Error"
+            ],
+            "correctOption": "4"
+        },
+        {
+            "question": "Select the wrong identifier",
+            "options": [
+                "int",
+                "integer",
+                "identifier",
+                "wrong"
+            ],
+            "correctOption": "int"
+        },
+        {
+            "question": "What's the output of the following lines of code.\n#include <iostream>\nusing namespace std;\n\nint main(){\n     for(int i =0; i<=5;i++){\n              cout << i+\",\";\n     }\n}",
+            "options": [
+                "0 1 2 3 4 5 ",
+                "0,1,2,3,4,5,",
+                "0,1,2,3,4,5",
+                "0,1,2,3,4"
+            ],
+            "correctOption": "0,1,2,3,4,5,"
+        },
+        {
+            "question": "What's the output of the program below.\n\n#include <iostream>\nusing namespace std;\n\nint main(){\n      int sum=0;\n      int a=5;\n      int b = 10;\n      a=b;\n      b=a;\n      sum = a+b;\n      cout << \"sum\";\n      return 0;\n}",
+            "options": [
+                "0",
+                "10",
+                "20",
+                "sum"
+            ],
+            "correctOption": "sum"
+        },
+        {
+            "question": "What's the output of the program below.\n\n#include <iostream>\nusing namespace std;\n\nint main(){\n      int sum=0;\n      int a=5;\n      int b = 10;\n      a=b;\n      b=a;\n      sum = a+b;\n      cout << sum;\n      return 0;\n}",
+            "options": [
+                "sum",
+                "10",
+                "20",
+                "Error"
+            ],
+            "correctOption": "20"
+        },
+        {
+            "question": "What's the output of the program below.\n\n#include <iostream>\nusing namespace std;\n\nint main(){\n      int sum=0;\n      int a=5;\n      int b = 10;\n      a=b;\n      b=a;\n      sum = a+b;\n      cout << \"sum\";\n      \n}",
+            "options": [
+                "10",
+                "20",
+                "sum",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What's the output of the program below.\n\n#include <iostream>\nusing namespace std;\n\nint main(){\n       int a=5;\n      int b = 10;\n      a=b;\n      b=a;\n      sum = a+b;\n      cout << \"sum\";\n      return 0;\n}",
+            "options": [
+                "sum",
+                "20",
+                "10",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "Which of the following is not a name for a valid identifier;",
+            "options": [
+                "miles84",
+                "3musketeers",
+                "root_of_3",
+                "none of the above"
+            ],
+            "correctOption": "3musketeers"
+        },
+        {
+            "question": "The __________ selection statement is used to execute one action when the condition is true and another when the condition is false.",
+            "options": [
+                "if",
+                "do while",
+                "if else",
+                "switch"
+            ],
+            "correctOption": "if else"
+        },
+        {
+            "question": "Which of these is not a correct directive?",
+            "options": [
+                "#include <stdio.h>",
+                "#include <c++.y>",
+                "#include <cmath>",
+                "All of the these"
+            ],
+            "correctOption": "#include <c++.y>"
+        },
+        {
+            "question": "Which of these is not a correct extension for a C++ code file?",
+            "options": [
+                ".cc",
+                ".cpp",
+                ".cxx",
+                ".ccc"
+            ],
+            "correctOption": ".ccc"
+        },
+        {
+            "question": "Which of these is not a correct extension for a C++ header file?",
+            "options": [
+                ".h",
+                ".hpp",
+                ".hhh"
+            ],
+            "correctOption": ".hhh"
+        },
+        {
+            "question": "Which of these is a 3rd generation statement;",
+            "options": [
+                "mul A D",
+                "int a=8;",
+                "1001101",
+                "none of the above"
+            ],
+            "correctOption": "int a=8;"
+        },
+        {
+            "question": "How are constants declared?",
+            "options": [
+                "const keyword ",
+                "#define identifier",
+                "either with the const keyword and or the #define identifier",
+                "None of the mentioned"
+            ],
+            "correctOption": "either with the const keyword and or the #define identifier"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n        int  const  p = 5;\n        cout << ++p;\n        return 0;\n    }",
+            "options": [
+                "5",
+                "6",
+                "Error",
+                "None of the options"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n    #define PI 3.14159\n\n    int main ()\n    {\n        float r = 2;\n        float circle;\n        circle = 2 * PI * r;\n        cout << circle;\n        return 0;\n    }\n",
+            "options": [
+                "12.5664",
+                "13.5664",
+                "10",
+                "compile time error"
+            ],
+            "correctOption": "12.5664"
+        },
+        {
+            "question": "Regarding following code snippet, which of the options is true?\n\nconst int a = 100;",
+            "options": [
+                "Declares a variable a with 100 as its initial value",
+                "Declares a construction a with 100 as its initial value",
+                "Declares a constant a whose value will be 100 ",
+                "Constructs an integer type variable with a as identifier and 100 as value"
+            ],
+            "correctOption": "Declares a constant a whose value will be 100 "
+        },
+        {
+            "question": "In a group of nested loops, which loop is executed the most number of times?",
+            "options": [
+                "the outermost loop",
+                "the innermost loop",
+                "all loops are executed the same number of times",
+                "cannot be determined without knowing the size of the loops"
+            ],
+            "correctOption": "the innermost loop"
+        },
+        {
+            "question": "Which looping process checks the test condition at the end of the loop",
+            "options": [
+                "for",
+                "while",
+                "do while",
+                "All of the options"
+            ],
+            "correctOption": "do while"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\n\nint main () {\n \n   int    i;\n   \n   int &r = i;\n \n   i = 5;\n   \n   cout << r << endl;\n \n     return 0;\n}",
+            "options": [
+                "5",
+                "r",
+                "Error",
+                "None of these"
+            ],
+            "correctOption": "5"
+        },
+        {
+            "question": "Assuming that the variable declared was saved in memory location 0xbfebd5c0. What's the output of the code below?\n\n#include <iostream>\nusing namespace std;\n\nint main () {\n   int  var;\n   int  var = 20; \n   int  *ip; \n   ip = &var;   \n   cout << *ip;  \n\n   return 0;\n}",
+            "options": [
+                "20",
+                "0xbfebd5c0",
+                "&var",
+                "Error"
+            ],
+            "correctOption": "20"
+        },
+        {
+            "question": "Assuming that the variable declared was stored by the computer in memory location 0xbfebd5c0. What's the output of the code below?\n\n#include <iostream>\nusing namespace std;\n\nint main () {\n   int  var;\n   var=10;\n    cout << &var << endl;\n   \n}",
+            "options": [
+                "&var",
+                "0xbfebd5c0",
+                "10",
+                "Error"
+            ],
+            "correctOption": "0xbfebd5c0"
+        },
+        {
+            "question": "Assuming that the variable declared was stored by the computer in memory location 0xbfebd5c0. What's the output of the code below.\n\n#include <iostream>\nusing namespace std;\n\nint main () {\n   int  var;\n   var=10;\n    cout << \"&var\" << endl;\n   return 0;\n}",
+            "options": [
+                "&var",
+                "0xbfebd5c0",
+                "10",
+                "Error"
+            ],
+            "correctOption": "&var"
+        },
+        {
+            "question": "Assuming that the variable declared was saved in memory location 0xbfebd5c0. What's the output of the code below\n\n#include <iostream>\nusing namespace std;\n\nint main () {\n   int  var;\n   int  var = 20;\n   ip = &var;   \n   int  *ip; \n   cout << *ip;  \n\n   return 0;\n}",
+            "options": [
+                "20",
+                "0xbfebd5c0",
+                "&var",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "Assuming that the variable declared was saved in memory location 0xbfebd5c0. What's the output of the code below\n#include <iostream>\nusing namespace std;\n\nint main () {\n   int var = 20; \n   int  *ip; \n   ip = &var;   \n   cout << ip;  \n\n   return 0;\n}",
+            "options": [
+                "20",
+                "0xbfebd5c0",
+                "&var",
+                "Error"
+            ],
+            "correctOption": "0xbfebd5c0"
+        },
+        {
+            "question": "What's the output of the code below, assuming that the array 'var' is stored in consecutive memory address of 10001, 10002, 10003, 10004 ... ?\n\n#include <iostream>\nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int  *ptr;\n\n \n   ptr = var;\n   \n   for (int i = 0; i < MAX; i++) {\n      cout << \"Address of var[\" << i << \"] = \";\n      cout << ptr << endl;\n\n      cout << \"Value of var[\" << i << \"] = \";\n      cout << *ptr << endl;\n\n       ptr++;\n   }\n   \n   return 0;\n}",
+            "options": [
+                "Address of var[0] = 10001 \nValue of var[0] = 10\n Address of var[1] = 10002\nValue of var[1] = 100 \nAddress of var[2] = 10003 \nValue of var[2] = 200",
+                "Address of var[1] = 10001 \nValue of var[1] = 10\n Address of var[2] = 10002\nValue of var[2] = 100 \nAddress of var[3] = 10003 \nValue of var[3] = 200",
+                "Address of var[0] = 10001 Value of var[0] = 10\n Address of var[1] = 10002 Value of var[1] = 100 \nAddress of var[2] = 10003 Value of var[2] = 200",
+                "Error"
+            ],
+            "correctOption": "Address of var[0] = 10001 \nValue of var[0] = 10\n Address of var[1] = 10002\nValue of var[1] = 100 \nAddress of var[2] = 10003 \nValue of var[2] = 200"
+        },
+        {
+            "question": "What's the output of the code below.\n\n#include <iostream>\nusing namespace std;\n \nvoid swap(int& x, int& y);\n\nint main () {\n\n   int a = 100;\n   int b = 200;\n \n   cout << a+\" ' << b << endl;\n \n\n   swap(a, b);\n \n   cout << a+\" ' << b << endl;\n \n   return 0;\n}\n \n\nvoid swap(int& x, int& y) {\n\n   int temp;\n   temp = \n   x = y;    \n   y = temp; \n  \n   return;\n}",
+            "options": [
+                "100 200\n100 200",
+                "200 100\n100 200",
+                "100 200\n200 100",
+                "Error"
+            ],
+            "correctOption": "100 200\n200 100"
+        },
+        {
+            "question": "What's the output of the code below.\n\n#include <iostream>\nusing namespace std;\n \nvoid swap(int& x, int& y);\n\nint main () {\n\n   int a = 100;\n   int b = 200;\n \n   cout << a+\" ' << b << endl;\n \n\n   swap(a, b);\n \n   cout << a+\" ' << b << endl;\n \n   return 0;\n}\n \n\nvoid swap(int& x, int& y) {\n\n   int temp;\n   temp = \n   x = y;    \n   y = temp; \n  \n   return 0;\n}",
+            "options": [
+                "100 200\n100 200",
+                "200 100\n100 200",
+                "100 200\n200 100",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int *ptr[MAX];\n  ptr[3] = &var[2];\n  cout << *ptr[3] << endl;\n   \n   return 0;\n}",
+            "options": [
+                "200",
+                "100",
+                "10",
+                "Error"
+            ],
+            "correctOption": "200"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int *ptr[MAX];\n  ptr[0] = &var[2];\n  cout << *ptr[0] << endl;\n   \n   return 0;\n}",
+            "options": [
+                "200",
+                "100",
+                "10",
+                "Error"
+            ],
+            "correctOption": "200"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int *ptr[MAX];\n  ptr[1] = &var[2];\n  cout << *ptr[1] << endl;\n   \n   return 0.0;\n}",
+            "options": [
+                "200",
+                "100",
+                "10",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int *ptr[MAX];\n  ptr[1] = &var[1];\n  cout << ptr[1] << endl;\n   \n   return 0;\n}",
+            "options": [
+                "200",
+                "the memory address of var[1]",
+                "ptr[1]",
+                "Error"
+            ],
+            "correctOption": "the memory address of var[1]"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int *ptr[MAX];\n  ptr[2] = &var[0];\n  cout << *ptr(2) << endl;\n   \n   return 0;\n}",
+            "options": [
+                "200",
+                "100",
+                "10",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n \nusing namespace std;\nconst int MAX = 3;\n\nint main () {\n   int  var[MAX] = {10, 100, 200};\n   int *ptr[MAX];\n  ptr[3] = &var[3];\n  cout << *ptr[3] << endl;\n   \n   return 0;\n}",
+            "options": [
+                "200",
+                "100",
+                "10",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What's the output of the code below.\n#include <iostream>\nusing namespace std;\nvoid main(){\ncout << \"hello world\";\nreturn 0;\n}",
+            "options": [
+                "hello world",
+                "helloworld",
+                "Error",
+                "HELLO WORLD"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "Which of the following statement is correct?",
+            "options": [
+                "Overloaded functions must have different signatures",
+                "Overloaded functions can have different names",
+                "Overloaded functions cannot be recursive"
+            ],
+            "correctOption": "Overloaded functions must have different signatures"
+        },
+        {
+            "question": "What's the output of the program below?\n        #include  <iostream>\n        using namespace std;\n\n        void duplicate (int& a, int& b, int& c)\n\n        {\n\n            a *= 2;\n\n            b *= 2;\n\n            c *= 2;\n\n        }\n\n        int main ()\n\n        {\n\n            int x = 1, y = 3, z = 7;\n\n            duplicate (x, y, z);\n\n            cout << x << y << z;\n\n            return 0;\n\n        }",
+            "options": [
+                "1468",
+                "2812",
+                "2614",
+                "none of the mentioned"
+            ],
+            "correctOption": "2614"
+        },
+        {
+            "question": "What will happen in this code?\n    int a = 100, b = 200;\n    int *p = &a, *q = &b;\n    p = q;",
+            "options": [
+                "b is assigned to a",
+                "p now points to b",
+                "a is assigned to b",
+                "q now points to a"
+            ],
+            "correctOption": "p now points to b"
+        },
+        {
+            "question": "Pick out the correct statement.",
+            "options": [
+                "Increment operator ++ adds 1 to its operand ",
+                "Increment operator ++ adds 2 to its operand ",
+                "Decrement operator ++ subtracts 1 to its operand",
+                "None of the mentioned"
+            ],
+            "correctOption": "Increment operator ++ adds 1 to its operand "
+        },
+        {
+            "question": "What's the output of the program below?\n       #include <iostream>\n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int a = 21;\n\n            int c ;\n\n            c = a++;\n\n            cout << c;  \n\n            return 0;\n\n        }",
+            "options": [
+                "21",
+                "22",
+                "23",
+                "20"
+            ],
+            "correctOption": "21"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int x = 5, y = 5;\n\n            cout << ++x << --y << endl;\n\n            return 0;\n\n        }",
+            "options": [
+                "55",
+                "64",
+                "46",
+                "45"
+            ],
+            "correctOption": "64"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream> \n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int x = 5, y = 5, z;\n\n            x = ++x; y = --y;\n\n            z = x++ + y--;\n\n            cout << z;\n\n            return 0;\n\n        }\n\n",
+            "options": [
+                "10",
+                "11",
+                "9",
+                "12"
+            ],
+            "correctOption": "10"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>  \n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int x = 5, y = 5, z;\n\n            x = ++x; y = --y;\n\n            z = x + ++x;\n\n            cout << z;\n\n            return 0;\n\n        }",
+            "options": [
+                "11",
+                "12",
+                "13",
+                "14"
+            ],
+            "correctOption": "14"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream> \n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int num1 = 5;\n\n            int num2 = 3;\n\n            int num3 = 2;\n\n            num1 = num2++;\n\n            num2 = --num3;\n\n            cout << num1 << num2 << num3;\n\n            return 0;\n\n        }",
+            "options": [
+                "532 ",
+                "235 ",
+                "312 ",
+                "311"
+            ],
+            "correctOption": "311"
+        },
+        {
+            "question": "What will be the output of the this program?\n\n        #include <stdio.h>\n\n        using namespace std;\n\n        int main ()\n\n        {\n\n            int array[] = {0, 2, 4, 6, 7, 5, 3};\n\n            int n, result = 0;\n\n            for (n = 0; n < 8; n++) {\n\n                result += array[n];\n\n            }\n\n            cout << result;\n\n            return 0;\n\n        }",
+            "options": [
+                "25",
+                "26",
+                "27",
+                "None of the mentioned"
+            ],
+            "correctOption": "None of the mentioned"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int  const  p = 5;\n\n            cout << ++p;\n\n            return 0;\n\n        }",
+            "options": [
+                "5",
+                "6",
+                "Error",
+                "None of these"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int a, b;\n\n            int* c;\n\n            c = &a;\n\n            a = 200;\n\n            b = 200;\n\n            *c = 100;\n\n            b = *c;\n\n            cout << *c << \" \" << b;\n\n            return 0;\n\n        }",
+            "options": [
+                "100 200 ",
+                "100 0 ",
+                "200 200 ",
+                "100 100"
+            ],
+            "correctOption": "100 100"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main()\n\n        {\n\n            int x;\n\n            int *p;\n\n            x = 5;\n\n            p = &x;\n\n            cout << *p;\n\n            return 0;\n\n        }",
+            "options": [
+                "5",
+                "10 ",
+                "memory address",
+                "none of the mentioned"
+            ],
+            "correctOption": "5"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main() \n\n        {\n\n            int x = 9;\n\n            int* p = &x;\n\n            cout << sizeof(p);\n\n            return 0;\n\n        }",
+            "options": [
+                "4 ",
+                "2",
+                "Depends on compiler ",
+                "none of the mentioned"
+            ],
+            "correctOption": "Depends on compiler "
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main() \n\n        {\n\n            int x = 9;\n\n            int* p = &x;\n\n            cout << sizeof(p);\n\n            return 0;\n\n        }",
+            "options": [
+                "4 ",
+                "2",
+                "Depends on compiler ",
+                "none of the mentioned"
+            ],
+            "correctOption": "Depends on compiler "
+        },
+        {
+            "question": "Pick the wrong statement",
+            "options": [
+                "References are less powerful than pointers",
+                "References are safer and easier to use",
+                "Both references and pointers can be used to change local variables of one function inside another function",
+                "References can be NULL"
+            ],
+            "correctOption": "References can be NULL"
+        },
+        {
+            "question": "Pick the incorrect option",
+            "options": [
+                "Both references and pointers can be used to save copying of big objects when passed as arguments to functions or returned from functions, to get efficiency gain.",
+                "Pointers can often be made NULL",
+                "Once a reference is created, it can be later made to reference another object",
+                "A reference must be initialized when declared"
+            ],
+            "correctOption": "Once a reference is created, it can be later made to reference another object"
+        },
+        {
+            "question": "What is the return value of f(p, p) if the value of p is initialized to 5 before the call? Note that the first parameter is passed by reference, whereas the second parameter is passed by value. \n\nint f(int &x, int c) {\n   c  = c - 1;\n   if (c == 0) return 1;\n   x = x + 1;\n   return f(x, c) * x;\n} ",
+            "options": [
+                "3024",
+                "6561",
+                "55440",
+                "161051"
+            ],
+            "correctOption": "6561"
+        },
+        {
+            "question": "Which of the following functions must use reference.",
+            "options": [
+                "Assignment operator function",
+                "Copy Constructor",
+                "Destructor",
+                "Parameterized constructor"
+            ],
+            "correctOption": "Copy Constructor"
+        },
+        {
+            "question": "Predict the output of following C++ program\n\n#include<iostream>\nusing namespace std;\n \nint &fun()\n{\n    static int x = 10;\n    return x;\n}\n\nint main()\n{\n    fun() = 30;\n    cout << fun();\n    return 0;\n}",
+            "options": [
+                "Compiler Error: Function cannot be used as lvalue",
+                "10",
+                "50",
+                "30"
+            ],
+            "correctOption": "Compiler Error: Function cannot be used as lvalue"
+        },
+        {
+            "question": "Predict the output of following C++ program\n\n#include<iostream>\nusing namespace std;\n \nint &fun()\n{\n    int x = 10;\n    return x;\n}\n\nint main()\n{\n    fun() = 30;\n    cout << fun();\n    return 0;\n}",
+            "options": [
+                "May cause runtime error",
+                "May cause compiler error",
+                "Always works fine",
+                "0"
+            ],
+            "correctOption": "May cause runtime error"
+        },
+        {
+            "question": "Predict the output of following C++ program\n\n#include<iostream>\nusing namespace std;\n\nint main()\n{\n  int x = 10;\n  int& ref = x;\n  ref = 20;\n  cout << \"x = \" << x << endl ;\n  x = 30;\n  cout << \"ref = \" << ref << endl;\n  return 0;\n}",
+            "options": [
+                "x = 20 ref = 30",
+                "x = 20 ref = 20",
+                "x = 10 ref = 30",
+                "x = 30 ref = 30"
+            ],
+            "correctOption": "x = 20 ref = 30"
+        },
+        {
+            "question": "What is the output of this program?\n\n        #include <iostream>\n\n        using namespace std;\n\n        int main() \n\n        {\n\n            int x = 9;\n\n            int* p = &x;\n\n            cout << sizeof(p);\n\n            return 0;\n\n        }",
+            "options": [
+                "4 ",
+                "2",
+                "Depends on compiler ",
+                "none of the mentioned"
+            ],
+            "correctOption": "Depends on compiler "
+        },
+        {
+            "question": "Which of the following keyword is used to declare the header file?",
+            "options": [
+                "include",
+                "exclude",
+                "string",
+                "namespace"
+            ],
+            "correctOption": "include"
+        },
+        {
+            "question": "Which of these produces a alert sound when used in a program?",
+            "options": [
+                "cout << \"\\n\";",
+                "cout << \"\\a\";",
+                "cout << \"\\f\";",
+                "cout << \"\\t\";"
+            ],
+            "correctOption": "cout << \"\\a\";"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n#include <iomanip>\nusing namespace std;\n\nint main()\n{\nint number = 20;\ncout << dec << number << \" in octal is: \" << oct << number << endl;\nsystem(\"pause\");\nreturn 0;\n}",
+            "options": [
+                "20 in octal is: 24",
+                "25",
+                "20 in hexadecimal is: 24",
+                "20 in octal is: 18",
+                "24"
+            ],
+            "correctOption": "20 in octal is: 24"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\n#include <iomanip>\nusing namespace std;\n\nint main()\n{\nint number =20 ;\ncout << dec << number << \" in octal is: \" << oct << number << endl;\nreturn 0;\n}",
+            "options": [
+                "20 in hexadecimal is: 14",
+                "20 in octal is: 24",
+                "25",
+                "20 in octal is: 18",
+                "20 in hexadecimal is: 24",
+                "24"
+            ],
+            "correctOption": "20 in octal is: 24"
+        },
+        {
+            "question": "Predict the output of following C++ program\n\n#include <iostream>\n#include <iomanip>\nusing namespace std;\n\nint main()\n{\nint number=430;\ncout << number << \" in octal is: \" << hex << number << endl;\n\nreturn 0;\n}",
+            "options": [
+                "115",
+                "116",
+                "117",
+                "118"
+            ],
+            "correctOption": "118"
+        },
+        {
+            "question": "Predict the output of following C++ program\n\n#include <iostream>\nusing std::cout;\nusing std::left;\nusing std::right;\n#include <iomanip>\nusing std::setfill;\nusing std::setw;\n\nint main()\n{\nint x = 10000;\ncout << left << setw( 10 ) << setfill('%') << x << endl;\n\nreturn 0;\n}",
+            "options": [
+                "%%%%%%%%%%10000",
+                "%%%%%10000",
+                "10000%%%%%",
+                "Error"
+            ],
+            "correctOption": "10000%%%%%"
+        },
+        {
+            "question": "Predict the output of following C++ program\n\n#include <iostream>\nusing std::cout;\nusing std::left;\nusing std::right;\n#include <iomanip>\nusing std::setfill;\nusing std::setw;\n\nint main()\n{\nint x = 10000;\ncout << right << setw(100 << setfill('@') << x << endl;\n\nreturn 0;\n}",
+            "options": [
+                "@@@@@10000",
+                "10000@@@@@",
+                "10000@@@@@",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "Which of the following cannot be incremented?",
+            "options": [
+                "pointers",
+                "references",
+                "variables",
+                "arrays"
+            ],
+            "correctOption": "references"
+        },
+        {
+            "question": "if int a = 50;\nthen what is  the value of (int) a/=3; ",
+            "options": [
+                "15",
+                "16",
+                "17",
+                "18"
+            ],
+            "correctOption": "16"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\nusing namespace std;\nvoid squareByPtr ( int * numPtr ) {\n* numPtr = * numPtr * * numPtr ;\n}\n\nint main () {\nint x = 5;\nsquareByPtr (& x ) ;\ncout << x ; \nreturn 0;\n}",
+            "options": [
+                "24",
+                "23",
+                "25",
+                "26"
+            ],
+            "correctOption": "25"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\nusing namespace std;\n\nvoid squareByPtr ( int  numPtr ) {\n numPtr = numPtr *  numPtr ;\n}\n\nint main () {\nint x = 5;\nsquareByPtr (& x ) ;\ncout << x ; \n\nreturn 0;\n}",
+            "options": [
+                "5",
+                "10",
+                "25",
+                "Error"
+            ],
+            "correctOption": "5"
+        },
+        {
+            "question": "What's the output of the code below?\n\n#include <iostream>\nusing namespace std;\nvoid squareByPtr ( int * numPtr ) {\n* numPtr = * numPtr * * numPtr ;\n}\n\nint main () {\nint x = 5;\nsquareByPtr (& x ) ;\ncout << x ; \n\n}",
+            "options": [
+                "5",
+                "10",
+                "25",
+                "Error"
+            ],
+            "correctOption": "Error"
+        },
+        {
+            "question": "Neglecting all headers, what's the output of the code snippet below?\n\nint high = 20;\nint low = 0;\nwhile (low < high)\n{\nlow = low + 3;\nhigh = high - 2;\n}\ncout << \"Low: \" << low << \"\tHigh: \" << high << endl;",
+            "options": [
+                "Low: 12 High: 14",
+                "Low: 10 High: 12",
+                "Low: 12 High: 12",
+                "Low: 12 High: 16"
+            ],
+            "correctOption": "Low: 12 High: 12"
+        },
+        {
+            "question": "Which of the following Contains function prototypes for stream manipulators that format streams of\ndata.",
+            "options": [
+                "<iostream>",
+                "<iomanip>",
+                "<cmath>",
+                "<protype>"
+            ],
+            "correctOption": "<iomanip>"
+        },
+        {
+            "question": "Functions are also known as all the following except?",
+            "options": [
+                "modules",
+                "methods",
+                "routines",
+                "actions"
+            ],
+            "correctOption": "actions"
+        },
+        {
+            "question": "Which of the following is not an access modifier",
+            "options": [
+                "internal",
+                "public",
+                "private",
+                "protected"
+            ],
+            "correctOption": "internal"
+        },
+        {
+            "question": "*ptr++ is equivalent to?",
+            "options": [
+                "ptr++",
+                "++*ptr",
+                "*ptr",
+                "None of these"
+            ],
+            "correctOption": "None of these"
+        },
+        {
+            "question": "cin is for ___________ while cout is for ___________",
+            "options": [
+                "input, output",
+                "output, input",
+                "None of these",
+                "All of these"
+            ],
+            "correctOption": "input, output"
+        },
+        {
+            "question": "scanf is for ___________ while printf is for ___________",
+            "options": [
+                "input, output",
+                "output, input",
+                "None of these",
+                "All of these"
+            ],
+            "correctOption": "input, output"
+        },
+        {
+            "question": "The statement scanf(\"%d\", &var);",
+            "options": [
+                "assigns an integer to a variable",
+                "prints the value 55",
+                "assings a float to a variable",
+                "prints an error value"
+            ],
+            "correctOption": "assigns an integer to a variable"
+        },
+        {
+            "question": "The statement printf(\"%d\", 55);",
+            "options": [
+                "assigns an integer to a variable",
+                "prints the value 55",
+                "assings a float to a variable",
+                "prints an error value"
+            ],
+            "correctOption": "prints the value 55"
+        }
+    ]
+}

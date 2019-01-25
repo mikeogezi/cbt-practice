@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CBT Practice</string>
+    <string name="motto">The best way to prepare for your CBT exams</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_1">Get access to past and likely exam questions</string>
+    <string name="title_2">Take exams under realistic conditions</string>
+    <string name="title_3">Pass your exams by learning from your mistakes</string>
+
+    <string name="message_1">This app allows you to access past and likely questions from the computer based exams of previous years</string>
+    <string name="message_2">It simulates real exam conditions with timed sessions and trick questions so that you know exactly how to take your papers on the D-day</string>
+    <string name="message_3">With expertly prepared corrections, you\'ll know exactly where you went wrong and pass your exams with flying colours</string>
+
+    <string name="action_departments">Departments</string>
+    <string name="action_courses">Courses</string>
+    <string name="action_report">Exam Report</string>
+    <string name="action_correction">Exam Correction</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_test">Exam</string>
+    <string name="action_auth">Sign In</string>
+    <string name="action_unlock">Unlock CBT Practice</string>
+    <string name="action_info">Information &amp; Enquiries</string>
+    <string name="action_welcome">@string/app_name</string>
+
+    <string name="info">For questions and enquiries on how to get a PIN and fully access the app, join the WhatsApp group or contact any of the people below. A PIN costs ₦200. For information on PIN wholesale opportunities, contact Biodun.</string>
+    <string name="whatsapp_group_link">https://chat.whatsapp.com/I9aDaWoaxydJJxcu9f7sQv</string>
+    <string name="playstore_link">https://play.google.com/store/apps/details?id=com.makerloom.ujcbt</string>
+    <string name="trial_link">https://play.google.com/store/apps/details?id=com.makerloom.ujcbtdemo</string>
+
+    <string name="tos_url">https://makerloom.com/terms-of-service/</string>
+    <string name="privacy_policy_url">https://makerloom.com/privacy-policy/</string>
+
+    <string name="facebook_application_id" translatable="false">625885281085068</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb625885281085068</string>
+    <string name="twitter_consumer_key" translatable="false">Lfefwfudc9XNhftNEXwObAJ4T</string>
+    <string name="twitter_consumer_secret" translatable="false">4dKI0Tg0JZe3CnmlC8Wr3FjjAkEzqYcVuyLvPbyQlubPf2ixyt</string>
+
+    <string name="action_timer">00:00</string>
+
+    <string name="app_admob_id">ca-app-pub-4409443705250246~7814096093</string>
+    <string name="correction_activity_banner">ca-app-pub-4409443705250246/1652970288</string>
+    <string name="courses_activity_banner">ca-app-pub-4409443705250246/5991423120</string>
+    <string name="departments_activity_banner">ca-app-pub-4409443705250246/7866066982</string>
+    <string name="report_activity_banner">ca-app-pub-4409443705250246/6853078653</string>
+    <string name="report_activity_interstitial">ca-app-pub-4409443705250246/4856760263</string>
+    <string name="test_activity_banner">ca-app-pub-4409443705250246/5319794699</string>
+    <string name="test_activity_interstitial">ca-app-pub-4409443705250246/1739642335</string>
+
+    <string name="_42_matters_app_id">q7W4aZbyFgQP8eff3</string>
+
+    <string name="default_notification_channel_id">0</string>
+    <string name="default_notification_message_body">Practice for your Exams!</string>
+
+
+    <!--<string name="courses_activity_banner">ca-app-pub-4409443705250246/5991423120</string>-->
+    <!--<string name="departments_activity_banner">ca-app-pub-4409443705250246/7866066982</string>-->
+    <!--<string name="report_activity_banner">ca-app-pub-4409443705250246/6853078653</string>-->
+    <!--<string name="report_activity_interstitial">ca-app-pub-4409443705250246/4856760263</string>-->
+    <!--<string name="test_activity_banner">ca-app-pub-4409443705250246/5319794699</string>-->
+    <!--<string name="test_activity_interstitial">ca-app-pub-4409443705250246/1739642335</string>-->
+
+    <string name="interstitial_test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="banner_test">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".screens.PINActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <ScrollView
+            android:layout_below="@id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_gravity="center"
+                android:layout_below="@id/toolbar"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:paddingTop="10dp"
+                        android:id="@+id/info"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:text="Enter the PIN that appears on your card to unlock the app"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:layout_marginTop="8dp"
+                        android:id="@+id/warning"
+                        android:gravity="center"
+                        android:textSize="13sp"
+                        android:textStyle="bold"
+                        android:textColor="#666"
+                        android:text="Be careful not to mix up O (letter O) and 0 (zero)"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/unlock_code"
+                        android:inputType="textCapCharacters"
+                        android:textAllCaps="true"
+                        android:maxLength="10"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="22sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="PIN"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:id="@+id/verify_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="10dp"
+                    fancy:fb_borderColor="@color/colorPrimary"
+                    fancy:fb_borderWidth="2dp"
+                    fancy:fb_defaultColor="@color/colorPrimary"
+                    fancy:fb_focusColor="@color/white"
+                    fancy:fb_radius="2dp"
+                    android:text="UNLOCK"
+                    fancy:fb_iconPaddingRight="10dp"
+                    fancy:fb_iconPosition="left"
+                    fancy:fb_fontIconSize="20sp"
+                    fancy:fb_fontIconResource="&#xf09c;"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    fancy:fb_textColor="@color/white" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/info_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="15dp"
+                        android:layout_margin="5dp"
+                        fancy:fb_borderColor="@color/colorPrimary"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_defaultColor="@color/colorPrimary"
+                        fancy:fb_focusColor="@color/colorAccent"
+                        fancy:fb_radius="5dp"
+                        android:text="Pin Enquiry"
+                        android:textAllCaps="true"
+                        fancy:fb_iconPaddingLeft="15dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="19sp"
+                        fancy:fb_fontIconResource="&#xf05a;"
+                        android:textSize="15.5sp"
+                        android:textStyle="bold"
+                        fancy:fb_textColor="@color/white" />
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/signout_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="15dp"
+                        android:layout_margin="5dp"
+                        fancy:fb_borderColor="@color/colorPrimary"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_defaultColor="@color/white"
+                        fancy:fb_focusColor="@color/colorAccent"
+                        fancy:fb_radius="5dp"
+                        android:text="Sign Out"
+                        android:textAllCaps="true"
+                        fancy:fb_iconPaddingLeft="15dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="19sp"
+                        fancy:fb_fontIconResource="&#xf08b;"
+                        android:textSize="15.5sp"
+                        android:textStyle="bold"
+                        fancy:fb_textColor="@color/colorPrimary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

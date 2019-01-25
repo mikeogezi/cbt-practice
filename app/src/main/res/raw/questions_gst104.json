@@ -1,0 +1,1074 @@
+{
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "question": "The first petroleum Company in Nigeria is",
+            "options": [
+                "Mobil",
+                "Agip",
+                "Texaco",
+                "Shell"
+            ],
+            "correctOption": "Shell"
+        },
+        {
+            "question": "Petroleum is made up of mainly",
+            "options": [
+                "Carbon and hydrogen",
+                "Sodium and magnesium",
+                "Sodium and calcium",
+                "mercury and Iron"
+            ],
+            "correctOption": "Carbon and hydrogen"
+        },
+        {
+            "question": "General studies programmes were adopted by NUC in",
+            "options": [
+                "1992",
+                "1969",
+                "1989",
+                "1980"
+            ],
+            "correctOption": "1989"
+        },
+        {
+            "question": "Petroleum is formed by",
+            "options": [
+                "decomposition of marine microorganisms",
+                "Decomposition of atoms and electrons",
+                "decomposition of oil",
+                "decomposition of water element microorganisms"
+            ],
+            "correctOption": "decomposition of marine microorganisms"
+        },
+        {
+            "question": "Colonialism played a negative role in our quest for technological development except",
+            "options": [
+                "The people were colonized",
+                "it lead to explosion of science",
+                "their early technological feat were eroded",
+                "Talented Nigerian were taken away"
+            ],
+            "correctOption": "it lead to explosion of science"
+        },
+        {
+            "question": "Establishment of car assembly plants, pharmaceutical industries etc in Nigeria by the developed nations",
+            "options": [
+                "Are good evidences of transfer of technology",
+                "highly encourages transfer of technology",
+                "does not constitute transfer of technology",
+                "is prevalent"
+            ],
+            "correctOption": "does not constitute transfer of technology"
+        },
+        {
+            "question": "An educated person is expected to be",
+            "options": [
+                "myopic",
+                "versatile",
+                "exceptional",
+                "average"
+            ],
+            "correctOption": "versatile"
+        },
+        {
+            "question": "The device used to store electric charges is",
+            "options": [
+                "Inductor",
+                "transistor",
+                "resister",
+                "capacitors"
+            ],
+            "correctOption": "capacitors"
+        },
+        {
+            "question": "The first Nigeria to win a Nobel prize is",
+            "options": [
+                "Sofowora",
+                "Emegwali",
+                "Chinua Achebe",
+                "Wole Soyinka"
+            ],
+            "correctOption": "Wole Soyinka"
+        },
+        {
+            "question": "The instrument used to measure current is",
+            "options": [
+                "ammeter",
+                "transformer",
+                "voltmeter",
+                "choke"
+            ],
+            "correctOption": "ammeter"
+        },
+        {
+            "question": "The radiation with the highest range in air is",
+            "options": [
+                "cosmic ray",
+                "Alpha particle",
+                "gamma ray",
+                "x-ray"
+            ],
+            "correctOption": "gamma ray"
+        },
+        {
+            "question": "The University in Nigeria that is center for automobile research is",
+            "options": [
+                "Unilag",
+                "ABU",
+                "UI",
+                "UNN"
+            ],
+            "correctOption": "ABU"
+        },
+        {
+            "question": "Religion is a factor in technological development in Nigeria because.",
+            "options": [
+                "There is agreement in belief",
+                "There is suspicion of one another",
+                "Useful and precious times are put in religious matters.",
+                "It encourages development"
+            ],
+            "correctOption": "There is suspicion of one another"
+        },
+        {
+            "question": "Work done is the",
+            "options": [
+                "sum of force and displacement",
+                "Product of force and displacement",
+                "difference of power and energy",
+                "ratio of force and time"
+            ],
+            "correctOption": "difference of power and energy"
+        },
+        {
+            "question": "Product of force and A current of 8A flows across a metallic conductor of resistance 5 Ohms, the voltage across the conductor.",
+            "options": [
+                "1.6V",
+                "13V",
+                "40V",
+                "30V"
+            ],
+            "correctOption": "40V"
+        },
+        {
+            "question": "The seat belt in the car is in obedience to Newton's",
+            "options": [
+                "3rd Law of motion",
+                "2nd Law of motion",
+                "kepler's law",
+                "1st law of motion"
+            ],
+            "correctOption": "3rd Law of motion"
+        },
+        {
+            "question": "Advantages of Hydroelectric plant include the following except",
+            "options": [
+                "No atmospheric pollution",
+                "It is noiseless",
+                "It offers flood control and irrigation at the same time",
+                "It is one of the cheaper way of producing large electricity"
+            ],
+            "correctOption": "It is noiseless"
+        },
+        {
+            "question": "The forces keeping the planets in their respective elliptical orbits around the sun are",
+            "options": [
+                "centripetal and centrifugal",
+                "gravitational and centripetal",
+                "friction and centrifugal",
+                "Centripetal and friction"
+            ],
+            "correctOption": "gravitational and centripetal"
+        },
+        {
+            "question": "The electrical power is given by one of the following formulas",
+            "options": [
+                "IV",
+                "I^2R^2",
+                "I^2V^2",
+                "IR^2"
+            ],
+            "correctOption": "IV"
+        },
+        {
+            "question": "The city in Nigeria that is making effort for us to have made in Nigeria car is",
+            "options": [
+                "Nnewi",
+                "Ibadan",
+                "Kano",
+                "Owerri"
+            ],
+            "correctOption": "Nnewi"
+        },
+        {
+            "question": "The electric generator consists essentially of the following except",
+            "options": [
+                "rectangular armature",
+                "Cylindrical soft iron core",
+                "a triangular soft iron armature",
+                "a powerful permanent magnet"
+            ],
+            "correctOption": "a triangular soft iron armature"
+        },
+        {
+            "question": "The starting point for our technological take-off as a nation is for her to pay attention to",
+            "options": [
+                "liberal arts education",
+                "vocational and technical education",
+                "Arts education",
+                "social science education"
+            ],
+            "correctOption": "vocational and technical education"
+        },
+        {
+            "question": "An object makes a displacement of 100m is 5s. the velocity of the object is",
+            "options": [
+                "20m/s",
+                "2.5/m",
+                "5m/s",
+                "10m/s"
+            ],
+            "correctOption": "20m/s"
+        },
+        {
+            "question": "The policy for establishing the gifted children secondary school is to",
+            "options": [
+                "Help less privileged children",
+                "To have balanced education",
+                "To catch the geniuses young",
+                "To encourage education in the states"
+            ],
+            "correctOption": "To catch the geniuses young"
+        },
+        {
+            "question": "Energy can be defined as",
+            "options": [
+                "ability to do work",
+                "ability to see food",
+                "ability to do pressure",
+                "ability to sleep"
+            ],
+            "correctOption": "ability to do work"
+        },
+        {
+            "question": "The most common sources of sustainable energy today are",
+            "options": [
+                "wind and sound",
+                "Coal and petroleum",
+                "light and tidal",
+                "Biogas and alcohol"
+            ],
+            "correctOption": "Coal and petroleum"
+        },
+        {
+            "question": "The proposed system of education in Nigeria may have not thrived well as expected because of",
+            "options": [
+                "lack of needed trained personnel",
+                "lack of desired professional equipment",
+                "lack of fund",
+                "excess manpower needed"
+            ],
+            "correctOption": "lack of needed trained personnel"
+        },
+        {
+            "question": "The quality of a good graduate is shown in his",
+            "options": [
+                "way of dancing",
+                "way of actions and behaviours",
+                "way of walking",
+                "way of eating"
+            ],
+            "correctOption": "way of actions and behaviours"
+        },
+        {
+            "question": "An electric device is rated at 250W, 250V, the correct fuse rating for the device is",
+            "options": [
+                "8A",
+                "10A",
+                "6A",
+                "11A"
+            ],
+            "correctOption": "11A"
+        },
+        {
+            "question": "The general studies programme is useful in the following ways except",
+            "options": [
+                "To equip them have critical appreciation of the ways in which they gain knowledge",
+                "understanding of themselves, the society and usefulness of known academic disciplines",
+                "To equip them as how to organize labour meetings and strikes",
+                "Intended to equip student with common knowledge"
+            ],
+            "correctOption": "To equip them as how to organize labour meetings and strikes"
+        },
+        {
+            "question": "The sample variance is obtained by",
+            "options": [
+                "squaring the variance",
+                "taking the square root of the standard deviation",
+                "squaring the standard deviation",
+                "(x-x)^2"
+            ],
+            "correctOption": "squaring the standard deviation"
+        },
+        {
+            "question": "The curve that tails off to the left end is",
+            "options": [
+                "Symmetrical",
+                "skewed right",
+                "positively skewed",
+                "None of these"
+            ],
+            "correctOption": "None of these"
+        },
+        {
+            "question": "Component bar chart must consist of except:",
+            "options": [
+                "equally spaced bars",
+                "bars must be of the same width",
+                "source of data",
+                "scale"
+            ],
+            "correctOption": "source of data"
+        },
+        {
+            "question": "What is the class interval for the set of grouped data 300-349.5, 350-399.5 and 400 - 445.5",
+            "options": [
+                "50.5",
+                "50",
+                "49",
+                "49.5"
+            ],
+            "correctOption": "50"
+        },
+        {
+            "question": "Which of the following is NOT true when constructing the simple bar chart",
+            "options": [
+                "same heights",
+                "equally spaced bar",
+                "the height of the bars",
+                "same width"
+            ],
+            "correctOption": "same heights"
+        },
+        {
+            "question": "Which of the following is NOT an example of compressed data?",
+            "options": [
+                "Data array",
+                "Ogive",
+                "Histogram",
+                "Frequency distribution"
+            ],
+            "correctOption": "Data array"
+        },
+        {
+            "question": "Given class intervals 10-14, 15-19, 20-24 and 25-29 with frequencies 4, 2, 5, and 1 respectively. What is the modal class?",
+            "options": [
+                "10-14",
+                "25-29",
+                "15-19",
+                "20-24"
+            ],
+            "correctOption": "20-24"
+        },
+        {
+            "question": "How does the computation of sample variance differ from that of the population variance",
+            "options": [
+                "N is replaced by n-1",
+                "μ is replaced by x & N is replaced by n-1",
+                "μ is replaced by x",
+                "N is replaced by n"
+            ],
+            "correctOption": "μ is replaced by x & N is replaced by n-1"
+        },
+        {
+            "question": "In solving problems statistically all the following steps are involved except:",
+            "options": [
+                "Decision making",
+                "Presentation of data",
+                "Organization of data",
+                "Interpretation of data"
+            ],
+            "correctOption": "Decision making"
+        },
+        {
+            "question": "Which of the following statement about the histogram is true",
+            "options": [
+                "The bars are all equal in height",
+                "The areas of the histogram is of no meaning",
+                "The bars are all equal in width",
+                "The bars are all equal in size"
+            ],
+            "correctOption": "The bars are all equal in width"
+        },
+        {
+            "question": "Suppose the modal class is 100-149.5 find the lower class limit",
+            "options": [
+                "100",
+                "99",
+                "99.9",
+                "99.5"
+            ],
+            "correctOption": "100"
+        },
+        {
+            "question": "Descriptive statistics is science of describing the important characteristics of a:",
+            "options": [
+                "skewness",
+                "sample",
+                "Population",
+                "population or sample"
+            ],
+            "correctOption": "population or sample"
+        },
+        {
+            "question": "When constructing a multiple bar chart, the following are necessary except",
+            "options": [
+                "array of data",
+                "key",
+                "table",
+                "a scale"
+            ],
+            "correctOption": "array of data"
+        },
+        {
+            "question": "Graphs of frequency distributions are used because",
+            "options": [
+                "They account for biased or incomplete data",
+                "They have a long history in practical applications",
+                "They allow for easy estimates of values",
+                "Information contained in it cannot be easily understood"
+            ],
+            "correctOption": "They allow for easy estimates of values"
+        },
+        {
+            "question": "Two methods of data arrangement are:",
+            "options": [
+                "Data array and data entering",
+                "Data array and frequency distribution",
+                "Tally the observations",
+                "Frequency coding distribution and data"
+            ],
+            "correctOption": "Data array and frequency distribution"
+        },
+        {
+            "question": "When solving problem statistically, the step that requires some knowledge of elementary mathematics is known as",
+            "options": [
+                "Data interpretation",
+                "Data organization",
+                "Data analysis",
+                "Data presentation"
+            ],
+            "correctOption": "Data analysis"
+        },
+        {
+            "question": "From a data array with 50 observations, the median will be the value of the:",
+            "options": [
+                "sum of the 25th and 26th observations",
+                "mean value of the 26th and 27th observation",
+                "Average value of the 25th and 26th observation",
+                "25th observation"
+            ],
+            "correctOption": "sum of the 25th and 26th observations"
+        },
+        {
+            "question": "Data analysis is a step after _____",
+            "options": [
+                "Data collection",
+                "Data organization",
+                "data presentation",
+                "Data interpretation"
+            ],
+            "correctOption": "data presentation"
+        },
+        {
+            "question": "The first step in calculating the median of a data set is:",
+            "options": [
+                "Arrange the data in ascending or descending order of magnitude",
+                "determine the position of the median",
+                "Average the middle two values of the data set",
+                "Determine the relative weights of the data values in terms of importance"
+            ],
+            "correctOption": "Arrange the data in ascending or descending order of magnitude"
+        },
+        {
+            "question": "Continuous data are differentiated from discrete data in that",
+            "options": [
+                "Continuous data classes may be represented by fraction",
+                "Discrete number data can take on any real number",
+                "Continuous numbers data take on only whole",
+                "Discrete data classes are represented by fraction"
+            ],
+            "correctOption": "Discrete number data can take on any real number"
+        },
+        {
+            "question": "Which of the following represent the most accurate scheme of classifying data",
+            "options": [
+                "Qualitative methods",
+                "A combination of quantitative and qualitative methods",
+                "A scheme can be determined only with specific information about the situation",
+                "Quantitative methods"
+            ],
+            "correctOption": "A scheme can be determined only with specific information about the situation"
+        },
+        {
+            "question": "When constructing a frequency distribution for a sample, the number of classes depends on",
+            "options": [
+                "the range of the data collected",
+                "the size of the population",
+                "smallest observation",
+                "The number of data points"
+            ],
+            "correctOption": "the range of the data collected"
+        },
+        {
+            "question": "A relative frequency distribution presents frequencies in terms of",
+            "options": [
+                "percentages",
+                "fraction",
+                "whole number",
+                "whole number and percentages"
+            ],
+            "correctOption": "fraction"
+        },
+        {
+            "question": "Data can be compressed into the following except:",
+            "options": [
+                "polygon",
+                "picture diagram",
+                "pie chart",
+                "cumulative frequency curve"
+            ],
+            "correctOption": "picture diagram"
+        },
+        {
+            "question": "Write the upper class limit of the set of grouped data 300-349.5, 350-399.5 and 400-449.5",
+            "options": [
+                "349.55, 399.55",
+                "349.55, 399.55, 449.5",
+                "349.55, 350, 449.5",
+                "349.5, 399.5, 449.5"
+            ],
+            "correctOption": "349.5, 399.5, 449.5"
+        },
+        {
+            "question": "Which of the measures of central tendency take into account the value of every observations in the data",
+            "options": [
+                "median",
+                "mean",
+                "mode",
+                "range"
+            ],
+            "correctOption": "mean"
+        },
+        {
+            "question": "A good chart must NOT have:",
+            "options": [
+                "stubs",
+                "Title",
+                "a scale",
+                "a key where necessary"
+            ],
+            "correctOption": "stubs"
+        },
+        {
+            "question": "Which of the following is NOT a measure of dispersion",
+            "options": [
+                "mean",
+                "harmonic mean",
+                "mode",
+                "standard deviation"
+            ],
+            "correctOption": "harmonic mean"
+        },
+        {
+            "question": "Given the class interval of the modal class as 100-149.5 what is the lowest class boundary",
+            "options": [
+                "99",
+                "99.95",
+                "99.5",
+                "100"
+            ],
+            "correctOption": "99.5"
+        },
+        {
+            "question": "Ectoparasites live",
+            "options": [
+                "Beside the hosts",
+                "inside",
+                "outside",
+                "inside and outside"
+            ],
+            "correctOption": "outside"
+        },
+        {
+            "question": "Balantidiumcoli is a",
+            "options": [
+                "Ciliate",
+                "Nematode",
+                "Flagellate",
+                "Arthropod"
+            ],
+            "correctOption": "Ciliate"
+        },
+        {
+            "question": "An example of intracellular parasite is",
+            "options": [
+                "Plasmodium",
+                "AIDS",
+                "Roundworm",
+                "Flea"
+            ],
+            "correctOption": "Plasmodium"
+        },
+        {
+            "question": "The job of a vector is to",
+            "options": [
+                "Destroy the parasite",
+                "Transmits parasite to the host",
+                "Destroy the host"
+            ],
+            "correctOption": "Transmits parasite to the host"
+        },
+        {
+            "question": "Obligate plant parasites",
+            "options": [
+                "Need vectors to survive",
+                "does not need host to survive",
+                "Need host to survive"
+            ],
+            "correctOption": "Need host to survive"
+        },
+        {
+            "question": "An example of intracellular parasite is",
+            "options": [
+                "Blood fluke",
+                "Tse-tse fly",
+                "Aedes mosquito"
+            ],
+            "correctOption": "Blood fluke"
+        },
+        {
+            "question": "An example of endoparasites is",
+            "options": [
+                "Plasmodium",
+                "trick",
+                "mite",
+                "crab"
+            ],
+            "correctOption": "Plasmodium"
+        },
+        {
+            "question": "The disease caused by infection of Amoeba is",
+            "options": [
+                "Air borne",
+                "Animal borne",
+                "Water borne"
+            ],
+            "correctOption": "Water borne"
+        },
+        {
+            "question": "Intercellular Parasites inhabits",
+            "options": [
+                "Places of the hosts",
+                "Tissues",
+                "Cells",
+                "Spaces"
+            ],
+            "correctOption": "Places of the hosts"
+        },
+        {
+            "question": "An example of an ectoparasite is a",
+            "options": [
+                "Mosquito",
+                "Hookworm",
+                "Tick",
+                "Fluke"
+            ],
+            "correctOption": "Tick"
+        },
+        {
+            "question": "Malaria fever is caused by infection of",
+            "options": [
+                "Mosquito",
+                "Paramecium",
+                "Mite",
+                "Plasmodium"
+            ],
+            "correctOption": "Plasmodium"
+        },
+        {
+            "question": "Mosquito is a vector of",
+            "options": [
+                "Paramecium",
+                "Plasmodium",
+                "Ascaris",
+                "Malaria"
+            ],
+            "correctOption": "Plasmodium"
+        },
+        {
+            "question": "Plant parasites obtain food from the host's",
+            "options": [
+                "Cambium",
+                "Xylem",
+                "Leaves",
+                "Phloem"
+            ],
+            "correctOption": "Phloem"
+        },
+        {
+            "question": "Giardia lamblia is a parasite of",
+            "options": [
+                "Heart",
+                "Liver",
+                "Large intestine",
+                "Small intestines"
+            ],
+            "correctOption": "Small intestines"
+        },
+        {
+            "question": "A protozoan is",
+            "options": [
+                "Singled cell",
+                "Bicellular",
+                "Does not exist",
+                "Multicellular"
+            ],
+            "correctOption": "Singled cell"
+        },
+        {
+            "question": "Endoparasites live a Inside and outside",
+            "options": [
+                "Beside the hosts",
+                "Outside",
+                "Inside",
+                "Inside and outside"
+            ],
+            "correctOption": "Inside"
+        },
+        {
+            "question": "Obligates plant parasites",
+            "options": [
+                "can survive on their own",
+                "are photosynthetic",
+                "are non-photosynthetic"
+            ],
+            "correctOption": "are non-photosynthetic"
+        },
+        {
+            "question": "A host also",
+            "options": [
+                "Benefits",
+                "Does not benefits",
+                "sometimes parasites benefits from the"
+            ],
+            "correctOption": "Does not benefits"
+        },
+        {
+            "question": "Balantidium coliis a parasite of",
+            "options": [
+                "Heart",
+                "Large intestine",
+                "Small intestine",
+                "Liver"
+            ],
+            "correctOption": "Large intestine"
+        },
+        {
+            "question": "Giardia lamblia is a",
+            "options": [
+                "Platyhelminthes",
+                "Protozoan",
+                "Flagellate",
+                "Nematode"
+            ],
+            "correctOption": "Flagellate"
+        },
+        {
+            "question": "The circulation of mineral nutrient between the plants and the soil is called",
+            "options": [
+                "Nutrient cycle",
+                "Hydrogen cycle",
+                "Carbon cycle",
+                "Nitrogen cycle"
+            ],
+            "correctOption": "Nutrient cycle"
+        },
+        {
+            "question": "Development touches on the following except",
+            "options": [
+                "Self esteem",
+                "Dignity",
+                "Ego",
+                "Freedom"
+            ],
+            "correctOption": "Ego"
+        },
+        {
+            "question": "Man is classified under autotrophs",
+            "options": [
+                "composers",
+                "decomposers",
+                "heterotrophs",
+                "autotrophs"
+            ],
+            "correctOption": "heterotrophs"
+        },
+        {
+            "question": "The process through which land receives water include the following except",
+            "options": [
+                "Infiltration",
+                "Rainfall",
+                "Evapotranspiration",
+                "Percolation"
+            ],
+            "correctOption": "Evapotranspiration"
+        },
+        {
+            "question": "Land reclamation has no effect on the soil moisture content",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "The relationship between plants, animals and the environment is called:",
+            "options": [
+                "Ecotype",
+                "Ecosystem",
+                "Communication",
+                "Interaction"
+            ],
+            "correctOption": "Ecosystem"
+        },
+        {
+            "question": "Land pollution causes the loss of plants and animals",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "The part of the earth which contains the rocks, soil and minerals is called:",
+            "options": [
+                "Biosphere",
+                "Atmosphere",
+                "Lithosphere",
+                "Hydrosphere"
+            ],
+            "correctOption": "Lithosphere"
+        },
+        {
+            "question": "Nitrogen is found in the:",
+            "options": [
+                "Lithosphere",
+                "Land",
+                "Water",
+                "Atmosphere"
+            ],
+            "correctOption": "Atmosphere"
+        },
+        {
+            "question": "Over grazing has no significant effect on vegetation",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Animals decompose to form manure for plants",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Plant take in  ____________  during photosynthesis",
+            "options": [
+                "Oxygen",
+                "Nitrogen",
+                "Hydrogen",
+                "Carbon dioxide"
+            ],
+            "correctOption": "Carbon dioxide"
+        },
+        {
+            "question": "Coal, Petroleum resources are not found in rocks",
+            "options": [
+                "Water",
+                "Sand",
+                "Atmosphere",
+                "Rock"
+            ],
+            "correctOption": "Atmosphere"
+        },
+        {
+            "question": "To course something to start means",
+            "options": [
+                "Developed",
+                "Underdevelopment",
+                "Developing",
+                "Development"
+            ],
+            "correctOption": "Developing"
+        },
+        {
+            "question": "Organic matter contained in the soil is affected by farming activities",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Living organism do not need water for normal life process",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Natural intervention leads to  ____________  of animals",
+            "options": [
+                "Attraction",
+                "Extinction",
+                "Displacement",
+                "Redistribution"
+            ],
+            "correctOption": "Displacement"
+        },
+        {
+            "question": "The redistribution and improvement in the welfare and quality of life of the people is",
+            "options": [
+                "Sustained defeat",
+                "Development",
+                "Sustainable development",
+                "Sustainable defeat"
+            ],
+            "correctOption": "Sustainable development"
+        },
+        {
+            "question": "Development adds to improvement in",
+            "options": [
+                "Income",
+                "Output",
+                "Input",
+                "Income and Output"
+            ],
+            "correctOption": "Income and Output"
+        },
+        {
+            "question": "The capacity to deal with the environment involves:",
+            "options": [
+                "(ii) Ability to harness the environmental resources",
+                "ii & iii",
+                "(iii) High technological ability to modify the environment",
+                "(i) Poor technology to harness environmental resources"
+            ],
+            "correctOption": "ii & iii"
+        },
+        {
+            "question": "Oil spillage and water pollution do not alter the type of plants and animals that can survive in the ecosystem",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Hydrosphere is the part of the earth that contains:",
+            "options": [
+                "Plant",
+                "Sand",
+                "Water",
+                "Rocks"
+            ],
+            "correctOption": "Water"
+        },
+        {
+            "question": "The spheres of the earth is grouped into:",
+            "options": [
+                "5",
+                "3",
+                "4",
+                "7"
+            ],
+            "correctOption": "4"
+        },
+        {
+            "question": "The recycling and flow of energy within the ecosystem is called",
+            "options": [
+                "Ecobalance",
+                "Environmental disturbance",
+                "Environmental balance",
+                "Energy flow"
+            ],
+            "correctOption": "Environmental balance"
+        },
+        {
+            "question": "The process of rapid Economic growth is",
+            "options": [
+                "Development",
+                "Stabilization in the Gross National Product",
+                "Reduction in economic resources",
+                "Economic stagnation"
+            ],
+            "correctOption": "Development"
+        },
+        {
+            "question": "The environment includes the following except:",
+            "options": [
+                "Physical surrounding",
+                "Living organisms",
+                "All of these",
+                "Climatic factors"
+            ],
+            "correctOption": "All of these"
+        },
+        {
+            "question": "Denitrification is the major way by which ____________ is lost from the soil.",
+            "options": [
+                "Hydrogen",
+                "Carbon dioxide",
+                "Nitrates",
+                "Oxygen"
+            ],
+            "correctOption": "Nitrates"
+        },
+        {
+            "question": "Soil, water and gases are living things:",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Plants produces ____________ during photosynthesis",
+            "options": [
+                "Carbon dioxide",
+                "Soil",
+                "Oxygen",
+                "water"
+            ],
+            "correctOption": "Oxygen"
+        },
+        {
+            "question": "The forces of nature and the activities of man that change the natural component of the ecosystem is referred as:",
+            "options": [
+                "environmental relationship",
+                "Environmental change",
+                "Environmental intervention",
+                "Environmental planning"
+            ],
+            "correctOption": "Environmental intervention"
+        }
+    ]
+}

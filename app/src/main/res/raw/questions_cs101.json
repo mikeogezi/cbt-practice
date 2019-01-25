@@ -1,0 +1,2764 @@
+{
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "question": "Who invented Python?",
+            "options": [
+                "Sir Alex Ferguson",
+                "Haskell",
+                "Lionel and Ritchie",
+                "Von Rossum",
+                "Alan Turing"
+            ],
+            "correctOption": "Von Rossum"
+        },
+        {
+            "question": "The first name of Python's inventor is ______________",
+            "options": [
+                "Ferguson",
+                "Nghutor",
+                "Guido",
+                "Guiseppe",
+                "Galdo"
+            ],
+            "correctOption": "Guido"
+        },
+        {
+            "question": "What will be the output of following python code?\nprint(5 % 3)",
+            "options": [
+                "15",
+                "125",
+                "5",
+                "3",
+                "53",
+                "2"
+            ],
+            "correctOption": "2"
+        },
+        {
+            "question": "The elementary data types in python are __________",
+            "options": [
+                "int, string and float",
+                "long, string and double",
+                "binary, ternary and hexadecimal",
+                "None of these"
+            ],
+            "correctOption": "int, string and float"
+        },
+        {
+            "question": "The earliest computing device is the __________",
+            "options": [
+                "Analytical Engine",
+                "Difference Engine",
+                "Abacus",
+                "First Generation Computer"
+            ],
+            "correctOption": "Abacus"
+        },
+        {
+            "question": "A physical computer system is made up of _________ main parts.",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "The parts that make up a computer system are __________",
+            "options": [
+                "Input, Processing and Output",
+                "Software, Hardware and Others",
+                "Software, Hardware and Peopleware",
+                "Bits, Nibbles and Bytes"
+            ],
+            "correctOption": "Input, Processing and Output"
+        },
+        {
+            "question": "In 1614, __________ invented the logarithm and decimals notation",
+            "options": [
+                "Luke Cage",
+                "Alan Turing",
+                "John Napier",
+                "Lady Ada Lovelace",
+                "Von Neumann"
+            ],
+            "correctOption": "John Napier"
+        },
+        {
+            "question": "John Napier created the Napier's Bones to aid in __________",
+            "options": [
+                "Addition and Subtraction",
+                "Multiplication and Division",
+                "Exponentiation",
+                "Calculating square roots"
+            ],
+            "correctOption": "Multiplication and Division"
+        },
+        {
+            "question": "The Slide Rule was invented in _________",
+            "options": [
+                "1619",
+                "1620",
+                "1621",
+                "1622"
+            ],
+            "correctOption": "1620"
+        },
+        {
+            "question": "Who Invented the Napier's Bones?",
+            "options": [
+                "Daniel Bones",
+                "William Bones",
+                "William Oughted",
+                "John Napier",
+                "James Napier",
+                "Jacob Napier"
+            ],
+            "correctOption": "John Napier"
+        },
+        {
+            "question": "Who Invented the Slide Rule?",
+            "options": [
+                "Jacob Slide",
+                "Willian",
+                "Sylvester Rule",
+                "William Oughted",
+                "William Shakespeare",
+                "Charles Babbage"
+            ],
+            "correctOption": "William Oughted"
+        },
+        {
+            "question": "The symbol 'X' for multiplication was introduced by who?",
+            "options": [
+                "John Napier",
+                "Euler",
+                "William Oughted",
+                "Isaac Newton",
+                "Francis Bacon"
+            ],
+            "correctOption": "William Oughted"
+        },
+        {
+            "question": "In mathematics, binary numbers are represented using two different symbols namely; _______________",
+            "options": [
+                "0s and 1s",
+                "True and False",
+                "Alpha and Omega"
+            ],
+            "correctOption": "0s and 1s"
+        },
+        {
+            "question": "_____________ created the cipher system",
+            "options": [
+                "Francis Bacon",
+                "Hacker James",
+                "Emperor Nero",
+                "Cassius",
+                "Lady Ada Lovelace",
+                "Philip Emeagwali"
+            ],
+            "correctOption": "Francis Bacon"
+        },
+        {
+            "question": "The ciper system was created in __________",
+            "options": [
+                "1625",
+                "1624",
+                "1623",
+                "1622"
+            ],
+            "correctOption": "1623"
+        },
+        {
+            "question": "The Pascal programming language was created by __________",
+            "options": [
+                "Blaise Pascal",
+                "William Shockley",
+                "Nicklaus Wirth",
+                "G. Van Rossum"
+            ],
+            "correctOption": "Nicklaus Wirth"
+        },
+        {
+            "question": "Why did Blaise Pascal start working on the Pascaline?",
+            "options": [
+                "To help galvanise the French Revolution",
+                "To ease his father's tax collection job",
+                "To help him in his mathematics assignment",
+                "To start a business"
+            ],
+            "correctOption": "To ease his father's tax collection job"
+        },
+        {
+            "question": "___________ invented differential and integral calculus",
+            "options": [
+                "Euler",
+                "Hiro",
+                "The Greek",
+                "Leibniz",
+                "The Romans"
+            ],
+            "correctOption": "Leibniz"
+        },
+        {
+            "question": "Joseph Marie Jacquard was a french ____________",
+            "options": [
+                "beggar",
+                "weaver and merchant",
+                "royal",
+                "politician",
+                "software engineer"
+            ],
+            "correctOption": "weaver and merchant"
+        },
+        {
+            "question": "Who invented the Jacquard Loom?",
+            "options": [
+                "Joseph Marie Jacquard",
+                "Japheth Marie Jacquard",
+                "John Marie Jacquard",
+                "Jacob Marie Jacquard"
+            ],
+            "correctOption": "Joseph Marie Jacquard"
+        },
+        {
+            "question": "Who is referred to as the father of computing?",
+            "options": [
+                "Charles Babbage",
+                "Isaac Newton",
+                "Joseph Jaquard",
+                "Blaise Pascal"
+            ],
+            "correctOption": "Charles Babbage"
+        },
+        {
+            "question": "When was the Difference Engine invented?",
+            "options": [
+                "1819",
+                "1820",
+                "1821",
+                "1822"
+            ],
+            "correctOption": "1821"
+        },
+        {
+            "question": "The first programmable computer was the __________",
+            "options": [
+                "Difference Engine",
+                "Analytical Engine",
+                "ENIAC",
+                "EDVAC"
+            ],
+            "correctOption": "Analytical Engine"
+        },
+        {
+            "question": "Lady Ada Lovelace was a _______________",
+            "options": [
+                "Mathematician and Scientist",
+                "Poet",
+                "Housewife",
+                "Carpenter"
+            ],
+            "correctOption": "Mathematician and Scientist"
+        },
+        {
+            "question": "The 'Ada' programming language was named after __________",
+            "options": [
+                "Ada Okafor",
+                "Adama David",
+                "Adah Ameh",
+                "Ada Love",
+                "Ada Lovelace",
+                "Ada Babbage"
+            ],
+            "correctOption": "Ada Lovelace"
+        },
+        {
+            "question": "____________ invented Boolean Algebra",
+            "options": [
+                "John Bull",
+                "John Boole",
+                "George Boole",
+                "George Bull"
+            ],
+            "correctOption": "George Boole"
+        },
+        {
+            "question": "__________ founded the company that later became IBM",
+            "options": [
+                "Herman Hollerith",
+                "Mark Zuckerberg",
+                "Ibrahim Mensah",
+                "Bill Gates",
+                "Larry Ellison"
+            ],
+            "correctOption": "Herman Hollerith"
+        },
+        {
+            "question": "Herman Hollerith's tabulating machine was based on the use of ___________",
+            "options": [
+                "Microprocessors",
+                "Punched Cards",
+                "Integrated Circuits",
+                "Vacuum Tubes"
+            ],
+            "correctOption": "Punched Cards"
+        },
+        {
+            "question": "Tabulating Machine Company later became ____________",
+            "options": [
+                "International Business Machines",
+                "International Booking Machines",
+                "International Tabulation Corporation",
+                "International Binary Machines",
+                "None of these"
+            ],
+            "correctOption": "International Business Machines"
+        },
+        {
+            "question": "Python is a _________ language",
+            "options": [
+                "Bulky",
+                "High level",
+                "Static",
+                "Low level",
+                "1st generation"
+            ],
+            "correctOption": "High level"
+        },
+        {
+            "question": "Convert A336A₁₆ to base 10?",
+            "options": [
+                "10100011001101101010",
+                "668523",
+                "668522",
+                "2431552",
+                "42"
+            ],
+            "correctOption": "668522"
+        },
+        {
+            "question": "Computer systems are usually and integration of two entities; namely ______________",
+            "options": [
+                "0s and 1s",
+                "Hardware and Software",
+                "Desktop and Keyboard"
+            ],
+            "correctOption": "Hardware and Software"
+        },
+        {
+            "question": "A computer's hardware components can be classified into all these except?",
+            "options": [
+                "Input devices",
+                "Output devices",
+                "Processing devices",
+                "Storage devices",
+                "Memory",
+                "Software applications"
+            ],
+            "correctOption": "Software applications"
+        },
+        {
+            "question": "Which of the following is not a hardware component?",
+            "options": [
+                "Monitor",
+                "Keyboard",
+                "Printer",
+                "Microsoft Word"
+            ],
+            "correctOption": "Microsoft Word"
+        },
+        {
+            "question": "The most common keyboard layout is __________",
+            "options": [
+                "QWERTY",
+                "DVORAK",
+                "QWERTZ",
+                "ABCDEF"
+            ],
+            "correctOption": "QWERTY"
+        },
+        {
+            "question": "The ___________ is referred to as the brains of the computer",
+            "options": [
+                "CPU",
+                "Monitor",
+                "User",
+                "Operating System",
+                "Windows 10"
+            ],
+            "correctOption": "CPU"
+        },
+        {
+            "question": "CPU is short for ____________",
+            "options": [
+                "Central Processor Unit",
+                "Central Intelligence Unit",
+                "Central Processing Unit",
+                "Control Processing Unit"
+            ],
+            "correctOption": "Central Processing Unit"
+        },
+        {
+            "question": "The speed of a CPU can be determined by clock rate",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Lady Ada Lovelace is considered by many to be the first programmer",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "The functions of the CPU include all the below except",
+            "options": [
+                "To control the sequence of operations",
+                "To control the usage of main memory",
+                "To carry out processing",
+                "To print out documents"
+            ],
+            "correctOption": "To print out documents"
+        },
+        {
+            "question": "The two types of memory are RAM and ROM",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "The Control Unit and Arithmetic and Logic unit are not located in the CPU",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Which of the following is not a processor manufacturer?",
+            "options": [
+                "Intel",
+                "Nvidia",
+                "AMD",
+                "Zinox"
+            ],
+            "correctOption": "Zinox"
+        },
+        {
+            "question": "Convert 2MB to KB",
+            "options": [
+                "1042",
+                "1000",
+                "2048",
+                "1012",
+                "2084"
+            ],
+            "correctOption": "2048"
+        },
+        {
+            "question": "Convert 0.5GB to Bytes",
+            "options": [
+                "536870912",
+                "524288",
+                "512",
+                "0.00048828125"
+            ],
+            "correctOption": "536870912"
+        },
+	{
+            "question": "1 Terabyte is 1 trillion bytes",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "1 Terabyte is 1 billion bytes",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "1 Bytes is _______ bits",
+            "options": [
+                "18",
+                "8",
+                "16",
+                "32",
+                "64"
+            ],
+            "correctOption": "8"
+        },
+        {
+            "question": "1 Gigabyte is ________ bits",
+            "options": [
+                "1073741824",
+                "8388608",
+                "8589934592",
+                "Infinity"
+            ],
+            "correctOption": "8589934592"
+        },
+        {
+            "question": "Which of the following is not an output device?",
+            "options": [
+                "Monitor",
+                "Speaker",
+                "Scanner",
+                "Printer"
+            ],
+            "correctOption": "Scanner"
+        },
+        {
+            "question": "Which of the following is not and input device?",
+            "options": [
+                "CPU",
+                "Keyboard",
+                "Mouse",
+                "Touchpad"
+            ],
+            "correctOption": "CPU"
+        },
+        {
+            "question": "The computer monitor is usually called ___________",
+            "options": [
+                "Virtual Display Unit",
+                "Visual Disk Unit",
+                "Visual Display Unit",
+                "Visual Display User"
+            ],
+            "correctOption": "Visual Display Unit"
+        },
+        {
+            "question": "111111111₂ is equivalent to __________",
+            "options": [
+                "778₈",
+                "512₁₀",
+                "1FF₁₆",
+                "111111111₁₀"
+            ],
+            "correctOption": "1FF₁₆"
+        },
+        {
+            "question": "The only number system that the CPU understand is ________",
+            "options": [
+                "Decimal",
+                "Hexadecimal",
+                "Octal",
+                "Base 2"
+            ],
+            "correctOption": "Base 2"
+        },
+        {
+            "question": "The only number system that the CPU understand is ________",
+            "options": [
+                "Base 10",
+                "Base 16",
+                "Binary",
+                "Ternary",
+                "Tertiary",
+                "Heptadecimal"
+            ],
+            "correctOption": "Binary"
+        },
+        {
+            "question": "In Python, prefixing a number with '0b' indicates that the number is _________",
+            "options": [
+                "Binary",
+                "Ternary",
+                "Decimal",
+                "Hexadecimal",
+                "Octal"
+            ],
+            "correctOption": "Binary"
+        },
+        {
+            "question": "In Python, prefixing a number with '0o' indicates that the number is _________",
+            "options": [
+                "Binary",
+                "Ternary",
+                "Decimal",
+                "Hexadecimal",
+                "Octal"
+            ],
+            "correctOption": "Octal"
+        },
+        {
+            "question": "In Python, prefixing a number with '0x' indicates that the number is _________",
+            "options": [
+                "Binary",
+                "Ternary",
+                "Decimal",
+                "Hexadecimal",
+                "Octal"
+            ],
+            "correctOption": "Hexadecimal"
+        },
+        {
+            "question": "What will be the output of the following Python program?\n\ns = 1e5\nprint(s)",
+            "options": [
+                "1e5",
+                "100000.0",
+                "100000",
+                "10000.0"
+            ],
+            "correctOption": "100000.0"
+        },
+        {
+            "question": "The python interpreter will evaluate '1e23' as ___________",
+            "options": [
+                "1 x 23",
+                "1 x 10²³",
+                "1²³"
+            ],
+            "correctOption": "1 x 10²³"
+        },
+        {
+            "question": "The two major versions of python currently being supported are _________ and ________",
+            "options": [
+                "2, 3",
+                "3, 4",
+                "4, 5",
+                "1, 2"
+            ],
+            "correctOption": "2, 3"
+        },
+        {
+            "question": "What is the output of the following python code?\n\nprint(2**2)",
+            "options": [
+                "0",
+                "2",
+                "4",
+                "8",
+                "16"
+            ],
+            "correctOption": "4"
+        },
+        {
+            "question": "What is the output of the following python code?\n\nprint(2^2)",
+            "options": [
+                "0",
+                "2",
+                "4",
+                "8",
+                "16"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "The sum of 234₈ and 345₈ is _________ ₁₀",
+            "options": [
+                "88",
+                "579",
+                "385",
+                "358"
+            ],
+            "correctOption": "385"
+        },
+        {
+            "question": "100011110₂ - 1111111₂ equals _________ ₂",
+            "options": [
+                "10011111",
+                "100111111",
+                "100011111",
+                "10011011"
+            ],
+            "correctOption": "10011111"
+        },
+        {
+            "question": "Convert ABC₁₆ to Base 10",
+            "options": [
+                "2748",
+                "7482",
+                "2478",
+                "4872"
+            ],
+            "correctOption": "2748"
+        },
+        {
+            "question": "ABC₁₆ + DEF₁₆ = _________ ₁₆",
+            "options": [
+                "ABCDEF",
+                "18AB",
+                "ACDF",
+                "FFF",
+                "FEDCBA"
+            ],
+            "correctOption": "18AB"
+        },
+        {
+            "question": "Convert 777₈ to Hexadecimal",
+            "options": [
+                "1FF₁₆",
+                "1F₁₆",
+                "FF₁₆",
+                "777₁₆"
+            ],
+            "correctOption": "1FF₁₆"
+        },
+        {
+            "question": "Convert 10000000111₂ to Decimal",
+            "options": [
+                "1030",
+                "1031",
+                "1032",
+                "1033"
+            ],
+            "correctOption": "1031"
+        },
+        {
+            "question": "Convert 765 to Binary",
+            "options": [
+                "1011111101₂",
+                "1001111101₂",
+                "1111111101₂",
+                "1001111101₂"
+            ],
+            "correctOption": "1011111101₂"
+        },
+        {
+            "question": "The sum of 11011111₁₀ and 100000₁₀ is __________ ₁₀",
+            "options": [
+                "11111111",
+                "255",
+                "254",
+                "256"
+            ],
+            "correctOption": "11111111"
+        },
+        {
+            "question": "Evaluate the following python code\n\nname = 'Dr. Dave'\nprint(name[3:])",
+            "options": [
+                "Dr.",
+                "Dr. Dave",
+                "Dave",
+                "Dr. Dave 3"
+            ],
+            "correctOption": "Dave"
+        },
+        {
+            "question": "What is the output of the following python code?\n\na = 2\nb = 3\nprint(a**b)",
+            "options": [
+                "6",
+                "23",
+                "8",
+                "9"
+            ],
+            "correctOption": "8"
+        },
+        {
+            "question": "ENIAC means _____________",
+            "options": [
+                "Electronic Numerical Integrator and Computer",
+                "Electronic Numerical Integrator and Calculator",
+                "Electric Numerical Integrator and Computer",
+                "Electric Numerical Integrator and Calculator",
+                "Electronic Napier Integrator and Computer"
+            ],
+            "correctOption": "Electronic Numerical Integrator and Computer"
+        },
+        {
+            "question": "RAM means ____________",
+            "options": [
+                "Daft Punk",
+                "Random Access Memory",
+                "Real-Time Access Memory",
+                "Read Access Memory"
+            ],
+            "correctOption": "Random Access Memory"
+        },
+        {
+            "question": "ROM means ____________",
+            "options": [
+                "Read Only Memory",
+                "Random Only Memory",
+                "Real-Time Only Memory",
+                "Read Access Machine"
+            ],
+            "correctOption": "Read Only Memory"
+        },
+        {
+            "question": "EDVAC means _____________",
+            "options": [
+                "Electronic Discreet Variable Automatic Computer",
+                "Electric Discrete Variable Automatic Computer",
+                "Electronic Discrete Variable Automatic Computer",
+                "Electronic Discrete Variable Automatic Calculator",
+                "Electric Discrete Variable Automatic Calculator"
+            ],
+            "correctOption": "Electronic Discrete Variable Automatic Computer"
+        },
+        {
+            "question": "Which came first, ENIAC or EDVAC?",
+            "options": [
+                "ENIAC",
+                "EDVAC"
+            ],
+            "correctOption": "ENIAC"
+        },
+        {
+            "question": "1 Byte is equivalent to 8 bits",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "32 bits is equivalent to 8 Bytes",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "What is the smallest unit of memory on the computer?",
+            "options": [
+                "Word",
+                "Byte",
+                "Bit",
+                "Double"
+            ],
+            "correctOption": "Bit"
+        },
+        {
+            "question": "What is the output of the following python code?\n\nlst = [0,1,2,3]\nprint(lst[0])",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "What is the output of the following python code?\n\nlst = [0,1,2,3]\nprint(len(lst))",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctOption": "4"
+        },
+        {
+            "question": "What is the output of the following python code?\n\nans = 'No'\nprint(ans * 3)",
+            "options": [
+                "No3",
+                "3No",
+                "NNNooo",
+                "NoNoNo"
+            ],
+            "correctOption": "NoNoNo"
+        },
+        {
+            "question": "What is the output of the following python code?\n\nlst = [0,1,2,3]\nprint(lst[-1])",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "What is the value of 2 % 3",
+            "options": [
+                "2",
+                "3",
+                "6",
+                "8"
+            ],
+            "correctOption": "2"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nnum = 0x535\nprint(num)",
+            "options": [
+                "0x535",
+                "535",
+                "1333",
+                "x535"
+            ],
+            "correctOption": "1333"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nfoo = 3\nprint(foo)",
+            "options": [
+                "foo3",
+                "3foo",
+                "3",
+                "foo"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nmessage = 'Correct'\nprint(num)",
+            "options": [
+                "It will result in an error",
+                "Correct",
+                "Error",
+                "num"
+            ],
+            "correctOption": "It will result in an error"
+        },
+        {
+            "question": "Comments in python start with ________",
+            "options": [
+                "#",
+                "@",
+                "//",
+                "/*",
+                "-",
+                "$"
+            ],
+            "correctOption": "#"
+        },
+        {
+            "question": "Comments in python start with a/an _________",
+            "options": [
+                "Square Bracket",
+                "Hash Sign",
+                "Dollar Sign",
+                "Asterisk",
+                "Hyphen"
+            ],
+            "correctOption": "Hash Sign"
+        },
+        {
+            "question": "What are the types of computer software?",
+            "options": [
+                "System and Application software",
+                "Vertical and Horizontal software",
+                "Hardware and Software",
+                "Microsoft Word and Corel Draw"
+            ],
+            "correctOption": "System and Application software"
+        },
+        {
+            "question": "Something that holds a value that may change is called a/an __________",
+            "options": [
+                "constant",
+                "variable",
+                "holder",
+                "memory",
+                "storage space"
+            ],
+            "correctOption": "variable"
+        },
+        {
+            "question": "Something that holds a value that cannot be changed is called a _________",
+            "options": [
+                "constant",
+                "variable",
+                "holder",
+                "memory",
+                "storage space"
+            ],
+            "correctOption": "constant"
+        },
+        {
+            "question": "Who invented the first true calculating (adding) machine?",
+            "options": [
+                "Charles Babbage",
+                "Con Leibniz",
+                "Joseph Marie Jacquard",
+                "Blaise Pascal"
+            ],
+            "correctOption": "Blaise Pascal"
+        },
+        {
+            "question": "What is the meaning of IBM?",
+            "options": [
+                "International Business Machines",
+                "Internal Business Machines",
+                "Internet Business Machines",
+                "Internet Binary Machines",
+                "International Binary Machines"
+            ],
+            "correctOption": "International Business Machines"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nx = 5\ny = x + 3\nx = x - 1\nz = 10\nx = x + z\nprint(x, y, z)",
+            "options": [
+                "14 8 10",
+                "8 10 14",
+                "10 14 8",
+                "x y z"
+            ],
+            "correctOption": "14 8 10"
+        },
+        {
+            "question": "The \\n literal means __________",
+            "options": [
+                "newline",
+                "carriage return",
+                "backspace",
+                "tab",
+                "vertical tab"
+            ],
+            "correctOption": "newline"
+        },
+        {
+            "question": "The \\t literal means __________",
+            "options": [
+                "newline",
+                "carriage return",
+                "backspace",
+                "tab",
+                "vertical tab"
+            ],
+            "correctOption": "tab"
+        },
+        {
+            "question": "The \\b literal means __________",
+            "options": [
+                "newline",
+                "carriage return",
+                "backspace",
+                "tab",
+                "vertical tab"
+            ],
+            "correctOption": "backspace"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nl = [1, 2, 3]\nprint(l[:])",
+            "options": [
+                "[1, 2, 3]",
+                "1",
+                "2",
+                "3"
+            ],
+            "correctOption": "[1, 2, 3]"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nl = [1, 2, 3]\nprint(l[1:])",
+            "options": [
+                "[2, 3]",
+                "[1, 2]",
+                "[1, 2, 3]",
+                "1"
+            ],
+            "correctOption": "[2, 3]"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nl = [1, 2, 3]\nprint(l[:1])",
+            "options": [
+                "[1]",
+                "1",
+                "[2]",
+                "3"
+            ],
+            "correctOption": "[1]"
+        },
+        {
+            "question": "What is the value of the following expression in python?\n4**0.5",
+            "options": [
+                "2.0",
+                "2.5",
+                "4.0",
+                "0.5"
+            ],
+            "correctOption": "2.0"
+        },
+        {
+            "question": "What best describes the output of the following python expression?\nfor i in range(10):\n\tprint('Hello, Lohysey!!!')",
+            "options": [
+                "It will print 'Hello, Lohysey!!!' 9 times",
+                "It will print 'Hello, Lohysey!!!' 10 times",
+                "It will print 'Hello, Lohysey!!!' 11 times",
+                "It will print 'Hello, Lohysey!!!' 1 time",
+                "It will throw an exception"
+            ],
+            "correctOption": "It will print 'Hello, Lohysey!!!' 10 times"
+        },
+        {
+            "question": "What best describes the output of the following python expression?\nfor i in range(1, 10):\n\tprint('Hello, Lohysey!!!')",
+            "options": [
+                "It will print 'Hello, Lohysey!!!' 9 times",
+                "It will print 'Hello, Lohysey!!!' 10 times",
+                "It will print 'Hello, Lohysey!!!' 11 times",
+                "It will print 'Hello, Lohysey!!!' 1 time",
+                "It will throw an exception"
+            ],
+            "correctOption": "It will print 'Hello, Lohysey!!!' 9 times"
+        },
+        {
+            "question": "What best describes the output of the following python expression?\nfor i in range(10, 10):\n\tprint('Hello, Lohysey!!!')",
+            "options": [
+                "It will print 'Hello, Lohysey!!!' 9 times",
+                "It will print 'Hello, Lohysey!!!' 10 times",
+                "It will print 'Hello, Lohysey!!!' 11 times",
+                "It will print 'Hello, Lohysey!!!' 1 time",
+                "It will throw an exception",
+                "It will not print anything"
+            ],
+            "correctOption": "It will not print anything"
+        },
+        {
+            "question": "The process of combining multiple strings is called ________",
+            "options": [
+                "concatenation",
+                "splitting",
+                "indenting",
+                "addition"
+            ],
+            "correctOption": "concatenation"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nf = 'Nathaniel'\nl = 'Danaan'\nprint(f + l)",
+            "options": [
+                "Nathaniel Danaan",
+                "Danaan",
+                "NathanielDanaan",
+                "Nathaniel",
+                "None of these"
+            ],
+            "correctOption": "NathanielDanaan"
+        },
+        {
+            "question": "The input function in python allows us to take input from the keyboard",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nt = 'Introduction to Computer Science'\nprint(t.capitalize())",
+            "options": [
+                "Introduction to computer science",
+                "Introduction To Computer Science",
+                "introduction to computer science",
+                "INTRODUCTION TO COMPUTER SCIENCE"
+            ],
+            "correctOption": "Introduction to computer science"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nt = 'Introduction to Computer Science'\nprint(t.upper())",
+            "options": [
+                "Introduction to computer science",
+                "Introduction To Computer Science",
+                "introduction to computer science",
+                "INTRODUCTION TO COMPUTER SCIENCE"
+            ],
+            "correctOption": "INTRODUCTION TO COMPUTER SCIENCE"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nt = 'Introduction to Computer Science'\nprint(t.lower())",
+            "options": [
+                "Introduction to computer science",
+                "Introduction To Computer Science",
+                "introduction to computer science",
+                "INTRODUCTION TO COMPUTER SCIENCE"
+            ],
+            "correctOption": "introduction to computer science"
+        },
+        {
+            "question": "What is the output of the following python program?\n\nt = 'Introduction to Computer Science'\nprint(t.title())",
+            "options": [
+                "Introduction to computer science",
+                "Introduction To Computer Science",
+                "introduction to computer science",
+                "INTRODUCTION TO COMPUTER SCIENCE"
+            ],
+            "correctOption": "Introduction To Computer Science"
+        },
+        {
+            "question": "What category of programming language is python",
+            "options": [
+                "Machine language",
+                "Low level language",
+                "mid level language",
+                "high level language"
+            ],
+            "correctOption": "high level language"
+        },
+        {
+            "question": "print len(\"this is\")\r\nThe output of the code block above is?",
+            "options": [
+                "7",
+                "6",
+                "5",
+                "4"
+            ],
+            "correctOption": "7"
+        },
+        {
+            "question": "One of the following is not a primitive data type in python",
+            "options": [
+                "bool",
+                "int",
+                "count",
+                "float"
+            ],
+            "correctOption": "count"
+        },
+        {
+            "question": "The following program will evaluate to?\r\n2<<2",
+            "options": [
+                "4",
+                "8",
+                "6",
+                "12"
+            ],
+            "correctOption": "8"
+        },
+        {
+            "question": "The following program will evaluate to?\r\n13/6**3-4/2",
+            "options": [
+                "-4",
+                "-2",
+                "2",
+                "4"
+            ],
+            "correctOption": "-2"
+        },
+        {
+            "question": "One of the following is not an input device",
+            "options": [
+                "Joy-stick",
+                "Light-pen",
+                "iPad",
+                "mouse"
+            ],
+            "correctOption": "iPad"
+        },
+        {
+            "question": "Evaluate the following program block in Python 2?\n\n1<3&3==7/2",
+            "options": [
+                "False",
+                "True",
+                "9=3",
+                "9"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Evaluate the following program block in Python 3?\n\n1<3&3==7/2",
+            "options": [
+                "False",
+                "True",
+                "9=3",
+                "9"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Which of the following is not a field in computer science",
+            "options": [
+                "Data mining",
+                "Artificial Intelligence",
+                "Chemo-synthesis",
+                "Robotics"
+            ],
+            "correctOption": "Chemo-synthesis"
+        },
+        {
+            "question": "The father of the computer is",
+            "options": [
+                "Charles Babbage",
+                "Blaise Pascal",
+                "Pythagoras",
+                "Bill Gate"
+            ],
+            "correctOption": "Charles Babbage"
+        },
+        {
+            "question": "One of the following features is not desirable in computers",
+            "options": [
+                "Accuracy",
+                "Integrity",
+                "volatility",
+                "versatility "
+            ],
+            "correctOption": "volatility"
+        },
+        {
+            "question": "What is the binary equivalence of the decimal number 567?",
+            "options": [
+                "1000110110",
+                "1000110111",
+                "1100110111",
+                "1000110100"
+            ],
+            "correctOption": "1000110111"
+        },
+        {
+            "question": "Convert 10101000101₂ to decimal",
+            "options": [
+                "1244",
+                "1344",
+                "1348",
+                "1349"
+            ],
+            "correctOption": "1349"
+        },
+        {
+            "question": "Compute the following leaving your answer in hexadecimal\r\n140-108",
+            "options": [
+                "10",
+                "20",
+                "30",
+                "40"
+            ],
+            "correctOption": "20"
+        },
+        {
+            "question": "What is the meaning of the Acronym BCD",
+            "options": [
+                "Big Code Debugger",
+                "Binary Coded Decimal",
+                "Binary Computer Data",
+                "Base coding Digits"
+            ],
+            "correctOption": "Binary Coded Decimal"
+        },
+        {
+            "question": "Convert F1FA from hexadecimal to binary",
+            "options": [
+                "1111000011111010",
+                "1111000100111010",
+                "1111000111111010",
+                "1111000111111000"
+            ],
+            "correctOption": "1111000111111010"
+        },
+        {
+            "question": "The output to the following program is?\r\n\"5\"+\"5\"",
+            "options": [
+                "10",
+                "5",
+                "50",
+                "55"
+            ],
+            "correctOption": "55"
+        },
+        {
+            "question": "print (int(\"5\"+\"0\") + len(\"university of Jos\"))\r\nwhats is the output?",
+            "options": [
+                "17",
+                "37",
+                "67",
+                "87"
+            ],
+            "correctOption": "67"
+        },
+        {
+            "question": "print not (30<30)\r\nwhat will be the output",
+            "options": [
+                "True",
+                "Error",
+                "False",
+                "30"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Convert _____________₈ to 313",
+            "options": [
+                "200",
+                "201",
+                "202",
+                "203"
+            ],
+            "correctOption": "203"
+        },
+        {
+            "question": "Convert 430 from octal to hexadecimal",
+            "options": [
+                "118",
+                "117",
+                "116",
+                "115"
+            ],
+            "correctOption": "118"
+        },
+        {
+            "question": "a = [2,3,5,6,7]\nprint(a[3])\n\nWhat is the output of the above program?",
+            "options": [
+                "2",
+                "5",
+                "6",
+                "7"
+            ],
+            "correctOption": "6"
+        },
+        {
+            "question": "Evaluate in python\n\n2**3*4**5-192",
+            "options": [
+                "4000",
+                "6000",
+                "7000",
+                "8000"
+            ],
+            "correctOption": "8000"
+        },
+        {
+            "question": "What is the data type of the following line of code?\n\nx<y",
+            "options": [
+                "int",
+                "bool",
+                "float",
+                "str"
+            ],
+            "correctOption": "bool"
+        },
+        {
+            "question": "What is the data type of the following line of code?\n\nlen(x)",
+            "options": [
+                "int",
+                "bool",
+                "float",
+                "str"
+            ],
+            "correctOption": "int"
+        },
+        {
+            "question": "What is the data type of the following line of code?\n\n\"5\"*2",
+            "options": [
+                "int",
+                "bool",
+                "float",
+                "str"
+            ],
+            "correctOption": "str"
+        },
+        {
+            "question": "What is the output of the following line of code?\n\nprint(\"4\"*4)",
+            "options": [
+                "16",
+                "44",
+                "4444",
+                "20"
+            ],
+            "correctOption": "4444"
+        },
+        {
+            "question": "the native computer only understands _____________",
+            "options": [
+                "Hexadecimal",
+                "Binary",
+                "decimal",
+                "0s"
+            ],
+            "correctOption": "Binary"
+        },
+        {
+            "question": "Which of the following number bases is least relevant to computers?",
+            "options": [
+                "10",
+                "2",
+                "8",
+                "16"
+            ],
+            "correctOption": "10"
+        },
+        {
+            "question": "Operator precedence is applicable in ____________",
+            "options": [
+                "Arithmetic",
+                "Binary system",
+                "data types",
+                "printing"
+            ],
+            "correctOption": "Arithmetic"
+        },
+        {
+            "question": "The most relevant number base in computer science is?",
+            "options": [
+                "16",
+                "10",
+                "8",
+                "2"
+            ],
+            "correctOption": "2"
+        },
+        {
+            "question": "Which of the following statements are true?\n int f(float);",
+            "options": [
+                "f is a function taking an argument of type int and returning a floating point number",
+                "f is a function taking an argument of type float and returning a integer. ",
+                "f is a function of type float ",
+                "none of the mentioned"
+            ],
+            "correctOption": "f is a function taking an argument of type float and returning a integer. "
+        },
+        {
+            "question": "One of the following is not a component of the computer system",
+            "options": [
+                "Input",
+                "ALU",
+                "Control",
+                "Device"
+            ],
+            "correctOption": "Device"
+        },
+        {
+            "question": "VLSI in evolution of computer memory means?",
+            "options": [
+                "Very Low Storage Interface",
+                "Very Large Storage Interface",
+                "Very Large Scale Integration",
+                "Very Low Scale Integration"
+            ],
+            "correctOption": "Very Large Scale Integration"
+        },
+        {
+            "question": "The generation of computer that is concerned with computers making decisions like humans is?",
+            "options": [
+                "5th generation",
+                "4th generation",
+                "3rd generation",
+                "2nd generation"
+            ],
+            "correctOption": "5th generation"
+        },
+        {
+            "question": "Boolean algebra is used to simplify?",
+            "options": [
+                "Number Systems",
+                "Logical Equations",
+                "Arithmetic",
+                "Logical symbols"
+            ],
+            "correctOption": "Logical Equations"
+        },
+        {
+            "question": "Determine the output of the following line of code\n\nprint int(float(1/2))",
+            "options": [
+                "0.5",
+                "0.0",
+                "0",
+                "1"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "What does ASCII mean",
+            "options": [
+                "American System for Code Information Interchange",
+                "American Standard Code for Information Internet",
+                "American Standard Code for Information Interchange",
+                "Arithmetic Standard Code for Information Interchange"
+            ],
+            "correctOption": "American Standard Code for Information Interchange"
+        },
+        {
+            "question": "The following is not used when writing a python program",
+            "options": [
+                "Computer System",
+                "Operating System",
+                "Automated Teller",
+                "Debugger"
+            ],
+            "correctOption": "Automated Teller"
+        },
+        {
+            "question": "Convert 677 to base 8",
+            "options": [
+                "1244",
+                "1542",
+                "1425",
+                "1245"
+            ],
+            "correctOption": "1245"
+        },
+        {
+            "question": "convert 101010111010₂ from binary to base 16",
+            "options": [
+                "ABA",
+                "A00",
+                "A770",
+                "BAA"
+            ],
+            "correctOption": "ABA"
+        },
+        {
+            "question": "convert 1010101010101₂ to octal and hexadecimal respectively",
+            "options": [
+                "12225, 1555",
+                "12225, AAA1",
+                "12525, 1555",
+                "12525, AAA1"
+            ],
+            "correctOption": "12525, 1555"
+        },
+        {
+            "question": "Artificial Intelligence is also known as _____________",
+            "options": [
+                "Fast Systems",
+                "Machine Learning",
+                "Static Data",
+                "Networking"
+            ],
+            "correctOption": "Machine Learning"
+        },
+        {
+            "question": "What is the singular of Data?",
+            "options": [
+                "Database",
+                "Character",
+                "Datum",
+                "Num",
+                "Dati",
+                "Dato"
+            ],
+            "correctOption": "Datum"
+        },
+        {
+            "question": "The field of Computer Science that specializes in interconnections between devices is know as?",
+            "options": [
+                "Internet Studies",
+                "Wiring",
+                "Programming",
+                "Networking"
+            ],
+            "correctOption": "Networking"
+        },
+        {
+            "question": "A data structure that allows repetition of a program code segment is called?",
+            "options": [
+                "Loop",
+                "Bug",
+                "Real",
+                "Return"
+            ],
+            "correctOption": "Loop"
+        },
+        {
+            "question": "In Python, values are gotten from functions using the keyword _____________",
+            "options": [
+                "unite",
+                "return",
+                "get",
+                "program",
+                "hide"
+            ],
+            "correctOption": "return"
+        },
+        {
+            "question": "An organized pool of data is also called?",
+            "options": [
+                "Sector",
+                "Segment",
+                "Database",
+                "Information center"
+            ],
+            "correctOption": "Database"
+        },
+        {
+            "question": "A program is a sequence of",
+            "options": [
+                "data",
+                "instructions",
+                "data types",
+                "database"
+            ],
+            "correctOption": "instructions"
+        },
+        {
+            "question": "Programming error due to wrong spelling is known as?",
+            "options": [
+                "Semantic error",
+                "Logical error",
+                "Syntax error",
+                "computational error"
+            ],
+            "correctOption": "Syntax error"
+        },
+        {
+            "question": "Programming error due to wrong logic is known as?",
+            "options": [
+                "Semantic error",
+                "Logical error",
+                "Syntax error",
+                "computational error"
+            ],
+            "correctOption": "Semantic error"
+        },
+        {
+            "question": "In Python 2, the following code yields\n\nprint 17/10",
+            "options": [
+                "1.0",
+                "1",
+                "1.7",
+                "1.5"
+            ],
+            "correctOption": "1"
+        },
+        {
+            "question": "In Python 3, the following code yields\n\nprint(17/10)",
+            "options": [
+                "1.0",
+                "1",
+                "1.7",
+                "1.5"
+            ],
+            "correctOption": "1.7"
+        },
+        {
+            "question": "In python, -17 % 10 yields",
+            "options": [
+                "7",
+                "3",
+                "-7",
+                "-3"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "The arithmetic symbol ** stands for _____________ in Python",
+            "options": [
+                "exponentiation",
+                "module",
+                "multiplication",
+                "square root"
+            ],
+            "correctOption": "exponentiation"
+        },
+        {
+            "question": "What is the output of the following Python program?\n\nprint(8.5 % 3.5)",
+            "options": [
+                "5",
+                "5.0",
+                "1",
+                "1.5"
+            ],
+            "correctOption": "1.5"
+        },
+        {
+            "question": "The order of evaluating an arithmetic expression is also called _____________",
+            "options": [
+                "uniformity",
+                "switch",
+                "precedence",
+                "limits"
+            ],
+            "correctOption": "precedence"
+        },
+        {
+            "question": "The name given to a memory location is known as _____________",
+            "options": [
+                "assignment",
+                "variable",
+                "data",
+                "precedence"
+            ],
+            "correctOption": "variable"
+        },
+        {
+            "question": "x-=80 means?",
+            "options": [
+                "increment x by 80",
+                "decrement x by 80",
+                "error",
+                "no output"
+            ],
+            "correctOption": "decrement x by 80"
+        },
+        {
+            "question": "d = 0\nd *= 3 + 4\n\nWhat is the value of 'd' in the program above?",
+            "options": [
+                "0",
+                "7",
+                "1",
+                "14"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "Evaluate the below code?\n\nabs(-8/4) ",
+            "options": [
+                "-2",
+                "0",
+                "2",
+                "1"
+            ],
+            "correctOption": "2"
+        },
+        {
+            "question": "All except one can be defined as a collection",
+            "options": [
+                "array",
+                "tuple",
+                "list",
+                "index"
+            ],
+            "correctOption": "index"
+        },
+        {
+            "question": "What is the value of 'B' in the following program?\n\nA = [1,2,3,4,5,6,7]\nB = A[2]**A[6]",
+            "options": [
+                "20",
+                "218",
+                "2187",
+                "200"
+            ],
+            "correctOption": "2187"
+        },
+        {
+            "question": "What is the output of the following program?\n\nA = ['Abuja', 'Naraguta', 'Village', 'Zion']\nprint(len(A[1])*4)",
+            "options": [
+                "2",
+                "8",
+                "16",
+                "32"
+            ],
+            "correctOption": "32"
+        },
+        {
+            "question": "What is the output of the following program?\n\nS = 'welcome to university of Jos'\nprint(len(S))",
+            "options": [
+                "29",
+                "25",
+                "30",
+                "24"
+            ],
+            "correctOption": "29"
+        },
+        {
+            "question": "What is the output of the following program?\n\ndef m(x,y):\n\treturn x*y\n\nprint(m(3,6))",
+            "options": [
+                "16",
+                "17",
+                "18",
+                "9",
+                "216"
+            ],
+            "correctOption": "18"
+        },
+        {
+            "question": "What is the output of the following program?\n\nS = 'Welcome to computer science'\n print(S[3:7])",
+            "options": [
+                "come",
+                "welcome",
+                "computer",
+                "science"
+            ],
+            "correctOption": "come"
+        },
+        {
+            "question": "What is the output of the following program?\n\nprint(float(60)/int(60))",
+            "options": [
+                "0",
+                "0.0",
+                "1",
+                "1.0"
+            ],
+            "correctOption": "1.0"
+        },
+        {
+            "question": "What is the output of the following program?\n\nx = 3\nx -= 6\nprint(x * 4)",
+            "options": [
+                "16",
+                "-16",
+                "-12",
+                "12"
+            ],
+            "correctOption": "-12"
+        },
+        {
+            "question": "What is the output of the following program?\n\nS='I love Computers'\nprint(len(S.split()))",
+            "options": [
+                "14",
+                "3",
+                "12",
+                "6"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "What is the output of the following program?\n\nS='male'\nprint(S.upper())",
+            "options": [
+                "MALE",
+                "male",
+                "Male",
+                "MalE",
+                "male.upper()",
+                "^male^"
+            ],
+            "correctOption": "MALE"
+        },
+        {
+            "question": "What is the output of the following program?\n\nif (3 % 12) < 3:\n\tprint 'low'\nelse:\n\tprint 'high'",
+            "options": [
+                "low",
+                "high",
+                "lowhigh",
+                "highlow"
+            ],
+            "correctOption": "high"
+        },
+        {
+            "question": "What is the output of the following program?\n\nprint (34 < 3**8) | (not(2 < 3))",
+            "options": [
+                "20",
+                "True",
+                "30",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Which of the following logical operators has the highest precedence?",
+            "options": [
+                "AND",
+                "OR",
+                "NOT",
+                "None of them"
+            ],
+            "correctOption": "NOT"
+        },
+        {
+            "question": "Multiplication and addition have equal operator precedence",
+            "options": [
+                "False",
+                "True",
+                "Not Really"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Subtraction and exponentiation have equal operator precedence",
+            "options": [
+                "False",
+                "True",
+                "Not Really"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Multiplication has higher operator precedence than Addition",
+            "options": [
+                "False",
+                "True",
+                "Not Really"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Subtraction has higher operator precedence than Division",
+            "options": [
+                "False",
+                "True",
+                "Not Really"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "Relational expression returns its answer as a _____________",
+            "options": [
+                "boolean",
+                "numeral",
+                "string",
+                "decimal"
+            ],
+            "correctOption": "boolean"
+        },
+        {
+            "question": "A good program runs fast and consumes a lot of memory",
+            "options": [
+                "true",
+                "false",
+                "sometimes",
+                "always"
+            ],
+            "correctOption": "false"
+        },
+        {
+            "question": "The process of packaging a program to run on other machines is ______________",
+            "options": [
+                "configuration",
+                "transcription",
+                "compilation",
+                "debugging",
+                "packaging"
+            ],
+            "correctOption": "compilation"
+        },
+        {
+            "question": "Evolution in computers focused on all but one of the following",
+            "options": [
+                "Speed",
+                "Memory",
+                "Portability",
+                "Branding"
+            ],
+            "correctOption": "Branding"
+        },
+        {
+            "question": "Which of the following has the smallest physical size?",
+            "options": [
+                "Vacuum Tubes",
+                "Transistors",
+                "Silicon computer chips",
+                "Integrated Circuits"
+            ],
+            "correctOption": "Silicon computer chips"
+        },
+        {
+            "question": "Which of the following is not a major limitation of Vacuum Tube computers?",
+            "options": [
+                "Enormous size",
+                "Heat dissipation",
+                "Aesthetics",
+                "Low performance"
+            ],
+            "correctOption": "Aesthetics"
+        },
+        {
+            "question": "The term 'Computer' is derived from ____________ language",
+            "options": [
+                "Latin",
+                "German",
+                "French",
+                "Arabic"
+            ],
+            "correctOption": "Latin"
+        },
+        {
+            "question": "Who is the inventor of the Difference Engine?",
+            "options": [
+                "Allen Turing",
+                "Charles Babbage",
+                "Simur Cray",
+                "Augusta Adaming"
+            ],
+            "correctOption": "Charles Babbage"
+        },
+        {
+            "question": "Who is the father of Computers?",
+            "options": [
+                "Alan Turing",
+                "Charles Babbage",
+                "Simur Cray",
+                "Augusta Adaming"
+            ],
+            "correctOption": "Charles Babbage"
+        },
+        {
+            "question": "Who is the father of Modern Computer Science?",
+            "options": [
+                "Alan Turing",
+                "Charles Babbage",
+                "Simur Cray",
+                "Augusta Adaming"
+            ],
+            "correctOption": "Alan Turing"
+        },
+        {
+            "question": "Who is the father of the Personal Computer (PC)?",
+            "options": [
+                "Edward Robert",
+                "Allen Turing",
+                "Charles Babbage",
+                "None of these"
+            ],
+            "correctOption": "Edward Robert"
+        },
+        {
+            "question": "A CPU contains ______________",
+            "options": [
+                "a card reader and a printing device",
+                "an analytical engine and a control unit",
+                "a control unit and an arithmetic logic unit",
+                "an arithmetic logic unit and a card reader"
+            ],
+            "correctOption": "a control unit and an arithmetic logic unit"
+        },
+        {
+            "question": "Which of the following controls the process of interaction between the user and the operating system?",
+            "options": [
+                "User interface",
+                "Language translator",
+                "Platform",
+                "Screen saver"
+            ],
+            "correctOption": "User interface"
+        },
+        {
+            "question": "The first computers were programmed using",
+            "options": [
+                "assembly language",
+                "machine language",
+                "source code",
+                "object code"
+            ],
+            "correctOption": "machine language"
+        },
+        {
+            "question": "A/An ____________ is a combination of hardware and software that facilitates the sharing of information between computing devices",
+            "options": [
+                "Network",
+                "peripheral",
+                "expansion board",
+                "digital device"
+            ],
+            "correctOption": "Network"
+        },
+        {
+            "question": "Coded entries which are used to gain access to a computer system are called",
+            "options": [
+                "Entry codes",
+                "Passwords",
+                "Security commands",
+                "Code words"
+            ],
+            "correctOption": "Passwords"
+        },
+        {
+            "question": "Which of the following statements is true?",
+            "options": [
+                "Minicomputer works faster than Microcomputer",
+                "Microcomputer works faster than Minicomputer",
+                "Speed of both the computers is the same",
+                "The speeds of both these computers cannot be compared with the speed of advanced computers"
+            ],
+            "correctOption": "Minicomputer works faster than Microcomputer"
+        },
+        {
+            "question": "You organize files by storing them in ______________",
+            "options": [
+                "archives",
+                "folders",
+                "indexes",
+                "lists"
+            ],
+            "correctOption": "folders"
+        },
+        {
+            "question": "What type of resource is most likely to be a shared common resource in a computer network?",
+            "options": [
+                "Printer",
+                "Speaker",
+                "Floppy disk drive",
+                "Keyboard"
+            ],
+            "correctOption": "Printer"
+        },
+        {
+            "question": "What device is required for an Internet connection?",
+            "options": [
+                "Joystick",
+                "Modem",
+                "CD Drive",
+                "NIC Card"
+            ],
+            "correctOption": "Modem"
+        },
+        {
+            "question": "What is a light pen?",
+            "options": [
+                "A Mechanical Input device",
+                "Optical input device",
+                "Electronic input device",
+                "Optical output device"
+            ],
+            "correctOption": "Optical input device"
+        },
+        {
+            "question": "UNIVAC stands for",
+            "options": [
+                "Universal Automatic Computer",
+                "Universal Array Computer",
+                "Unique Automatic Computer ",
+                "Unvalued Automatic Computer"
+            ],
+            "correctOption": "Universal Automatic Computer"
+        },
+        {
+            "question": "CD-ROM stands for",
+            "options": [
+                "Compactable Read Only Memory",
+                "Compact Data Read Only Memory",
+                "Compactable Disk Read Only Memory",
+                "Compact Disk Read Only Memory"
+            ],
+            "correctOption": "Compact Disk Read Only Memory"
+        },
+        {
+            "question": "ALU is short for",
+            "options": [
+                "Array Logic Unit",
+                "Application Logic Unit",
+                "None of the options",
+                "Arithmetic Logic Unit"
+            ],
+            "correctOption": "Arithmetic Logic Unit"
+        },
+        {
+            "question": "VGA means",
+            "options": [
+                "Video Graphics Array",
+                "Visual Graphics Array",
+                "Volatile Graphics Array",
+                "Video Graphics Adapter"
+            ],
+            "correctOption": "Video Graphics Array"
+        },
+        {
+            "question": "The IBM 1401 was/is a _____________",
+            "options": [
+                "First Generation Computer",
+                "Second Generation Computer",
+                "Third Generation Computer",
+                "Fourth Generation Computer",
+                "Fifth Generation Computer",
+                "Sixth Generation Computer"
+            ],
+            "correctOption": "Second Generation Computer"
+        },
+        {
+            "question": "Which of the following is a part of the Central Processing Unit?",
+            "options": [
+                "Printer",
+                "Keyboard",
+                "Mouse",
+                "Arithmetic & Logic unit"
+            ],
+            "correctOption": "Arithmetic & Logic unit"
+        },
+        {
+            "question": "A computer cannot boot if it does not have the _____________",
+            "options": [
+                "Compiler",
+                "Operating System",
+                "Loader",
+                "Assembler"
+            ],
+            "correctOption": "Operating System"
+        },
+        {
+            "question": "The amount of vertical space between lines of text in a document is called _____________",
+            "options": [
+                "double space",
+                "line spacing",
+                "single space",
+                "vertical spacing"
+            ],
+            "correctOption": "line spacing"
+        },
+        {
+            "question": "First page of Website is termed its _____________",
+            "options": [
+                "Homepage",
+                "Index",
+                "JavaScript",
+                "Bookmark",
+                "Google result"
+            ],
+            "correctOption": "Homepage"
+        },
+        {
+            "question": "Where are data and program stored when the processor uses them?",
+            "options": [
+                "Main memory",
+                "Secondary memory",
+                "Disk memory",
+                "Program memory"
+            ],
+            "correctOption": "Main memory"
+        },
+        {
+            "question": "____________ represents raw facts, where as ____________ is data made meaningful",
+            "options": [
+                "Information, reporting",
+                "Data, information",
+                "Information, bits",
+                "Records, bytes"
+            ],
+            "correctOption": "Data, information"
+        },
+        {
+            "question": "Which programming languages are classified as low level languages?",
+            "options": [
+                "BASIC, COBOL, Fortran",
+                "Prolog, Lisp",
+                "C, C++",
+                "Assembly languages"
+            ],
+            "correctOption": "Assembly languages"
+        },
+        {
+            "question": "Which of the following is a storage device?",
+            "options": [
+                "Tape",
+                "Hard Disk",
+                "Floppy Disk",
+                "All of the options"
+            ],
+            "correctOption": "All of the options"
+        },
+        {
+            "question": "When did John Napier develop logarithms?",
+            "options": [
+                "1416",
+                "1614",
+                "1641",
+                "1804"
+            ],
+            "correctOption": "1614"
+        },
+        {
+            "question": "The chief component of first generation computers were",
+            "options": [
+                "Transistors",
+                "Vacuum Tubes and Valves",
+                "Integrated Circuits",
+                "None of options"
+            ],
+            "correctOption": "Vacuum Tubes and Valves"
+        },
+        {
+            "question": "FORTRAN is derived from ______________",
+            "options": [
+                "File Translation",
+                "Formula Translation",
+                "Formula Translator",
+                "Format Translation",
+                "Floppy Translation"
+            ],
+            "correctOption": "Formula Translation"
+        },
+        {
+            "question": "Personal computers use a number of chips which are mounted on a main circuit board. What is the common name for such boards?",
+            "options": [
+                "Daughterboard",
+                "Motherboard",
+                "Brotherboard",
+                "Fatherboard",
+                "Breadboard"
+            ],
+            "correctOption": "Motherboard"
+        },
+        {
+            "question": "A computer program that converts an entire program into machine language is called a/an _____________",
+            "options": [
+                "Interpreter",
+                "Simulator",
+                "Compiler",
+                "Commander"
+            ],
+            "correctOption": "Compiler"
+        },
+        {
+            "question": "DOS in the context of operating systems stands for _____________",
+            "options": [
+                "Disk Operating System",
+                "Disk operating session",
+                "Digital Operating System",
+                "Digital Open system",
+                "Denial Of Service"
+            ],
+            "correctOption": "Disk Operating System"
+        },
+        {
+            "question": "Which of the following is also known as the brain of a computer?",
+            "options": [
+                "Control Unit",
+                "Central Processing Unit",
+                "Arithmetic and Language Unit",
+                "Monitor",
+                "Synapse",
+                "Neural Net"
+            ],
+            "correctOption": "Central Processing Unit"
+        },
+        {
+            "question": "1 Byte = ?",
+            "options": [
+                "16 bits",
+                "8 bits",
+                "4 bits",
+                "2 bits",
+                "9 bits"
+            ],
+            "correctOption": "8 bits"
+        },
+        {
+            "question": "BIOS stands for",
+            "options": [
+                "Basic Input Output system",
+                "Binary Input output system",
+                "Basic Input Off system",
+                "All of the options"
+            ],
+            "correctOption": "Basic Input Output system"
+        },
+        {
+            "question": "The instructions that tell a computer how to carry out the processing tasks are referred to as computer ____________",
+            "options": [
+                "programs",
+                "processors",
+                "input devices",
+                "memory modules"
+            ],
+            "correctOption": "programs"
+        },
+        {
+            "question": "The area of a computer system that temporarily holds data waiting to be processed is ____________",
+            "options": [
+                "CPU",
+                "Memory",
+                "Storage",
+                "File"
+            ],
+            "correctOption": "Memory"
+        },
+        {
+            "question": "Data becomes ____________ when it is presented in a format that people can understand and use",
+            "options": [
+                "processed",
+                "graphs",
+                "information",
+                "presentation"
+            ],
+            "correctOption": "information"
+        },
+        {
+            "question": "____________ is computer software designed to operate the computer hardware and to provide platform for running application software",
+            "options": [
+                "Application Software",
+                "System Software",
+                "Software",
+                "Operating System"
+            ],
+            "correctOption": "System Software"
+        },
+        {
+            "question": "The task of performing operations like arithmetic and logical operations is performed specifically by the ____________",
+            "options": [
+                "ALU",
+                "AU",
+                "CPU",
+                "CU",
+                "MMU",
+                "UJ"
+            ],
+            "correctOption": "ALU"
+        },
+        {
+            "question": "The task of performing operations like arithmetic and logical operations is called ____________",
+            "options": [
+                "Processing",
+                "Storing",
+                "Editing",
+                "Sorting"
+            ],
+            "correctOption": "Processing"
+        },
+        {
+            "question": "The ALU and Control Unit jointly form the _____________",
+            "options": [
+                "RAM",
+                "ROM",
+                "CPU",
+                "PC"
+            ],
+            "correctOption": "CPU"
+        },
+        {
+            "question": "The ALU and Control Unit make up the _____________",
+            "options": [
+                "RAM",
+                "ROM",
+                "CPU",
+                "PC"
+            ],
+            "correctOption": "CPU"
+        },
+        {
+            "question": "Which one of the following is NOT a programming language",
+            "options": [
+                "MS-Excel",
+                "BASIC",
+                "COBOL",
+                "C++"
+            ],
+            "correctOption": "MS-Excel"
+        },
+        {
+            "question": "Which one of the following is NOT a programming language",
+            "options": [
+                "Visual Studio",
+                "BASIC",
+                "Malbolge",
+                "C++"
+            ],
+            "correctOption": "Visual Studio"
+        },
+        {
+            "question": "COBOL is an acronym for____________ ",
+            "options": [
+                "Common Business Oriented Language",
+                "Computer Business Oriented Language",
+                "Common Business Operated Language",
+                "Common Business Organized Language"
+            ],
+            "correctOption": "Common Business Oriented Language"
+        },
+        {
+            "question": "Which is not a basic function of a computer?",
+            "options": [
+                "Storing data",
+                "Accepting input",
+                "Processing data",
+                "Copying text"
+            ],
+            "correctOption": "Copying text"
+        },
+        {
+            "question": "A person who uses his expertise to gain access to other people's computers to get information illegally or to do damage is a/an _____________",
+            "options": [
+                "hacker",
+                "spammer",
+                "instant messenger",
+                "programmer",
+                "terrorist"
+            ],
+            "correctOption": "hacker"
+        },
+        {
+            "question": "A lady who uses her expertise to gain access to other people's computers to get information illegally or to do damage is a/an _____________",
+            "options": [
+                "hacker",
+                "spammer",
+                "witch",
+                "programmer",
+                "terrorist",
+                "hackstress"
+            ],
+            "correctOption": "hacker"
+        },
+        {
+            "question": "Which of the following cannot be a binary number value?",
+            "options": [
+                "001",
+                "101",
+                "202",
+                "110"
+            ],
+            "correctOption": "202"
+        },
+        {
+            "question": "What is the output of the program block below?\n\nx=0\nfor i in range(30):\n\tx+=1\nprint x",
+            "options": [
+                "29",
+                "30",
+                "31",
+                "300"
+            ],
+            "correctOption": "30"
+        },
+        {
+            "question": "What is the output of the program block below?\n\nx=10\nfor i in range(10,2,2):\n\tx-=1\nprint x",
+            "options": [
+                "10",
+                "20",
+                "30",
+                "40"
+            ],
+            "correctOption": "10"
+        },
+        {
+            "question": "Select the appropriate output of the program below\n\nfor i in range(100):\n\tif i%20 == 0:\n\t\tprint i,",
+            "options": [
+                "20 100",
+                "20 40 60 80",
+                "40 60 80",
+                "0 20 40 60 80"
+            ],
+            "correctOption": "0 20 40 60 80"
+        },
+        {
+            "question": "Determine the output of the following program\n\nprint (3 < 5) and not(3 > 5)",
+            "options": [
+                "15",
+                "30",
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "A/An ____________ is an immutable sequence of Python objects",
+            "options": [
+                "Array",
+                "List",
+                "Tuple",
+                "String"
+            ],
+            "correctOption": "Tuple"
+        },
+        {
+            "question": "One of the following is not a data type in Python",
+            "options": [
+                "Link",
+                "List",
+                "Tuple",
+                "Dictionary"
+            ],
+            "correctOption": "Link"
+        },
+        {
+            "question": "Which of the following function returns the minimum alphabetical character from a string, str?",
+            "options": [
+                "str.lower()",
+                "str.lstrip()",
+                "max(str)",
+                "min(str)"
+            ],
+            "correctOption": "min(str)"
+        },
+        {
+            "question": "What is the value of L[2] if L = [1,2,3]?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "None of the options"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "Which of the following functions compares elements of two dictionaries dict1, dict2?",
+            "options": [
+                "max(dict)",
+                "min(dict)",
+                "len(dict)",
+                "None of the options"
+            ],
+            "correctOption": "None of the options"
+        },
+        {
+            "question": "Python language supports the following types of operators except",
+            "options": [
+                "Arithmetic Operators",
+                "Comparison (Relational) Operators",
+                "Logical Operators",
+                "Machine Operators"
+            ],
+            "correctOption": "Machine Operators"
+        },
+        {
+            "question": "The symbol % stands for",
+            "options": [
+                "Modulus",
+                "Exponent",
+                "Division",
+                "Addition"
+            ],
+            "correctOption": "Modulus"
+        },
+        {
+            "question": "In python language, the symbol // represents _____________",
+            "options": [
+                "comment",
+                "floor division",
+                "modulus",
+                "review"
+            ],
+            "correctOption": "floor division"
+        },
+        {
+            "question": "Arrays in Python and C++ are _________ indexed",
+            "options": [
+                "0",
+                "1",
+                "dual"
+            ],
+            "correctOption": "0"
+        },
+        {
+            "question": "Arrays in Python and C++ are zero indexed",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Strings spanning multiple lines can be created in python using ''' .... ''' (Three quotes)",
+            "options": [
+                "False",
+                "True"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Which of the following is a valid name for an identifier?",
+            "options": [
+                "Miles",
+                "3Musketeers",
+                "The space",
+                "Three%ofFifty"
+            ],
+            "correctOption": "Miles"
+        },
+        {
+            "question": "Which of the following is an invalid identifier?",
+            "options": [
+                "Miles",
+                "Root_of_2",
+                "Root-of-­2.0",
+                "Erase"
+            ],
+            "correctOption": "Root-of-­2.0"
+        },
+        {
+            "question": "Which of the following is an invalid identifier?",
+            "options": [
+                "The space",
+                "Nospace",
+                "Correct",
+                "Verycorrect"
+            ],
+            "correctOption": "The space"
+        },
+        {
+            "question": "Which of the following is an invalid identifier?",
+            "options": [
+                "3Musketeers",
+                "Musketeers3",
+                "M3usketeers",
+                "_Musketeers"
+            ],
+            "correctOption": "3Musketeers"
+        },
+        {
+            "question": "One of the following is not a type of loop",
+            "options": [
+                "for loop",
+                "data loop",
+                "while loop",
+                "nested loop"
+            ],
+            "correctOption": "data loop"
+        },
+        {
+            "question": "In python language, pow(x,y) can be written as____________",
+            "options": [
+                "x*y",
+                "x/y",
+                "y**x",
+                "x**y"
+            ],
+            "correctOption": "x**y"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.miguelcatalan.materialsearchview.MaterialSearchView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="@dimen/default_elevation"
+    android:id="@+id/search_view"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent" />

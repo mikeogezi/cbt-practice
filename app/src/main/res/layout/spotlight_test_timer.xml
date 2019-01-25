@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/arrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="130dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/ic_arrow_1"
+        android:tint="@color/white"
+        android:adjustViewBounds="true"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_below="@id/arrow"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="This timer tells you how much time you have left. Please pay attention to it"
+        android:minLines="3"
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:layout_width="@dimen/spotlight_text_width"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_below="@id/title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Best of luck!"
+        android:textAllCaps="true"
+        android:gravity="left"
+        android:id="@+id/good_luck"
+        android:textColor="@color/white"
+        android:layout_width="@dimen/spotlight_text_width"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Computer Science",
+    "shortName": "CS",
+    "faculty": "Faculty of Natural Sciences",
+    "courses": [
+      {
+        "name": "Introduction to Computer Science",
+        "courseCode": "CS 101",
+        "time": 30,
+        "maxQuestions": 50
+      },
+      {
+        "name": "Computer Programming I",
+        "courseCode": "CS 201",
+        "time": 30,
+        "maxQuestions": 50
+      }
+    ]
+  },
+  {
+    "name": "General Studies",
+    "shortName": "GST",
+    "faculty": "Faculty of General Studies",
+    "courses": [
+      {
+        "name": "Nigerian People and Culture",
+        "courseCode": "GST 103",
+        "time": 30,
+        "maxQuestions": 50
+      },
+      {
+        "name": "History and Philosophy of Science",
+        "courseCode": "GST 104",
+        "time": 30,
+        "maxQuestions": 50
+      },
+      {
+        "name": "Introduction to Entrepreneurial Skill",
+        "courseCode": "GST 223",
+        "time": 30,
+        "maxQuestions": 50
+      }
+    ]
+  }
+]

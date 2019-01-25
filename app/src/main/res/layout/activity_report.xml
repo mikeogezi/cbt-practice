@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".screens.TestActivity">
+
+    <include
+        android:id="@+id/toolbar_container"
+        layout="@layout/search_toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:scrollbars="vertical"
+        android:layout_below="@id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/report_layout"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/layout_padding"
+            android:paddingEnd="@dimen/layout_padding"
+            android:paddingTop="@dimen/layout_padding"
+            android:paddingBottom="@dimen/ad_bottom_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                android:clickable="true"
+                app:cardUseCompatPadding="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:padding="22dp"
+                        android:orientation="vertical"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="Well Done!"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray_dark"
+                            android:textSize="22sp"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="sans-serif-light"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/summary"
+                            android:text="You have successfully completed the exam see your report below."
+                            android:textStyle="normal"
+                            android:textColor="@color/gray"
+                            android:textSize="16sp"
+                            android:fontFamily="sans-serif"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <include
+                        layout="@layout/horizontal_line_light" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TableLayout
+                            android:paddingTop="22dp"
+                            android:paddingStart="22dp"
+                            android:paddingEnd="22dp"
+                            android:stretchColumns="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TableRow>
+
+                                <TextView
+                                    android:gravity="start"
+                                    android:text="Questions Answered"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/gray_dark"
+                                    android:textSize="16sp"
+                                    android:layout_marginBottom="10dp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/questions_answered"
+                                    android:gravity="end"
+                                    android:text="50"
+                                    android:textStyle="normal"
+                                    android:textColor="@color/gray"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:gravity="start"
+                                    android:text="Correct Answers"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/gray_dark"
+                                    android:textSize="16sp"
+                                    android:layout_marginBottom="10dp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/correct_answers"
+                                    android:gravity="end"
+                                    android:text="45"
+                                    android:textStyle="normal"
+                                    android:textColor="@color/gray"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:gravity="start"
+                                    android:text="Total Questions"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/gray_dark"
+                                    android:textSize="16sp"
+                                    android:layout_marginBottom="10dp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/total_questions"
+                                    android:gravity="end"
+                                    android:text="50"
+                                    android:textStyle="normal"
+                                    android:textColor="@color/gray"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:gravity="start"
+                                    android:text="Score"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/gray_dark"
+                                    android:textSize="16sp"
+                                    android:layout_marginBottom="10dp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/score"
+                                    android:gravity="end"
+                                    android:text="90.00%"
+                                    android:textStyle="normal"
+                                    android:textColor="@color/gray"
+                                    android:textSize="28sp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </TableRow>
+
+                            <TableRow>
+
+                                <TextView
+                                    android:gravity="start"
+                                    android:text="Grade"
+                                    android:textAllCaps="true"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/gray_dark"
+                                    android:textSize="16sp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                                <TextView
+                                    android:id="@+id/grade"
+                                    android:gravity="end"
+                                    android:text="A"
+                                    android:textStyle="normal"
+                                    android:textColor="@color/gray"
+                                    android:textSize="28sp"
+                                    android:fontFamily="sans-serif"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_gravity="start"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        app:cardCornerRadius="3dp"
+                        android:layout_margin="22dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <mehdi.sakout.fancybuttons.FancyButton
+                            xmlns:fancy="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/correction"
+                            android:text="Correction"
+                            fancy:fb_text="Correction"
+                            android:textStyle="normal"
+                            android:textAllCaps="true"
+                            android:textSize="16sp"
+                            fancy:fb_borderWidth="2dp"
+                            fancy:fb_radius="0dp"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="20dp"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            fancy:fb_iconPaddingLeft="20dp"
+                            fancy:fb_iconPosition="right"
+                            fancy:fb_fontIconSize="20sp"
+                            fancy:fb_fontIconResource="&#xf044;"
+                            fancy:fb_disabledColor="@color/gray_light"
+                            fancy:fb_disabledBorderColor="@color/gray_light"
+                            fancy:fb_disabledTextColor="@color/gray_dark"
+                            fancy:fb_borderColor="@color/md_blue_600"
+                            fancy:fb_defaultColor="@color/md_blue_600"
+                            fancy:fb_focusColor="@color/white"
+                            fancy:fb_textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                xmlns:fancy="http://schemas.android.com/apk/res-auto"
+                android:weightSum="10"
+                android:padding="0dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:cardCornerRadius="3dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/new_test"
+                        android:text="New Test"
+                        fancy:fb_text="New Test"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        fancy:fb_iconPaddingLeft="20dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="20sp"
+                        fancy:fb_fontIconResource="&#xf101;"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_defaultColor="@color/md_blue_600"
+                        fancy:fb_focusColor="@color/white"
+                        fancy:fb_textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="3dp"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/see_courses"
+                        android:text="Courses"
+                        fancy:fb_text="Courses"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_defaultColor="@color/white"
+                        fancy:fb_focusColor="@color/md_blue_600"
+                        fancy:fb_textColor="@color/md_blue_600"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:fancy="http://schemas.android.com/apk/res-auto"
+                android:weightSum="10"
+                android:padding="0dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:cardCornerRadius="3dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/see_departments"
+                        android:text="Departments"
+                        fancy:fb_text="Departments"
+                        android:textStyle="normal"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_defaultColor="@color/white"
+                        fancy:fb_focusColor="@color/md_blue_600"
+                        fancy:fb_textColor="@color/md_blue_600"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="3dp"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/quit"
+                        android:text="Quit"
+                        fancy:fb_text="Quit"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="1.2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
+                        fancy:fb_iconPaddingLeft="20dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="20sp"
+                        fancy:fb_fontIconResource="&#xf064;"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_red_600"
+                        fancy:fb_defaultColor="@color/md_red_600"
+                        fancy:fb_focusColor="@color/white"
+                        fancy:fb_textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/ad_layout"
+        layout="@layout/banner_report_activity" />
+
+</RelativeLayout>

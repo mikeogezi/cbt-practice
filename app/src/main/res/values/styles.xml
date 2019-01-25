@@ -1,0 +1,70 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AuthTheme" parent="AppTheme">
+        <item name="android:title">@string/action_auth</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowTitleSize">18sp</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="TextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TestActivityTheme" parent="AppTheme.NoActionBar">
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="FullScreenDialogToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:elevation">@dimen/default_elevation</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CorrectCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/red</item>
+    </style>
+
+    <style name="WrongCheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:buttonTint">@color/green</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="IntroTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@color/onboarding</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

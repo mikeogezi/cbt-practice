@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".screens.TestActivity">
+
+    <include
+        android:id="@+id/toolbar_container"
+        layout="@layout/search_toolbar" />
+
+    <include
+        android:id="@+id/progress_bar"
+        layout="@layout/default_progress_bar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:scrollbars="vertical"
+        android:layout_below="@id/toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/layout_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                android:clickable="true"
+                app:cardUseCompatPadding="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_marginTop="0dp"
+                        android:background="@color/md_grey_300"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/number_recycler_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:clipToPadding="false" />
+
+                        <com.google.android.gms.ads.AdView
+                            android:visibility="gone"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@id/number_recycler_view"
+                            android:id="@+id/ad_view"
+                            xmlns:ads="http://schemas.android.com/apk/res-auto"
+                            ads:adSize="BANNER"
+                            ads:adUnitId="@string/test_activity_banner"
+                            android:layout_marginBottom="6dp"
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </RelativeLayout>
+
+                    <include
+                        layout="@layout/horizontal_line" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:padding="5dp"
+                            android:layout_marginStart="17dp"
+                            android:layout_marginLeft="17dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_gravity="center_vertical"
+                                android:id="@+id/current_question_num"
+                                android:text="1"
+                                android:fontFamily="sans-serif-light"
+                                android:textColor="@color/gray_dark"
+                                android:textStyle="bold"
+                                android:textSize="26sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_gravity="center_vertical"
+                                android:id="@+id/slash"
+                                android:text=" / "
+                                android:fontFamily="sans-serif-light"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_gravity="center_vertical"
+                                android:id="@+id/total_questions"
+                                android:text="50"
+                                android:fontFamily="sans-serif-light"
+                                android:textStyle="normal"
+                                android:textSize="20sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                        </LinearLayout>
+
+                        <include
+                            layout="@layout/horizontal_line_light" />
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/question"
+                            android:padding="12dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="Which of the following is an invalid identifier?"
+                            app:fontFamily="sans-serif-thin"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray_dark"
+                            android:textSize="20sp"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <include
+                            layout="@layout/horizontal_line_light" />
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/option_rv"
+                            android:clipToPadding="false"
+                            android:padding="@dimen/layout_padding"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </android.support.v7.widget.RecyclerView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                xmlns:fancy="http://schemas.android.com/apk/res-auto"
+                android:weightSum="10"
+                android:padding="0dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    app:cardCornerRadius="3dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/prev"
+                        android:text="Previous"
+                        fancy:fb_text="Previous"
+                        android:textStyle="normal"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        fancy:fb_iconPaddingRight="20dp"
+                        fancy:fb_iconPosition="left"
+                        fancy:fb_fontIconSize="20sp"
+                        fancy:fb_fontIconResource="&#xf060;"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_defaultColor="@color/md_blue_600"
+                        fancy:fb_focusColor="@color/white"
+                        fancy:fb_textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_margin="5dp"
+                    app:cardCornerRadius="3dp"
+                    android:layout_weight="5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:visibility="visible"
+                        android:id="@+id/next"
+                        android:text="Next"
+                        fancy:fb_text="Next"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="1.2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        fancy:fb_iconPaddingLeft="20dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="20sp"
+                        fancy:fb_fontIconResource="&#xf061;"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_defaultColor="@color/md_blue_600"
+                        fancy:fb_focusColor="@color/white"
+                        fancy:fb_textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:visibility="gone"
+                        android:id="@+id/finish"
+                        android:text="Finish"
+                        fancy:fb_text="Finish"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="16sp"
+                        fancy:fb_borderWidth="1.2dp"
+                        fancy:fb_radius="0dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        fancy:fb_iconPaddingLeft="20dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="20sp"
+                        fancy:fb_fontIconResource="&#xf064;"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_defaultColor="@color/md_blue_600"
+                        fancy:fb_focusColor="@color/white"
+                        fancy:fb_textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>
