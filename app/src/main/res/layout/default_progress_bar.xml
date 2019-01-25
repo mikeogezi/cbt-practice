@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.github.ybq.android.spinkit.SpinKitView
+<ProgressBar
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_centerInParent="true"
@@ -8,7 +8,6 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:visibility="gone"
-    style="@style/SpinKitView.ThreeBounce"
-    app:SpinKit_Color="@color/colorPrimary">
+    app:tint="@color/colorAccent">
 
-</com.github.ybq.android.spinkit.SpinKitView>
+</ProgressBar>

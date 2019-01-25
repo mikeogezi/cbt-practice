@@ -5,13 +5,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_search"
-        android:orderInCategory="100"
-        android:icon="@drawable/ic_search"
-        android:title="@string/search_hint"
-        app:showAsAction="always" />
-
-    <item
         android:id="@+id/action_settings"
         android:orderInCategory="200"
         android:title="@string/action_settings"
