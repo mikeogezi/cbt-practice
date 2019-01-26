@@ -8,3 +8,6 @@
 /captures
 .externalNativeBuild
 data.txt
+app/release/*
+app/build/outputs/apk/debug/*
+*.apk
