@@ -108,6 +108,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:layout_marginTop="15dp"
+                    android:layout_marginBottom="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -117,8 +118,8 @@
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
-                        android:paddingStart="20dp"
-                        android:paddingEnd="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp"
                         android:layout_margin="5dp"
                         fancy:fb_borderColor="@color/colorPrimary"
                         fancy:fb_borderWidth="2dp"
@@ -141,8 +142,8 @@
                         android:layout_height="wrap_content"
                         android:paddingTop="10dp"
                         android:paddingBottom="10dp"
-                        android:paddingStart="20dp"
-                        android:paddingEnd="15dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp"
                         android:layout_margin="5dp"
                         fancy:fb_borderColor="@color/colorPrimary"
                         fancy:fb_borderWidth="2dp"
@@ -160,6 +161,35 @@
                         fancy:fb_textColor="@color/colorPrimary" />
 
                 </LinearLayout>
+
+                <mehdi.sakout.fancybuttons.FancyButton
+                    android:layout_gravity="bottom"
+                    android:gravity="bottom"
+                    android:id="@+id/pay_online_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="15.5dp"
+                    android:paddingBottom="15.5dp"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="15dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    fancy:fb_borderColor="@color/colorPrimary"
+                    fancy:fb_borderWidth="2dp"
+                    fancy:fb_defaultColor="@color/colorPrimary"
+                    fancy:fb_focusColor="@color/colorAccent"
+                    fancy:fb_radius="5dp"
+                    android:text="@string/action_pay_online_activity"
+                    android:textAllCaps="true"
+                    fancy:fb_iconPaddingRight="15dp"
+                    fancy:fb_iconPosition="left"
+                    fancy:fb_fontIconSize="19sp"
+                    fancy:fb_fontIconResource="&#xf09d;"
+                    android:textSize="16.5sp"
+                    android:textStyle="bold"
+                    fancy:fb_textColor="@color/white" />
 
             </LinearLayout>
 

@@ -7,20 +7,20 @@
     tools:context=".screens.TestActivity">
 
     <include
-        android:id="@+id/toolbar_container"
-        layout="@layout/search_toolbar" />
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
 
     <android.support.v4.widget.NestedScrollView
         android:scrollbars="vertical"
-        android:layout_below="@id/toolbar_container"
+        android:layout_below="@id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <LinearLayout
             android:id="@+id/report_layout"
             android:orientation="vertical"
-            android:paddingStart="@dimen/layout_padding"
-            android:paddingEnd="@dimen/layout_padding"
+            android:paddingLeft="@dimen/layout_padding"
+            android:paddingRight="@dimen/layout_padding"
             android:paddingTop="@dimen/layout_padding"
             android:paddingBottom="@dimen/ad_bottom_padding"
             android:layout_width="match_parent"
@@ -83,8 +83,8 @@
 
                         <TableLayout
                             android:paddingTop="22dp"
-                            android:paddingStart="22dp"
-                            android:paddingEnd="22dp"
+                            android:paddingLeft="22dp"
+                            android:paddingRight="22dp"
                             android:stretchColumns="1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">

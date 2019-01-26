@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -59,7 +60,7 @@ public class CoursesActivity  extends MyBackToolbarActivity {
         Commons.goToWelcomeIfNotSignedIn(this);
         setContentView(R.layout.activity_courses);
 
-        spinKitView = findViewById(R.id.progress_bar);
+        setProgressBar(findViewById(R.id.progress_bar));
         showProgress();
 
         AsyncTask.execute(new Runnable() {

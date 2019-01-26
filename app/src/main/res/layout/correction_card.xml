@@ -25,7 +25,6 @@
             <TextView
                 android:id="@+id/number"
                 android:textSize="30sp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:textColor="@color/gray_darker"
                 android:fontFamily="sans-serif-light"
@@ -40,8 +39,8 @@
             <LinearLayout
                 android:background="@color/gray_light"
                 android:layout_width="1dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_height="match_parent">
             </LinearLayout>
 
@@ -54,7 +53,6 @@
                 <TextView
                     android:id="@+id/question"
                     android:layout_marginLeft="14dp"
-                    android:layout_marginStart="14dp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-light"
                     android:textSize="20sp"

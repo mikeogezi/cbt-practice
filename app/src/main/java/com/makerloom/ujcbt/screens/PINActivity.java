@@ -4,7 +4,6 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -23,7 +22,6 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.gson.Gson;
-import com.makerloom.common.activity.MyBackToolbarActivity;
 import com.makerloom.common.activity.MyPlainToolbarActivity;
 import com.makerloom.common.utils.Constants;
 import com.makerloom.ujcbt.R;
@@ -31,7 +29,6 @@ import com.makerloom.ujcbt.models.PINInfo;
 import com.makerloom.ujcbt.utils.Commons;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 
 import mehdi.sakout.fancybuttons.FancyButton;
@@ -46,6 +43,8 @@ public class PINActivity extends MyPlainToolbarActivity {
     FancyButton signOutBtn;
 
     FancyButton pinEnquiry;
+
+    FancyButton buyOnline;
 
     FirebaseUser user;
 
@@ -91,6 +90,14 @@ public class PINActivity extends MyPlainToolbarActivity {
             }
         });
 
+        buyOnline = findViewById(R.id.pay_online_btn);
+        buyOnline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PINActivity.this, BuyPINOnlineActivity.class));
+            }
+        });
+
         if (fromExpired()) {
             showExpiredPINMessage();
         }
@@ -105,6 +112,15 @@ public class PINActivity extends MyPlainToolbarActivity {
                 goToInfoActivity();
             }
         });
+    }
+
+    private void dismiss (ProgressDialog dialog) {
+        try {
+            dialog.dismiss();
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     public boolean fromExpired () {
@@ -127,12 +143,7 @@ public class PINActivity extends MyPlainToolbarActivity {
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        try {
-                            dialog.dismiss();
-                        }
-                        catch (Exception ex) {
-                            ex.printStackTrace();
-                        }
+                        dismiss(dialog);
 
                         if (Constants.TOAST_VERBOSE) {
                             Toast.makeText(PINActivity.this,
@@ -145,12 +156,7 @@ public class PINActivity extends MyPlainToolbarActivity {
                 .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                     @Override
                     public void onSuccess(DocumentSnapshot documentSnapshot) {
-                        try {
-                            dialog.dismiss();
-                        }
-                        catch (Exception ex) {
-                            ex.printStackTrace();
-                        }
+                        dismiss(dialog);
 
                         // Entered PIN is valid
                         if (documentSnapshot.exists()) {
@@ -185,6 +191,7 @@ public class PINActivity extends MyPlainToolbarActivity {
                             // PIN has not been used yet
                             else if (null != pinInfo && !pinInfo.hasBeenUsed()) {
                                 Log.d(TAG, "PIN hasn't been used yet");
+
                                 // Associate user account with PIN and set PIN's validity
                                 Calendar calendar = Calendar.getInstance();
                                 calendar.add(Calendar.MONTH, Commons.VALIDITY_MONTHS);
@@ -300,7 +307,7 @@ public class PINActivity extends MyPlainToolbarActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(PINActivity.this)
                 .setCancelable(true)
                 .setTitle("PIN Required")
-                .setMessage("You need a PIN to access the full app. Please get one and enter it here.")
+                .setMessage("You need a PIN to access the full app. Please get one and enter it on this screen.")
                 .setPositiveButton("Get PIN", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
@@ -312,6 +319,12 @@ public class PINActivity extends MyPlainToolbarActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
                     }
+                })
+                .setNeutralButton("Buy PIN Online", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        goToBuyPINOnlineActivity();
+                    }
                 });
 
         AlertDialog dialog = builder.create();
@@ -321,6 +334,10 @@ public class PINActivity extends MyPlainToolbarActivity {
 
     void goToInfoActivity () {
         startActivity(new Intent(PINActivity.this, InfoActivity.class));
+    }
+
+    void goToBuyPINOnlineActivity () {
+        startActivity(new Intent(PINActivity.this, BuyPINOnlineActivity.class));
     }
 
     public void showExpiredPINMessage () {

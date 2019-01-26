@@ -62,4 +62,9 @@
 
     <string name="interstitial_test">ca-app-pub-3940256099942544/1033173712</string>
     <string name="banner_test">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="action_pay_with_card_bank_ussd_activity">Pay With ATM Card or USSD</string>
+    <string name="action_pay_with_airtime_activity">Pay With Airtime</string>
+    <string name="action_pay_online_activity">Buy PIN Online</string>
+
 </resources>

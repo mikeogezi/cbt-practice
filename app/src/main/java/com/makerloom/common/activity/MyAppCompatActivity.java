@@ -8,8 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ProgressBar;
 
-import com.github.ybq.android.spinkit.SpinKitView;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.makerloom.ujcbt.R;
 import com.makerloom.common.startup.IntroActivity;
@@ -25,8 +25,6 @@ public class MyAppCompatActivity extends AppCompatActivity {
     protected Toolbar toolbar;
 
     public boolean isSpotlightShowing = false;
-
-    protected SpinKitView spinKitView;
 
     public FirebaseAnalytics getFirebaseAnalytics () {
         return firebaseAnalytics;
@@ -90,15 +88,15 @@ public class MyAppCompatActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    protected void setProgressBar (ProgressBar progressBar) {
+
+    }
+
     protected void showProgress () {
-        if (null != spinKitView) {
-            spinKitView.setVisibility(View.VISIBLE);
-        }
+        // TODO
     }
 
     protected void hideProgress () {
-        if (null != spinKitView) {
-            spinKitView.setVisibility(View.GONE);
-        }
+        // TODO
     }
 }

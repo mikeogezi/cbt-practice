@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".screens.BuyPINOnlineActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal|bottom"
+            android:gravity="center_horizontal|bottom"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/pay_with_card_bank_ussd_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="17.5dp"
+                android:paddingBottom="17.5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_margin="8dp"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_defaultColor="@color/colorPrimary"
+                fancy:fb_focusColor="@color/colorAccent"
+                fancy:fb_radius="5dp"
+                android:text="@string/action_pay_with_card_bank_ussd_activity"
+                android:textAllCaps="true"
+                fancy:fb_iconPaddingRight="15dp"
+                fancy:fb_iconPosition="left"
+                fancy:fb_fontIconSize="19sp"
+                fancy:fb_fontIconResource="&#xf09d;"
+                android:textSize="15.5sp"
+                android:textStyle="bold"
+                fancy:fb_textColor="@color/white" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/pay_with_airtime_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="5dp"
+                android:layout_margin="8dp"
+                fancy:fb_borderColor="@color/colorPrimary"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_defaultColor="@color/white"
+                fancy:fb_focusColor="@color/colorAccent"
+                fancy:fb_disabledColor="@color/md_grey_300"
+                fancy:fb_radius="5dp"
+                android:text="@string/action_pay_with_airtime_activity"
+                android:textAllCaps="true"
+                fancy:fb_iconPaddingRight="15dp"
+                fancy:fb_iconPosition="left"
+                fancy:fb_fontIconSize="26sp"
+                android:enabled="false"
+                fancy:fb_fontIconResource="&#xf10b;"
+                android:textSize="17.5sp"
+                android:textStyle="bold"
+                fancy:fb_textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

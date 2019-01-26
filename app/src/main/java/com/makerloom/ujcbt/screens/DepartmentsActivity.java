@@ -134,7 +134,7 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
             showFromUnlockActivityDialog();
         }
 
-        spinKitView = findViewById(R.id.progress_bar);
+        setProgressBar(findViewById(R.id.progress_bar));
         showProgress();
 
 //        AccountHeader header = new AccountHeaderBuilder()

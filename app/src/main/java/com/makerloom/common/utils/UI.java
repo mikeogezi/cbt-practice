@@ -25,7 +25,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.core42matters.android.profiler.extra.AdMobPlugin;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -105,13 +104,7 @@ public abstract class UI {
                 .addKeyword("Sports");
 
         AdRequest request;
-        try {
-            request = AdMobPlugin.decorate(context, builder);
-        }
-        catch (Exception ex) {
-            ex.printStackTrace();
-            request = builder.build();
-        }
+        request = builder.build();
 
         return request;
     }
