@@ -11,6 +11,12 @@
         "maxQuestions": 50
       },
       {
+        "name": "Introduction To Computer Applications",
+        "courseCode": "CS 102",
+        "time": 30,
+        "maxQuestions": 50
+      },
+      {
         "name": "Computer Programming I",
         "courseCode": "CS 201",
         "time": 30,
@@ -23,6 +29,18 @@
     "shortName": "GST",
     "faculty": "Faculty of General Studies",
     "courses": [
+      {
+        "name": "Use of English and Library",
+        "courseCode": "GST 101",
+        "time": 30,
+        "maxQuestions": 50
+      },
+      {
+        "name": "Philosophy and Logic",
+        "courseCode": "GST 102",
+        "time": 30,
+        "maxQuestions": 50
+      },
       {
         "name": "Nigerian People and Culture",
         "courseCode": "GST 103",

@@ -59,18 +59,18 @@
                             android:layout_margin="5dp"
                             android:clipToPadding="false" />
 
-                        <com.google.android.gms.ads.AdView
-                            android:visibility="gone"
-                            android:layout_centerHorizontal="true"
-                            android:layout_below="@id/number_recycler_view"
-                            android:id="@+id/ad_view"
-                            xmlns:ads="http://schemas.android.com/apk/res-auto"
-                            ads:adSize="BANNER"
-                            ads:adUnitId="@string/test_activity_banner"
-                            android:layout_marginBottom="6dp"
-                            android:layout_gravity="center"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" />
+                        <!--<com.google.android.gms.ads.AdView-->
+                            <!--android:visibility="gone"-->
+                            <!--android:layout_centerHorizontal="true"-->
+                            <!--android:layout_below="@id/number_recycler_view"-->
+                            <!--android:id="@+id/ad_view"-->
+                            <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+                            <!--ads:adSize="BANNER"-->
+                            <!--ads:adUnitId="@string/test_activity_banner"-->
+                            <!--android:layout_marginBottom="6dp"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content" />-->
 
                     </RelativeLayout>
 

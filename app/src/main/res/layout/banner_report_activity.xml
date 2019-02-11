@@ -35,16 +35,15 @@
 
         <!--ads:adSize="BANNER"-->
         <!--ads:adUnitId="@string/banner_ad_unit_id"-->
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/ad_view"
-            xmlns:ads="http://schemas.android.com/apk/res-auto"
-            ads:adSize="BANNER"
-            ads:adUnitId="@string/report_activity_banner"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-        </com.google.android.gms.ads.AdView>
+        <!--<com.google.android.gms.ads.AdView-->
+            <!--android:id="@+id/ad_view"-->
+            <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+            <!--ads:adSize="BANNER"-->
+            <!--ads:adUnitId="@string/report_activity_banner"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</com.google.android.gms.ads.AdView>-->
 
     </android.support.v7.widget.CardView>
 

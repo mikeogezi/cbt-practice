@@ -430,8 +430,8 @@
 
     </android.support.v4.widget.NestedScrollView>
 
-    <include
-        android:id="@+id/ad_layout"
-        layout="@layout/banner_report_activity" />
+    <!--<include-->
+        <!--android:id="@+id/ad_layout"-->
+        <!--layout="@layout/banner_report_activity" />-->
 
 </RelativeLayout>

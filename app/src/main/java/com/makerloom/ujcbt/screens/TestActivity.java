@@ -34,11 +34,12 @@ import android.widget.Toast;
 import com.google.android.flexbox.AlignItems;
 import com.google.android.flexbox.FlexWrap;
 import com.google.android.flexbox.FlexboxLayoutManager;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
+// Removing Ads
+//import com.google.android.gms.ads.AdListener;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.InterstitialAd;
+//import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.makerloom.ujcbt.R;
@@ -73,7 +74,8 @@ import mehdi.sakout.fancybuttons.FancyButton;
 public class TestActivity extends MyBackToolbarActivity {
     private RecyclerView questionNumberRV;
 
-    private InterstitialAd interstitialAd;
+    // Removing Ads
+//    private InterstitialAd interstitialAd;
 
     private TextView questionTV;
 
@@ -119,7 +121,8 @@ public class TestActivity extends MyBackToolbarActivity {
 
     private TextView adInfo;
 
-    private AdView adView;
+    // Removing Ads
+//    private AdView adView;
 
     private NestedScrollView scrollView;
 
@@ -201,35 +204,36 @@ public class TestActivity extends MyBackToolbarActivity {
             }
         });
 
+        // Removing Ads
         // Banner
-        adLayout = findViewById(R.id.ad_layout);
-        adInfo = findViewById(R.id.ad_info);
-        MobileAds.initialize(TestActivity.this, getString(R.string.app_admob_id));
-        adView = findViewById(R.id.ad_view);
-        UI.loadFooterBannerAd(TestActivity.this, adLayout, adView, adInfo);
-        // Interstitial
-        AdRequest adRequest = UI.getAdRequest(TestActivity.this);
-        interstitialAd = new InterstitialAd(TestActivity.this);
-        interstitialAd.setAdUnitId(getString(R.string.test_activity_interstitial));
-        interstitialAd.setAdListener(interstitialAdListener);
-        interstitialAd.loadAd(adRequest);
+//        adLayout = findViewById(R.id.ad_layout);
+//        adInfo = findViewById(R.id.ad_info);
+//        MobileAds.initialize(TestActivity.this, getString(R.string.app_admob_id));
+//        adView = findViewById(R.id.ad_view);
+//        UI.loadFooterBannerAd(TestActivity.this, adLayout, adView, adInfo);
+//        // Interstitial
+//        AdRequest adRequest = UI.getAdRequest(TestActivity.this);
+//        interstitialAd = new InterstitialAd(TestActivity.this);
+//        interstitialAd.setAdUnitId(getString(R.string.test_activity_interstitial));
+//        interstitialAd.setAdListener(interstitialAdListener);
+//        interstitialAd.loadAd(adRequest);
     }
 
-    private void afterInterstitial () {
-        submit();
-    }
-
-    private void showInterstitialIfPossible () {
-        if (interstitialFailedToLoad) {
-            afterInterstitial();
-        }
-        else if (null != interstitialAd && interstitialAd.isLoaded()) {
-            interstitialAd.show();
-        }
-        else {
-            afterInterstitial();
-        }
-    }
+//    private void afterInterstitial () {
+//        submit();
+//    }
+//
+//    private void showInterstitialIfPossible () {
+//        if (interstitialFailedToLoad) {
+//            afterInterstitial();
+//        }
+//        else if (null != interstitialAd && interstitialAd.isLoaded()) {
+//            interstitialAd.show();
+//        }
+//        else {
+//            afterInterstitial();
+//        }
+//    }
 
     private void disablePrevBtn () {
         if (null != previousBtn && previousBtn.isEnabled()) {
@@ -482,7 +486,8 @@ public class TestActivity extends MyBackToolbarActivity {
     View.OnClickListener onFinish = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            showInterstitialIfPossible();
+            // Removing Ads
+//            showInterstitialIfPossible();
         }
     };
 
@@ -733,7 +738,7 @@ public class TestActivity extends MyBackToolbarActivity {
         getToolbar().getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
             public void onGlobalLayout() {
-                if (Build.VERSION.SDK_INT >= 16) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
                     getToolbar().getViewTreeObserver().removeOnGlobalLayoutListener(this);
                 }
 
@@ -743,7 +748,7 @@ public class TestActivity extends MyBackToolbarActivity {
                     timerView.getLocationInWindow(timerPoint);
                     if (Constants.TOAST_VERBOSE) {
                         Toast.makeText(TestActivity.this,
-                                String.format("Timer point: %d, %d", timerPoint[0], timerPoint[1]), Toast.LENGTH_SHORT).show();
+                                String.format(Locale.ENGLISH, "Timer point: %d, %d", timerPoint[0], timerPoint[1]), Toast.LENGTH_SHORT).show();
                     }
                 }
             }
@@ -859,74 +864,74 @@ public class TestActivity extends MyBackToolbarActivity {
     }
 
     private boolean interstitialFailedToLoad = false;
-
-    AdListener interstitialAdListener = new AdListener() {
-        @Override
-        public void onAdClosed() {
-            super.onAdClosed();
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad closed", Toast.LENGTH_SHORT)
-                        .show();
-            }
-            afterInterstitial();
-        }
-
-        @Override
-        public void onAdLoaded() {
-            super.onAdLoaded();
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad loaded", Toast.LENGTH_SHORT)
-                        .show();
-            }
-        }
-
-        @Override
-        public void onAdClicked() {
-            super.onAdClicked();
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad clicked", Toast.LENGTH_SHORT)
-                        .show();
-            }
-        }
-
-        @Override
-        public void onAdFailedToLoad(int i) {
-            super.onAdFailedToLoad(i);
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad failed to load", Toast.LENGTH_SHORT)
-                        .show();
-            }
-            interstitialFailedToLoad = true;
-        }
-
-        @Override
-        public void onAdLeftApplication() {
-            super.onAdLeftApplication();
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad left application", Toast.LENGTH_SHORT)
-                        .show();
-            }
-//            removeInterstitialOnReturn();
-        }
-
-        @Override
-        public void onAdOpened() {
-            super.onAdOpened();
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad opened", Toast.LENGTH_SHORT)
-                        .show();
-            }
-        }
-
-        @Override
-        public void onAdImpression() {
-            super.onAdImpression();
-            if (Constants.TOAST_VERBOSE) {
-                Toast.makeText(TestActivity.this, "Interstitial Ad impression", Toast.LENGTH_SHORT)
-                        .show();
-            }
-        }
-    };
+    // Removing Ads
+//    AdListener interstitialAdListener = new AdListener() {
+//        @Override
+//        public void onAdClosed() {
+//            super.onAdClosed();
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad closed", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//            afterInterstitial();
+//        }
+//
+//        @Override
+//        public void onAdLoaded() {
+//            super.onAdLoaded();
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad loaded", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//        }
+//
+//        @Override
+//        public void onAdClicked() {
+//            super.onAdClicked();
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad clicked", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//        }
+//
+//        @Override
+//        public void onAdFailedToLoad(int i) {
+//            super.onAdFailedToLoad(i);
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad failed to load", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//            interstitialFailedToLoad = true;
+//        }
+//
+//        @Override
+//        public void onAdLeftApplication() {
+//            super.onAdLeftApplication();
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad left application", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+////            removeInterstitialOnReturn();
+//        }
+//
+//        @Override
+//        public void onAdOpened() {
+//            super.onAdOpened();
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad opened", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//        }
+//
+//        @Override
+//        public void onAdImpression() {
+//            super.onAdImpression();
+//            if (Constants.TOAST_VERBOSE) {
+//                Toast.makeText(TestActivity.this, "Interstitial Ad impression", Toast.LENGTH_SHORT)
+//                        .show();
+//            }
+//        }
+//    };
 
 
     @Override

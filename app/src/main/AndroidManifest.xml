@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.makerloom.ujcbt"
     android:installLocation="auto">
 
@@ -15,7 +16,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <!-- Startup -->
         <activity
             android:name="com.makerloom.common.startup.SplashActivity"
@@ -27,9 +27,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- android:configChanges="keyboardHidden|orientation" -->
+        </activity> <!-- android:configChanges="keyboardHidden|orientation" -->
         <activity
             android:name="com.makerloom.common.startup.IntroActivity"
             android:screenOrientation="portrait"
@@ -45,19 +43,11 @@
         <activity
             android:name=".screens.PINActivity"
             android:label="@string/action_unlock"
-            android:theme="@style/AppTheme.NoActionBar">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".screens.DepartmentsActivity"
             android:label="@string/action_departments"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <!-- android:configChanges="orientation|screenSize|keyboardHidden" -->
         <activity
             android:name=".screens.TestActivity"
             android:label="@string/action_test"
@@ -81,13 +71,7 @@
         <activity
             android:name=".screens.AuthActivity"
             android:label="@string/action_auth"
-            android:theme="@style/AppTheme.NoActionBar">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".screens.InfoActivity"
             android:label="@string/action_info"
@@ -96,14 +80,11 @@
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_application_id" />
-        <!-- <meta-data android:name="com.facebook.sdk.ApplicationId" -->
-        <!-- android:value="@string/facebook_app_id"/> -->
 
         <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:label="@string/app_name" />
-
         <activity
             android:name="com.facebook.CustomTabActivity"
             android:exported="true">
@@ -116,47 +97,44 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".screens.PaystackWebViewActivity"
+            android:label="@string/action_pay_with_card_bank_ussd_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".screens.PayWithAirtimeActivity"
+            android:label="@string/action_pay_with_airtime_activity" />
+        <activity
+            android:name=".screens.BuyPINOnlineActivity"
+            android:label="@string/action_pay_online_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <service android:name="com.makerloom.common.notifications.MyFirebaseInstanceIdService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+        <service android:name=".services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
 
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_icon"
             android:resource="@drawable/ic_notification" />
-
-        <!-- <meta-data -->
-        <!-- android:name="com.google.firebase.messaging.default_notification_color" -->
-        <!-- android:resource="@color/colorPrimary" /> -->
-
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
-            android:value="@string/default_notification_channel_id" />
-
-        <!-- This meta-data tag is required to use Google Play Services. -->
+            android:value="@string/default_notification_channel_id" /> <!-- This meta-data tag is required to use Google Play Services. -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/app_admob_id" />
-
-        <activity
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="@string/action_pay_with_card_bank_ussd_activity"
-            android:name=".screens.PaystackWebViewActivity" />
-
-        <activity
-            android:label="@string/action_pay_with_airtime_activity"
-            android:name=".screens.PayWithAirtimeActivity" />
-
-        <activity
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="@string/action_pay_online_activity"
-            android:name=".screens.BuyPINOnlineActivity"/>
     </application>
 
 </manifest>

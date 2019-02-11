@@ -29,8 +29,8 @@
 
     </LinearLayout>
 
-    <include
-        android:id="@+id/ad_layout"
-        layout="@layout/banner_correction_activity" />
+    <!--<include-->
+        <!--android:id="@+id/ad_layout"-->
+        <!--layout="@layout/banner_correction_activity" />-->
 
 </RelativeLayout>

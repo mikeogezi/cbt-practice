@@ -9,7 +9,8 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdView;
+// Removing Ads
+//import com.google.android.gms.ads.AdView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.makerloom.ujcbt.R;
@@ -39,7 +40,8 @@ public class CoursesActivity  extends MyBackToolbarActivity {
 
     private TextView adInfo;
 
-    private AdView adView;
+    // Removing Ads
+//    private AdView adView;
 
     private String getDeptName () {
         if (getIntent().hasExtra(Keys.DEPARTMENT_NAME_KEY)) {
@@ -100,10 +102,11 @@ public class CoursesActivity  extends MyBackToolbarActivity {
         });
 
         // Banner
-        adLayout = findViewById(R.id.ad_layout);
-        adInfo = findViewById(R.id.ad_info);
-        adView = findViewById(R.id.ad_view);
-        UI.loadFooterBannerAd(CoursesActivity.this, adLayout, adView, adInfo);
+        // Removing Ads
+//        adLayout = findViewById(R.id.ad_layout);
+//        adInfo = findViewById(R.id.ad_info);
+//        adView = findViewById(R.id.ad_view);
+//        UI.loadFooterBannerAd(CoursesActivity.this, adLayout, adView, adInfo);
     }
 
     private void showCourses () {

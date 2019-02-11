@@ -22,7 +22,8 @@ import android.widget.Toast;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
 import com.firebase.ui.auth.AuthUI;
-import com.google.android.gms.ads.AdView;
+// Removing Ads
+//import com.google.android.gms.ads.AdView;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -65,7 +66,8 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
 
     private TextView adInfo;
 
-    private AdView adView;
+    // Removing Ads
+//    private AdView adView;
 
     private Drawer drawer;
 
@@ -307,10 +309,11 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
         });
 
         // Banner
-        adLayout = findViewById(R.id.ad_layout);
-        adInfo = findViewById(R.id.ad_info);
-        adView = findViewById(R.id.ad_view);
-        UI.loadFooterBannerAd(DepartmentsActivity.this, adLayout, adView, adInfo);
+        // Removing Ads
+//        adLayout = findViewById(R.id.ad_layout);
+//        adInfo = findViewById(R.id.ad_info);
+//        adView = findViewById(R.id.ad_view);
+//        UI.loadFooterBannerAd(DepartmentsActivity.this, adLayout, adView, adInfo);
     }
 
     private void showDepartments () {

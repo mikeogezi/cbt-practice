@@ -14,7 +14,8 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdView;
+// Removing Ads
+//import com.google.android.gms.ads.AdView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.makerloom.ujcbt.R;
@@ -41,7 +42,8 @@ public class CorrectionActivity extends MyBackToolbarActivity {
 
     private TextView adInfo;
 
-    private AdView adView;
+    // Removing Ads
+//    private AdView adView;
 
     private String getCorrectionQuestionsJSON () {
         if (getIntent().hasExtra(Keys.CORRECTION_QUESTIONS_JSON_KEY)) {
@@ -90,11 +92,11 @@ public class CorrectionActivity extends MyBackToolbarActivity {
         correctionRV.setAdapter(adapter);
         correctionRV.setLayoutManager(manager);
 
-        adLayout = findViewById(R.id.ad_layout);
-        adInfo = findViewById(R.id.ad_info);
-        // Banner
-        adView = findViewById(R.id.ad_view);
-        UI.loadFooterBannerAd(CorrectionActivity.this, adLayout, adView, adInfo, false);
+        // Removing Ads
+//        adLayout = findViewById(R.id.ad_layout);
+//        adInfo = findViewById(R.id.ad_info);
+//        adView = findViewById(R.id.ad_view);
+//        UI.loadFooterBannerAd(CorrectionActivity.this, adLayout, adView, adInfo, false);
 
         runCorrectionIntro();
     }

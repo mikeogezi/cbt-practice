@@ -32,8 +32,8 @@
 
     </LinearLayout>
 
-    <include
-        android:id="@+id/ad_layout"
-        layout="@layout/banner_departments_activity" />
+    <!--<include-->
+        <!--android:id="@+id/ad_layout"-->
+        <!--layout="@layout/banner_departments_activity" />-->
 
 </RelativeLayout>
