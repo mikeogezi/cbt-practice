@@ -23,6 +23,10 @@ public class Question {
 
     private List<String> options;
 
+    // This holds content that will be used for more than one question
+    // An example would be an english comprehension passage
+    private Passage passage;
+
     // CheckBoxes for the question
     private transient AppCompatCheckBox [] optionCheckBoxes;
 

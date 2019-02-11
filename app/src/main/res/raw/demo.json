@@ -13,3 +13,10 @@
 ]
 —
 "[0-9]{1,2}\.
+
+{
+	"name": "Use of English and Library",
+	"courseCode": "GST 101",
+	"time": 30,
+	"maxQuestions": 50
+},

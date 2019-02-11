@@ -30,12 +30,6 @@
     "faculty": "Faculty of General Studies",
     "courses": [
       {
-        "name": "Use of English and Library",
-        "courseCode": "GST 101",
-        "time": 30,
-        "maxQuestions": 50
-      },
-      {
         "name": "Philosophy and Logic",
         "courseCode": "GST 102",
         "time": 30,

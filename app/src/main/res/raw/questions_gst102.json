@@ -1,1 +1,1532 @@
-{}
+{
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "question": "Which of the following is not a connective symbol?",
+            "options": [
+                "(",
+                "~",
+                "(",
+                "σ"
+            ],
+            "correctOption": "σ"
+        },
+        {
+            "question": "Which of the following is not a connective symbol?",
+            "options": [
+                "→",
+                "~",
+                "↔",
+                "β"
+            ],
+            "correctOption": "β"
+        },
+        {
+            "question": "Which of the following is not a connective symbol?",
+            "options": [
+                "α",
+                "↔",
+                "~",
+                "→"
+            ],
+            "correctOption": "α"
+        },
+        {
+            "question": "Which of the following is not a connective in English?",
+            "options": [
+                "If…Then…",
+                "And",
+                "Or",
+                "Conclude."
+            ],
+            "correctOption": "Conclude."
+        },
+        {
+            "question": "Which of the following is not a connective in English?",
+            "options": [
+                "and",
+                "or",
+                "declare",
+                "if and only if."
+            ],
+            "correctOption": "declare"
+        },
+        {
+            "question": "Which of the following is not a connective?",
+            "options": [
+                "Disjunction",
+                "Antecedent",
+                "Conjunction",
+                "Negation"
+            ],
+            "correctOption": "Antecedent"
+        },
+        {
+            "question": "Which of the following is not a connective?",
+            "options": [
+                "Symbolization",
+                "Negation",
+                "conjunction",
+                "disjunction."
+            ],
+            "correctOption": "Symbolization"
+        },
+        {
+            "question": "The total number of possible truth values for 6 statements is",
+            "options": [
+                "32",
+                "64",
+                "96",
+                "128"
+            ],
+            "correctOption": "64"
+        },
+        {
+            "question": "The total number of possible truth values for 8 statements is",
+            "options": [
+                "64",
+                "128",
+                "256",
+                "512"
+            ],
+            "correctOption": "256"
+        },
+        {
+            "question": "The total number of statements required to have a total number of possible truth values 256 is",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "correctOption": "8"
+        },
+        {
+            "question": "A list of statements in which one is a conclusion and others premises is called",
+            "options": [
+                "Logic",
+                "An Argument",
+                "Statement",
+                "Deduction"
+            ],
+            "correctOption": "An Argument"
+        },
+        {
+            "question": "The study of the strength of the evidential link between the premises and the conclusion of an argument is known as",
+            "options": [
+                "Law",
+                "Science",
+                "Logic",
+                "Ethics"
+            ],
+            "correctOption": "Logic"
+        },
+        {
+            "question": "“What subject do you like the most?” This is a proposition",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "The proposition that attempts to establish a claim one is making is called",
+            "options": [
+                "Premise",
+                "Conclusion",
+                "Argument",
+                "Statement"
+            ],
+            "correctOption": "Conclusion"
+        },
+        {
+            "question": "An argument that has zero link is said to commit fallacy of",
+            "options": [
+                "Argumentum ad Hominem",
+                "Ignoratio Elenchi",
+                "Fallacy of Composition",
+                "Argumentum ad Verecundiam"
+            ],
+            "correctOption": "Ignoratio Elenchi"
+        },
+        {
+            "question": "The proposition that serves as justification in an argument is called",
+            "options": [
+                "Logic",
+                "Statement",
+                "Premise",
+                "Conclusion"
+            ],
+            "correctOption": "Premise"
+        },
+        {
+            "question": "The conclusion of an evidentially worthless argument is said to be a",
+            "options": [
+                "Fallacy",
+                "Error",
+                "Non-sequitur",
+                "Wrong"
+            ],
+            "correctOption": "Non-sequitur"
+        },
+        {
+            "question": "Replace the underlined words with the correct term in the following question The premises of the argument are evidentially worthless \\nI True\\nII False",
+            "options": [
+                "Only I above",
+                "I or II",
+                "Only II above",
+                "None of these"
+            ],
+            "correctOption": "I or II"
+        },
+        {
+            "question": "Replace the underlined words with the correct term in the following question Because the conclusion must be true if the premises are true, the argument is inductively strong",
+            "options": [
+                "Evidentially worthless",
+                "Deductively Valid",
+                "True",
+                "False"
+            ],
+            "correctOption": "Deductively Valid"
+        },
+        {
+            "question": "An argument may be sound and yet have false conclusion",
+            "options": [
+                "True",
+                "False."
+            ],
+            "correctOption": "False."
+        },
+        {
+            "question": "An argument may be deductively valid and yet have false premises",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Conjunction of any two statements is true when",
+            "options": [
+                "any one of them is true",
+                "all are true",
+                "all are false",
+                "the first is true and the second false."
+            ],
+            "correctOption": "all are true"
+        },
+        {
+            "question": "Conjunction of any two statements is true when",
+            "options": [
+                "Any one of them is true",
+                "The first is true and the second false",
+                "All are false",
+                "None of these"
+            ],
+            "correctOption": "None of these"
+        },
+        {
+            "question": "Conjunction of any two statements is false when",
+            "options": [
+                "all are true",
+                "any one of them is false",
+                "only when the first is false and second true",
+                "only when the first is true and the second false"
+            ],
+            "correctOption": "any one of them is false"
+        },
+        {
+            "question": "Disjunction of any two statements is true when",
+            "options": [
+                "any one of them is true",
+                "only when all are true",
+                "all are false",
+                "only when the first is true and the second false"
+            ],
+            "correctOption": "any one of them is true"
+        },
+        {
+            "question": "Disjunction of any two statements is true when",
+            "options": [
+                "Only when all are true",
+                "only when all are false",
+                "Only when the first is true and the second false",
+                "None of these"
+            ],
+            "correctOption": "None of these"
+        },
+        {
+            "question": "Disjunction of any two statements is false when",
+            "options": [
+                "only when all are true",
+                "only when all of them are false",
+                "only when the first is false and second true",
+                "only when the first is true and the second false."
+            ],
+            "correctOption": "only when all of them are false"
+        },
+        {
+            "question": "Implication of any two statements is not true when",
+            "options": [
+                "the first is false and the second true",
+                "all are true",
+                "all are false",
+                "the first is true and the second false"
+            ],
+            "correctOption": "the first is true and the second false"
+        },
+        {
+            "question": "Implication of any two statements is only false when",
+            "options": [
+                "any one of them is true",
+                "only when all are true",
+                "all are false",
+                "only when the first is true and the second false"
+            ],
+            "correctOption": "only when the first is true and the second false"
+        },
+        {
+            "question": "Implication of any two statements is true when",
+            "options": [
+                "Only when all are true",
+                "Only when all are false",
+                "Only when the first is true and the second false",
+                "None of these"
+            ],
+            "correctOption": "None of these"
+        },
+        {
+            "question": "Implication of any two statements is false",
+            "options": [
+                "only when the first is true and the second false",
+                "any one of them is false",
+                "only when the first is false and second true",
+                "only when all are true."
+            ],
+            "correctOption": "only when the first is true and the second false"
+        },
+        {
+            "question": "The statement if Enugu is in North Central Nigeria then Oyo is in the western Nigeria is a compound statement that is of type",
+            "options": [
+                "Disjunction",
+                "Implication",
+                "Conjunction",
+                "Equivalence."
+            ],
+            "correctOption": "Implication"
+        },
+        {
+            "question": "Which of the following is not a statement",
+            "options": [
+                "The earth is flat",
+                "Lagos is hot",
+                "Bauchi is capital of Kano state",
+                "Ah ha! he has gone"
+            ],
+            "correctOption": "Ah ha! he has gone"
+        },
+        {
+            "question": "Which of the following is not a statement",
+            "options": [
+                "Jos is cold",
+                "Lagos is in the western Nigeria",
+                "What is your name?",
+                "2+3=8"
+            ],
+            "correctOption": "What is your name?"
+        },
+        {
+            "question": "Logic as defined as the science of reasoning is credited to",
+            "options": [
+                "Stanley Jevons",
+                "Aristotle",
+                "Anthoine Arnold",
+                "Charles Peirre"
+            ],
+            "correctOption": "Stanley Jevons"
+        },
+        {
+            "question": "Logic as defined as the art of reasoning is credited to",
+            "options": [
+                "Stanley Jevons",
+                "Aristotle",
+                "Anthoine Arnold",
+                "Charles Peirre"
+            ],
+            "correctOption": "Anthoine Arnold"
+        },
+        {
+            "question": "Logic as defined as the art of distinguishing between good and bad arguments is credited to",
+            "options": [
+                "Stanley Jevons",
+                "Aristotle",
+                "Anthoine Arnold",
+                "Charles Peirre"
+            ],
+            "correctOption": "Charles Peirre"
+        },
+        {
+            "question": "If and only if is symbolized in logic as",
+            "options": [
+                "V",
+                "(",
+                "(",
+                "("
+            ],
+            "correctOption": "("
+        },
+        {
+            "question": "And in English is symbolized in logic as",
+            "options": [
+                "V",
+                "(",
+                "(",
+                "("
+            ],
+            "correctOption": "("
+        },
+        {
+            "question": "Or in English is symbolized in logic as",
+            "options": [
+                "V",
+                "(",
+                "(",
+                "("
+            ],
+            "correctOption": "V"
+        },
+        {
+            "question": "If … then.. in English is symbolized in logic as",
+            "options": [
+                "V",
+                "(",
+                "(",
+                "("
+            ],
+            "correctOption": "("
+        },
+        {
+            "question": "Which is most correct of logic",
+            "options": [
+                "science of reasoning",
+                "an art of reasoning",
+                "all these",
+                "only \"science of reasoning\" is true."
+            ],
+            "correctOption": "all these"
+        },
+        {
+            "question": "Which is not one of Antoine Arnould’s four principal operations on a man’s mind",
+            "options": [
+                "judging",
+                "conceiving",
+                "hearing",
+                "ordering"
+            ],
+            "correctOption": "hearing"
+        },
+        {
+            "question": "When the two component statements of a compound statement are true, the compound statement is true if the connective is",
+            "options": [
+                "( only",
+                "either V or ( only",
+                "either ( or ( only",
+                "(, V , ( or ("
+            ],
+            "correctOption": "(, V , ( or ("
+        },
+        {
+            "question": "When the two component statements of a compound statement are false, the compound statement is true if the connective is",
+            "options": [
+                "either ( or ( only",
+                "either ( or ( only",
+                "( only",
+                "either V or ( only"
+            ],
+            "correctOption": "either ( or ( only"
+        },
+        {
+            "question": "When the first component statement of a compound statement is true and the second component statement is false, the compound statement is true if the connective is",
+            "options": [
+                "(, V , ( or (",
+                "either V or ( only",
+                "V only",
+                "( only"
+            ],
+            "correctOption": "V only"
+        },
+        {
+            "question": "When the first component statement of a compound statement is false and the second component statement is true, the compound statement is true if the connective is",
+            "options": [
+                "( only",
+                "V only",
+                "either V or ( only",
+                "(, V , ( or ("
+            ],
+            "correctOption": "either V or ( only"
+        },
+        {
+            "question": "When the first component statement of a compound statement is false and the second component statement is true, the compound statement is true if the connective is",
+            "options": [
+                "either ( or V only",
+                "either V or ( only",
+                "either V or ( only",
+                "either V or ("
+            ],
+            "correctOption": "either V or ( only"
+        },
+        {
+            "question": "When the first component statement of a compound statement is true and the second component statement is false, the compound statement is true if the connective is",
+            "options": [
+                "( only",
+                "V only",
+                "either V or (only",
+                "( only"
+            ],
+            "correctOption": "V only"
+        },
+        {
+            "question": "When the first component statement of a compound statement is false and the second component statement is true, the compound statement is true if the connective is",
+            "options": [
+                "either V or ( only",
+                "either V or ( only",
+                "either ( only ( only",
+                "V only"
+            ],
+            "correctOption": "either V or ( only"
+        },
+        {
+            "question": "When the first component statement of a compound statement is false and the second component statement is true, the compound statement is true if the connective is",
+            "options": [
+                "(, V , ( or (",
+                "either V or ( only",
+                "either V or (",
+                "either ( or V only"
+            ],
+            "correctOption": "either V or ( only"
+        },
+        {
+            "question": "Equivalence of any two statements is true when",
+            "options": [
+                "any one of them is true",
+                "all are true only",
+                "all are false only",
+                "the components truth values all are true or all are false."
+            ],
+            "correctOption": "the components truth values all are true or all are false."
+        },
+        {
+            "question": "Equivalence of any two statements is true when",
+            "options": [
+                "all are true or all are false",
+                "the first is true and the second is false",
+                "all are true only",
+                "None of these"
+            ],
+            "correctOption": "all are true or all are false"
+        },
+        {
+            "question": "The thesis that argues that the external world exists independently of the mind is called _______________",
+            "options": [
+                "Existentialism",
+                "Marxism",
+                "realism",
+                "idealism"
+            ],
+            "correctOption": "realism"
+        },
+        {
+            "question": "The objects of the external world are mere constructs of our minds. This is the view of _______________",
+            "options": [
+                "Scientists",
+                "Pragmatists",
+                "Idealists",
+                "Realists"
+            ],
+            "correctOption": "Idealists"
+        },
+        {
+            "question": "Who attempted to reconstruct the epistemological chaos of the modern period? _______________",
+            "options": [
+                "Kant",
+                "Hegel",
+                "Hume",
+                "Augustine"
+            ],
+            "correctOption": "Kant"
+        },
+        {
+            "question": "In an attempt to reconcile the parallelism of rationalism and empiricism, _______________ inadvertently introduced metaphysical _______________ into epistemology.",
+            "options": [
+                "Plato and idealism",
+                "Kuhn and positivism",
+                "Kant and Skepticism",
+                "Thales and realism"
+            ],
+            "correctOption": "Kant and Skepticism"
+        },
+        {
+            "question": "The theme of Hegel’s philosophy is _______________",
+            "options": [
+                "Logicism",
+                "Absolute Idealism",
+                "Logical Positivism",
+                "Existentialism"
+            ],
+            "correctOption": "Absolute Idealism"
+        },
+        {
+            "question": "There is a need to evolve a logically perfect language which can properly mirror atomic facts. Whose position is stated here? _______________",
+            "options": [
+                "The Empiricist",
+                "The Rationalist",
+                "Logical Atomist",
+                "Logical Positivist"
+            ],
+            "correctOption": "Logical Atomist"
+        },
+        {
+            "question": "The meaningfulness of a proposition consists in the method of its verification. This is the view of _______________",
+            "options": [
+                "Logical Atomism",
+                "Logical Positivism",
+                "solipsism",
+                "sophism"
+            ],
+            "correctOption": "Logical Positivism"
+        },
+        {
+            "question": "The principle of significance classifies meaningful propositions into analytic and _______________",
+            "options": [
+                "a priori",
+                "Synthetic",
+                "Faith",
+                "Rational"
+            ],
+            "correctOption": "Synthetic"
+        },
+        {
+            "question": "Existence precedes essence. This is the position of _______________",
+            "options": [
+                "Existentialists",
+                "Marxists",
+                "Phenomenology",
+                "Metaphysics"
+            ],
+            "correctOption": "Existentialists"
+        },
+        {
+            "question": "_______________ is a blend of facts and values.",
+            "options": [
+                "Idealism",
+                "Pragmatism",
+                "Science",
+                "Empiricism"
+            ],
+            "correctOption": "Pragmatism"
+        },
+        {
+            "question": "The epistemological position that places reason alone as a primary and sufficient source of all knowledge is",
+            "options": [
+                "Rationalism",
+                "Dogmatism",
+                "Positivism",
+                "Empiricism"
+            ],
+            "correctOption": "Rationalism"
+        },
+        {
+            "question": "Which of these is a rationalist philosopher.",
+            "options": [
+                "Alfred North Whitehead",
+                "John Locke",
+                "Immanuel Kant",
+                "Baruch Spinosa"
+            ],
+            "correctOption": "Baruch Spinosa"
+        },
+        {
+            "question": "“Every man is born with certain basic idea in his mind and these basic ideas are known immediately and spontaneously as soon as man attains the age of reason” is the thrust of which school of thought in epistemology?",
+            "options": [
+                "Empiricism",
+                "Metaphysics",
+                "Psychology",
+                "Rationalism"
+            ],
+            "correctOption": "Rationalism"
+        },
+        {
+            "question": "“The limit of my perception is the limit of my world”, is a famous cliché attributed to",
+            "options": [
+                "Locke",
+                "Hume",
+                "Berckely",
+                "Hegel"
+            ],
+            "correctOption": "Hume"
+        },
+        {
+            "question": "The school of thought which holds that all knowledge comes from experience is",
+            "options": [
+                "Empiricism",
+                "Rationalism",
+                "Verificationism",
+                "Experientialism"
+            ],
+            "correctOption": "Empiricism"
+        },
+        {
+            "question": "Which of these philosophers is an empiricist?",
+            "options": [
+                "Socrates",
+                "Thales",
+                "Pythagoras",
+                "George Berckely"
+            ],
+            "correctOption": "George Berckely"
+        },
+        {
+            "question": "The epistemological position which claims that although knowledge begins from experience, but it is not ultimately derived from experience is credited to _______________",
+            "options": [
+                "Aristotle",
+                "Weber",
+                "Kant",
+                "Hume"
+            ],
+            "correctOption": "Kant"
+        },
+        {
+            "question": "Who attempted to reconcile empiricism and rationalism?",
+            "options": [
+                "Plato",
+                "Newton",
+                "Ptolemy",
+                "Kant"
+            ],
+            "correctOption": "Kant"
+        },
+        {
+            "question": "___________ Philosophy emerged as a reaction to the lopsidedness of Kant.",
+            "options": [
+                "The German Idealist",
+                "The Empiricist",
+                "The Rationalist",
+                "The Positivist"
+            ],
+            "correctOption": "The German Idealist"
+        },
+        {
+            "question": "The core thesis of the German idealists is known as",
+            "options": [
+                "Absolute Idealism",
+                "Phenomenology",
+                "Absolute Realism",
+                "Existentialism"
+            ],
+            "correctOption": "Absolute Idealism"
+        },
+        {
+            "question": "The thesis that seeks to explain every aspect of reality as one is",
+            "options": [
+                "Dualism",
+                "Sophism",
+                "Skepticism",
+                "Monism"
+            ],
+            "correctOption": "Monism"
+        },
+        {
+            "question": "All essences are inter-penetrated is a reflection of whose philosophy?",
+            "options": [
+                "Hegel’s",
+                "Jean Paul Satre’s",
+                "Marcel’s",
+                "Carnap’s"
+            ],
+            "correctOption": "Hegel’s"
+        },
+        {
+            "question": "The world is in organic process. This is the view of…………….",
+            "options": [
+                "Hegel",
+                "Frege",
+                "Russell",
+                "Moore"
+            ],
+            "correctOption": "Hegel"
+        },
+        {
+            "question": "The Absolute spirit is in the process of self manifestation. This position is credited to……",
+            "options": [
+                "Russell",
+                "Hegel",
+                "Kuhn",
+                "Popper"
+            ],
+            "correctOption": "Hegel"
+        },
+        {
+            "question": "Which of these is a conversations that emerged as reactions to Hegel’s idealism?",
+            "options": [
+                "Logical Atomism",
+                "Logical Positivism",
+                "Continental Tradition",
+                "Marxism"
+            ],
+            "correctOption": "Continental Tradition"
+        },
+        {
+            "question": "Analytic tradition has two major movements. One of them is",
+            "options": [
+                "Logical Atomism",
+                "Exixtentialism",
+                "Prgmatism",
+                "Epicureanism"
+            ],
+            "correctOption": "Logical Atomism"
+        },
+        {
+            "question": "The Philosophy that seeks to explain world as consisting of atomic facts is known as",
+            "options": [
+                "Logical Positivism",
+                "Logicism",
+                "Atomism",
+                "Logical Atomism"
+            ],
+            "correctOption": "Logical Atomism"
+        },
+        {
+            "question": "African Philosophy is the outcome of investigations carried out by ethnographers, sociologist and philosophers with a desire to presenting a collective world view of Africans in such a systematized way. Which trend in African philosophy is described here?",
+            "options": [
+                "Philosophical sagacity",
+                "Ethno-Philosophy",
+                "Nationalist/Ideological",
+                "Professional"
+            ],
+            "correctOption": "Ethno-Philosophy"
+        },
+        {
+            "question": "The position which states that philosophy should be universal transcending all geographical boundaries is credited to which school of thought?",
+            "options": [
+                "Ecclectic",
+                "Traditionalist",
+                "Modernist",
+                "Particularist"
+            ],
+            "correctOption": "Modernist"
+        },
+        {
+            "question": "Which of these is a philosopher belonging to the universalist school?",
+            "options": [
+                "Hegel",
+                "Wiredu",
+                "Kagame",
+                "Mbiti"
+            ],
+            "correctOption": "Wiredu"
+        },
+        {
+            "question": "One of these is a trend in African Philosophy.",
+            "options": [
+                "Particularist",
+                "Univesalist",
+                "Professional",
+                "Modernist"
+            ],
+            "correctOption": "Professional"
+        },
+        {
+            "question": "Philosophy is an off-shoot of the culture that produced it and therefore should be culture bound. Which school in African Philosophy is defined here?",
+            "options": [
+                "Particularist",
+                "Modernist",
+                "Sociology",
+                "Ethics"
+            ],
+            "correctOption": "Particularist"
+        },
+        {
+            "question": "Philosophy should be universal going beyond all cultural encumbrances. Which of the schools of thought in African Philosophy is represented here?",
+            "options": [
+                "Traditionalist",
+                "Universalist",
+                "African Traditional Religion",
+                "Buddhism"
+            ],
+            "correctOption": "Universalist"
+        },
+        {
+            "question": "Which of these is a philosopher of the traditionalist school?",
+            "options": [
+                "Peter Bodunrin",
+                "Alexis kagame",
+                "Odera Oruka",
+                "St Augustine of Hippo"
+            ],
+            "correctOption": "Alexis kagame"
+        },
+        {
+            "question": "The emergence of African Philosophy was as a result of two factors.",
+            "options": [
+                "A priori and A posteriori",
+                "External and Internal",
+                "Analytic and synthetic",
+                "Realism and Idealism"
+            ],
+            "correctOption": "External and Internal"
+        },
+        {
+            "question": "African Politics should be characterized by the pre-colonial system of governance. Which of the trends in African Philosophy is here identified?",
+            "options": [
+                "Professional",
+                "Nationalist/Ideological",
+                "Ethno-Philosophy",
+                "Philosophical Sagacity"
+            ],
+            "correctOption": "Nationalist/Ideological"
+        },
+        {
+            "question": "The saying that sugarcane may taste bitter to someone suffering from catarrh presupposes that:",
+            "options": [
+                "our senses are true source of knowledge",
+                "our senses can deceive us",
+                "those suffering from catarrh should avoid sugarcane",
+                "Sugarcane is best for catarrh"
+            ],
+            "correctOption": "our senses can deceive us"
+        },
+        {
+            "question": "According to Plato transient being is found only in",
+            "options": [
+                "the world of appearance",
+                "material objects",
+                "designated objects",
+                "world of Forms"
+            ],
+            "correctOption": "the world of appearance"
+        },
+        {
+            "question": "Aristotle was the pupil of Plato just as Plato was the pupil of",
+            "options": [
+                "Socrates",
+                "Rousseau",
+                "Anselm",
+                "Augustine"
+            ],
+            "correctOption": "Socrates"
+        },
+        {
+            "question": "According to Aristotle, _______________ qua being is the foundation and unity of all things.",
+            "options": [
+                "God",
+                "Man",
+                "Being",
+                "world"
+            ],
+            "correctOption": "Being"
+        },
+        {
+            "question": "_______________ says that metaphysics is theology.",
+            "options": [
+                "Aristotle",
+                "St. Augustine",
+                "Martin Luther",
+                "Kant"
+            ],
+            "correctOption": "Aristotle"
+        },
+        {
+            "question": "Aquinas maintains that God is Being par excellence.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "_______________ holds the view that whatever exists is Being.",
+            "options": [
+                "Leibnitz",
+                "Dun Scotus",
+                "Sartre",
+                "Aquinas"
+            ],
+            "correctOption": "Aquinas"
+        },
+        {
+            "question": "The view that whatever exists is being means that being cannot be identified as an allembracing entity.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "False"
+        },
+        {
+            "question": "While Pantheism holds that God is everything, Panentheism assumes that _______________",
+            "options": [
+                "God is his chosen ones",
+                "God is in everything",
+                "God is in living objects only"
+            ],
+            "correctOption": "God is in everything"
+        },
+        {
+            "question": "According to William of Ockham, if God and creatures are not being at the same sense, we will not be able to form the idea of",
+            "options": [
+                "being",
+                "God",
+                "heaven and earth"
+            ],
+            "correctOption": "God"
+        },
+        {
+            "question": "Spinoza can be categorised as a _______________",
+            "options": [
+                "Monist",
+                "Dualist",
+                "Pluralist"
+            ],
+            "correctOption": "Monist"
+        },
+        {
+            "question": "Plato holds that things in the physical world are _______________",
+            "options": [
+                "man-made",
+                "mere appearances",
+                "natural"
+            ],
+            "correctOption": "mere appearances"
+        },
+        {
+            "question": "According to _______________, while we can know things that appear to us we cannot know things as they are in themselves.",
+            "options": [
+                "Kant",
+                "Descartes",
+                "Plato"
+            ],
+            "correctOption": "Kant"
+        },
+        {
+            "question": "The various philosophical positions or system of thought of different thinkers which they held to over a long period of time is",
+            "options": [
+                "School of philosophy",
+                "School of epistemology",
+                "School of Socrates",
+                "School of idealism"
+            ],
+            "correctOption": "School of philosophy"
+        },
+        {
+            "question": "Which school maintains that reason is the major source of acquiring knowledge",
+            "options": [
+                "Idealism",
+                "Realism",
+                "Pragmatism",
+                "Rationalism"
+            ],
+            "correctOption": "Rationalism"
+        },
+        {
+            "question": "Rationalism began in the modern period with _______________ as the leading proponent",
+            "options": [
+                "Spinoza",
+                "Leibnitz",
+                "Locke",
+                "Descartes"
+            ],
+            "correctOption": "Descartes"
+        },
+        {
+            "question": "Which school holds the view that sense experience is the major source of acquiring knowledge?",
+            "options": [
+                "Empiricism",
+                "Rationalism",
+                "Existentialism",
+                "Essentialism"
+            ],
+            "correctOption": "Empiricism"
+        },
+        {
+            "question": "John Locke was the leading exponent of which school of thought",
+            "options": [
+                "Empiricism",
+                "Epicureanism",
+                "Stoicism",
+                "Materialism",
+                "Lockeism"
+            ],
+            "correctOption": "Empiricism"
+        },
+        {
+            "question": "_______________ denies the knowledge of 'innate ideas’",
+            "options": [
+                "Kant",
+                "Locke",
+                "Plato",
+                "Aristotle"
+            ],
+            "correctOption": "Locke"
+        },
+        {
+            "question": "This word 'tabula-rasa' is associated with",
+            "options": [
+                "Nicholas",
+                "Malebranch",
+                "George",
+                "Locke"
+            ],
+            "correctOption": "Locke"
+        },
+        {
+            "question": "_______________ holds that it is better to avoid pleasure that produces pain at the end",
+            "options": [
+                "Skepticism",
+                "Epicureanism",
+                "Stoicism",
+                "Rationalism"
+            ],
+            "correctOption": "Epicureanism"
+        },
+        {
+            "question": "Zeno was the founder of the school known as",
+            "options": [
+                "Stoicism",
+                "Naturalism",
+                "Idealism",
+                "Pragmatism"
+            ],
+            "correctOption": "Stoicism"
+        },
+        {
+            "question": "If we called something evil, it is because we do not understand how it fits into the eternal plan of God. This statement is associated with which school of philosophy?",
+            "options": [
+                "Rationalism",
+                "Empiricism",
+                "Stoicism"
+            ],
+            "correctOption": "Stoicism"
+        },
+        {
+            "question": "The term ‘Predestination’ is normally associated with _______________",
+            "options": [
+                "Stoicism",
+                "Materialism",
+                "Pragmatism",
+                "Stoicism and Materialism only"
+            ],
+            "correctOption": "Stoicism"
+        },
+        {
+            "question": "Which of the following was the leading exponent of skepticism",
+            "options": [
+                "Heraclitus",
+                "Phyrrho",
+                "Plato"
+            ],
+            "correctOption": "Phyrrho"
+        },
+        {
+            "question": "Any philosophical attitude which expresses doubt as to the possibilities of knowledge or any knowledge for that matter is known as",
+            "options": [
+                "Phenomenalism",
+                "Skepticism",
+                "Existentialism",
+                "Essentialism"
+            ],
+            "correctOption": "Skepticism"
+        },
+        {
+            "question": "When we say, \"Man is the measure of all things\", we mean",
+            "options": [
+                "A man knows how to measure things",
+                "Man is the decider of all things",
+                "A man knows how to measure things and Man is the decider of all things",
+                "None of these"
+            ],
+            "correctOption": "Man is the decider of all things"
+        },
+        {
+            "question": "Which form of skepticism discountenances the possibility of any form of knowledge?",
+            "options": [
+                "Extreme skepticism",
+                "Moderate skepticism",
+                "All of these"
+            ],
+            "correctOption": "Extreme skepticism"
+        },
+        {
+            "question": "_______________ argues that, nothing exists, if it exists, it cannot be known, and If it is known, it cannot be communicated",
+            "options": [
+                "Solipsism",
+                "Idealism",
+                "Realism",
+                "Sophism"
+            ],
+            "correctOption": "Sophism"
+        },
+        {
+            "question": "One of the following is a reason why the skeptics maintain that conclusive knowledge of ultimate reality remains an impossibility.",
+            "options": [
+                "That man does not have the capacity and equipment to know things in a certain manner",
+                "man is not a real scientist",
+                "Because man is mortal",
+                "None of these"
+            ],
+            "correctOption": "That man does not have the capacity and equipment to know things in a certain manner"
+        },
+        {
+            "question": "The doctrine that whatever exists is basically matter or entirely depends on matter for it’s existence is known as _______________",
+            "options": [
+                "Materialism",
+                "Phenomenology",
+                "Pragmatism",
+                "Atomism"
+            ],
+            "correctOption": "Materialism"
+        },
+        {
+            "question": "_______________ was a great port and commercial centre in the history of philosophy",
+            "options": [
+                "Ionia",
+                "Europe",
+                "Africa"
+            ],
+            "correctOption": "Ionia"
+        },
+        {
+            "question": "Arrange in correct order",
+            "options": [
+                "Socrates, Aristotle, Plato",
+                "Socrates, Plato , Aristotle",
+                "Aristotle, Plato, Socrates"
+            ],
+            "correctOption": "Socrates, Plato , Aristotle"
+        },
+        {
+            "question": "Orphism is the worship of a god known as",
+            "options": [
+                "Dionysus crew",
+                "Dionysus greus",
+                "Dionysus Zagreus"
+            ],
+            "correctOption": "Dionysus Zagreus"
+        },
+        {
+            "question": "Plato's three division of the soul are",
+            "options": [
+                "Reason, spirit and appetitive",
+                "Reason, thought and sight",
+                "Thought, sight and spirit"
+            ],
+            "correctOption": "Reason, spirit and appetitive"
+        },
+        {
+            "question": "Which philosopher died by drinking a poison",
+            "options": [
+                "Socrates",
+                "Tertulian",
+                "Clement"
+            ],
+            "correctOption": "Socrates"
+        },
+        {
+            "question": "Anti-Thesis simply means providing a contrary case to thesis",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctOption": "True"
+        },
+        {
+            "question": "Which Greek Philosopher holds that the universe is basically constituted by numbers?",
+            "options": [
+                "Protagoras",
+                "Gorgias",
+                "Pythagoras"
+            ],
+            "correctOption": "Pythagoras"
+        },
+        {
+            "question": "Which philosophical school of thought holds the view that the future is fixed irrespective of our attempt to alter it.",
+            "options": [
+                "Stoicism",
+                "Epicureanism",
+                "Cynicism"
+            ],
+            "correctOption": "Stoicism"
+        },
+        {
+            "question": "Which four schools of thought flourished after the golden age philosophy?",
+            "options": [
+                "Cynicism , realism, idealism and stoicism",
+                "Cynicism, Cycrenaicism, Stoicism and Epicureanism",
+                "Realism, cynicism, naturalism and stoicism"
+            ],
+            "correctOption": "Cynicism, Cycrenaicism, Stoicism and Epicureanism"
+        },
+        {
+            "question": "Which philosophical school of thought holds that atoms are the ultimate constituents of the universe?",
+            "options": [
+                "Epicureanism",
+                "Empiricism",
+                "Stoicism"
+            ],
+            "correctOption": "Epicureanism"
+        },
+        {
+            "question": "The unexamined life is not worth living says",
+            "options": [
+                "Socrates",
+                "Parmenides",
+                "Plato"
+            ],
+            "correctOption": "Socrates"
+        },
+        {
+            "question": "The first three periods in the history of philosophy in ascending order are",
+            "options": [
+                "Pre-Socratic, medieval, modern",
+                "Pre-Socratic, Socratic, post –Socratic",
+                "Ancient, medieval, modem"
+            ],
+            "correctOption": "Ancient, medieval, modem"
+        },
+        {
+            "question": "All of these are pre-Socratic philosophers except",
+            "options": [
+                "Zeno",
+                "Thales",
+                "Parmenides"
+            ],
+            "correctOption": "Zeno"
+        },
+        {
+            "question": "In Plato's politics, who should rule?",
+            "options": [
+                "man who exhibits spirited element",
+                "Man who exhibits appetitive element",
+                "Man who exhibits reasoning element"
+            ],
+            "correctOption": "Man who exhibits reasoning element"
+        },
+        {
+            "question": "Before 600 B.C the Greeks relied mostly on _______________ for explanation about the fundamental questions they asked.",
+            "options": [
+                "Men",
+                "Kings",
+                "Religion and mythology"
+            ],
+            "correctOption": "Religion and mythology"
+        },
+        {
+            "question": "In the history of philosophy the widely developed, documented and seemingly popular philosophy is",
+            "options": [
+                "Southern philosophy",
+                "Western philosophy",
+                "Eastern philosophy"
+            ],
+            "correctOption": "Western philosophy"
+        },
+        {
+            "question": "Which period in the history of philosophy was a period of attempted reconciliation of philosophy and religion?.",
+            "options": [
+                "Medieval",
+                "Modern",
+                "Ancient"
+            ],
+            "correctOption": "Medieval"
+        },
+        {
+            "question": "Which period is referred to as the golden age?",
+            "options": [
+                "Ancient",
+                "Socratic",
+                "Post -Socratic"
+            ],
+            "correctOption": "Socratic"
+        },
+        {
+            "question": "The two cities in St Augustine's philosophy are",
+            "options": [
+                "Man's soul an the human element",
+                "City of God and God's mind",
+                "City of God and city of man"
+            ],
+            "correctOption": "City of God and city of man"
+        },
+        {
+            "question": "The four schools of thought that flourished after the golden age are sometimes referred to as _______________",
+            "options": [
+                "Babylonian philosophies",
+                "Ionian philosophy",
+                "Hellenistic philosophy"
+            ],
+            "correctOption": "Hellenistic philosophy"
+        },
+        {
+            "question": "What led to the break- down of the Greek city-states ?",
+            "options": [
+                "Conquest by Alexander the Great",
+                "Confusion and socio-political insecurity",
+                "Pessimistic ism"
+            ],
+            "correctOption": "Conquest by Alexander the Great"
+        },
+        {
+            "question": "One of these philosophers is a Socratic philosopher",
+            "options": [
+                "Aristotle",
+                "Pythagoras",
+                "Thales"
+            ],
+            "correctOption": "Aristotle"
+        },
+        {
+            "question": "All things come into existence by collision and entanglement of atoms says",
+            "options": [
+                "The Cynics",
+                "Epicurus",
+                "Zero"
+            ],
+            "correctOption": "Epicurus"
+        },
+        {
+            "question": "The cosmic principles of intelligibility is called _______________ according to Heraclitus",
+            "options": [
+                "Locus",
+                "Logos",
+                "Cacus"
+            ],
+            "correctOption": "Logos"
+        },
+        {
+            "question": "Thales argued that the primary element or original stuff of the universe is .",
+            "options": [
+                "Water",
+                "Fire",
+                "Water and Fire"
+            ],
+            "correctOption": "Water"
+        },
+        {
+            "question": "_______________ claimed that the analysis of ordinary language and common sense rather than scientific mathematical language should be the focal point of linguistic analysis.",
+            "options": [
+                "George Edward Moore",
+                "Wittgenstein",
+                "Russell"
+            ],
+            "correctOption": "George Edward Moore"
+        },
+        {
+            "question": "What method did Socrates used in teaching his listeners",
+            "options": [
+                "Socratic method",
+                "Prescriptive method",
+                "Dialectic",
+                "Socratic method and Dialectic"
+            ],
+            "correctOption": "Socratic method and Dialectic"
+        },
+        {
+            "question": "One of these displayed an extraordinary life",
+            "options": [
+                "Plato",
+                "Anaximiners",
+                "Socrates"
+            ],
+            "correctOption": "Socrates"
+        },
+        {
+            "question": "Who declared that the universe is unchanging",
+            "options": [
+                "Thales",
+                "Heraclitus",
+                "Parmenides"
+            ],
+            "correctOption": "Parmenides"
+        },
+        {
+            "question": "One of these believed in the senses as the true ways of acquiring true knowledge",
+            "options": [
+                "Aristotle",
+                "Crytilus",
+                "Anaximander"
+            ],
+            "correctOption": "Aristotle"
+        },
+        {
+            "question": "Who founded stoicism",
+            "options": [
+                "Epicurus",
+                "Zeno",
+                "Zagreus"
+            ],
+            "correctOption": "Zeno"
+        },
+        {
+            "question": "One of these philosophers speculated about the universe only",
+            "options": [
+                "Thales",
+                "Socrates",
+                "Aristotle"
+            ],
+            "correctOption": "Thales"
+        },
+        {
+            "question": "_______________ believed in skepticism and relativism of truth and knowledge",
+            "options": [
+                "The Pythagoreans",
+                "The Aristotelians",
+                "The Sophists"
+            ],
+            "correctOption": "The Sophists"
+        },
+        {
+            "question": "The chief political abuse that made Plato to turn away from a civic career was",
+            "options": [
+                "Trial and death of Socrates",
+                "Death of his parents",
+                "Politics played by Europeans"
+            ],
+            "correctOption": "Trial and death of Socrates"
+        },
+        {
+            "question": "Who championed the move of philosophy from the examination of universe to the examination of inner life?",
+            "options": [
+                "Ancient philosophers",
+                "Pre-Socratic philosophers",
+                "Socratic",
+                "Augustine"
+            ],
+            "correctOption": "Augustine"
+        },
+        {
+            "question": "What is another name for Socratic period",
+            "options": [
+                "Medieval",
+                "Modern",
+                "Golden Age"
+            ],
+            "correctOption": "Golden Age"
+        },
+        {
+            "question": "Who discovered the static electricity?",
+            "options": [
+                "Parmenides",
+                "Pythagoras",
+                "Thales"
+            ],
+            "correctOption": "Thales"
+        },
+        {
+            "question": "Who was the founder of Epicureanism?",
+            "options": [
+                "Epicurus",
+                "Epictrius",
+                "Parmenides"
+            ],
+            "correctOption": "Epicurus"
+        }
+    ]
+}

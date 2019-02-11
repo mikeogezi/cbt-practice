@@ -1,1 +1,1325 @@
-{}
+{
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "question": "Starting with Microsoft Office 2003, Photo Editor was renamed to :",
+            "options": [
+                "Photo Manager",
+                "Picture Manager",
+                "Picture Editor",
+                "Paint Editor"
+            ],
+            "correctOption": "Picture Manager"
+        },
+        {
+            "question": "Is Microsoft Works is part of the Microsoft Office Suite?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctOption": "No"
+        },
+        {
+            "question": "A feature of MS Office that saves the document automatically after certain interval is called _______________",
+            "options": [
+                "Save",
+                "Save As",
+                "Auto Save",
+                "Backup"
+            ],
+            "correctOption": "Auto Save"
+        },
+        {
+            "question": "What was the HTML editor that was part of Microsoft Office until 2003?",
+            "options": [
+                "Web Page",
+                "Explorer",
+                "FrontPage",
+                "DreamWeaver"
+            ],
+            "correctOption": "FrontPage"
+        },
+        {
+            "question": "Which feature is used to make selected sentence to All Captital Letters or All Small Letters ?",
+            "options": [
+                "Change Letter",
+                "Change Sentence",
+                "Change Case",
+                "Change Word"
+            ],
+            "correctOption": "Change Case"
+        },
+        {
+            "question": "Which of these software applications was not part of the first version of Microsoft Office?",
+            "options": [
+                "Paint",
+                "PowerPoint",
+                "Outlook",
+                "MS Word"
+            ],
+            "correctOption": "Outlook"
+        },
+        {
+            "question": "To go to a specific location in a document we use :",
+            "options": [
+                "Table of Contents",
+                "HyperText",
+                "Bookmark",
+                "Macro"
+            ],
+            "correctOption": "Bookmark"
+        },
+        {
+            "question": "Office 365 is now the most popular cloud application in the worl",
+            "options": [
+                "But when did it debut?",
+                "2008",
+                "2010",
+                "2011",
+                "2014"
+            ],
+            "correctOption": "2010"
+        },
+        {
+            "question": "Which one is the most suitable reason to use Macro in MS Office (Word, Excel, PPT, etc) ?",
+            "options": [
+                "To Record Sound",
+                "To automate repetative tasks",
+                "To Record Mouse Move",
+                "To Record Keystroke"
+            ],
+            "correctOption": "To automate repetative tasks"
+        },
+        {
+            "question": "Superscript, subscript, strikethrough are known as ?",
+            "options": [
+                "Font Face",
+                "Font Style",
+                "Font Effects",
+                "Font Format"
+            ],
+            "correctOption": "Font Effects"
+        },
+        {
+            "question": "Can we edit a Macro programatically after recording it ?",
+            "options": [
+                "Yes",
+                "No"
+            ],
+            "correctOption": "Yes"
+        },
+        {
+            "question": "We can start MS Word by typing _______________ in the Run Dialog box.",
+            "options": [
+                "winwor",
+                "exe",
+                "wor",
+                "exe",
+                "mswor",
+                "exe",
+                "docx.exe"
+            ],
+            "correctOption": "winwor"
+        },
+        {
+            "question": "A Microsoft Office user who has been certified by Microsoft is called MOS. What is the full form of MOS ?",
+            "options": [
+                "Microsoft Office Special",
+                "Microsoft Office Superior",
+                "Microsoft Office Specialist",
+                "Microsoft Office eSpecial"
+            ],
+            "correctOption": "Microsoft Office Specialist"
+        },
+        {
+            "question": "Name the application under MS Office software bundle, that we use to create audio visual presentation.",
+            "options": [
+                "MS Word",
+                "MS Excel",
+                "MS PowerPoint",
+                "MS Access"
+            ],
+            "correctOption": "MS PowerPoint"
+        },
+        {
+            "question": "Can we assign a Keyboard Shortcut of our choice to a Macro?",
+            "options": [
+                "No",
+                "Yes"
+            ],
+            "correctOption": "Yes"
+        },
+        {
+            "question": "Which one is the the spreadsheet application that comes with MS Office software group?",
+            "options": [
+                "MS Word",
+                "MS Excel",
+                "MS PowerPoint",
+                "MS Access"
+            ],
+            "correctOption": "MS Excel"
+        },
+        {
+            "question": "We can apply border to _______________",
+            "options": [
+                "Cell",
+                "Paragraph",
+                "Table",
+                "All of These"
+            ],
+            "correctOption": "All of These"
+        },
+        {
+            "question": "What is the shortcut key to open the Open dialog box?",
+            "options": [
+                "F12",
+                "Shift F12",
+                "Alt + F12",
+                "Ctrl + F12"
+            ],
+            "correctOption": "Alt + F12"
+        },
+        {
+            "question": "You cannot close MS Office application by",
+            "options": [
+                "Exit from File menu",
+                "Pressing Alt+F4",
+                "Clicking [X] Button",
+                "Close from File Menu"
+            ],
+            "correctOption": "Close from File Menu"
+        },
+        {
+            "question": "By default Footers are printed on :",
+            "options": [
+                "First Page",
+                "Last Page",
+                "All Pages",
+                "Even Pages"
+            ],
+            "correctOption": "All Pages"
+        },
+        {
+            "question": "The options Potrait and Landscape comes under _______________",
+            "options": [
+                "Paper Size",
+                "Page Orientation",
+                "Page Layout",
+                "Page Rotation"
+            ],
+            "correctOption": "Page Orientation"
+        },
+        {
+            "question": "Which shortcut make selected text Italic ?",
+            "options": [
+                "Ctrl + I",
+                "Ctrl + A",
+                "Ctrl + S",
+                "Ctrl + V"
+            ],
+            "correctOption": "Ctrl + I"
+        },
+        {
+            "question": "Which key combination is used to insert a Line Break?",
+            "options": [
+                "Shift + Enter",
+                "Alt + Enter",
+                "Ctrl + Enter",
+                "Fn + Enter"
+            ],
+            "correctOption": "Shift + Enter"
+        },
+        {
+            "question": "Name the Desktop Database application that is part of MS Office suit.",
+            "options": [
+                "MS Word",
+                "MS Access",
+                "MS PowerPoint",
+                "MS Excel"
+            ],
+            "correctOption": "MS Access"
+        },
+        {
+            "question": "Which menu / group will we use if we want to change the typeface of selected text ?",
+            "options": [
+                "Edit",
+                "View",
+                "Format",
+                "Tools"
+            ],
+            "correctOption": "Format"
+        },
+        {
+            "question": "We have copied an image from one document, now which shortcut will we used to paste it in another document ?",
+            "options": [
+                "Ctrl + P",
+                "Ctrl + X",
+                "Ctrl + V",
+                "Ctrl + S"
+            ],
+            "correctOption": "Ctrl + V"
+        },
+        {
+            "question": "What does the Function Key - F12 do when you are using MS Office (Word, Excel, PowerPoint, etc.) ?",
+            "options": [
+                "Open 'Save As' Dialog Box",
+                "Shows 'Open' Dialog Box",
+                "Display 'Save' Dialog Box",
+                "Opens 'Font' Dialog Box"
+            ],
+            "correctOption": "Open 'Save As' Dialog Box"
+        },
+        {
+            "question": "Suppose there is a text in a document that is Bold, Red in Color with Green Backgroun",
+            "options": [
+                "We want to apply all of these formatting to another paragraph in one go. Which option will we use ?",
+                "Format Button",
+                "Format Menu",
+                "Format Painter",
+                "Format Macro"
+            ],
+            "correctOption": "Format Menu"
+        },
+        {
+            "question": "Name the word processing application that comes with MS Office.",
+            "options": [
+                "MS Word",
+                "MS Excel",
+                "MS PowerPoint",
+                "MS Paint"
+            ],
+            "correctOption": "MS Word"
+        },
+        {
+            "question": "Gutter Margin is used to :",
+            "options": [
+                "Add space to the Header Side",
+                "Add space to the Left",
+                "Add Space to binding side",
+                "Add space to the Footer side"
+            ],
+            "correctOption": "Add Space to binding side"
+        },
+        {
+            "question": "Which key combination is used to insert a Page Break in MS Word ?",
+            "options": [
+                "Shift + Enter",
+                "Alt + Enter",
+                "Ctrl + Enter",
+                "Space + Enter"
+            ],
+            "correctOption": "Ctrl + Enter"
+        },
+        {
+            "question": "We can keep multiple version of a word document in a single file by using _______________ feature.",
+            "options": [
+                "Version Change",
+                "Edition Change",
+                "Track Change",
+                "Trace Change"
+            ],
+            "correctOption": "Track Change"
+        },
+        {
+            "question": "Which shortcut is used to select entire text ?",
+            "options": [
+                "Ctrl + I",
+                "Ctrl + A",
+                "Ctrl + S",
+                "Ctrl + V"
+            ],
+            "correctOption": "Ctrl + A"
+        },
+        {
+            "question": "What is the shortcut key to search for any Spelling mistake on a document ?",
+            "options": [
+                "Function Key 2",
+                "Function Key 5",
+                "Function Key 7",
+                "Function Key 9"
+            ],
+            "correctOption": "Function Key 7"
+        },
+        {
+            "question": "Which one of these is a valid Font Style ?",
+            "options": [
+                "Superscript",
+                "Subscript",
+                "Regular",
+                "Stikethrough"
+            ],
+            "correctOption": "Regular"
+        },
+        {
+            "question": "Which of the following is not valid version of MS Office?",
+            "options": [
+                "Office XP",
+                "Office Vista",
+                "Office 2007",
+                "Office 97-2003"
+            ],
+            "correctOption": "Office Vista"
+        },
+        {
+            "question": "What is the range of Font Size available in Font Size drop down toolbar ?",
+            "options": [
+                "From 10 to Large 70",
+                "From 8 to Large 72",
+                "From 5 to Large 75",
+                "From 10 to Large 100"
+            ],
+            "correctOption": "From 8 to Large 72"
+        },
+        {
+            "question": "Gutter Margin can be set to :",
+            "options": [
+                "Left and Right",
+                "Top and Bottom",
+                "Right and Bottom",
+                "Left and Top"
+            ],
+            "correctOption": "Left and Top"
+        },
+        {
+            "question": "Wich of the following is not a kind of Page Margin?",
+            "options": [
+                "Right",
+                "Left",
+                "Centre",
+                "Gutter"
+            ],
+            "correctOption": "Gutter"
+        },
+        {
+            "question": "We can seach a document with a keywor",
+            "options": [
+                "Can we search text by formatting ?",
+                "Yes",
+                "No"
+            ],
+            "correctOption": "Can we search text by formatting ?"
+        },
+        {
+            "question": "Which field type will you select if you need to enter long text in that field?",
+            "options": [
+                "Text",
+                "Memo",
+                "Currency",
+                "Hyperlink"
+            ],
+            "correctOption": "Memo"
+        },
+        {
+            "question": "The expression builder is an access tool that controls an expression_______________ for entering an expression",
+            "options": [
+                "Table",
+                "Box",
+                "Cell",
+                "Palette"
+            ],
+            "correctOption": "Box"
+        },
+        {
+            "question": "Which of the following is not a type of MS Access databaseobject?",
+            "options": [
+                "Table",
+                "Form",
+                "Worksheets",
+                "Modules"
+            ],
+            "correctOption": "Worksheets"
+        },
+        {
+            "question": "In which method we don't need to specify the field type and size while creating a new Table?",
+            "options": [
+                "Design View",
+                "While using Wizard",
+                "CreateTable By Entering Data",
+                "All of these"
+            ],
+            "correctOption": "CreateTable By Entering Data"
+        },
+        {
+            "question": "The size of yes/no field is always _______________",
+            "options": [
+                "1 Bit",
+                "1 Byte",
+                "1 Character",
+                "1 KB"
+            ],
+            "correctOption": "1 Bit"
+        },
+        {
+            "question": "The size of a field with number data type can not be _______________",
+            "options": [
+                "2",
+                "4",
+                "8",
+                "16"
+            ],
+            "correctOption": "16"
+        },
+        {
+            "question": "Ho can you edit a relationship already established between two tables?",
+            "options": [
+                "Right click the relationship line and choose Edit Relationship",
+                "Double click the relationship line",
+                "Both \"Right click the relationship line and choose Edit Relationship\" and \"Double click the relationship line\"",
+                "None of these"
+            ],
+            "correctOption": "Both \"Right click the relationship line and choose Edit Relationship\" and \"Double click the relationship line\""
+        },
+        {
+            "question": "What does the show check box in query design window indicate ?",
+            "options": [
+                "It indicates whether the field is to be used or not.",
+                "It indicates whether the field is to be displayed in query result or not",
+                "It indicates whether the field names to be displayed in query result or not.",
+                "It indicates whether the field is to be used for grouping result or not."
+            ],
+            "correctOption": "It indicates whether the field is to be displayed in query result or not"
+        },
+        {
+            "question": "Which of the following option creates a Drop Down List of values ?",
+            "options": [
+                "Ole Object",
+                "Hyperlink",
+                "Memo",
+                "Lookup Wizard"
+            ],
+            "correctOption": "Lookup Wizard"
+        },
+        {
+            "question": "what can be the maximum length of a text field ?",
+            "options": [
+                "120",
+                "255",
+                "265",
+                "75"
+            ],
+            "correctOption": "255"
+        },
+        {
+            "question": "Which kind of query that displays its own dialog box prompting you for entering information before executing ?",
+            "options": [
+                "Select Query",
+                "Crosstab Query",
+                "Parameter Query",
+                "Dialog Query"
+            ],
+            "correctOption": "Parameter Query"
+        },
+        {
+            "question": "What is a form that we can create in MS Access ?",
+            "options": [
+                "It is used to take printout of a form from Access Tables.",
+                "It is an input screen for viewing and entering data.",
+                "It is used for storing special data other than text (e.g photo)",
+                "It is optional. We can use Report instead of Form"
+            ],
+            "correctOption": "It is an input screen for viewing and entering data."
+        },
+        {
+            "question": "What Cascade Delete option is used for ?",
+            "options": [
+                "It is used to delete all the records of all tables in a database",
+                "It repeats the recent delete operation to all the records of current table",
+                "It ensures that all the related records will be deleted automatically when the record from parent table is delete",
+                "",
+                "It is used to delete all the records of related tables in a database"
+            ],
+            "correctOption": "It ensures that all the related records will be deleted automatically when the record from parent table is delete"
+        },
+        {
+            "question": "Which operator is used to filter and display rows when all (two or more) conditions are satiesfied ?",
+            "options": [
+                "RANGE",
+                "IN",
+                "ALL",
+                "AND"
+            ],
+            "correctOption": "ALL"
+        },
+        {
+            "question": "The_______________ button on the tool box display data from a related table",
+            "options": [
+                "Sub form sub report",
+                "Relationships",
+                "Select objects",
+                "More controls"
+            ],
+            "correctOption": "Sub form sub report"
+        },
+        {
+            "question": "Thecommandcenter of Access File thatappearswhen wecreateor open the MSAccess databaseFile.",
+            "options": [
+                "Database Window",
+                "Query Window",
+                "Design View Window",
+                "Switchboard"
+            ],
+            "correctOption": "Database Window"
+        },
+        {
+            "question": "While creating relationship using mouse, how the the mousepointer looks like?",
+            "options": [
+                "A thick plus sign",
+                "A thin plus sign",
+                "An outlined rectangle",
+                "Arrow with Plus sign"
+            ],
+            "correctOption": "An outlined rectangle"
+        },
+        {
+            "question": "The columns in a microsoft access table are also called _______________",
+            "options": [
+                "Rows",
+                "Records",
+                "Fields",
+                "Columns"
+            ],
+            "correctOption": "Fields"
+        },
+        {
+            "question": "how can you define a field so that when entering data ##### is displayed?",
+            "options": [
+                "Input Mask",
+                "Validation Rule",
+                "Indexed",
+                "Ime Mode"
+            ],
+            "correctOption": "Input Mask"
+        },
+        {
+            "question": "In the context of Microsoft Access, which of the following statement is true?",
+            "options": [
+                "Reports are used to retrieve andcalculate data from tables",
+                "Queries can be printed and presented as the information",
+                "Queries can include calculated fields that do not exist in table",
+                "Reports and forms are similar but forms are use to print but reports to display on screen only"
+            ],
+            "correctOption": "Queries can include calculated fields that do not exist in table"
+        },
+        {
+            "question": "Which of the following is not a field type in Microsoft Access ?",
+            "options": [
+                "Memo",
+                "Hyperlink",
+                "Ole Object",
+                "Lookup Wizard"
+            ],
+            "correctOption": "Lookup Wizard"
+        },
+        {
+            "question": "The upper part of the query design window in MS Access has two parts shows _______________",
+            "options": [
+                "Fields name with field size",
+                "Fields name with relationships",
+                "Fields and Criteria",
+                "Sorting Options"
+            ],
+            "correctOption": "Fields name with relationships"
+        },
+        {
+            "question": "To define AND condition while entering criteria in a query design window we write _______________",
+            "options": [
+                "Criteria values vertically one in a row",
+                "Criteria values horizontally",
+                "Write criteria values separated by AND",
+                "Write criteria values using & ( anchor and ) sign"
+            ],
+            "correctOption": "Criteria values horizontally"
+        },
+        {
+            "question": "Which feature is used to duplicate a control's formatting ?",
+            "options": [
+                "Manager",
+                "Wizard",
+                "Painter",
+                "Control"
+            ],
+            "correctOption": "Painter"
+        },
+        {
+            "question": "Which of the following is not a type of relationship that can be applied inAccess database?",
+            "options": [
+                "One to One",
+                "One to Many",
+                "Many to Many",
+                "All of these"
+            ],
+            "correctOption": "All of these"
+        },
+        {
+            "question": "While creating relationship, what happens when you releasemousepointer after you drop the primary key of a table into foreign key of another table?",
+            "options": [
+                "A relationship is created",
+                "Edit relationship dialog boxappears",
+                "A connector symbol is created",
+                "A connecting Line is visible"
+            ],
+            "correctOption": "Edit relationship dialog boxappears"
+        },
+        {
+            "question": "What is the role of Cascade Update option ?",
+            "options": [
+                "It says do not change the value in the primary key field if that record has related records in another table",
+                "It means change all the related records in child tables if the record in parent table is changed",
+                "Both \"It says do not change the value in the primary key field if that record has related records in another table\" and \"It means change all the related records in child tables if the record in parent table is changed\"",
+                "None of these"
+            ],
+            "correctOption": "Both \"It says do not change the value in the primary key field if that record has related records in another table\" and \"It means change all the related records in child tables if the record in parent table is changed\""
+        },
+        {
+            "question": "Which of the following is a method tocreatea new table inMS Access?",
+            "options": [
+                "Using Design View",
+                "CreateTable Wizard",
+                "Directly Entering Data",
+                "All of these"
+            ],
+            "correctOption": "All of these"
+        },
+        {
+            "question": "If you write criteria values one in a row in query design window, that means you are specifying _______________",
+            "options": [
+                "OR conditions",
+                "AND conditions",
+                "NOT condition",
+                "ALL conditions"
+            ],
+            "correctOption": "OR conditions"
+        },
+        {
+            "question": "How can we create a query in Microsoft Access ?",
+            "options": [
+                "Drag and drop fields",
+                "Type the S",
+                "Use query wizard",
+                "All of these"
+            ],
+            "correctOption": "All of these"
+        },
+        {
+            "question": "Which option allows us to build a new table by entering data directly into a tabular grid ?",
+            "options": [
+                "Datasheet View",
+                "Design View",
+                "LinkedTable",
+                "Grid View"
+            ],
+            "correctOption": "Datasheet View"
+        },
+        {
+            "question": "What is the shortcut key to switch between the field names and properties panels in table design view?",
+            "options": [
+                "F3 Key",
+                "F4 Key",
+                "F5 Key",
+                "F6 Key"
+            ],
+            "correctOption": "F6 Key"
+        },
+        {
+            "question": "Which field type can store photos?",
+            "options": [
+                "Hyperlink",
+                "OLE Object",
+                "Hyperlink or OLE Object can be used",
+                "It is not possible"
+            ],
+            "correctOption": "OLE Object"
+        },
+        {
+            "question": "Which data type should we use if we are planning to store a couple of paragraph or detailed description in a field?",
+            "options": [
+                "Text",
+                "Para",
+                "Memo",
+                "Desc"
+            ],
+            "correctOption": "Memo"
+        },
+        {
+            "question": "Which of the following database object hold data?",
+            "options": [
+                "Forms",
+                "Reports",
+                "Queries",
+                "Tables"
+            ],
+            "correctOption": "Tables"
+        },
+        {
+            "question": "When creating a new table which method can be used to choose fields from standard databases and tables",
+            "options": [
+                "CreateTable In Design View",
+                "CreateTable Using Wizard",
+                "CreateTable by entering data",
+                "None of these"
+            ],
+            "correctOption": "CreateTable Using Wizard"
+        },
+        {
+            "question": "Which one of these is the most common type of query that retrieves records from one or more tables and then displays the result in tabular form ?",
+            "options": [
+                "Tabular Query",
+                "Crosstab Query",
+                "Select Query",
+                "Pivot Query"
+            ],
+            "correctOption": "Select Query"
+        },
+        {
+            "question": "Microsoft Access is a _______________ kind of application ?",
+            "options": [
+                "RDBMS",
+                "OODBMS",
+                "ORDBMS",
+                "Network Database Model"
+            ],
+            "correctOption": "RDBMS"
+        },
+        {
+            "question": "Queries in MS Access can be used _______________",
+            "options": [
+                "To view data",
+                "As source for Forms",
+                "As source for Reports",
+                "All of These"
+            ],
+            "correctOption": "All of These"
+        },
+        {
+            "question": "How many characters you can type in maximum while writing the field name?",
+            "options": [
+                "60",
+                "64",
+                "68",
+                "Any Number Of Character"
+            ],
+            "correctOption": "64"
+        },
+        {
+            "question": "The small button with three dots displayed at the right of field properties box is called :",
+            "options": [
+                "Make Button",
+                "Expression Button",
+                "Build Button",
+                "None Of these"
+            ],
+            "correctOption": "Build Button"
+        },
+        {
+            "question": "Which of the following shows the final result in a presentable way ?",
+            "options": [
+                "Forms",
+                "Reports",
+                "Queries",
+                "Tables"
+            ],
+            "correctOption": "Reports"
+        },
+        {
+            "question": "In MS Access, how can we create relationship between two tables in the GUI ?",
+            "options": [
+                "Drag the foreign key of a table into the primary key of another table",
+                "Drag any field from parent table and drop on child table",
+                "Drag the primary key of a table into foreign key of another table",
+                "Any of these can be done to create relationship"
+            ],
+            "correctOption": "Drag the primary key of a table into foreign key of another table"
+        },
+        {
+            "question": "Which of the following storecommandto gather data from database?",
+            "options": [
+                "Forms",
+                "Reports",
+                "Queries",
+                "Tables"
+            ],
+            "correctOption": "Queries"
+        },
+        {
+            "question": "A search value in SQL query can be a specific value or it can be _______________",
+            "options": [
+                "Logical Operator",
+                "Relationship",
+                "Wild card character",
+                "Comparison operation"
+            ],
+            "correctOption": "Wild card character"
+        },
+        {
+            "question": "What is the default and maximum size of text field in MS Access?",
+            "options": [
+                "50 And 255 Characters",
+                "8 And 1 Gb",
+                "266 & 64000 Characters",
+                "8KB and 1.5 MB"
+            ],
+            "correctOption": "50 And 255 Characters"
+        },
+        {
+            "question": "How can we remove a relationship defined between two tables ?",
+            "options": [
+                "From Edit menu (by chosing Delete Relationship)",
+                "Select the relationship line and press Delete",
+                "Choose Delete option from Relationship menu",
+                "Choose Remove option from Relationship menu"
+            ],
+            "correctOption": "Select the relationship line and press Delete"
+        },
+        {
+            "question": "In which view Headers and Footers are visible",
+            "options": [
+                "Normal View",
+                "Page Layout View",
+                "Print Layout View",
+                "Draft View"
+            ],
+            "correctOption": "Print Layout View"
+        },
+        {
+            "question": "The process of removing unwanted part of an image is called",
+            "options": [
+                "Hiding",
+                "Bordering",
+                "Cropping",
+                "Cutting"
+            ],
+            "correctOption": "Cropping"
+        },
+        {
+            "question": "To apply center alignment to a paragraph we can press",
+            "options": [
+                "Ctrl + S",
+                "Ctrl + C",
+                "Ctrl + C + A",
+                "Ctrl + E"
+            ],
+            "correctOption": "Ctrl + E"
+        },
+        {
+            "question": "The space left between the margin and the start of a paragraph is called",
+            "options": [
+                "Spacing",
+                "Gutter",
+                "Indentation",
+                "Alignment"
+            ],
+            "correctOption": "Indentation"
+        },
+        {
+            "question": "Text-styling feature of MS word is",
+            "options": [
+                "WordColor",
+                "WordFont",
+                "WordArt",
+                "WordFill"
+            ],
+            "correctOption": "WordArt"
+        },
+        {
+            "question": "Which items are placed at the end of a document",
+            "options": [
+                "Footer",
+                "Foot Note",
+                "End Note",
+                "Header"
+            ],
+            "correctOption": "End Note"
+        },
+        {
+            "question": "To change line height to 1.5 we use shortcut key :",
+            "options": [
+                "Ctrl+1",
+                "Ctrl + 2",
+                "Ctrl + 3",
+                "Ctrl + 5"
+            ],
+            "correctOption": "Ctrl + 5"
+        },
+        {
+            "question": "A number of letter that appears little above the normal text is called :",
+            "options": [
+                "Superscript",
+                "Subscript",
+                "Supertext",
+                "Toptext"
+            ],
+            "correctOption": "Superscript"
+        },
+        {
+            "question": "A number of letter that appears little below the normal text is called :",
+            "options": [
+                "Superscript",
+                "Subscript",
+                "Supertext",
+                "Toptext"
+            ],
+            "correctOption": "Subscript"
+        },
+        {
+            "question": "We can insert a page number at",
+            "options": [
+                "Header",
+                "Footer",
+                "Both Header and Footer",
+                "None"
+            ],
+            "correctOption": "Both Header and Footer"
+        },
+        {
+            "question": "Which one can be used as watermark in a word document",
+            "options": [
+                "Text",
+                "Image",
+                "Both Text and Image",
+                "None"
+            ],
+            "correctOption": "Both Text and Image"
+        },
+        {
+            "question": "Which item appears dimly behid the main body text",
+            "options": [
+                "Water Color",
+                "Background",
+                "Watermark",
+                "Back Color"
+            ],
+            "correctOption": "Watermark"
+        },
+        {
+            "question": "Which feature starts a new line whenever a word or sentence reached a border",
+            "options": [
+                "Text Line",
+                "New Line",
+                "Text Wrapping",
+                "Text Align"
+            ],
+            "correctOption": "Text Wrapping"
+        },
+        {
+            "question": "The direction of a rectangular page for viewing and printing is called",
+            "options": [
+                "Orientation",
+                "Direction",
+                "Print Layout",
+                "Preview"
+            ],
+            "correctOption": "Orientation"
+        },
+        {
+            "question": "We can remove / hide border of a shape by selecting …",
+            "options": [
+                "No Line",
+                "No Outline",
+                "White Line",
+                "No Border"
+            ],
+            "correctOption": "No Outline"
+        },
+        {
+            "question": "We can change the thickness of a line from _______________",
+            "options": [
+                "Line width",
+                "Line Height",
+                "Line Thick",
+                "Line Style"
+            ],
+            "correctOption": "Line Style"
+        },
+        {
+            "question": "What item contains detailed information about something in the text ?",
+            "options": [
+                "Footer",
+                "Foot Note",
+                "Header",
+                "Head Note"
+            ],
+            "correctOption": "Foot Note"
+        },
+        {
+            "question": "Which item is printed at the bootom of each page",
+            "options": [
+                "Header",
+                "Foot Note",
+                "Title",
+                "Footer"
+            ],
+            "correctOption": "Footer"
+        },
+        {
+            "question": "Color and pattern used to fill a closed shape is called",
+            "options": [
+                "Shape",
+                "WordArt",
+                "Fill Style",
+                "Fill Back"
+            ],
+            "correctOption": "Fill Style"
+        },
+        {
+            "question": "Where footnotes appear in a document",
+            "options": [
+                "End of document",
+                "Bottom of a Page",
+                "End of Heading",
+                "None"
+            ],
+            "correctOption": "Bottom of a Page"
+        },
+        {
+            "question": "What is the intersection of a column and a row on a worksheet called ?",
+            "options": [
+                "Column",
+                "Value",
+                "Address",
+                "Cell"
+            ],
+            "correctOption": "Cell"
+        },
+        {
+            "question": "What type of chart is useful for comparing values over categories ?",
+            "options": [
+                "Pie Chart",
+                "Column Chart",
+                "Line Chart",
+                "Dot Graph"
+            ],
+            "correctOption": "Column Chart"
+        },
+        {
+            "question": "Which functionin Excel tells how many numeric entries are there ?",
+            "options": [
+                "NUM",
+                "COUNT",
+                "SUM",
+                "CHKNUM"
+            ],
+            "correctOption": "COUNT"
+        },
+        {
+            "question": "A features that displays only the data in column (s) according to specified criteria",
+            "options": [
+                "Formula",
+                "Sorting",
+                "Filtering",
+                "Pivot"
+            ],
+            "correctOption": "Filtering"
+        },
+        {
+            "question": "Statistical calculations and preparation of tables and graphs can be done using",
+            "options": [
+                "Adobe Photoshop",
+                "Excel",
+                "Notepad",
+                "Power Point"
+            ],
+            "correctOption": "Excel"
+        },
+        {
+            "question": "What type of chart will you use to compare performance of two employees in the year 2016 ?",
+            "options": [
+                "Column Chart",
+                "Line Chart",
+                "Pie Chart",
+                "Dot Chart"
+            ],
+            "correctOption": "Line Chart"
+        },
+        {
+            "question": "Which one is not a Function in MS Excel ?",
+            "options": [
+                "SUM",
+                "AVG",
+                "MAX",
+                "MIN"
+            ],
+            "correctOption": "AVG"
+        },
+        {
+            "question": "Functions in MS Excel must begin with _______________",
+            "options": [
+                "An () sign",
+                "An Equal Sign",
+                "A Plus Sign",
+                "A > Sign"
+            ],
+            "correctOption": "An Equal Sign"
+        },
+        {
+            "question": "Which functionin Excel checks whether a condition is true or not ?",
+            "options": [
+                "SUM",
+                "COUNT",
+                "IF",
+                "AVERAGE"
+            ],
+            "correctOption": "IF"
+        },
+        {
+            "question": "In Excel, Columns are labelled as _______________",
+            "options": [
+                "A, B, C, etc",
+                "1,2,3 etc",
+                "A1, A2, etc.",
+                "$A$1, $A$2, etc."
+            ],
+            "correctOption": "A, B, C, etc"
+        },
+        {
+            "question": "The Greater Than sign (>) is an example of _______________ operator.",
+            "options": [
+                "Arithmatic",
+                "Logical",
+                "Conditional",
+                "Greater"
+            ],
+            "correctOption": "Logical"
+        },
+        {
+            "question": "What type of chart is useful for showing trends or changes over time ?",
+            "options": [
+                "Pie Chart",
+                "Column Chart",
+                "Line Chart",
+                "Dot Graph"
+            ],
+            "correctOption": "Line Chart"
+        },
+        {
+            "question": "The process of arrenging the items of a column in some sequence or order is known as :",
+            "options": [
+                "Arrengin",
+                "Autofill",
+                "Sorting",
+                "Filtering"
+            ],
+            "correctOption": "Sorting"
+        },
+        {
+            "question": "The _______________ feature of MS Excel quicklys a series of data",
+            "options": [
+                "Auto Complete",
+                "Auto Fill",
+                "Fill Handle",
+                "Sorting"
+            ],
+            "correctOption": "Auto Fill"
+        },
+        {
+            "question": "What type of chart is useful for comparing parts of a whole ?",
+            "options": [
+                "Pie Chart",
+                "Column Chart",
+                "Line Chart",
+                "Dot Graph"
+            ],
+            "correctOption": "Pie Chart"
+        },
+        {
+            "question": "In Excel, Rows are labelled as _______________",
+            "options": [
+                "A, B, C, etc",
+                "1,2,3 etc",
+                "A1, A2, etc.",
+                "$A$1, $A$2, etc."
+            ],
+            "correctOption": "1,2,3 etc"
+        },
+        {
+            "question": "What do you use to create a chart?",
+            "options": [
+                "Pie Wizard",
+                "Excel Wizard",
+                "Data Wizard",
+                "Chart Wizard"
+            ],
+            "correctOption": "Chart Wizard"
+        },
+        {
+            "question": "How will you graphically represent expenditure in different departments ?",
+            "options": [
+                "Column Chart",
+                "Line Chart",
+                "Pie Chart",
+                "Dot Chart"
+            ],
+            "correctOption": "Pie Chart"
+        },
+        {
+            "question": "What type of chart is good for single series of data ?",
+            "options": [
+                "Column Chart",
+                "Line Chart",
+                "Pie Chart",
+                "Cone Chart"
+            ],
+            "correctOption": "Pie Chart"
+        },
+        {
+            "question": "The basic unit of a worksheet into which you enter data in Excel is called a",
+            "options": [
+                "cell",
+                "table",
+                "box",
+                "column"
+            ],
+            "correctOption": "cell"
+        },
+        {
+            "question": "How many sheets are there, by default, when we create a new Excel file ?",
+            "options": [
+                "1",
+                "3",
+                "5",
+                "10"
+            ],
+            "correctOption": "3"
+        },
+        {
+            "question": "In Excel, which one denoted a range from B1 through E5",
+            "options": [
+                "B1 - E5",
+                "B1:E5",
+                "B1 to E5",
+                "B1$E5"
+            ],
+            "correctOption": "B1:E5"
+        },
+        {
+            "question": "An Excel file is generally called a / an :",
+            "options": [
+                "E-Spreadsheet",
+                "Woorksheet",
+                "Workbook",
+                "Sheet"
+            ],
+            "correctOption": "Workbook"
+        },
+        {
+            "question": "It is a collection of data that is stored electronically as a series of records in a table.",
+            "options": [
+                "spreadsheet",
+                "presentation",
+                "database",
+                "MS Word"
+            ],
+            "correctOption": "database"
+        },
+        {
+            "question": "What type of chart will you use to compare performance of sales of two products ?",
+            "options": [
+                "Column Chart",
+                "Line Chart",
+                "Pie Chart",
+                "Both Column Chart and Line Chart"
+            ],
+            "correctOption": "Column Chart"
+        }
+    ]
+}
