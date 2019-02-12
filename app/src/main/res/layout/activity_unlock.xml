@@ -35,16 +35,22 @@
 
                 <LinearLayout
                     android:orientation="vertical"
-                    android:padding="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingBottom="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp" />
 
                     <android.support.v7.widget.AppCompatTextView
                         android:paddingTop="10dp"
                         android:id="@+id/info"
                         android:gravity="center"
                         android:textSize="18sp"
-                        android:text="Enter the PIN that appears on your card to unlock the app"
+                        android:text="\nEnter the PIN that appears on your card to unlock the app"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
@@ -93,74 +99,15 @@
                     fancy:fb_borderWidth="2dp"
                     fancy:fb_defaultColor="@color/colorPrimary"
                     fancy:fb_focusColor="@color/white"
-                    fancy:fb_radius="2dp"
+                    fancy:fb_radius="5dp"
                     android:text="UNLOCK"
                     fancy:fb_iconPaddingRight="10dp"
                     fancy:fb_iconPosition="left"
                     fancy:fb_fontIconSize="20sp"
                     fancy:fb_fontIconResource="&#xf09c;"
-                    android:textSize="18sp"
+                    android:textSize="16.5sp"
                     android:textStyle="bold"
                     fancy:fb_textColor="@color/white" />
-
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_gravity="center"
-                    android:gravity="center"
-                    android:layout_marginTop="15dp"
-                    android:layout_marginBottom="16dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <mehdi.sakout.fancybuttons.FancyButton
-                        android:id="@+id/info_btn"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="20dp"
-                        android:paddingRight="15dp"
-                        android:layout_margin="5dp"
-                        fancy:fb_borderColor="@color/colorPrimary"
-                        fancy:fb_borderWidth="2dp"
-                        fancy:fb_defaultColor="@color/colorPrimary"
-                        fancy:fb_focusColor="@color/colorAccent"
-                        fancy:fb_radius="5dp"
-                        android:text="Pin Enquiry"
-                        android:textAllCaps="true"
-                        fancy:fb_iconPaddingLeft="15dp"
-                        fancy:fb_iconPosition="right"
-                        fancy:fb_fontIconSize="19sp"
-                        fancy:fb_fontIconResource="&#xf05a;"
-                        android:textSize="15.5sp"
-                        android:textStyle="bold"
-                        fancy:fb_textColor="@color/white" />
-
-                    <mehdi.sakout.fancybuttons.FancyButton
-                        android:id="@+id/signout_btn"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="20dp"
-                        android:paddingRight="15dp"
-                        android:layout_margin="5dp"
-                        fancy:fb_borderColor="@color/colorPrimary"
-                        fancy:fb_borderWidth="2dp"
-                        fancy:fb_defaultColor="@color/white"
-                        fancy:fb_focusColor="@color/colorAccent"
-                        fancy:fb_radius="5dp"
-                        android:text="Sign Out"
-                        android:textAllCaps="true"
-                        fancy:fb_iconPaddingLeft="15dp"
-                        fancy:fb_iconPosition="right"
-                        fancy:fb_fontIconSize="19sp"
-                        fancy:fb_fontIconResource="&#xf08b;"
-                        android:textSize="15.5sp"
-                        android:textStyle="bold"
-                        fancy:fb_textColor="@color/colorPrimary" />
-
-                </LinearLayout>
 
                 <mehdi.sakout.fancybuttons.FancyButton
                     android:layout_gravity="bottom"
@@ -168,14 +115,12 @@
                     android:id="@+id/pay_online_btn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingTop="15.5dp"
-                    android:paddingBottom="15.5dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
                     android:paddingLeft="18dp"
                     android:paddingRight="15dp"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="0dp"
                     android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
                     fancy:fb_borderColor="@color/colorPrimary"
                     fancy:fb_borderWidth="2dp"
                     fancy:fb_defaultColor="@color/colorPrimary"
@@ -190,6 +135,68 @@
                     android:textSize="16.5sp"
                     android:textStyle="bold"
                     fancy:fb_textColor="@color/white" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:weightSum="2"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:layout_weight="1"
+                        android:id="@+id/info_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginRight="4dp"
+                        fancy:fb_borderColor="@color/colorPrimary"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_defaultColor="@color/colorPrimary"
+                        fancy:fb_focusColor="@color/colorAccent"
+                        fancy:fb_radius="5dp"
+                        android:text="Pin Enquiry"
+                        android:textAllCaps="true"
+                        fancy:fb_iconPaddingLeft="15dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="19sp"
+                        android:textSize="15.5sp"
+                        android:textStyle="bold"
+                        fancy:fb_textColor="@color/white" />
+                    <!--fancy:fb_fontIconResource="&#xf05a;"-->
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:layout_weight="1"
+                        android:id="@+id/signout_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp"
+                        android:layout_marginLeft="4dp"
+                        fancy:fb_borderColor="@color/colorPrimary"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_defaultColor="@color/white"
+                        fancy:fb_focusColor="@color/colorAccent"
+                        fancy:fb_radius="5dp"
+                        android:text="Sign Out"
+                        android:textAllCaps="true"
+                        fancy:fb_iconPaddingLeft="15dp"
+                        fancy:fb_iconPosition="right"
+                        fancy:fb_fontIconSize="19sp"
+                        android:textSize="15.5sp"
+                        android:textStyle="bold"
+                        fancy:fb_textColor="@color/colorPrimary" />
+                    <!--fancy:fb_fontIconResource="&#xf08b;"-->
+
+                </LinearLayout>
 
             </LinearLayout>
 

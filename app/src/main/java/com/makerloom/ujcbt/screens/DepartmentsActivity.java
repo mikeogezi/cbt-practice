@@ -11,6 +11,7 @@ import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -175,12 +176,12 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
                         .withName("Sign Out").withSelectable(false);
                 signOut.withIcon(R.drawable.ic_open_in_new_black_24dp)
                         .withOnDrawerItemClickListener(new Drawer.OnDrawerItemClickListener() {
-			    @Override
-			    public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
-                    signOutAndGoToWelcomeScreen();
-                    return false;
-			    }
-			});
+                            @Override
+                            public boolean onItemClick(View view, int position, IDrawerItem drawerItem) {
+                                signOutAndGoToWelcomeScreen();
+                                return false;
+                            }
+                        });
                 final PrimaryDrawerItem info = new PrimaryDrawerItem()
                         .withName("Information & Enquiries").withSelectable(false);
                 info.withIcon(R.drawable.ic_question_answer_black_24dp)
@@ -230,7 +231,7 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
                     TextDrawable drawable = TextDrawable.builder()
                             .beginConfig()
                             .textColor(ContextCompat.getColor(DepartmentsActivity.this, R.color.white))
-                            .useFont(Typeface.createFromAsset(DepartmentsActivity.this.getAssets(), "fonts/Aller/Aller_Bd.ttf"))
+                            .useFont(ResourcesCompat.getFont(DepartmentsActivity.this, R.font.montserrat_bold))
                             .bold()
                             .toUpperCase()
                             .fontSize(getResources().getInteger(R.integer.department_font_size))
@@ -270,7 +271,7 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
                         TextDrawable secondaryDrawable = TextDrawable.builder()
                                 .beginConfig()
                                 .textColor(ContextCompat.getColor(DepartmentsActivity.this, R.color.white))
-                                .useFont(Typeface.createFromAsset(DepartmentsActivity.this.getAssets(), "fonts/Aller/Aller_Bd.ttf"))
+                                .useFont(ResourcesCompat.getFont(DepartmentsActivity.this, R.font.montserrat_bold))
                                 .bold()
                                 .toUpperCase()
                                 .fontSize(getResources().getInteger(R.integer.course_font_size))
@@ -322,7 +323,7 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
         departmentRV.setLayoutManager(manager);
     }
 
-    private static int millisecsDrawer = 350;
+    private static int millisecsDrawer = 250;
 
     private Drawer.OnDrawerItemClickListener getCourseClickListener (final String deptName, final String courseName) {
         return new Drawer.OnDrawerItemClickListener() {

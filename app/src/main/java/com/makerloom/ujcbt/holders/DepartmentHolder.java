@@ -2,6 +2,7 @@ package com.makerloom.ujcbt.holders;
 
 import android.content.Context;
 import android.content.Intent;
+import android.support.design.card.MaterialCardView;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -24,7 +25,8 @@ public class DepartmentHolder extends RecyclerView.ViewHolder implements View.On
     public TextView departmentNameTV;
     public TextView facultyNameTV;
     public CardView cardView;
-    public ImageView shortNameIV;
+    public TextView shortNameTV;
+    public MaterialCardView shortNameCV;
 
     public DepartmentHolder (View view, Context context) {
         super(view);
@@ -32,7 +34,8 @@ public class DepartmentHolder extends RecyclerView.ViewHolder implements View.On
         departmentNameTV = view.findViewById(R.id.department);
         facultyNameTV = view.findViewById(R.id.faculty);
         cardView = view.findViewById(R.id.card_view);
-        shortNameIV = view.findViewById(R.id.short_name_image);
+        shortNameTV = view.findViewById(R.id.department_name_tv);
+        shortNameCV = view.findViewById(R.id.department_name_cv);
 
         this.context = context;
     }

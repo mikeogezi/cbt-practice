@@ -27,8 +27,10 @@
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
             android:paddingTop="2dp"
-            android:paddingBottom="@dimen/ad_bottom_padding"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:listitem="@layout/course_card"
             android:clipToPadding="false" />
+        <!--android:paddingBottom="@dimen/ad_bottom_padding"-->
 
     </LinearLayout>
 

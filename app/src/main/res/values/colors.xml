@@ -7,8 +7,8 @@
     <color name="correct">@color/teal_dark</color>
     <color name="wrong">@color/red_dark</color>
 
-    <color name="colorPrimary">@color/md_blue_700</color>
-    <color name="colorPrimaryDark">@color/md_blue_700</color>
+    <color name="colorPrimary">@color/md_blue_600</color>
+    <color name="colorPrimaryDark">@color/md_blue_600</color>
     <color name="colorAccent">@color/md_blue_300</color>
 
     <color name="textPrimary">@color/md_blue_grey_700</color>

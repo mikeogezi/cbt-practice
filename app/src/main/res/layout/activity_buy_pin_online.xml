@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".screens.BuyPINOnlineActivity">
+    tools:context=".screens.PurchasePINOnlineActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -27,6 +27,15 @@
             android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:text="Card Payments are encrypted and processed with Paystack making them 100% secure"
+                android:layout_margin="16dp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                app:fontFamily="@font/montserrat_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
 
             <mehdi.sakout.fancybuttons.FancyButton
                 android:id="@+id/pay_with_card_bank_ussd_btn"

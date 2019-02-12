@@ -67,6 +67,6 @@
 
     <string name="action_pay_with_card_bank_ussd_activity">Pay With ATM Card or USSD</string>
     <string name="action_pay_with_airtime_activity">Pay With Airtime</string>
-    <string name="action_pay_online_activity">Buy PIN Online</string>
+    <string name="action_pay_online_activity">Purchase PIN Online</string>
 
 </resources>

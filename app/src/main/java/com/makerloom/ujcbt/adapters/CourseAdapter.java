@@ -69,39 +69,40 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseHolder> {
         holder.numberOfQuestionsTV.setText(String.valueOf(TestActivity.numberOfQuestions));
         holder.timeAllowedTV.setText(String.format(Locale.ENGLISH, "%s minutes", TestActivity.timeInMinutes));
 
-        String courseShortName = "";
-        String courseCodeNumber = "";
-
-        try {
-            courseShortName = course.getCourseCode().split(" ")[0];
-            courseCodeNumber = course.getCourseCode().split(" ")[1];
-        }
-        catch (Exception ex) {
-            ex.printStackTrace();
-        }
-
-        int color = ColorGenerator.MATERIAL.getColor(course.getName());
-        TextDrawable drawableShortName = TextDrawable.builder()
-                .beginConfig()
-                .textColor(ContextCompat.getColor(context, R.color.white))
-                .useFont(Typeface.createFromAsset(context.getAssets(), "fonts/Aller/Aller_Bd.ttf"))
-                .bold()
-                .toUpperCase()
-                .fontSize(getFontSize())
-                .endConfig()
-                .buildRect(courseShortName, color);
-        holder.shortNameIV.setImageDrawable(drawableShortName);
-
-        TextDrawable drawableCodeNumber = TextDrawable.builder()
-                .beginConfig()
-                .textColor(ContextCompat.getColor(context, R.color.white))
-                .useFont(Typeface.createFromAsset(context.getAssets(), "fonts/Aller/Aller_Bd.ttf"))
-                .bold()
-                .toUpperCase()
-                .fontSize(getFontSize())
-                .endConfig()
-                .buildRect(courseCodeNumber, color);
-        holder.codeIV.setImageDrawable(drawableCodeNumber);
+//        String courseShortName = "";
+//        String courseCodeNumber = "";
+//
+//        try {
+//            courseShortName = course.getCourseCode().split(" ")[0];
+//            courseCodeNumber = course.getCourseCode().split(" ")[1];
+//        }
+//        catch (Exception ex) {
+//            ex.printStackTrace();
+//        }
+//        int color = ColorGenerator.MATERIAL.getColor(course.getName());
+//        TextDrawable drawableShortName = TextDrawable.builder()
+//                .beginConfig()
+//                .textColor(ContextCompat.getColor(context, R.color.white))
+//                .useFont(Typeface.createFromAsset(context.getAssets(), "fonts/Aller/aller_bd.ttf"))
+//                .bold()
+//                .toUpperCase()
+//                .fontSize(getFontSize())
+//                .endConfig()
+//                .buildRect(courseShortName, color);
+//        holder.shortNameIV.setImageDrawable(drawableShortName);
+//
+//        TextDrawable drawableCodeNumber = TextDrawable.builder()
+//                .beginConfig()
+//                .textColor(ContextCompat.getColor(context, R.color.white))
+//                .useFont(Typeface.createFromAsset(context.getAssets(), "fonts/Aller/aller_bd.ttf"))
+//                .bold()
+//                .toUpperCase()
+//                .fontSize(getFontSize())
+//                .endConfig()
+//                .buildRect(courseCodeNumber, color);
+//        holder.codeIV.setImageDrawable(drawableCodeNumber);
+        holder.codeTV.setText(course.getCourseCode());
+        holder.codeCV.setCardBackgroundColor((ColorGenerator.MATERIAL.getColor(course.getName())));
 
         if (position == 0) {
             setSpotlightRunnable(holder);
@@ -140,16 +141,16 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseHolder> {
             @Override
             public void run() {
                 int[] firstPoint = new int[2], secondPoint = new int[2], point;
-                holder.shortNameIV.getLocationInWindow(firstPoint);
-                holder.codeIV.getLocationInWindow(secondPoint);
+                holder.codeCV.getLocationInWindow(firstPoint);
+                holder.codeCV.getLocationInWindow(secondPoint);
                 point = new int[] {(int) ((firstPoint[0] + secondPoint[0]) / 2.0f),
                         (int) ((firstPoint[1] + secondPoint[1]) / 2.0f) };
-                int firstMax = Math.max(holder.shortNameIV.getWidth(), holder.shortNameIV.getHeight());
-                int secondMax = Math.max(holder.codeIV.getWidth(), holder.codeIV.getHeight());
+                int firstMax = Math.max(holder.codeCV.getWidth(), holder.codeCV.getHeight());
+                int secondMax = Math.max(holder.codeCV.getWidth(), holder.codeCV.getHeight());
 
                 target = new CustomTarget.Builder((Activity) context)
-                        .setPoint(point[0] + holder.shortNameIV.getWidth() / 2.0f,
-                                point[1] + holder.shortNameIV.getHeight() / 2.0f)
+                        .setPoint(point[0] + holder.codeCV.getWidth() / 2.0f,
+                                point[1] + holder.codeCV.getHeight() / 2.0f)
                         .setRadius((firstMax + spotlightPadding * firstMax) / 2.0f)
                         // .setRadius(130.0f)
                         .setOnSpotlightStartedListener(new OnTargetStateChangedListener<CustomTarget>() {

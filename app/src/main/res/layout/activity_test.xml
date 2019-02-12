@@ -53,6 +53,7 @@
                         <android.support.v7.widget.RecyclerView
                             android:layout_gravity="center_horizontal"
                             android:id="@+id/number_recycler_view"
+                            tools:listitem="@layout/question_number"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:padding="5dp"
@@ -143,6 +144,7 @@
 
                         <android.support.v7.widget.RecyclerView
                             android:id="@+id/option_rv"
+                            tools:listitem="@layout/option_card"
                             android:clipToPadding="false"
                             android:padding="@dimen/layout_padding"
                             android:layout_width="match_parent"
@@ -214,7 +216,6 @@
                         android:id="@+id/next"
                         android:text="Next"
                         fancy:fb_text="Next"
-                        android:textStyle="bold"
                         android:textAllCaps="true"
                         android:textSize="16sp"
                         fancy:fb_borderWidth="1.2dp"
@@ -242,7 +243,6 @@
                         android:id="@+id/finish"
                         android:text="Finish"
                         fancy:fb_text="Finish"
-                        android:textStyle="bold"
                         android:textAllCaps="true"
                         android:textSize="16sp"
                         fancy:fb_borderWidth="1.2dp"

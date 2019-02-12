@@ -94,7 +94,7 @@ public class PINActivity extends MyPlainToolbarActivity {
         buyOnline.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(PINActivity.this, BuyPINOnlineActivity.class));
+                startActivity(new Intent(PINActivity.this, PurchasePINOnlineActivity.class));
             }
         });
 
@@ -337,7 +337,7 @@ public class PINActivity extends MyPlainToolbarActivity {
     }
 
     void goToBuyPINOnlineActivity () {
-        startActivity(new Intent(PINActivity.this, BuyPINOnlineActivity.class));
+        startActivity(new Intent(PINActivity.this, PurchasePINOnlineActivity.class));
     }
 
     public void showExpiredPINMessage () {

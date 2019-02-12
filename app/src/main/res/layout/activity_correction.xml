@@ -24,8 +24,9 @@
             android:paddingLeft="2dp"
             android:paddingRight="2dp"
             android:paddingTop="2dp"
-            android:paddingBottom="@dimen/ad_bottom_padding"
+            android:paddingBottom="2dp"
             android:clipToPadding="false" />
+        <!--android:paddingBottom="@dimen/ad_bottom_padding"-->
 
     </LinearLayout>
 

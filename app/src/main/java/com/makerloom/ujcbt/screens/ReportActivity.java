@@ -213,10 +213,11 @@ public class ReportActivity extends MyBackToolbarActivity {
     View.OnClickListener onCorrectionClick = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            isCorrection = true;
-            isNewTest = false;
-            isQuit = false;
+//            isCorrection = true;
+//            isNewTest = false;
+//            isQuit = false;
 //            showInterstitialIfPossible();
+            doCorrection();
         }
     };
 
@@ -231,10 +232,11 @@ public class ReportActivity extends MyBackToolbarActivity {
     View.OnClickListener onNewTestClick = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            isNewTest = true;
-            isCorrection = false;
-            isQuit = false;
+//            isNewTest = true;
+//            isCorrection = false;
+//            isQuit = false;
 //            showInterstitialIfPossible();
+            doNewTest();
         }
     };
 

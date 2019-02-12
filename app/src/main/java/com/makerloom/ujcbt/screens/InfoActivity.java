@@ -90,11 +90,4 @@ public class InfoActivity extends MyBackToolbarActivity {
     TextView personOneTV;
     TextView personTwoTV;
     TextView personThreeTV;
-
-    private void setTypeface (TextView tv) {
-        if (null == tv) {
-            return;
-        }
-        tv.setTypeface(Typeface.createFromAsset(this.getAssets(), "fonts/Aller/Aller_Rg.ttf"));
-    }
 }

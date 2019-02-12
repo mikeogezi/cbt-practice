@@ -61,16 +61,17 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentHolder> {
         holder.departmentNameTV.setText(department.getName());
         holder.cardView.setOnClickListener(holder);
 
-        TextDrawable drawable = TextDrawable.builder()
-                .beginConfig()
-                .textColor(ContextCompat.getColor(context, R.color.white))
-                .useFont(Typeface.createFromAsset(context.getAssets(), "fonts/Aller/Aller_Bd.ttf"))
-                .bold()
-                .toUpperCase()
-                .fontSize(60)
-                .endConfig()
-                .buildRect(department.getShortName(), ColorGenerator.MATERIAL.getColor(department.getName()));
-        holder.shortNameIV.setImageDrawable(drawable);
+//        TextDrawable drawable = TextDrawable.builder()
+//                .beginConfig()
+//                .textColor(ContextCompat.getColor(context, R.color.white))
+//                .useFont(Typeface.createFromAsset(context.getAssets(), "fonts/Aller/aller_bd.ttf"))
+//                .bold()
+//                .toUpperCase()
+//                .fontSize(60)
+//                .endConfig()
+//                .buildRect(department.getShortName(), ColorGenerator.MATERIAL.getColor(department.getName()));
+        holder.shortNameTV.setText(department.getShortName());
+        holder.shortNameCV.setCardBackgroundColor(ColorGenerator.MATERIAL.getColor(department.getName()));
 
         if (position == 0) {
             setSpotlightRunnable(holder);
@@ -101,12 +102,12 @@ public class DepartmentAdapter extends RecyclerView.Adapter<DepartmentHolder> {
             @Override
             public void run() {
                 int[] point = new int[2];
-                holder.shortNameIV.getLocationOnScreen(point);
-                int max = Math.max(holder.shortNameIV.getWidth(), holder.shortNameIV.getHeight());
+                holder.shortNameTV.getLocationOnScreen(point);
+                int max = Math.max(holder.shortNameTV.getWidth(), holder.shortNameTV.getHeight());
 
                 target = new CustomTarget.Builder((Activity) context)
-                        .setPoint(point[0] + holder.shortNameIV.getWidth() / 2.0f,
-                                point[1] + holder.shortNameIV.getHeight() / 2.0f)
+                        .setPoint(point[0] + holder.shortNameTV.getWidth() / 2.0f,
+                                point[1] + holder.shortNameTV.getHeight() / 2.0f)
                         .setRadius((max + UI.spotlightPadding * max) / 2.0f)
                         // .setRadius(130.0f)
                         .setView(R.layout.spotlight_department)

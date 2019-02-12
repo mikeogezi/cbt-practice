@@ -31,6 +31,22 @@
           }
         },
         {
+          "client_id": "45462933934-tfc9b22j1iruhdgvlrhpo5uaprca9ug6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makerloom.ujcbt",
+            "certificate_hash": "df88e11df3a00ec9f9c8e9dea89814ee65762797"
+          }
+        },
+        {
+          "client_id": "45462933934-m81luuua52tndtvs61ficla6f7s58uqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makerloom.ujcbt",
+            "certificate_hash": "ac1875bf102c11624716d54d9ef74f49507a549d"
+          }
+        },
+        {
           "client_id": "45462933934-lbi1vorfqb79d82p6ig2b8ireoarlsuj.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -56,7 +72,8 @@
         "ads_service": {
           "status": 2
         }
-      }
+      },
+      "admob_app_id": "ca-app-pub-4409443705250246~7814096093"
     },
     {
       "client_info": {
@@ -80,6 +97,14 @@
           "android_info": {
             "package_name": "com.makerloom.ujcbtdemo",
             "certificate_hash": "679405d6b8063480c872470933d8b453159238e7"
+          }
+        },
+        {
+          "client_id": "45462933934-5su8b1phok8gpfep8nqagi5ld7eiua69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makerloom.ujcbtdemo",
+            "certificate_hash": "47dee48e214324aae4f1b058b5885b4c086704cf"
           }
         },
         {

@@ -115,13 +115,13 @@ public class TestActivity extends MyBackToolbarActivity {
 
     final static public int numberOfQuestions = 25;
 
-    final static private float almostDoneThresh = 0.1f;
-
-    private View adLayout;
-
-    private TextView adInfo;
+    final static private float almostDoneThresh = 0.2f;
 
     // Removing Ads
+//    private View adLayout;
+//
+//    private TextView adInfo;
+//
 //    private AdView adView;
 
     private NestedScrollView scrollView;
@@ -156,9 +156,7 @@ public class TestActivity extends MyBackToolbarActivity {
         Commons.goToWelcomeIfNotSignedIn(this);
         setContentView(R.layout.activity_test);
 
-        final String courseName = getCourseName();
-
-        setTitle(String.format("%s Exam", courseName));
+        setTitle(String.format("%s Exam", getCourseName()));
 
         numberBtns = new ArrayList<>(questionsLen);
 
@@ -182,27 +180,10 @@ public class TestActivity extends MyBackToolbarActivity {
 
         optionRV = findViewById(R.id.option_rv);
 
-        AsyncTask.execute(new Runnable() {
-            @Override
-            public void run() {
-                Course course = new Course(courseName);
-                Test test = Course.generateTest(course, TestActivity.this, numberOfQuestions);
-                questions = test.getQuestions();
-                questionsLen = questions.size();
-                minQuestionIndex = 0;
-                maxQuestionIndex = questionsLen - 1;
-                questionIndex = minQuestionIndex;
-
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        totalQuestionsTV.setText(String.valueOf(questionsLen));
-                        renderNumbers(questionsLen);
-                        runWelcomeDialog();
-                    }
-                });
-            }
-        });
+        // Find out why this messes up onRestoreInstanceState
+//        AsyncTask.execute(setupQuestionsTask);
+        // In the mean time
+        setupQuestionsTask.run();
 
         // Removing Ads
         // Banner
@@ -218,6 +199,28 @@ public class TestActivity extends MyBackToolbarActivity {
 //        interstitialAd.setAdListener(interstitialAdListener);
 //        interstitialAd.loadAd(adRequest);
     }
+
+    final Runnable setupQuestionsTask = new Runnable() {
+        @Override public void run() {
+            Course course = new Course(getCourseName());
+            Test test = Course.generateTest(course, TestActivity.this, numberOfQuestions);
+            questions = test.getQuestions();
+            Log.d(TAG, "Generate Questions");
+            questionsLen = questions.size();
+            minQuestionIndex = 0;
+            maxQuestionIndex = questionsLen - 1;
+            questionIndex = minQuestionIndex;
+
+            runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    totalQuestionsTV.setText(String.valueOf(questionsLen));
+                    renderNumbers(questionsLen);
+                    runWelcomeDialog();
+                }
+            });
+        }
+    };
 
 //    private void afterInterstitial () {
 //        submit();
@@ -488,6 +491,7 @@ public class TestActivity extends MyBackToolbarActivity {
         public void onClick(View v) {
             // Removing Ads
 //            showInterstitialIfPossible();
+            submit();
         }
     };
 
@@ -803,7 +807,9 @@ public class TestActivity extends MyBackToolbarActivity {
         Gson gson = new Gson();
         Type listType = new TypeToken<List<Question>>() {}.getType();
 
-        outState.putString(Keys.TEST_QUESTIONS_JSON_KEY, gson.toJson(questions, listType));
+        final String qStr = gson.toJson(questions, listType);
+        Log.d(TAG, qStr);
+        outState.putString(Keys.TEST_QUESTIONS_JSON_KEY, qStr);
 
         stopTimer();
     }
@@ -818,7 +824,9 @@ public class TestActivity extends MyBackToolbarActivity {
         Gson gson = new Gson();
         Type listType = new TypeToken<List<Question>>() {}.getType();
 
-        questions = gson.fromJson(savedInstanceState.getString(Keys.TEST_QUESTIONS_JSON_KEY), listType);
+        final String qStr = savedInstanceState.getString(Keys.TEST_QUESTIONS_JSON_KEY);
+        Log.d(TAG, qStr);
+        questions = gson.fromJson(qStr, listType);
 
         startTimer();
     }
@@ -863,8 +871,8 @@ public class TestActivity extends MyBackToolbarActivity {
         }
     }
 
-    private boolean interstitialFailedToLoad = false;
     // Removing Ads
+//    private boolean interstitialFailedToLoad = false;
 //    AdListener interstitialAdListener = new AdListener() {
 //        @Override
 //        public void onAdClosed() {

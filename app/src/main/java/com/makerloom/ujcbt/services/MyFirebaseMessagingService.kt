@@ -50,6 +50,8 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
                 // Handle message within 10 seconds
                 handleNow()
             }
+            Log.d(TAG, "onMessageReceived")
+//            sendNotification("On Device Notification")
         }
 
         // Check if message contains a notification payload.
@@ -126,7 +128,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         val defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
         val notificationBuilder = NotificationCompat.Builder(this, channelId)
                 .setSmallIcon(R.drawable.ic_notification)
-                .setContentTitle(getString(R.string.fcm_message))
+                .setContentTitle(getString(R.string.app_name))
                 .setContentText(messageBody)
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)

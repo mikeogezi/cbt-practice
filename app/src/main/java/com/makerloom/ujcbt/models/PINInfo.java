@@ -11,6 +11,12 @@ public class PINInfo {
 
     private String uid;
 
+    public PINInfo () {}
+
+    public PINInfo (String PIN) {
+        setPin(PIN);
+    }
+
     public Boolean hasBeenUsed () {
         if (null != getValidTill()) {
             return true;

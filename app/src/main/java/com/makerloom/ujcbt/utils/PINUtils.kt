@@ -5,8 +5,6 @@ import com.google.firebase.firestore.DocumentReference
 import com.google.firebase.firestore.FirebaseFirestore
 import com.makerloom.common.utils.Constants
 import com.makerloom.ujcbt.models.PINInfo
-import com.makerloom.ujcbt.screens.PINActivity
-import com.makerloom.ujcbt.screens.PaystackWebViewActivity
 import java.lang.Exception
 import java.util.*
 import kotlin.collections.HashMap
@@ -26,6 +24,7 @@ class PINUtils {
 
             // Update PIN info
             val pinMap = HashMap<String, Any>()
+            pinMap[Commons.PIN_KEY] = pinInfo.pin
             pinMap[Commons.UID_KEY] = uid
             pinMap[Commons.USED_KEY] = used
             pinMap[Commons.VALID_TILL_KEY] = validTill
@@ -37,23 +36,29 @@ class PINUtils {
             return pinMap
         }
 
-        fun fetchUnusedPIN (pinFetchCallback: PINFetchCallback) {
+        private fun generatePIN (): String {
+            return "1111-online-${UUID.randomUUID()}".toUpperCase()
+        }
+
+        fun generateNewPIN (user: FirebaseUser, pinGenerateCallback: PINGenerateCallback) {
             val db = FirebaseFirestore.getInstance()
 
-            val ref = db.collection(Constants.PIN_COLLECTION_NAME)
-                    .whereEqualTo(Commons.USED_KEY, false)
-                    .limit(1)
+            val PIN = generatePIN()
+            val pinInfo = PINInfo(PIN)
+            val pinMap = buildUpdatedPINMap(user, pinInfo)
 
-            ref.get()
+            // Add PIN to the Firestore database
+            val ref = db.collection(Constants.PIN_COLLECTION_NAME).document(PIN)
+            ref.set(pinMap)
                     .addOnSuccessListener {
-                        val pinInfo = it.documents[0].toObject(PINInfo::class.java)
-                        pinFetchCallback.onPINFetched(pinInfo!!.pin)
+                        pinGenerateCallback.onPINGenerated(PIN)
                     }
                     .addOnFailureListener {
-                        pinFetchCallback.onFetchFailure(it)
+                        pinGenerateCallback.onFetchFailure(it)
                     }
         }
 
+        // Associate the supplied PIN with a user
         fun registerPIN (user: FirebaseUser, PIN: String,
                          pinRegisterCallback: PINRegisterCallback) {
 
@@ -100,8 +105,8 @@ class PINUtils {
         }
     }
 
-    interface PINFetchCallback {
-        fun onPINFetched (PIN: String)
+    interface PINGenerateCallback {
+        fun onPINGenerated (PIN: String)
 
         fun onFetchFailure (e: Exception)
     }

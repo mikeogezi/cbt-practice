@@ -8,9 +8,12 @@
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="-3.5dp"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         app:cardCornerRadius="@dimen/default_card_radius"
-        app:cardBackgroundColor="@color/white"
         app:cardElevation="@dimen/default_card_list_elevation"
         android:clickable="true"
         app:cardUseCompatPadding="true"
@@ -22,16 +25,44 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <android.support.v7.widget.AppCompatImageView
-                android:id="@+id/short_name_image"
-                android:adjustViewBounds="true"
-                app:srcCompat="@color/colorPrimary"
+            <!--<android.support.v7.widget.AppCompatImageView-->
+                <!--android:id="@+id/short_name_image"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--app:srcCompat="@color/colorPrimary"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="match_parent" />-->
+
+            <android.support.design.card.MaterialCardView
+                android:id="@+id/department_name_cv"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="0dp"
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="@color/colorPrimary"
                 android:layout_width="80dp"
-                android:layout_height="match_parent" />
+                android:layout_height="80dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/department_name_tv"
+                    android:text="CS"
+                    app:fontFamily="@font/montserrat_bold"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="28dp"
+                    android:layout_margin="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </android.support.design.card.MaterialCardView>
 
             <LinearLayout
                 android:orientation="vertical"
-                android:padding="@dimen/card_padding"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:paddingTop="@dimen/card_padding"
+                android:paddingRight="@dimen/card_padding"
+                android:paddingBottom="@dimen/card_padding"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 

@@ -25,9 +25,9 @@
     <dimen name="image_button_width_">32dp</dimen>
     <dimen name="image_button_height_">32dp</dimen>
 
-    <dimen name="default_card_list_elevation">0.75dp</dimen>
+    <dimen name="default_card_list_elevation">2.5dp</dimen>
     <dimen name="default_card_elevation">1.5dp</dimen>
-    <dimen name="default_card_radius">5dp</dimen>
+    <dimen name="default_card_radius">0dp</dimen>
 
     <dimen name="record_border_width">1dp</dimen>
     <dimen name="record_radius">2dp</dimen>

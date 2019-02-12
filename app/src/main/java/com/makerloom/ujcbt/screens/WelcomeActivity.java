@@ -30,7 +30,6 @@ public class WelcomeActivity extends MyPlainToolbarActivity {
         setContentView(R.layout.activity_welcome);
 
         mottoTV = findViewById(R.id.motto);
-//        mottoTV.setTypeface(Typeface.createFromAsset(this.getAssets(), "fonts/Aller/Aller_Rg.ttf"));
 
         signInBtn = findViewById(R.id.signin_btn);
         signInBtn.setOnClickListener(new View.OnClickListener() {

@@ -67,7 +67,6 @@ public class CheckPINValidityActivity extends MyAppCompatActivity {
 
         Query pinQuery = db.collection(Constants.PIN_COLLECTION_NAME)
                 .whereEqualTo(Commons.UID_KEY, user.getUid());
-//                .whereGreaterThan(Commons.VALID_TILL_KEY, Calendar.getInstance().getTime());
 
         pinQuery.get()
                 .addOnFailureListener(new OnFailureListener() {
