@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -31,32 +32,29 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.franmontiel.fullscreendialog.FullScreenDialogFragment;
 import com.google.android.flexbox.AlignItems;
 import com.google.android.flexbox.FlexWrap;
 import com.google.android.flexbox.FlexboxLayoutManager;
-// Removing Ads
-//import com.google.android.gms.ads.AdListener;
-//import com.google.android.gms.ads.AdRequest;
-//import com.google.android.gms.ads.AdView;
-//import com.google.android.gms.ads.InterstitialAd;
-//import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.makerloom.ujcbt.R;
 import com.makerloom.common.activity.MyBackToolbarActivity;
+import com.makerloom.common.utils.Constants;
+import com.makerloom.common.utils.Keys;
+import com.makerloom.common.utils.UI;
+import com.makerloom.ujcbt.R;
 import com.makerloom.ujcbt.adapters.OptionAdapter;
 import com.makerloom.ujcbt.adapters.QuestionNumberAdapter;
 import com.makerloom.ujcbt.models.Course;
 import com.makerloom.ujcbt.models.Question;
 import com.makerloom.ujcbt.models.Test;
-import com.makerloom.common.utils.Constants;
-import com.makerloom.common.utils.Keys;
-import com.makerloom.common.utils.UI;
 import com.makerloom.ujcbt.utils.Commons;
 import com.takusemba.spotlight.CustomTarget;
 import com.takusemba.spotlight.OnSpotlightEndedListener;
 import com.takusemba.spotlight.OnSpotlightStartedListener;
 import com.takusemba.spotlight.Spotlight;
+
+import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
@@ -67,11 +65,43 @@ import java.util.concurrent.TimeUnit;
 
 import mehdi.sakout.fancybuttons.FancyButton;
 
+// Removing Ads
+//import com.google.android.gms.ads.AdListener;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.InterstitialAd;
+//import com.google.android.gms.ads.MobileAds;
+
 /**
  * Created by michael on 4/11/18.
  */
 
-public class TestActivity extends MyBackToolbarActivity {
+public class TestActivity extends MyBackToolbarActivity implements
+        PassageFragment.OnFragmentInteractionListener,
+        FullScreenDialogFragment.OnConfirmListener,
+        FullScreenDialogFragment.OnDiscardListener,
+        FullScreenDialogFragment.OnDiscardFromExtraActionListener {
+
+    @Override
+    public void onConfirm(@Nullable Bundle result) {
+        Log.d(TAG, "onConfirm");
+    }
+
+    @Override
+    public void onDiscard() {
+        Log.d(TAG, "onDiscard");
+    }
+
+    @Override
+    public void onDiscardFromExtraAction(int actionId, @Nullable Bundle result) {
+        Log.d(TAG, "onDiscardFromExtraAction");
+    }
+
+    @Override
+    public void onFragmentInteraction(@NotNull Uri uri) {
+        Log.d(TAG, "onFragmentInteraction");
+    }
+
     private RecyclerView questionNumberRV;
 
     // Removing Ads
@@ -80,6 +110,8 @@ public class TestActivity extends MyBackToolbarActivity {
     private TextView questionTV;
 
     private RecyclerView optionRV;
+
+    private FancyButton showPassageBtn;
 
     public List<Question> questions;
 
@@ -180,6 +212,14 @@ public class TestActivity extends MyBackToolbarActivity {
 
         optionRV = findViewById(R.id.option_rv);
 
+        showPassageBtn = findViewById(R.id.show_passage_btn);
+        showPassageBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showPassage();
+            }
+        });
+
         // Find out why this messes up onRestoreInstanceState
 //        AsyncTask.execute(setupQuestionsTask);
         // In the mean time
@@ -199,6 +239,7 @@ public class TestActivity extends MyBackToolbarActivity {
 //        interstitialAd.setAdListener(interstitialAdListener);
 //        interstitialAd.loadAd(adRequest);
     }
+
 
     final Runnable setupQuestionsTask = new Runnable() {
         @Override public void run() {
@@ -237,6 +278,31 @@ public class TestActivity extends MyBackToolbarActivity {
 //            afterInterstitial();
 //        }
 //    }
+
+    private String passageDialogTag = "passageDialog";
+
+    private String passageText;
+
+    void showPassage () {
+        showPassage(passageText);
+    }
+
+    void showPassage (final String passageText) {
+        Bundle args = new Bundle();
+
+        args.putString(Commons.PASSAGE_KEY, passageText);
+        FullScreenDialogFragment passageDialog = new FullScreenDialogFragment.Builder(this)
+                .setTitle(R.string.passage_dialog_title)
+                .setConfirmButton(R.string.passage_dialog_subtitle)
+                .setFullScreen(true)
+                .setContent(PassageFragment.class, args)
+                .setOnConfirmListener(this)
+                .setOnDiscardFromActionListener(this)
+                .setOnDiscardListener(this)
+                .build();
+
+        passageDialog.show(getSupportFragmentManager(), passageDialogTag);
+    }
 
     private void disablePrevBtn () {
         if (null != previousBtn && previousBtn.isEnabled()) {
@@ -560,6 +626,17 @@ public class TestActivity extends MyBackToolbarActivity {
 
     private void renderQuestionIndex (int qIndex) {
         Question question = questions.get(qIndex);
+
+        // Check if question has a passage
+        if (question.hasPassage()) {
+            showPassageBtn.setVisibility(View.VISIBLE);
+            showPassageBtn.setEnabled(true);
+            passageText = question.getPassage();
+        }
+        else {
+            showPassageBtn.setVisibility(View.GONE);
+            showPassageBtn.setEnabled(false);
+        }
 
         questionTV.setText(question.getQuestion());
         Log.d(TAG, "Question: " + question.getQuestion());

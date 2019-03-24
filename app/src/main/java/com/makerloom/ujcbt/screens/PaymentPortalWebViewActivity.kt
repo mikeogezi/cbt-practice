@@ -3,10 +3,12 @@ package com.makerloom.ujcbt.screens
 import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.webkit.JavascriptInterface
+import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.EditText
@@ -17,7 +19,8 @@ import com.makerloom.common.utils.Constants
 import com.makerloom.ujcbt.R
 import com.makerloom.ujcbt.utils.EmailUtils
 import com.makerloom.ujcbt.utils.PINUtils
-import java.lang.Exception
+import java.net.URLDecoder
+
 
 class PaymentPortalWebViewActivity : AppCompatActivity() {
     companion object {
@@ -64,13 +67,46 @@ class PaymentPortalWebViewActivity : AppCompatActivity() {
         webView = findViewById<WebView>(R.id.paystack_webview)
 
         webView!!.apply {
-            webViewClient = WebViewClient()
+            webViewClient = MyWebViewClient()
             settings.javaScriptEnabled = true
             settings.domStorageEnabled = true
+            settings.cacheMode = WebSettings.LOAD_NO_CACHE
             loadUrl(PAYMENT_PORTAL_URL)
 
             addJavascriptInterface(PaymentPortalWebViewInterface(this@PaymentPortalWebViewActivity),
                     "AndroidInterface")
+        }
+    }
+
+    private class MyWebViewClient: WebViewClient() {
+        override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
+            val query_string = Uri.parse(url)
+            val query_scheme = query_string.getScheme()
+            val query_host = query_string.getHost()
+
+            if ((query_scheme.equals("https", ignoreCase = true) || query_scheme.equals("http", ignoreCase = true))
+                    && query_host != null // && query_host.equalsIgnoreCase(Uri.parse(URL_SERVER).getHost())
+                    && query_string.getQueryParameter("new_window") == null) {
+
+                return false // handle the load by webview
+            }
+
+            try {
+                var intent = Intent(Intent.ACTION_VIEW, query_string)
+                val body = url.split("\\?body=".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
+
+                if (query_scheme.equals("sms", ignoreCase = true) && body.size > 1) {
+                    intent = Intent(Intent.ACTION_VIEW, Uri.parse(body[0]))
+                    intent.putExtra("sms_body", URLDecoder.decode(body[1]))
+                }
+
+                view.context.startActivity(intent) // handle the load by os
+            }
+            catch (e: Exception) {
+                e.printStackTrace()
+            }
+
+            return true
         }
     }
 
@@ -121,7 +157,7 @@ class PaymentPortalWebViewActivity : AppCompatActivity() {
 
         val builder = AlertDialog.Builder(this)
                 .setView(layout)
-                .setTitle("Your email please...")
+                .setTitle("Your Email Please...")
                 .setMessage("For you to pay for the app online, we require your " +
                         "email address. Please enter it below.")
                 .setPositiveButton("Submit", object: DialogInterface.OnClickListener {
@@ -196,10 +232,13 @@ class PaymentPortalWebViewActivity : AppCompatActivity() {
         else if (type == MessageType.CLOSED_MESSAGE) {
             builder.setPositiveButton("Try Again", object: DialogInterface.OnClickListener {
                 override fun onClick(dialog: DialogInterface?, which: Int) {
-                    reloadWebView()
+                    dismiss(dialog)
+                    runOnUiThread {
+                        reloadWebView()
+                    }
                 }
             })
-            builder.setPositiveButton("Quit", object: DialogInterface.OnClickListener {
+            builder.setNegativeButton("Quit", object: DialogInterface.OnClickListener {
                 override fun onClick(dialog: DialogInterface?, which: Int) {
                     finish()
                 }
@@ -209,13 +248,46 @@ class PaymentPortalWebViewActivity : AppCompatActivity() {
         builder.show()
     }
 
+    override fun onBackPressed() {
+        val goBack = Runnable {
+            try {
+                super.onBackPressed()
+            }
+            catch (e: Exception) {}
+        }
+
+        val builder = AlertDialog.Builder(this@PaymentPortalWebViewActivity)
+                .setTitle("Sure?")
+                .setMessage("Going back will cancel your payment progress. Are you sure you want to do this?")
+                .setCancelable(false)
+                .setPositiveButton("Yes, Go Back", object: DialogInterface.OnClickListener {
+                    override fun onClick(dialog: DialogInterface?, which: Int) {
+                        goBack.run()
+                    }
+                })
+                .setNegativeButton("No, Stay", object: DialogInterface.OnClickListener {
+                    override fun onClick(dialog: DialogInterface?, which: Int) {
+                        dismiss(dialog)
+                    }
+                })
+
+        builder.show()
+    }
+
+    fun dismiss (dialog: DialogInterface?) {
+        try {
+            dialog?.dismiss()
+        }
+        catch (e: Exception) {}
+    }
+
     fun showSuccessMessage () {
-        showMessage("Great!", "Your payment was successful. You now have full access to the app.",
+        showMessage("Great Job!", "Your payment was successful. You now have full access to the app.",
                 MessageType.SUCCESS_MESSAGE)
     }
 
     fun showClosedMessage () {
-        showMessage("Unfinished Business", "The payment page was closed. Reopen it to complete your payment.",
+        showMessage("Unfinished Business...", "The payment page was closed. Reopen it to complete your payment.",
                 MessageType.CLOSED_MESSAGE)
     }
 

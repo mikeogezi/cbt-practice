@@ -5,16 +5,12 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatTextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreSettings;
-import com.makerloom.common.MyApp;
 import com.makerloom.ujcbt.screens.WelcomeActivity;
-
-import java.util.Calendar;
 
 public class Commons {
     public static final int VALIDITY_MONTHS = 2;
@@ -23,6 +19,8 @@ public class Commons {
     public static final String USED_KEY = "used";
     public static final String PIN_KEY = "pin";
     public static final String UID_KEY = "uid";
+
+    public static final String PASSAGE_KEY = "passage";
 
     public static final String EXPIRED_PIN_KEY = "EXPIRED_PIN";
 

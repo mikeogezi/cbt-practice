@@ -1,0 +1,56 @@
+{
+  "time": 30,
+  "maxQuestions": 50,
+  "questions": [
+    {
+      "question": "One of the following is the MOST ploughed source of funds for women entrepreneurs",
+      "options": [
+        "personal assets and savings",
+        "personal loans",
+        "bank financing",
+        "loans from friends/business associations"
+      ],
+      "correctOption": "personal assets and savings"
+    },
+    {
+      "question": "The LEAST favoured “business” started by women entrepreneurs are;",
+      "options": [
+        "service related",
+        "manufacturing and  construction",
+        "oil and gas",
+        "high-tech"
+      ],
+      "correctOption": "manufacturing and  construction"
+    },
+    {
+      "question": "Where is the commercial capital of Nigeria?",
+      "options": [
+        "Ibadan",
+        "Aba",
+        "Kano",
+        "Lagos"
+      ],
+      "correctOption": "Lagos"
+    },
+    {
+      "question": "Women more likely than men tend to  _____________ ",
+      "options": [
+        "have administrative experience",
+        "have experience in the field of their ventures",
+        "have middle level management experience",
+        "have higher level management experience"
+      ],
+      "correctOption": "have administrative experience"
+    },
+    {
+      "question": "One of the not so obvious obstacles women entrepreneurs face include:",
+      "options": [
+        "financial obstacles",
+        "economic obstacles",
+        "soft obstacles",
+        "emotional obstacles"
+      ],
+      "correctOption": "soft obstacles"
+    }
+  ]
+}

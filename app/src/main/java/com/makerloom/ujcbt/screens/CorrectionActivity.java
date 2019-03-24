@@ -14,22 +14,22 @@ import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-// Removing Ads
-//import com.google.android.gms.ads.AdView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.makerloom.ujcbt.R;
 import com.makerloom.common.activity.MyBackToolbarActivity;
-import com.makerloom.ujcbt.adapters.QuestionAdapter;
-import com.makerloom.ujcbt.models.Question;
 import com.makerloom.common.utils.Constants;
 import com.makerloom.common.utils.Keys;
-import com.makerloom.common.utils.UI;
+import com.makerloom.ujcbt.R;
+import com.makerloom.ujcbt.adapters.QuestionAdapter;
+import com.makerloom.ujcbt.models.Question;
 import com.makerloom.ujcbt.utils.Commons;
 
 import java.lang.reflect.Type;
 import java.util.List;
 import java.util.Locale;
+
+// Removing Ads
+//import com.google.android.gms.ads.AdView;
 
 /**
  * Created by michael on 4/11/18.

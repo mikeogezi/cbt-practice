@@ -308,19 +308,19 @@ public class PINActivity extends MyPlainToolbarActivity {
                 .setCancelable(true)
                 .setTitle("PIN Required")
                 .setMessage("You need a PIN to access the full app. Please get one and enter it on this screen.")
-                .setPositiveButton("Get PIN", new DialogInterface.OnClickListener() {
+                .setNegativeButton("PIN Enquiries", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         goToInfoActivity();
                     }
                 })
-                .setNegativeButton("OK", new DialogInterface.OnClickListener() {
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
                     }
                 })
-                .setNeutralButton("Buy PIN Online", new DialogInterface.OnClickListener() {
+                .setNeutralButton("Purchase PIN Online", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         goToBuyPINOnlineActivity();

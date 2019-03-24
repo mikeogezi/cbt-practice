@@ -1,19 +1,15 @@
 package com.makerloom.ujcbt.screens;
 
-import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.makerloom.common.activity.MyAppCompatActivity;
 import com.makerloom.common.activity.MyPlainToolbarActivity;
 import com.makerloom.ujcbt.R;
 import com.makerloom.ujcbt.utils.Commons;
+import com.makerloom.ujcbt.utils.NetworkUtils;
 
 import mehdi.sakout.fancybuttons.FancyButton;
 
@@ -37,10 +33,9 @@ public class WelcomeActivity extends MyPlainToolbarActivity {
             public void onClick(View v) {
                 if (Commons.hasConnection(WelcomeActivity.this)) {
                     startActivity(new Intent(WelcomeActivity.this, AuthActivity.class));
-//                    finish();
                 }
                 else {
-                    showConnectionErrorMessage();
+                    NetworkUtils.Companion.showConnectionErrorMessage(WelcomeActivity.this, "sign in");
                 }
             }
         });
@@ -54,19 +49,5 @@ public class WelcomeActivity extends MyPlainToolbarActivity {
         });
     }
 
-    public void showConnectionErrorMessage () {
-        AlertDialog.Builder builder = new AlertDialog.Builder(WelcomeActivity.this)
-                .setCancelable(true)
-                .setTitle("Internet Connection Error")
-                .setMessage("You need an internet connection to sign in. Please check that you're online then try again.")
-                .setNeutralButton("OK", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.dismiss();
-                    }
-                });
 
-        AlertDialog dialog = builder.create();
-        dialog.show();
-    }
 }

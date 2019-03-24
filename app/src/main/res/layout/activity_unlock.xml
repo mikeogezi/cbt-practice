@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:fancy="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_content"
@@ -72,7 +70,7 @@
                     android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp">
+                    android:layout_marginBottom="4dp">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/unlock_code"
@@ -119,8 +117,8 @@
                     android:paddingBottom="15dp"
                     android:paddingLeft="18dp"
                     android:paddingRight="15dp"
-                    android:layout_marginTop="0dp"
-                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="6dp"
                     fancy:fb_borderColor="@color/colorPrimary"
                     fancy:fb_borderWidth="2dp"
                     fancy:fb_defaultColor="@color/colorPrimary"
@@ -151,8 +149,8 @@
                         android:id="@+id/info_btn"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
                         android:paddingLeft="20dp"
                         android:paddingRight="15dp"
                         android:layout_marginRight="4dp"
@@ -161,7 +159,7 @@
                         fancy:fb_defaultColor="@color/colorPrimary"
                         fancy:fb_focusColor="@color/colorAccent"
                         fancy:fb_radius="5dp"
-                        android:text="Pin Enquiry"
+                        android:text="Pin Enquiries"
                         android:textAllCaps="true"
                         fancy:fb_iconPaddingLeft="15dp"
                         fancy:fb_iconPosition="right"
@@ -176,8 +174,8 @@
                         android:id="@+id/signout_btn"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
+                        android:paddingTop="12dp"
+                        android:paddingBottom="12dp"
                         android:paddingLeft="20dp"
                         android:paddingRight="15dp"
                         android:layout_marginLeft="4dp"

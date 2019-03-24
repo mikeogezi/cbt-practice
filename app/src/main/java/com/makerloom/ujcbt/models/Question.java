@@ -7,8 +7,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 
-import com.makerloom.ujcbt.screens.TestActivity;
 import com.makerloom.common.utils.Constants;
+import com.makerloom.ujcbt.screens.TestActivity;
 
 import java.util.List;
 
@@ -19,6 +19,10 @@ import mehdi.sakout.fancybuttons.FancyButton;
  */
 
 public class Question {
+    // For long form questions like comprehensions and
+    // multiple questions based on one piece of information
+    private String passage;
+
     private String question;
 
     private List<String> options;
@@ -33,21 +37,6 @@ public class Question {
 
     private String selectedOption;
 
-    public Question () {
-        super();
-        optionCheckBoxes = new AppCompatCheckBox [Constants.MAX_OPTIONS];
-        wrongOptionCheckBoxes = new AppCompatCheckBox [Constants.MAX_OPTIONS];
-        correctOptionCheckBoxes = new AppCompatCheckBox [Constants.MAX_OPTIONS];
-    }
-
-    public Question (String question, List<String> options) {
-        this.question = question;
-        this.options = options;
-        this.optionCheckBoxes = new AppCompatCheckBox [getOptions().size()];
-        this.wrongOptionCheckBoxes = new AppCompatCheckBox [getOptions().size()];
-        this.correctOptionCheckBoxes = new AppCompatCheckBox [getOptions().size()];
-    }
-
     public Boolean isCorrect () {
         return correctOption.equals(selectedOption);
     }
@@ -56,7 +45,34 @@ public class Question {
         return !TextUtils.isEmpty(selectedOption);
     }
 
+    public Boolean hasPassage () {
+        return !TextUtils.isEmpty(getPassage());
+    }
+
+    public Question() {
+        super();
+        optionCheckBoxes = new AppCompatCheckBox [Constants.MAX_OPTIONS];
+        wrongOptionCheckBoxes = new AppCompatCheckBox [Constants.MAX_OPTIONS];
+        correctOptionCheckBoxes = new AppCompatCheckBox [Constants.MAX_OPTIONS];
+    }
+
+    public Question(String question, List<String> options) {
+        this.question = question;
+        this.options = options;
+        this.optionCheckBoxes = new AppCompatCheckBox [getOptions().size()];
+        this.wrongOptionCheckBoxes = new AppCompatCheckBox [getOptions().size()];
+        this.correctOptionCheckBoxes = new AppCompatCheckBox [getOptions().size()];
+    }
+
     private transient boolean hasCleanedOptions = false;
+
+    public String getPassage() {
+        return passage;
+    }
+
+    public void setPassage(String passage) {
+        this.passage = passage;
+    }
 
     public List<String> getOptions() {
         if (!hasCleanedOptions) {

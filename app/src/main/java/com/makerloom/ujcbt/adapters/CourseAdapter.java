@@ -3,7 +3,6 @@ package com.makerloom.ujcbt.adapters;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.support.v4.content.ContextCompat;
@@ -15,16 +14,14 @@ import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.Toast;
 
-import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
-import com.makerloom.ujcbt.R;
 import com.makerloom.common.activity.MyAppCompatActivity;
 import com.makerloom.common.utils.Constants;
 import com.makerloom.common.utils.Keys;
 import com.makerloom.common.utils.UI;
+import com.makerloom.ujcbt.R;
 import com.makerloom.ujcbt.holders.CourseHolder;
 import com.makerloom.ujcbt.models.Course;
-import com.makerloom.ujcbt.screens.CoursesActivity;
 import com.makerloom.ujcbt.screens.TestActivity;
 import com.takusemba.spotlight.CustomTarget;
 import com.takusemba.spotlight.OnSpotlightEndedListener;
@@ -102,7 +99,7 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseHolder> {
 //                .buildRect(courseCodeNumber, color);
 //        holder.codeIV.setImageDrawable(drawableCodeNumber);
         holder.codeTV.setText(course.getCourseCode());
-        holder.codeCV.setCardBackgroundColor((ColorGenerator.MATERIAL.getColor(course.getName())));
+        holder.codeCV.setCardBackgroundColor((ColorGenerator.MATERIAL.getColor(course.getCourseCode())));
 
         if (position == 0) {
             setSpotlightRunnable(holder);

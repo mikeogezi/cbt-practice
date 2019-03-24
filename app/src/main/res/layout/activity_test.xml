@@ -79,6 +79,7 @@
                         layout="@layout/horizontal_line" />
 
                     <LinearLayout
+                        xmlns:fancy="http://schemas.android.com/apk/res-auto"
                         android:orientation="vertical"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
@@ -124,6 +125,41 @@
                         </LinearLayout>
 
                         <include
+                            layout="@layout/horizontal_line_light" />
+
+                        <mehdi.sakout.fancybuttons.FancyButton
+                            android:visibility="visible"
+                            android:id="@+id/show_passage_btn"
+                            android:text="Show Passage"
+                            fancy:fb_text="Show Passage"
+                            android:textAllCaps="true"
+                            android:textSize="16sp"
+                            fancy:fb_borderWidth="1.2dp"
+                            fancy:fb_radius="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp"
+                            fancy:fb_iconPaddingRight="20dp"
+                            fancy:fb_iconPosition="left"
+                            fancy:fb_fontIconSize="20sp"
+                            fancy:fb_fontIconResource="&#xf036;"
+                            fancy:fb_disabledColor="@color/gray_light"
+                            fancy:fb_disabledBorderColor="@color/gray_light"
+                            fancy:fb_disabledTextColor="@color/gray_dark"
+                            fancy:fb_borderColor="@color/md_blue_500"
+                            fancy:fb_defaultColor="@color/md_blue_500"
+                            fancy:fb_focusColor="@color/white"
+                            fancy:fb_textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <include
+                            android:layout_marginBottom="-8dp"
                             layout="@layout/horizontal_line_light" />
 
                         <android.support.v7.widget.AppCompatTextView

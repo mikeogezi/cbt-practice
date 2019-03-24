@@ -1,1 +1,97 @@
-{}
+{
+  "time": 30,
+  "maxQuestions": 50,
+  "questions": [
+    {
+      "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
+      "question": "The author observes that",
+      "options": [
+        "War, pestilence and famine were caused by the extravagance of nature.",
+        "Nature was heartless and senseless.",
+        "There was a time when uncontrolled birth made sense.",
+        "It was wise at a time when mankind did not interfere with normal reproduction.",
+        "Nature was heartless in its reproductive process."
+      ],
+      "correctOption": "There was a time when uncontrolled birth made sense."
+    },
+    {
+      "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
+      "question": "‘humane’, as used in the passage means",
+      "options": [
+        "sensible",
+        "wise",
+        "human",
+        "benevolent",
+        "thorough"
+      ],
+      "correctOption": "benevolent"
+    },
+    {
+      "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
+      "question": "The main idea of this passage is that",
+      "options": [
+        "nature is heartless",
+        "man should control the birth rate",
+        "mankind will soon perish of starvation",
+        "pestilence causes more deaths than war",
+        "man should change nature’s course gradually"
+      ],
+      "correctOption": "man should control the birth rate"
+    },
+    {
+      "passage": "These two factors, the altitude and the weather, tend separately and together to defeat the climber. The height weakens, slows him down, it forces him to spend days and night in the course of his assault on the summit; the weather, besides adding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy ground the weather may be no more than a handicap, in the high Himalayas it is decisive, regardless of terrain. \nThe deduction to be drawn from these two factors was clear enough. We must either so fortify ourselves that we could continue, without detriment, to live our being above limit of natural acclimatization, or better still, we must solve the problem of speed. It was desirable, in fact that we should meet both these requirements and thus give to these chosen to attempt the summit and to their supporting teams some measure of ignorance against the vagaries of the weather, for safety in mountain climbing is as much a matter of swiftness as of sureness of foot. Either or both could be achieved only by the administration of oxygen in sufficient quantities to make up for the deficiency in the air, and for the duration of the upward journey above limit of successful acclimatization.",
+      "question": "The author believes that to overcome the problem of altitude and weather, the climber needs mainly",
+      "options": [
+        "courage and speed.",
+        "energy and moral fortitude.",
+        "sufficient quantities of oxygen.",
+        "swiftness and sureness of foot",
+        "quick acclimatization."
+      ],
+      "correctOption": "sufficient quantities of oxygen."
+    },
+    {
+      "passage": "These two factors, the altitude and the weather, tend separately and together to defeat the climber. The height weakens, slows him down, it forces him to spend days and night in the course of his assault on the summit; the weather, besides adding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy ground the weather may be no more than a handicap, in the high Himalayas it is decisive, regardless of terrain. \nThe deduction to be drawn from these two factors was clear enough. We must either so fortify ourselves that we could continue, without detriment, to live our being above limit of natural acclimatization, or better still, we must solve the problem of speed. It was desirable, in fact that we should meet both these requirements and thus give to these chosen to attempt the summit and to their supporting teams some measure of ignorance against the vagaries of the weather, for safety in mountain climbing is as much a matter of swiftness as of sureness of foot. Either or both could be achieved only by the administration of oxygen in sufficient quantities to make up for the deficiency in the air, and for the duration of the upward journey above limit of successful acclimatization.",
+      "question": "‘conspires’ (line 7) means",
+      "options": [
+        "ruins",
+        "makes secret plans",
+        "takes a wicked action",
+        "combines",
+        "aggravates"
+      ],
+      "correctOption": "combines"
+    },
+    {
+      "question": "The main idea of this passage is that",
+      "options": [
+        "nature is heartless",
+        "man should control the birth rate",
+        "mankind will soon perish of starvation",
+        "pestilence causes more deaths than war",
+        "man should change nature’s course gradually"
+      ],
+      "correctOption": "man should control the birth rate"
+    },
+    {
+      "question": "The English is an _______________ language in the world",
+      "options": [
+        "local",
+        "regional",
+        "ethnic",
+        "international"
+      ],
+      "correctOption": "international"
+    },
+    {
+      "question": "Librarians use _______________ to group related books together",
+      "options": [
+        "Catalogue cards",
+        "Classification scheme",
+        "Microfilm",
+        "Retrieval tool"
+      ],
+      "correctOption": "Catalogue cards"
+    }
+  ]
+}

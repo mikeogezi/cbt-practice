@@ -3,8 +3,8 @@ package com.makerloom.ujcbt.models;
 import com.makerloom.common.utils.Constants;
 
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by michael on 4/11/18.
@@ -58,9 +58,37 @@ public class Questions {
         trimTo(questionCount);
         shuffle();
 
+        sortByPassages();
+
         for (int i = 0, len = questions.size(); i < len; ++i) {
             Collections.shuffle(questions.get(i).getOptions());
         }
+    }
+
+    public void sortByPassages () {
+        Collections.sort(getQuestions(), new Comparator() {
+            @Override
+            public int compare(Object left, Object right) {
+                Question qL = (Question) left;
+                Question qR = (Question) right;
+
+                // Both have passages
+                if (qL.hasPassage() && qR.hasPassage()) {
+                    int lL = qL.getPassage().length();
+                    int rL = qR.getPassage().length();
+                    return lL - rL;
+                }
+                // Left has passage, but right does not
+                else if (qL.hasPassage() && !qR.hasPassage()) {
+                    return -1;
+                }
+                // Right has passage, but left does not
+                else if (!qL.hasPassage() && qR.hasPassage()) {
+                    return 1;
+                }
+                return 0;
+            }
+        });
     }
 
     public void shuffle () {

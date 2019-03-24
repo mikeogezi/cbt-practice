@@ -8,11 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.makerloom.common.utils.UI;
 import com.makerloom.ujcbt.R;
 import com.makerloom.ujcbt.holders.QuestionHolder;
 import com.makerloom.ujcbt.models.Question;
-import com.makerloom.common.utils.UI;
-import com.makerloom.ujcbt.screens.CorrectionActivity;
 
 import java.util.List;
 
