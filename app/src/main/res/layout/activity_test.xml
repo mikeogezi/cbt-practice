@@ -248,7 +248,7 @@
                     android:layout_height="wrap_content">
 
                     <mehdi.sakout.fancybuttons.FancyButton
-                        android:visibility="visible"
+                        android:visibility="gone"
                         android:id="@+id/next"
                         android:text="Next"
                         fancy:fb_text="Next"
@@ -275,7 +275,7 @@
                         android:layout_height="wrap_content" />
 
                     <mehdi.sakout.fancybuttons.FancyButton
-                        android:visibility="gone"
+                        android:visibility="visible"
                         android:id="@+id/finish"
                         android:text="Finish"
                         fancy:fb_text="Finish"
@@ -294,8 +294,8 @@
                         fancy:fb_disabledColor="@color/gray_light"
                         fancy:fb_disabledBorderColor="@color/gray_light"
                         fancy:fb_disabledTextColor="@color/gray_dark"
-                        fancy:fb_borderColor="@color/md_blue_900"
-                        fancy:fb_defaultColor="@color/md_blue_800"
+                        fancy:fb_borderColor="@color/md_indigo_600"
+                        fancy:fb_defaultColor="@color/md_indigo_600"
                         fancy:fb_focusColor="@color/white"
                         fancy:fb_textColor="@color/white"
                         android:layout_width="match_parent"

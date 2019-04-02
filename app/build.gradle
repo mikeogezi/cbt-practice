@@ -90,10 +90,13 @@ dependencies {
 //    implementation 'com.google.firebase:firebase-functions:16.1.2'
 //    implementation 'com.google.firebase:firebase-config:15.0.0'
 //    implementation 'com.google.firebase:firebase-database:16.0.1'
-//    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
 //    implementation 'com.google.firebase:firebase-invites:16.0.0'
 
     // Other Third Party Libraries
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'io.paperdb:paperdb:2.6'
+    implementation 'commons-io:commons-io:2.6'
     implementation('com.mikepenz:materialdrawer:6.0.6@aar') {
         transitive = true
     }

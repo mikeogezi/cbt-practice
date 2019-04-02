@@ -3,18 +3,22 @@ package com.makerloom.ujcbt.services
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
-import android.app.Service
 import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
 import android.os.Build
-import android.os.IBinder
+import android.os.Looper
 import android.support.v4.app.NotificationCompat
 import android.util.Log
+import android.widget.Toast
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import com.makerloom.common.startup.MainActivity
+import com.makerloom.common.utils.Constants
 import com.makerloom.ujcbt.R
+import com.makerloom.ujcbt.utils.Commons
+import com.makerloom.ujcbt.utils.QuestionUpdateUtils
+
 
 class MyFirebaseMessagingService: FirebaseMessagingService() {
 
@@ -34,6 +38,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         // and data payloads are treated as notification messages. The Firebase console always sends notification
         // messages. For more see: https://firebase.google.com/docs/cloud-messaging/concept-options
         // [END_EXCLUDE]
+        Log.d(TAG, "onMessageReceived")
 
         // TODO(developer): Handle FCM messages here.
         // Not getting messages here? See why this may be: https://goo.gl/39bRNJ
@@ -42,16 +47,18 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         // Check if message contains a data payload.
         remoteMessage?.data?.isNotEmpty()?.let {
             Log.d(TAG, "Message data payload: " + remoteMessage.data)
+        }
 
-            if (/* Check if data needs to be processed by long running job */ !true) {
-                // For long-running tasks (10 seconds or more) use Firebase Job Dispatcher.
-                scheduleJob()
-            } else {
-                // Handle message within 10 seconds
-                handleNow()
-            }
-            Log.d(TAG, "onMessageReceived")
-//            sendNotification("On Device Notification")
+        if (isUpdateMessage(remoteMessage)) {
+            val handler = android.os.Handler(Looper.getMainLooper())
+            handler.post(Runnable {
+                if (Constants.TOAST_VERBOSE) {
+                    Toast.makeText(this@MyFirebaseMessagingService,
+                            "Received questions update message", Toast.LENGTH_LONG).show()
+                }
+            })
+
+            QuestionUpdateUtils.checkForNewQuestions(this@MyFirebaseMessagingService)
         }
 
         // Check if message contains a notification payload.
@@ -62,7 +69,11 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated. See sendNotification method below.
     }
-    // [END receive_message]
+
+    fun isUpdateMessage (remoteMessage: RemoteMessage?): Boolean {
+        return (remoteMessage != null && remoteMessage.data != null &&
+                remoteMessage.data.containsKey(Commons.IS_QUESTIONS_UPDATE_KEY))
+    }
 
     // [START on_new_token]
     /**
@@ -78,21 +89,11 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
         // Instance ID token to your app server.
         sendRegistrationToServer(token)
     }
-    // [END on_new_token]
 
     /**
      * Schedule a job using FirebaseJobDispatcher.
      */
-    private fun scheduleJob() {
-        // [START dispatch_job]
-//        val dispatcher = FirebaseJobDispatcher(GooglePlayDriver(this))
-//        val myJob = dispatcher.newJobBuilder()
-//                .setService(MyJobService::class.java as Class<out JobService>)
-//                .setTag("my-job-tag")
-//                .build()
-//        dispatcher.schedule(myJob)
-//        // [END dispatch_job]
-    }
+    private fun scheduleJob () {}
 
     /**
      * Handle time allotted to BroadcastReceivers.
@@ -111,6 +112,7 @@ class MyFirebaseMessagingService: FirebaseMessagingService() {
      */
     private fun sendRegistrationToServer(token: String?) {
         // TODO: Implement this method to send token to your app server.
+        return
     }
 
     /**

@@ -21,8 +21,14 @@ import com.makerloom.common.utils.Constants;
 import com.makerloom.common.utils.Keys;
 import com.makerloom.ujcbt.R;
 import com.makerloom.ujcbt.adapters.QuestionAdapter;
+import com.makerloom.ujcbt.events.MessageEvent;
+import com.makerloom.ujcbt.events.QuestionsUpdateEvent;
 import com.makerloom.ujcbt.models.Question;
 import com.makerloom.ujcbt.utils.Commons;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -63,6 +69,11 @@ public class CorrectionActivity extends MyBackToolbarActivity {
         }
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEvent(MessageEvent event) {
+        if (event instanceof QuestionsUpdateEvent) { }
+    }
+
     private String TAG = CorrectionActivity.class.getSimpleName();
 
     @Override
@@ -70,6 +81,8 @@ public class CorrectionActivity extends MyBackToolbarActivity {
         super.onCreate(savedInstanceState);
         Commons.goToWelcomeIfNotSignedIn(this);
         setContentView(R.layout.activity_correction);
+
+        EventBus.getDefault().register(this);
 
         setTitle(String.format(Locale.ENGLISH, "%s Correction", getCourseName()));
 
@@ -149,4 +162,11 @@ public class CorrectionActivity extends MyBackToolbarActivity {
     }
 
     private boolean isFirstCorrection = false;
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        EventBus.getDefault().unregister(this);
+    }
 }

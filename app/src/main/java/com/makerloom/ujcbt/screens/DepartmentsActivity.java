@@ -3,7 +3,6 @@ package com.makerloom.ujcbt.screens;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -23,23 +22,20 @@ import android.widget.Toast;
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
 import com.firebase.ui.auth.AuthUI;
-// Removing Ads
-//import com.google.android.gms.ads.AdView;
-import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.makerloom.common.utils.Constants;
-import com.makerloom.ujcbt.R;
 import com.makerloom.common.activity.MyPlainToolbarActivity;
-import com.makerloom.ujcbt.adapters.DepartmentAdapter;
+import com.makerloom.common.utils.Constants;
 import com.makerloom.common.utils.Keys;
+import com.makerloom.ujcbt.R;
+import com.makerloom.ujcbt.adapters.DepartmentAdapter;
+import com.makerloom.ujcbt.events.MessageEvent;
+import com.makerloom.ujcbt.events.QuestionsUpdateEvent;
 import com.makerloom.ujcbt.models.Course;
 import com.makerloom.ujcbt.models.Department;
-import com.makerloom.common.utils.UI;
 import com.makerloom.ujcbt.utils.Commons;
+import com.makerloom.ujcbt.utils.DepartmentsFileUtils;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.holder.BadgeStyle;
@@ -48,13 +44,15 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.lang.reflect.Type;
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
 import java.util.List;
 import java.util.Locale;
+
+// Removing Ads
+//import com.google.android.gms.ads.AdView;
 
 /**
  * Created by michael on 4/11/18.
@@ -125,6 +123,30 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
         };
     }
 
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEvent(MessageEvent event) {
+        if (event instanceof QuestionsUpdateEvent) {
+            if (hasWindowFocus()) {
+                restartActivity();
+            }
+            else {
+                hasOnResumeUpdateJob = true;
+            }
+        }
+    }
+
+    private Boolean hasOnResumeUpdateJob = false;
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (hasOnResumeUpdateJob) {
+            restartActivity();
+            hasOnResumeUpdateJob = false;
+        }
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -157,16 +179,20 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
                 .withToolbar(getToolbar())
                 .build();
 
+        EventBus.getDefault().register(this);
+
         AsyncTask.execute(new Runnable() {
             @Override
             public void run() {
                 Gson gson = new Gson();
 
-                InputStream rawInputStream = getResources().openRawResource(R.raw.departments);
-                Reader reader = new BufferedReader(new InputStreamReader(rawInputStream));
-
-                Type listType = new TypeToken<List<Department>> () {}.getType();
-                List<Department> departments = gson.fromJson(reader, listType);
+//                InputStream rawInputStream = getResources().openRawResource(R.raw.departments);
+//                Reader reader = new BufferedReader(new InputStreamReader(rawInputStream));
+//
+//                Type listType = new TypeToken<List<Department>> () {}.getType();
+//                List<Department> departments = gson.fromJson(reader, listType);
+                List<Department> departments = DepartmentsFileUtils.Companion
+                        .getDeptsFile(DepartmentsActivity.this);
 
                 final PrimaryDrawerItem dev = new PrimaryDrawerItem()
                         .withName("Developed By Makerloom Software Ltd.").withSelectable(false);
@@ -412,5 +438,12 @@ public class DepartmentsActivity extends MyPlainToolbarActivity {
                                 Toast.LENGTH_LONG).show();
                     }
                 });
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        EventBus.getDefault().unregister(this);
     }
 }

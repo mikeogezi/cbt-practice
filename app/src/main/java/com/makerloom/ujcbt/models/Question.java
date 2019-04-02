@@ -205,6 +205,7 @@ public class Question {
     }
 
     public void addCorrectOptionCheckBox(AppCompatCheckBox optionCheckBox, int index) {
+        optionCheckBox.setClickable(false);
         this.correctOptionCheckBoxes[index] = optionCheckBox;
     }
 

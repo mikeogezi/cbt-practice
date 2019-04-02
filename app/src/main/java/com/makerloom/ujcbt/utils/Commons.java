@@ -20,6 +20,16 @@ public class Commons {
     public static final String PIN_KEY = "pin";
     public static final String UID_KEY = "uid";
 
+    public static final String LAST_QUESTION_UPDATE_KEY = "LAST_QUESTION_UPDATE";
+
+    public static final String IS_QUESTIONS_UPDATE_KEY = "isQuestionsUpdate";
+    public static final String UPDATES_TOPIC_NAME = "questionsUpdate";
+
+    public static final String QUESTIONS_PATH = "raw";
+    public static final String QUESTIONS_PREFIX = "questions_";
+    public static final String DEPARTMENTS_FILENAME = "departments";
+    public static final String DATA_FILE_EXT = "json";
+
     public static final String PASSAGE_KEY = "passage";
 
     public static final String EXPIRED_PIN_KEY = "EXPIRED_PIN";

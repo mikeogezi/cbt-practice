@@ -7,13 +7,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.ProgressBar;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
-import com.makerloom.ujcbt.R;
 import com.makerloom.common.startup.IntroActivity;
 import com.makerloom.common.startup.MainActivity;
+import com.makerloom.ujcbt.R;
 
 /**
  * Created by michael on 2/25/18.
@@ -53,6 +52,13 @@ public class MyAppCompatActivity extends AppCompatActivity {
                 actionBar.setHomeButtonEnabled(true);
             }
         }
+    }
+
+    public void restartActivity () {
+        Intent intent = getIntent();
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        finish();
+        startActivity(intent);
     }
 
     public Toolbar getToolbar() {

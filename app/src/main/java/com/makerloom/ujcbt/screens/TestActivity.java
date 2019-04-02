@@ -20,6 +20,7 @@ import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
@@ -45,6 +46,8 @@ import com.makerloom.common.utils.UI;
 import com.makerloom.ujcbt.R;
 import com.makerloom.ujcbt.adapters.OptionAdapter;
 import com.makerloom.ujcbt.adapters.QuestionNumberAdapter;
+import com.makerloom.ujcbt.events.MessageEvent;
+import com.makerloom.ujcbt.events.QuestionsUpdateEvent;
 import com.makerloom.ujcbt.models.Course;
 import com.makerloom.ujcbt.models.Question;
 import com.makerloom.ujcbt.models.Test;
@@ -54,6 +57,9 @@ import com.takusemba.spotlight.OnSpotlightEndedListener;
 import com.takusemba.spotlight.OnSpotlightStartedListener;
 import com.takusemba.spotlight.Spotlight;
 
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 import org.jetbrains.annotations.NotNull;
 
 import java.lang.reflect.Type;
@@ -188,6 +194,8 @@ public class TestActivity extends MyBackToolbarActivity implements
         Commons.goToWelcomeIfNotSignedIn(this);
         setContentView(R.layout.activity_test);
 
+        EventBus.getDefault().register(this);
+
         setTitle(String.format("%s Exam", getCourseName()));
 
         numberBtns = new ArrayList<>(questionsLen);
@@ -206,6 +214,7 @@ public class TestActivity extends MyBackToolbarActivity implements
         nextBtn.setOnClickListener(onNext);
         finishBtn = findViewById(R.id.finish);
         finishBtn.setOnClickListener(onFinish);
+        finishBtn.getTextViewObject().setTypeface(Typeface.DEFAULT_BOLD);
 
         questionTV = findViewById(R.id.question);
         questionTV.setText("");
@@ -624,6 +633,11 @@ public class TestActivity extends MyBackToolbarActivity implements
         }
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEvent(MessageEvent event) {
+        if (event instanceof QuestionsUpdateEvent) { }
+    }
+
     private void renderQuestionIndex (int qIndex) {
         Question question = questions.get(qIndex);
 
@@ -638,7 +652,7 @@ public class TestActivity extends MyBackToolbarActivity implements
             showPassageBtn.setEnabled(false);
         }
 
-        questionTV.setText(question.getQuestion());
+        questionTV.setText(Html.fromHtml(question.getQuestion()));
         Log.d(TAG, "Question: " + question.getQuestion());
 
         OptionAdapter optionAdapter = new OptionAdapter(TestActivity.this, question);
@@ -1075,5 +1089,12 @@ public class TestActivity extends MyBackToolbarActivity implements
             return true;
         }
         return false;
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        EventBus.getDefault().unregister(this);
     }
 }

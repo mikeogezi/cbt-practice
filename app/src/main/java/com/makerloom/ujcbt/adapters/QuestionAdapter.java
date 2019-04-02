@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +45,7 @@ public class QuestionAdapter extends RecyclerView.Adapter<QuestionHolder> {
         holder.setQuestion(question);
 
         holder.numberTV.setText(String.valueOf(position + 1));
-        holder.questionTV.setText(question.getQuestion());
+        holder.questionTV.setText(Html.fromHtml(question.getQuestion()));
         holder.cardView.setOnClickListener(holder);
 
         OptionAdapter adapter = new OptionAdapter(context, question);

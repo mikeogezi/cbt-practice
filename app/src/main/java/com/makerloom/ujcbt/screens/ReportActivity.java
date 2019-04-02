@@ -12,7 +12,23 @@ import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.makerloom.common.activity.MyBackToolbarActivity;
+import com.makerloom.common.utils.Constants;
+import com.makerloom.common.utils.Keys;
+import com.makerloom.ujcbt.R;
+import com.makerloom.ujcbt.events.MessageEvent;
+import com.makerloom.ujcbt.events.QuestionsUpdateEvent;
+import com.makerloom.ujcbt.utils.Commons;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import java.util.Locale;
+
+import mehdi.sakout.fancybuttons.FancyButton;
+
 // Removing Ads
 //import com.google.android.gms.ads.AdListener;
 //import com.google.android.gms.ads.AdLoader;
@@ -21,16 +37,6 @@ import android.widget.Toast;
 //import com.google.android.gms.ads.InterstitialAd;
 //import com.google.android.gms.ads.MobileAds;
 //import com.google.android.gms.ads.reward.RewardedVideoAd;
-import com.makerloom.ujcbt.R;
-import com.makerloom.common.activity.MyBackToolbarActivity;
-import com.makerloom.common.utils.Constants;
-import com.makerloom.common.utils.Keys;
-import com.makerloom.common.utils.UI;
-import com.makerloom.ujcbt.utils.Commons;
-
-import java.util.Locale;
-
-import mehdi.sakout.fancybuttons.FancyButton;
 
 /**
  * Created by michael on 4/11/18.
@@ -61,6 +67,11 @@ public class ReportActivity extends MyBackToolbarActivity {
         }
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onMessageEvent(MessageEvent event) {
+        if (event instanceof QuestionsUpdateEvent) { }
+    }
+
     private String getCourseName () {
         if (getIntent().hasExtra(Keys.COURSE_NAME_KEY)) {
             return getIntent().getStringExtra(Keys.COURSE_NAME_KEY);
@@ -84,6 +95,8 @@ public class ReportActivity extends MyBackToolbarActivity {
         super.onCreate(savedInstanceState);
         Commons.goToWelcomeIfNotSignedIn(this);
         setContentView(R.layout.activity_report);
+
+        EventBus.getDefault().register(this);
 
         String shortDeptName = "";
         try {
@@ -436,5 +449,12 @@ public class ReportActivity extends MyBackToolbarActivity {
             return;
         }
         super.onBackPressed();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        EventBus.getDefault().unregister(this);
     }
 }

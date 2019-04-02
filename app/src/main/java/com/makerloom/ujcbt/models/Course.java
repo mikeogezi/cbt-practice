@@ -2,15 +2,7 @@ package com.makerloom.ujcbt.models;
 
 import android.content.Context;
 
-import com.google.gson.Gson;
-import com.makerloom.ujcbt.R;
-
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.util.List;
-import java.util.Locale;
+import com.makerloom.ujcbt.utils.QuestionsFilesUtils;
 
 /**
  * Created by michael on 4/11/18.
@@ -74,15 +66,16 @@ public class Course {
     }
 
     public Test generateTest (Context context, int questionLen) {
-        String filename = "questions_" + getCourseCode().replace(" ", "").toLowerCase(Locale.ENGLISH);
-
-        Gson gson = new Gson();
-
-        InputStream rawInputStream = context.getResources().openRawResource(
-                context.getResources().getIdentifier(filename, "raw", context.getPackageName()));
-        Reader reader = new BufferedReader(new InputStreamReader(rawInputStream));
-
-        Questions questions = gson.fromJson(reader, Questions.class);
+//        String filename = "questions_" + getCourseCode().replace(" ", "").toLowerCase(Locale.ENGLISH);
+//
+//        Gson gson = new Gson();
+//
+//        InputStream rawInputStream = context.getResources().openRawResource(
+//                context.getResources().getIdentifier(filename, "raw", context.getPackageName()));
+//        Reader reader = new BufferedReader(new InputStreamReader(rawInputStream));
+//
+//        Questions questions = gson.fromJson(reader, Questions.class);
+        Questions questions = QuestionsFilesUtils.Companion.getQuestionsFile(context, getCourseCode());
         questions.prepare(questionLen);
 
         Test test = new Test();

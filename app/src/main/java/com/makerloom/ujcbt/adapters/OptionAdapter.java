@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,7 +57,7 @@ public class OptionAdapter  extends RecyclerView.Adapter<OptionHolder> {
 
         holder.setOption(option);
 
-        holder.optionTV.setText(option);
+        holder.optionTV.setText(Html.fromHtml(option));
         holder.optionCB.setChecked(false);
         holder.optionCB.setClickable(false);
         holder.cardView.setOnClickListener(getOnClickOption(question, position));
