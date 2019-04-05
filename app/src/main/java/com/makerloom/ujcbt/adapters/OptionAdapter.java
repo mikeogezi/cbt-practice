@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
-import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +13,7 @@ import com.makerloom.ujcbt.holders.OptionHolder;
 import com.makerloom.ujcbt.models.Question;
 import com.makerloom.ujcbt.screens.CorrectionActivity;
 import com.makerloom.ujcbt.screens.TestActivity;
+import com.makerloom.ujcbt.utils.TextViewUtils;
 
 /**
  * Created by michael on 4/11/18.
@@ -57,7 +57,7 @@ public class OptionAdapter  extends RecyclerView.Adapter<OptionHolder> {
 
         holder.setOption(option);
 
-        holder.optionTV.setText(Html.fromHtml(option));
+        holder.optionTV.setText(TextViewUtils.Companion.fromHtml(option));
         holder.optionCB.setChecked(false);
         holder.optionCB.setClickable(false);
         holder.cardView.setOnClickListener(getOnClickOption(question, position));

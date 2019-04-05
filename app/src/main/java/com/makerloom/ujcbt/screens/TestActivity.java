@@ -20,7 +20,6 @@ import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.text.Html;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
@@ -52,6 +51,7 @@ import com.makerloom.ujcbt.models.Course;
 import com.makerloom.ujcbt.models.Question;
 import com.makerloom.ujcbt.models.Test;
 import com.makerloom.ujcbt.utils.Commons;
+import com.makerloom.ujcbt.utils.TextViewUtils;
 import com.takusemba.spotlight.CustomTarget;
 import com.takusemba.spotlight.OnSpotlightEndedListener;
 import com.takusemba.spotlight.OnSpotlightStartedListener;
@@ -652,7 +652,7 @@ public class TestActivity extends MyBackToolbarActivity implements
             showPassageBtn.setEnabled(false);
         }
 
-        questionTV.setText(Html.fromHtml(question.getQuestion()));
+        questionTV.setText(TextViewUtils.Companion.fromHtml(question.getQuestion()));
         Log.d(TAG, "Question: " + question.getQuestion());
 
         OptionAdapter optionAdapter = new OptionAdapter(TestActivity.this, question);

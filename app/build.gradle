@@ -78,11 +78,11 @@ dependencies {
     // Firebase Libraries
     implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
     implementation 'com.facebook.android:facebook-android-sdk:4.30.0'
-    implementation 'com.google.firebase:firebase-core:16.0.7'
-    implementation 'com.google.firebase:firebase-auth:16.1.0'
-    implementation 'com.google.firebase:firebase-firestore:18.0.0'
-    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.8'
-    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    implementation 'com.google.firebase:firebase-core:16.0.8'
+    implementation 'com.google.firebase:firebase-auth:16.2.0'
+    implementation 'com.google.firebase:firebase-firestore:18.2.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+    implementation 'com.google.firebase:firebase-messaging:17.5.0'
 //    implementation 'com.google.firebase:firebase-inappmessaging:17.0.5'
 //    implementation 'com.google.firebase:firebase-inappmessaging-display:17.0.5'
 //    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
@@ -90,7 +90,7 @@ dependencies {
 //    implementation 'com.google.firebase:firebase-functions:16.1.2'
 //    implementation 'com.google.firebase:firebase-config:15.0.0'
 //    implementation 'com.google.firebase:firebase-database:16.0.1'
-    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    implementation 'com.google.firebase:firebase-storage:16.1.0'
 //    implementation 'com.google.firebase:firebase-invites:16.0.0'
 
     // Other Third Party Libraries
