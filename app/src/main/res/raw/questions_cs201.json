@@ -228,11 +228,11 @@
             "question": "Which of the following is an invalid identifier?",
             "options": [
                 "Miles",
-                "Root—of—2",
                 "Root_of_2",
+                "Root­of­2",
                 "Erase"
             ],
-            "correctOption": "Root—of—2"
+            "correctOption": "Root­of­2"
         },
         {
             "question": "Which of the following is an invalid identifier?",
@@ -752,7 +752,7 @@
             "correctOption": "member access operator (.)"
         },
         {
-            "question": "Member Selection (—>) Operator is used to access members of a structure if a pointer variable is assigned the address of a structure.",
+            "question": "Member Selection (­>) Operator is used to access members of a structure if a pointer variable is assigned the address of a structure.",
             "options": [
                 "Why?",
                 "False",
@@ -992,7 +992,7 @@
             "correctOption": "Character Input and Output"
         },
         {
-            "question": "What is the output of the following C++ program?\n\ncout << 25 << \" in hexadecimal is: \" << hex << 25 << endl;",
+            "question": "What is the output of the following C++ program?\ncout << 25 << \" in hexadecimal is: \" << hex << 25 << endl;",
             "options": [
                 "25 in hexadecimal is: 11",
                 "25 in hexadecimal is: 12",
@@ -1002,7 +1002,7 @@
             "correctOption": "25 in hexadecimal is: 19"
         },
         {
-            "question": "What is the output of the following C++ program?\n\nint a = ceil(24.7);\ncout << hex << a << endl;",
+            "question": "What is the output of the following C++ program?\nint a = ceil(24.7);\ncout << hex << a << endl;",
             "options": [
                 "12",
                 "13",
@@ -1022,7 +1022,7 @@
             "correctOption": "19"
         },
         {
-            "question": "What is the output of the following C++ program?\n\ncout << setw(10) << setfill('_') << 12345 << endl;",
+            "question": "What is the output of the following C++ program?\ncout << setw(10) << setfill('_') << 12345 << endl;",
             "options": [
                 "12345",
                 "12345_____",
@@ -1126,7 +1126,7 @@
             "correctOption": "52"
         },
         {
-            "question": "Evaluate the following\n\n(false && true) || false || true",
+            "question": "Evaluate the following\n(false && true) || false || true",
             "options": [
                 "0",
                 "1",
@@ -1140,8 +1140,8 @@
             "options": [
                 "*",
                 "&",
-                "—>>",
-                "<<—"
+                "->>",
+                " << -"
             ],
             "correctOption": "*"
         },
@@ -1168,7 +1168,7 @@
         {
             "question": "What will happen in this code?\n int a = 100, b = 200;\n    int *p = &a, *q = &b;\n    p = q;",
             "options": [
-                "b is assigned to a",
+                " b is assigned to a",
                 "p now points to b",
                 "a is assigned to b ",
                 "q now points to a"
@@ -1346,10 +1346,11 @@
             "question": "What is the scope of the variable declared in the user definied function?",
             "options": [
                 "whole program",
-                "only inside the function block",
+                "only inside the {} block",
+                "both whole program and only inside the {} block ",
                 "none of the mentioned"
             ],
-            "correctOption": "only inside the function block"
+            "correctOption": "only inside the {} block"
         },
         {
             "question": "What's the minimum number of functions needed in a C++ program?",
@@ -1581,7 +1582,7 @@
             "correctOption": "either with the const keyword and or the #define identifier"
         },
         {
-            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n        int  const  p = 5;\n        cout << ++p;\n        return 0;\n    }",
+            "question": "What is the output of this program?\n #include <iostream>\n    using namespace std;\n\n    int main()\n    {\n        int  const  p = 5;\n        cout << ++p;\n        return 0;\n    }",
             "options": [
                 "5",
                 "6",
@@ -1591,7 +1592,7 @@
             "correctOption": "Error"
         },
         {
-            "question": "What is the output of this program?\n\n    #include <iostream>\n    using namespace std;\n    #define PI 3.14159\n\n    int main ()\n    {\n        float r = 2;\n        float circle;\n        circle = 2 * PI * r;\n        cout << circle;\n        return 0;\n    }\n",
+            "question": "What is the output of this program?\n#include <iostream>\n    using namespace std;\n    #define PI 3.14159\n\n    int main ()\n    {\n        float r = 2;\n        float circle;\n        circle = 2 * PI * r;\n        cout << circle;\n        return 0;\n    }\n",
             "options": [
                 "12.5664",
                 "13.5664",
@@ -2073,7 +2074,7 @@
             "correctOption": "118"
         },
         {
-            "question": "Predict the output of following C++ program\n\n#include <iostream>\nusing std::cout;\nusing std::left;\nusing std::right;\n#include <iomanip>\nusing std::setfill;\nusing std::setw;\n\nint main()\n{\nint x = 10000;\ncout << left << setw( 10 ) << setfill('%') << x << endl;\n\nreturn 0;\n}",
+            "question": "Predict the output of following C++ program\n\n#include <iostream>\nusing std::cout;\nusing std::left;\nusing std::right;\n#include <iomanip>\nusing std::setfill;\nusing std::setw;\n\nint main()\n{\nint x = 10000;\ncout << left << setw( 10 ) << setfill('%') << x << endl;\n\nreturn &x;\n}",
             "options": [
                 "%%%%%%%%%%10000",
                 "%%%%%10000",

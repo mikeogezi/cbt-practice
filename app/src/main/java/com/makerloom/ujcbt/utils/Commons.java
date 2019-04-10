@@ -34,6 +34,8 @@ public class Commons {
 
     public static final String EXPIRED_PIN_KEY = "EXPIRED_PIN";
 
+    public static final int MAX_INSTRUCTION_LENGTH = 200;
+
     public static void enableFirestoreOffline (FirebaseFirestore db) {
         FirebaseFirestoreSettings settings = new FirebaseFirestoreSettings.Builder()
                 .setPersistenceEnabled(true)

@@ -21,6 +21,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.SpannableString;
+import android.text.TextUtils;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.Menu;
@@ -300,8 +301,10 @@ public class TestActivity extends MyBackToolbarActivity implements
         Bundle args = new Bundle();
 
         args.putString(Commons.PASSAGE_KEY, passageText);
+        boolean isInst = passageText.length() <= Commons.MAX_INSTRUCTION_LENGTH;
+
         FullScreenDialogFragment passageDialog = new FullScreenDialogFragment.Builder(this)
-                .setTitle(R.string.passage_dialog_title)
+                .setTitle(isInst ? R.string.inst_dialog_title : R.string.passage_dialog_title)
                 .setConfirmButton(R.string.passage_dialog_subtitle)
                 .setFullScreen(true)
                 .setContent(PassageFragment.class, args)
@@ -646,6 +649,10 @@ public class TestActivity extends MyBackToolbarActivity implements
             showPassageBtn.setVisibility(View.VISIBLE);
             showPassageBtn.setEnabled(true);
             passageText = question.getPassage();
+            if (!TextUtils.isEmpty(passageText)) {
+                boolean isInst = passageText.length() <= Commons.MAX_INSTRUCTION_LENGTH;
+                showPassageBtn.setText(isInst ? "Show Instruction" : "Show Passage");
+            }
         }
         else {
             showPassageBtn.setVisibility(View.GONE);

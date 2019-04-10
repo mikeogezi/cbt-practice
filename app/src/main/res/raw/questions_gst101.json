@@ -1,97 +1,1584 @@
 {
-  "time": 30,
-  "maxQuestions": 50,
-  "questions": [
-    {
-      "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
-      "question": "The author observes that",
-      "options": [
-        "War, pestilence and famine were caused by the extravagance of nature.",
-        "Nature was heartless and senseless.",
-        "There was a time when uncontrolled birth made sense.",
-        "It was wise at a time when mankind did not interfere with normal reproduction.",
-        "Nature was heartless in its reproductive process."
-      ],
-      "correctOption": "There was a time when uncontrolled birth made sense."
-    },
-    {
-      "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
-      "question": "‘humane’, as used in the passage means",
-      "options": [
-        "sensible",
-        "wise",
-        "human",
-        "benevolent",
-        "thorough"
-      ],
-      "correctOption": "benevolent"
-    },
-    {
-      "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
-      "question": "The main idea of this passage is that",
-      "options": [
-        "nature is heartless",
-        "man should control the birth rate",
-        "mankind will soon perish of starvation",
-        "pestilence causes more deaths than war",
-        "man should change nature’s course gradually"
-      ],
-      "correctOption": "man should control the birth rate"
-    },
-    {
-      "passage": "These two factors, the altitude and the weather, tend separately and together to defeat the climber. The height weakens, slows him down, it forces him to spend days and night in the course of his assault on the summit; the weather, besides adding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy ground the weather may be no more than a handicap, in the high Himalayas it is decisive, regardless of terrain. \nThe deduction to be drawn from these two factors was clear enough. We must either so fortify ourselves that we could continue, without detriment, to live our being above limit of natural acclimatization, or better still, we must solve the problem of speed. It was desirable, in fact that we should meet both these requirements and thus give to these chosen to attempt the summit and to their supporting teams some measure of ignorance against the vagaries of the weather, for safety in mountain climbing is as much a matter of swiftness as of sureness of foot. Either or both could be achieved only by the administration of oxygen in sufficient quantities to make up for the deficiency in the air, and for the duration of the upward journey above limit of successful acclimatization.",
-      "question": "The author believes that to overcome the problem of altitude and weather, the climber needs mainly",
-      "options": [
-        "courage and speed.",
-        "energy and moral fortitude.",
-        "sufficient quantities of oxygen.",
-        "swiftness and sureness of foot",
-        "quick acclimatization."
-      ],
-      "correctOption": "sufficient quantities of oxygen."
-    },
-    {
-      "passage": "These two factors, the altitude and the weather, tend separately and together to defeat the climber. The height weakens, slows him down, it forces him to spend days and night in the course of his assault on the summit; the weather, besides adding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy ground the weather may be no more than a handicap, in the high Himalayas it is decisive, regardless of terrain. \nThe deduction to be drawn from these two factors was clear enough. We must either so fortify ourselves that we could continue, without detriment, to live our being above limit of natural acclimatization, or better still, we must solve the problem of speed. It was desirable, in fact that we should meet both these requirements and thus give to these chosen to attempt the summit and to their supporting teams some measure of ignorance against the vagaries of the weather, for safety in mountain climbing is as much a matter of swiftness as of sureness of foot. Either or both could be achieved only by the administration of oxygen in sufficient quantities to make up for the deficiency in the air, and for the duration of the upward journey above limit of successful acclimatization.",
-      "question": "‘conspires’ (line 7) means",
-      "options": [
-        "ruins",
-        "makes secret plans",
-        "takes a wicked action",
-        "combines",
-        "aggravates"
-      ],
-      "correctOption": "combines"
-    },
-    {
-      "question": "The main idea of this passage is that",
-      "options": [
-        "nature is heartless",
-        "man should control the birth rate",
-        "mankind will soon perish of starvation",
-        "pestilence causes more deaths than war",
-        "man should change nature’s course gradually"
-      ],
-      "correctOption": "man should control the birth rate"
-    },
-    {
-      "question": "The English is an _______________ language in the world",
-      "options": [
-        "local",
-        "regional",
-        "ethnic",
-        "international"
-      ],
-      "correctOption": "international"
-    },
-    {
-      "question": "Librarians use _______________ to group related books together",
-      "options": [
-        "Catalogue cards",
-        "Classification scheme",
-        "Microfilm",
-        "Retrieval tool"
-      ],
-      "correctOption": "Catalogue cards"
-    }
-  ]
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "_id": "0YZE3WKOOQKdr9CpMpXR",
+            "correctOption": "cut",
+            "options": [
+                "cut",
+                "caught",
+                "coat",
+                "Couscous"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL sound as the one represented by the letter(s) underlined",
+            "question": "ab<u>o</u>ve"
+        },
+        {
+            "_id": "0sDCODskphufGWOyo2pw",
+            "correctOption": "is no work in the village and the city.",
+            "options": [
+                "is no work in the village and the city.",
+                "is low growth rate in productivity.",
+                "are no jobs in the rural areas.",
+                "are no employment opportunities in the city."
+            ],
+            "passage": "In many places in the world today, the poor are getting poorer while the rich\nare getting richer, and the programmes of development planning and foreign aid\nappear to be unable to reverse this trend. Nearly all the developing countries have a\nmodern sector, where the patterns of living and working are similar to those in\ndeveloped countries. But they also have a non-modern sector, where the patterns of\nliving and working are not only unsatisfactory, but in many cases are getting worse.\nWhat is the typical condition of the poor in developing countries? Their work\nopportunities are so limited that they cannot work their way out of their situation.\nThey are underemployed, or totally unemployed; when they do find occasional work,\ntheir productivity is extremely low. Some of them have land, but often too little land.\nMany have no land, and no prospect of ever getting any. There is no hope for them in\nthe rural areas and so, they drift into the big cities. But there is no work for them inthe big cities either-and of courses no housing. All the same, they flock into the cities\nbecause their chances of finding some work appear to be greater there than in the\nvillages-where they are nil. Rural unemployment, then, produces mass-migration into\nthe cities; rural unemployment becomes urban unemployment.\nThe problem can be stated quite simply: what can be done to promote\neconomic growth outside the big cities, in the small towns and villages, which still\ncontain 80 to, 90% of the total population? The primary need is workplaces, literally\nmillion of workplaces. (Ray Williams: Panorama)Where are the rich getting richer and\nthe poor poorer?",
+            "question": "The gap between the rich and the poor widens because there"
+        },
+        {
+            "_id": "0zLb8DxvWdULyEJoQ2q8",
+            "correctOption": "Equality",
+            "options": [
+                "Equality",
+                "Democracy",
+                "discrimination",
+                "Freedom"
+            ],
+            "passage": "When Thomas Jefferson wrote in the American Declaration Independence that\n‘all men are created equal’, he was not seeking to describe men’s endowments, but\ntheir political and legal rights. He was not saying that men do not differ from one another in the powers and dimensions of their bodies, minds and characters. He was\nasserting that, despite variations and differences, they all possessed the right to\nequal political and legal treatment. we must, however, ask of what real value are\npolitical and legal equality to a man who has no bread to eat, no clothes to wear, no\nroof to shelter him, no chance to earn a livelihood? What we understand as a\ndemocratic society must provide for its citizen’s minimum status as a member of that\nsociety, that keeps him from becoming a beggar, outcast or outlaw and that offers\nhim some protection in his deprivation, losses and fears.\nIn our time, the nations of the democratic world have installed elaborate\nsystems of social security and welfare, ranging from compensation for industrial\naccidents to subsidized housing, unemployment insurance, old age pensions,\npsychiatric care and national health services. It is encouraging that the democratic\nnations are making a serious effort to provide against the characteristic losses and\ndisasters of human life.\nThe evolving status of the negro in America is attracting the attention of the\nchampions of equality. Much has been written on the wrongs, injustices and\ninequalities of the coloured citizen of the USA and much remains to be said, because\nthe history of this struggle for human rights is still unfolding. (John Coghlan)",
+            "question": "A suitable title for the passage is"
+        },
+        {
+            "_id": "12ybztttob5j01MOuvmP",
+            "correctOption": "a noun phrase",
+            "options": [
+                "a noun phrase",
+                "a verb phrase",
+                "an adjectival phrase"
+            ],
+            "passage": "There were fifty men in all. I was the odd man in the group in many respects.\nThey were all seasoned hunters in garbs of hunting and armed to the teeth. They\ncarried dame-guns, except for fire men who carried automatic rifles. They also had\nsheathed machetes, hunting bags slung on their shoulders containing slugs, spices,\nherbs and gun powder. In contrast I was unarmed, so it appeared to them, for I had\nconcealed my stolen pistol in my side pocket. The camera I had carried meant nothing\nto them. I was a child in comparison to their ages. This was why my presence was\nstrongly opposed. But for the timely and strong persuasion by the head hunter, my\nuncle, I would have missed the expedition altogether. The head hunter is a stout short\nman but that day he had doubled his height overnight. He was a fearful sight. Today,\nthey had all determined to kill this man-eating beast, the buffalo that had done great\nhavoc to the village and the neighbouring ones.",
+            "question": "‘This man-eating beast’ is _______________"
+        },
+        {
+            "_id": "14srwyTIZWVUx6GwDyR5",
+            "correctOption": "indented",
+            "options": [
+                "indented",
+                "curve",
+                "straight",
+                "horizontal"
+            ],
+            "passage": "",
+            "question": "The address(es) of a formal letter could be block or _______________"
+        },
+        {
+            "_id": "1D0flGL1XqQiRF3i7tjH",
+            "correctOption": "aunt",
+            "options": [
+                "aunt",
+                "ant",
+                "ward",
+                "cash"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL sound as the one represented by the letter(s) underlined",
+            "question": "ST<u>AR</u>K"
+        },
+        {
+            "_id": "1i9zDQdVD8lvOo7jSM15",
+            "correctOption": "however",
+            "options": [
+                "however",
+                "besides",
+                "moreover",
+                "again."
+            ],
+            "passage": "",
+            "question": "All the following are transitional markers of addition EXCEPT"
+        },
+        {
+            "_id": "20vEIYLLtDxhnSVrD9GW",
+            "correctOption": "true",
+            "options": [
+                "true",
+                "false"
+            ],
+            "passage": "",
+            "question": "A formal letter must have a title"
+        },
+        {
+            "_id": "2eO22ToxrK7WGdiDpaT8",
+            "correctOption": "True",
+            "options": [
+                "True",
+                "False."
+            ],
+            "passage": "",
+            "question": "To study is to make and earnest effort to know or be informed about a particular subject."
+        },
+        {
+            "_id": "2h0HM1eUFRF1bjXVClbs",
+            "correctOption": "Circulation",
+            "options": [
+                "Circulation",
+                "Cataloguing",
+                "Reserve",
+                "Orders"
+            ],
+            "passage": "",
+            "question": "The section responsible for registering library users in the library is _______________"
+        },
+        {
+            "_id": "2kutDJE3Cyg1oIwwyI30",
+            "correctOption": "preview",
+            "options": [
+                "preview",
+                "summary",
+                "note-taking",
+                "review."
+            ],
+            "passage": "",
+            "question": "The process that consolidates memory while reading is known as"
+        },
+        {
+            "_id": "33QeeMT298Q2yFyWr9kr",
+            "correctOption": "imperative",
+            "options": [
+                "imperative",
+                "exclamatory",
+                "interrogative",
+                "declarative"
+            ],
+            "passage": "",
+            "question": "“Umaru Yaradua is dead” is an example of _______________ sentence"
+        },
+        {
+            "_id": "33piDeC4K12UZZcYYOv6",
+            "correctOption": "intonation",
+            "options": [
+                "intonation",
+                "stress",
+                "vowels",
+                "consonants"
+            ],
+            "passage": "",
+            "question": "The rise and fall in the voice pitch is known as"
+        },
+        {
+            "_id": "3QS7E6vacAwyqXbjA6hT",
+            "correctOption": "social welfare schemes.",
+            "options": [
+                "social welfare schemes.",
+                "protection from human rights abuses.",
+                "catering for beggars and outcasts.",
+                "security against national disasters."
+            ],
+            "passage": "When Thomas Jefferson wrote in the American Declaration Independence that\n‘all men are created equal’, he was not seeking to describe men’s endowments, but\ntheir political and legal rights. He was not saying that men do not differ from one another in the powers and dimensions of their bodies, minds and characters. He was\nasserting that, despite variations and differences, they all possessed the right to\nequal political and legal treatment. we must, however, ask of what real value are\npolitical and legal equality to a man who has no bread to eat, no clothes to wear, no\nroof to shelter him, no chance to earn a livelihood? What we understand as a\ndemocratic society must provide for its citizen’s minimum status as a member of that\nsociety, that keeps him from becoming a beggar, outcast or outlaw and that offers\nhim some protection in his deprivation, losses and fears.\nIn our time, the nations of the democratic world have installed elaborate\nsystems of social security and welfare, ranging from compensation for industrial\naccidents to subsidized housing, unemployment insurance, old age pensions,\npsychiatric care and national health services. It is encouraging that the democratic\nnations are making a serious effort to provide against the characteristic losses and\ndisasters of human life.\nThe evolving status of the negro in America is attracting the attention of the\nchampions of equality. Much has been written on the wrongs, injustices and\ninequalities of the coloured citizen of the USA and much remains to be said, because\nthe history of this struggle for human rights is still unfolding. (John Coghlan)",
+            "question": "One of the social services provided by democratic nations is"
+        },
+        {
+            "_id": "3UPIv8vhkwqQvpUAMqqf",
+            "correctOption": "An adjective",
+            "options": [
+                "An adjective",
+                "A noun",
+                "An adverb"
+            ],
+            "passage": "Umonyok is the oldest woman in my village. Women of her age-group have either\ndied or are near their graves. But Umonyok is nearly as strong and as smart as a\nteenager. Her small stature has given her this advantage. And what is funny about her\nis that she claims to be a teenager and attempts to behave like one. She professes that\nher righteous dealings with man and Nature have made her “share” with many younger\ngenerations, and that she has to explore this blessing to the fullest by taking part in the\nmodern fashion and by doing what the young girls do. That makes old Umonyok’s\nbehavior in the village not only unique but also comic. During the community festival,\nUmonyok did not only adorn herself in a girl’s dancing costume but was also dancing\namong the young girls. The moving crowd ignored the other group of dancers and\nmobbed the group of young girls among which Umonyok was dancing.",
+            "question": "The word Oldest in the first paragraph is"
+        },
+        {
+            "_id": "3tq9Gvvxn2j6dnVmFjvD",
+            "correctOption": "complex",
+            "options": [
+                "complex",
+                "simple",
+                "compound",
+                "tough."
+            ],
+            "passage": "",
+            "question": "A sentence with at least one independent clause and other dependent clauses is called a _______________"
+        },
+        {
+            "_id": "48jFXM2j5pU3PMEAbUXC",
+            "correctOption": "It gave them psychological encouragement.",
+            "options": [
+                "It gave them psychological encouragement.",
+                "It fortified them to live above the limit of natural acclimatization.",
+                "It quickened their journey to the summit.",
+                "It helped them to survive the worst effects of the weather."
+            ],
+            "passage": "These two factors, the altitude and the weather, tend separately and together\nto defeat the climber. The height weakens, slows him down, it forces him to spend\ndays and night in the course of his assault on the summit; the weather, besides\nadding to the demands of his energy and moral fortitude, conspires to deny him the time he needs to complete his mission. Whereas in lower mountains and on easy\nground the weather may be no more than a handicap, in the high Himalayas it is\ndecisive, regardless of terrain.\nThe deduction to be drawn from these two factors was clear enough. We must\neither so fortify ourselves that we could continue, without detriment, to live our\nbeing above limit of natural acclimatization, or better still, we must solve the\nproblem of speed. It was desirable, in fact that we should meet both these\nrequirements and thus give to these chosen to attempt the summit and to their\nsupporting teams some measure of ignorance against the vagaries of the weather, for\nsafety in mountain climbing is as much a matter of swiftness as of sureness of foot.\nEither or both could be achieved only by the administration of oxygen in sufficient\nquantities to make up for the deficiency in the air, and for the duration of the upward\njourney above limit of successful acclimatization.",
+            "question": "Which ONE of the following was NOT a reason for using oxygen?"
+        },
+        {
+            "_id": "4EAjNfiF6xHo8ntEnbOn",
+            "correctOption": "reading",
+            "options": [
+                "reading",
+                "writing",
+                "speaking",
+                "listening."
+            ],
+            "passage": "",
+            "question": "The interaction between the reader and the writer is called"
+        },
+        {
+            "_id": "4uskaebuzvV0wntjIveU",
+            "correctOption": "change their circumstances.",
+            "options": [
+                "change their circumstances.",
+                "work their way out of their village.",
+                "walk from one village to another",
+                "migrate from village to city."
+            ],
+            "passage": "In many places in the world today, the poor are getting poorer while the rich\nare getting richer, and the programmes of development planning and foreign aid\nappear to be unable to reverse this trend. Nearly all the developing countries have a\nmodern sector, where the patterns of living and working are similar to those in\ndeveloped countries. But they also have a non-modern sector, where the patterns of\nliving and working are not only unsatisfactory, but in many cases are getting worse.\nWhat is the typical condition of the poor in developing countries? Their work\nopportunities are so limited that they cannot work their way out of their situation.\nThey are underemployed, or totally unemployed; when they do find occasional work,\ntheir productivity is extremely low. Some of them have land, but often too little land.\nMany have no land, and no prospect of ever getting any. There is no hope for them in\nthe rural areas and so, they drift into the big cities. But there is no work for them inthe big cities either-and of courses no housing. All the same, they flock into the cities\nbecause their chances of finding some work appear to be greater there than in the\nvillages-where they are nil. Rural unemployment, then, produces mass-migration into\nthe cities; rural unemployment becomes urban unemployment.\nThe problem can be stated quite simply: what can be done to promote\neconomic growth outside the big cities, in the small towns and villages, which still\ncontain 80 to, 90% of the total population? The primary need is workplaces, literally\nmillion of workplaces. (Ray Williams: Panorama) Where are the rich getting richer and\nthe poor poorer?",
+            "question": "The expression ‘work their way out of their situation’ means"
+        },
+        {
+            "_id": "5ux7Jhz9vMC4OZgMHCUp",
+            "correctOption": "Women are no longer ashamed of divorce",
+            "options": [
+                "Women are no longer ashamed of divorce",
+                "Women no longer attend social gatherings",
+                "Women no longer attend social gatherings"
+            ],
+            "passage": "Marriage as a human institution is facing its greatest threat ever in this century.\nNever, since the first man and woman were joined together, has the institution been\nbeset by as many problems as it is now. And this trend, which started in the western\nworld, has spread and is fast spreading to all parts of the globe.\nThe most disturbing problem is the high rate of divorce. It is no longer a social\nstigma for woman to fill in forms indicating that they are divorced.\nMen, too,\nproclaim their ‘liberty’ from ‘shackles’ of matrimony somehow with pride. Little\nwonder that young couples resort to separation and eventually divorce, at the slightest\ndisagreement.",
+            "question": "It is no longer a social stigma’ means that"
+        },
+        {
+            "_id": "6SDKnP6aA77Wn2GSONae",
+            "correctOption": "essay",
+            "options": [
+                "essay",
+                "letter",
+                "minutes",
+                "speech."
+            ],
+            "passage": "",
+            "question": "The commonest mode of communication in the university is _______________"
+        },
+        {
+            "_id": "6ZRsaY1E4KTrVWq2vZHq",
+            "correctOption": "multi lingual",
+            "options": [
+                "multi lingual",
+                "Bilingual",
+                "monolingual",
+                "none"
+            ],
+            "passage": "",
+            "question": "Nigeria is a _______________ society"
+        },
+        {
+            "_id": "7FqHw0VHhpBnzC7kpGcK",
+            "correctOption": "Because he was too young",
+            "options": [
+                "Because he was too young",
+                "Because he had a pistol",
+                "Because he came late"
+            ],
+            "passage": "There were fifty men in all. I was the odd man in the group in many respects.\nThey were all seasoned hunters in garbs of hunting and armed to the teeth. They\ncarried dame-guns, except for fire men who carried automatic rifles. They also had\nsheathed machetes, hunting bags slung on their shoulders containing slugs, spices,\nherbs and gun powder. In contrast I was unarmed, so it appeared to them, for I had\nconcealed my stolen pistol in my side pocket. The camera I had carried meant nothing\nto them. I was a child in comparison to their ages. This was why my presence was\nstrongly opposed. But for the timely and strong persuasion by the head hunter, my\nuncle, I would have missed the expedition altogether. The head hunter is a stout short\nman but that day he had doubled his height overnight. He was a fearful sight. Today,\nthey had all determined to kill this man-eating beast, the buffalo that had done great\nhavoc to the village and the neighbouring ones.",
+            "question": "Why was his presence strongly opposed?"
+        },
+        {
+            "_id": "7awFqRvNXyr4j5nnLbs3",
+            "correctOption": "scanning",
+            "options": [
+                "scanning",
+                "comprehension",
+                "skimming",
+                "intensive reading."
+            ],
+            "passage": "",
+            "question": "The process of reading in which the reader intends to locate specific information is known as _______________"
+        },
+        {
+            "_id": "7i7enu2d5m862LzyhHdq",
+            "correctOption": "summary",
+            "options": [
+                "summary",
+                "skimming",
+                "scanning",
+                "note-taking"
+            ],
+            "passage": "",
+            "question": "_______________ is the reduction in length of a particular piece of writing"
+        },
+        {
+            "_id": "8Rar7NlGq7fsJm0QmKCW",
+            "correctOption": "to belong to any generation at a time",
+            "options": [
+                "to belong to any generation at a time",
+                "to advise the young ones",
+                "to rule over younger generations."
+            ],
+            "passage": "Umonyok is the oldest woman in my village. Women of her age-group have either\ndied or are near their graves. But Umonyok is nearly as strong and as smart as a\nteenager. Her small stature has given her this advantage. And what is funny about her\nis that she claims to be a teenager and attempts to behave like one. She professes that\nher righteous dealings with man and Nature have made her “share” with many younger\ngenerations, and that she has to explore this blessing to the fullest by taking part in the\nmodern fashion and by doing what the young girls do. That makes old Umonyok’s\nbehavior in the village not only unique but also comic. During the community festival,\nUmonyok did not only adorn herself in a girl’s dancing costume but was also dancing\namong the young girls. The moving crowd ignored the other group of dancers and\nmobbed the group of young girls among which Umonyok was dancing.",
+            "question": "To ‘Share’ with many younger generations’ means"
+        },
+        {
+            "_id": "9N2dN4cfV38apPhDK0lm",
+            "correctOption": "combines",
+            "options": [
+                "ruins",
+                "makes secret plans",
+                "takes a wicked action",
+                "combines",
+                "aggravates"
+            ],
+            "passage": "These two factors, the altitude and the weather, tend separately and together to defeat the climber. The height weakens, slows him down, it forces him to spend days and night in the course of his assault on the summit; the weather, besides adding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy ground the weather may be no more than a handicap, in the high Himalayas it is decisive, regardless of terrain. \nThe deduction to be drawn from these two factors was clear enough. We must either so fortify ourselves that we could continue, without detriment, to live our being above limit of natural acclimatization, or better still, we must solve the problem of speed. It was desirable, in fact that we should meet both these requirements and thus give to these chosen to attempt the summit and to their supporting teams some measure of ignorance against the vagaries of the weather, for safety in mountain climbing is as much a matter of swiftness as of sureness of foot. Either or both could be achieved only by the administration of oxygen in sufficient quantities to make up for the deficiency in the air, and for the duration of the upward journey above limit of successful acclimatization.",
+            "question": "‘conspires’ (line 7) means"
+        },
+        {
+            "_id": "AKHSGtFujE9dO3wLJhNm",
+            "correctOption": "developing nations will soon experience poverty.",
+            "options": [
+                "developing nations will soon experience poverty.",
+                "demand for recoverable fuel will plummet.",
+                "consumption has not affected production consumption",
+                "decline has not affected demand"
+            ],
+            "passage": "If present trends continue, the world would face a major crisis by the end of\nthis century: insufficient cheap, convenient energy. For without such energy,\nindustrial production will fall, agricultural output will drop, transport will ebb\nrestricted, and standard of living in developed countries will plummet. At present,\nalmost all our energy comes from fossil fuels. The earth’s reserves of fossil fuels have\nbeen formed from organic matter subjected to enormous heat and pressure for millions of years. But such reserves are finite. Because power demand is increasing\nvery rapidly, fossil fuels will be exhausted within a relatively short time. We can\nestimate the amount of recoverable fuel under the surface of the earth and we know\nthe rate at which it is being extracted. Fairly simple calculations can therefore\ndetermine its remaining life. If present trends continue, gas and oil reserves will be\nexhausted by the middle of the 21 st century-about 70 years from now. Similar\nestimates for coal and wood reserves suggest a projected supply for 250-300 years.\nOf course, long before fossil fuels are exhausted, demand will greatly exceed supply.\nFor too many years, the world has consumed fossil fuels with little thought for the\nfuture. In fact, world energy consumption increased almost 600% between 1900 and\n1965 and it is projected to increase by another 450% between 1965 and the year\n2000. Crude oil has been pumped out of the ground for about 100 years, but over\nhalf of it has been consumed in the past 18 years. Coal has been mined for over 800\nyears, but over a half of it has been extracted in the past 37 years. In sum, most of\nthe world’s consumption of energy from fossil fuels throughout history, has taken\nplace within living memory. (Ray Williams: Panorama).",
+            "question": "From the writer’s description of the world energy situation, we may conclude that"
+        },
+        {
+            "_id": "AozTC1ZHYzbK6ZoHWdK0",
+            "correctOption": "scanning",
+            "options": [
+                "scanning",
+                "brevity",
+                "clarity",
+                "relevance"
+            ],
+            "passage": "",
+            "question": "All except _______________ are the essentials of a good summary"
+        },
+        {
+            "_id": "AuOyBh482izUcYtGj018",
+            "correctOption": "He didn’t carry any of the things the men were carrying",
+            "options": [
+                "He didn’t carry any of the things the men were carrying",
+                "He was educated",
+                "He was a stranger"
+            ],
+            "passage": "There were fifty men in all. I was the odd man in the group in many respects.\nThey were all seasoned hunters in garbs of hunting and armed to the teeth. They\ncarried dame-guns, except for fire men who carried automatic rifles. They also had\nsheathed machetes, hunting bags slung on their shoulders containing slugs, spices,\nherbs and gun powder. In contrast I was unarmed, so it appeared to them, for I had\nconcealed my stolen pistol in my side pocket. The camera I had carried meant nothing\nto them. I was a child in comparison to their ages. This was why my presence was\nstrongly opposed. But for the timely and strong persuasion by the head hunter, my\nuncle, I would have missed the expedition altogether. The head hunter is a stout short\nman but that day he had doubled his height overnight. He was a fearful sight. Today,\nthey had all determined to kill this man-eating beast, the buffalo that had done great\nhavoc to the village and the neighbouring ones.",
+            "question": "Why did the writer feel he was odd in the group?"
+        },
+        {
+            "_id": "Bf6wxfM7WS1fEg7loYzb",
+            "correctOption": "To have a look at Umonyok as she danced.",
+            "options": [
+                "To have a look at Umonyok as she danced.",
+                "To admire the young girls",
+                "To see who was the best dancer"
+            ],
+            "passage": "Umonyok is the oldest woman in my village. Women of her age-group have either\ndied or are near their graves. But Umonyok is nearly as strong and as smart as a\nteenager. Her small stature has given her this advantage. And what is funny about her\nis that she claims to be a teenager and attempts to behave like one. She professes that\nher righteous dealings with man and Nature have made her “share” with many younger\ngenerations, and that she has to explore this blessing to the fullest by taking part in the\nmodern fashion and by doing what the young girls do. That makes old Umonyok’s\nbehavior in the village not only unique but also comic. During the community festival,\nUmonyok did not only adorn herself in a girl’s dancing costume but was also dancing\namong the young girls. The moving crowd ignored the other group of dancers and\nmobbed the group of young girls among which Umonyok was dancing.",
+            "question": "What made the crowd to ignore the other group of dancers?"
+        },
+        {
+            "_id": "BnPnwUF8wGBeSS4o7pfW",
+            "correctOption": "both",
+            "options": [
+                "both",
+                "ability to anticipate what the speaker is about to say",
+                "Functional mind",
+                "none"
+            ],
+            "passage": "",
+            "question": "For listening to be effective we need the following"
+        },
+        {
+            "_id": "CQ6pLBIhTvFOO4KOqfYv",
+            "correctOption": "reader",
+            "options": [
+                "reader",
+                "text",
+                "text and reader",
+                "writer."
+            ],
+            "passage": "",
+            "question": "Bottom up model focuses on the"
+        },
+        {
+            "_id": "Cfcflu19xip6NNiNoR8w",
+            "correctOption": "despite the nature of the ground.",
+            "options": [
+                "despite the nature of the ground.",
+                "even on easy ground.",
+                "because of steeper gradients.",
+                "swiftness and sureness of foot.",
+                "without considering the handicap."
+            ],
+            "passage": "These two factors, the altitude and the weather, tend separately and together\nto defeat the climber. The height weakens, slows him down, it forces him to spend\ndays and night in the course of his assault on the summit; the weather, besides\nadding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy\nground the weather may be no more than a handicap, in the high Himalayas it is\ndecisive, regardless of terrain.\nThe deduction to be drawn from these two factors was clear enough. We must\neither so fortify ourselves that we could continue, without detriment, to live our\nbeing above limit of natural acclimatization, or better still, we must solve the\nproblem of speed. It was desirable, in fact that we should meet both these\nrequirements and thus give to these chosen to attempt the summit and to their\nsupporting teams some measure of ignorance against the vagaries of the weather, for\nsafety in mountain climbing is as much a matter of swiftness as of sureness of foot.\nEither or both could be achieved only by the administration of oxygen in sufficient\nquantities to make up for the deficiency in the air, and for the duration of the upward\njourney above limit of successful acclimatization.",
+            "question": "‘regardless of terrain’ (line 12) means"
+        },
+        {
+            "_id": "Cn9NrY5NKnH83IZKExS9",
+            "correctOption": "inadequate job opportunities in the village.",
+            "options": [
+                "inadequate job opportunities in the village.",
+                "attractions of the city",
+                "low productivity in the village",
+                "shortage of land for cultivation."
+            ],
+            "passage": "In many places in the world today, the poor are getting poorer while the rich\nare getting richer, and the programmes of development planning and foreign aid\nappear to be unable to reverse this trend. Nearly all the developing countries have a\nmodern sector, where the patterns of living and working are similar to those in\ndeveloped countries. But they also have a non-modern sector, where the patterns of\nliving and working are not only unsatisfactory, but in many cases are getting worse.\nWhat is the typical condition of the poor in developing countries? Their work\nopportunities are so limited that they cannot work their way out of their situation.\nThey are underemployed, or totally unemployed; when they do find occasional work,\ntheir productivity is extremely low. Some of them have land, but often too little land.\nMany have no land, and no prospect of ever getting any. There is no hope for them in\nthe rural areas and so, they drift into the big cities. But there is no work for them inthe big cities either-and of courses no housing. All the same, they flock into the cities\nbecause their chances of finding some work appear to be greater there than in the\nvillages-where they are nil. Rural unemployment, then, produces mass-migration into\nthe cities; rural unemployment becomes urban unemployment.\nThe problem can be stated quite simply: what can be done to promote\neconomic growth outside the big cities, in the small towns and villages, which still\ncontain 80 to, 90% of the total population? The primary need is workplaces, literally\nmillion of workplaces. (Ray Williams: Panorama) Where are the rich getting richer and\nthe poor poorer?",
+            "question": "Migration to the city among villagers is caused by"
+        },
+        {
+            "_id": "DqKQr4sxrST6zfMbLyXB",
+            "correctOption": "audience",
+            "options": [
+                "audience",
+                "writer",
+                "listener",
+                "instructor",
+                "none."
+            ],
+            "passage": "",
+            "question": "The person listening to or reading a text is known as"
+        },
+        {
+            "_id": "F7pH36Q1ZbwrgaU2gbz2",
+            "correctOption": "purchasing power will decline sharply in rich nations.",
+            "options": [
+                "purchasing power will decline sharply in rich nations.",
+                "people in developed nations will experience boom.",
+                "The economy of rich nations will stagnate.",
+                "economic life will improve in rich nations."
+            ],
+            "passage": "If present trends continue, the world would face a major crisis by the end of\nthis century: insufficient cheap, convenient energy. For without such energy,\nindustrial production will fall, agricultural output will drop, transport will ebb\nrestricted, and standard of living in developed countries will plummet. At present,\nalmost all our energy comes from fossil fuels. The earth’s reserves of fossil fuels have\nbeen formed from organic matter subjected to enormous heat and pressure for millions of years. But such reserves are finite. Because power demand is increasing\nvery rapidly, fossil fuels will be exhausted within a relatively short time. We can\nestimate the amount of recoverable fuel under the surface of the earth and we know\nthe rate at which it is being extracted. Fairly simple calculations can therefore\ndetermine its remaining life. If present trends continue, gas and oil reserves will be\nexhausted by the middle of the 21 st century-about 70 years from now. Similar\nestimates for coal and wood reserves suggest a projected supply for 250-300 years.\nOf course, long before fossil fuels are exhausted, demand will greatly exceed supply.\nFor too many years, the world has consumed fossil fuels with little thought for the\nfuture. In fact, world energy consumption increased almost 600% between 1900 and\n1965 and it is projected to increase by another 450% between 1965 and the year\n2000. Crude oil has been pumped out of the ground for about 100 years, but over\nhalf of it has been consumed in the past 18 years. Coal has been mined for over 800\nyears, but over a half of it has been extracted in the past 37 years. In sum, most of\nthe world’s consumption of energy from fossil fuels throughout history, has taken\nplace within living memory. (Ray Williams: Panorama).",
+            "question": "The expression, standard of living in developed countries will plummet, means"
+        },
+        {
+            "_id": "GURMCm19LAx6RsJX3sBn",
+            "correctOption": "right",
+            "options": [
+                "right",
+                "left",
+                "middle",
+                "centre"
+            ],
+            "passage": "",
+            "question": "The address of the writer is at the _______________ hand side of the formal letter"
+        },
+        {
+            "_id": "IDhzZerTw6L42kLQn2N1",
+            "correctOption": "purpose",
+            "options": [
+                "purpose",
+                "answer",
+                "habits",
+                "likes."
+            ],
+            "passage": "",
+            "question": "The efficient reader should always identify the writers"
+        },
+        {
+            "_id": "IKCZk8psSXegvpWHRMMA",
+            "correctOption": "clause",
+            "options": [
+                "clause",
+                "heading",
+                "topic",
+                "paragraph."
+            ],
+            "passage": "",
+            "question": "Only one out of the following is part of a sentence _______________"
+        },
+        {
+            "_id": "IhWNisv6UuHJDeeOKNSR",
+            "correctOption": "Burn",
+            "options": [
+                "Burn",
+                "Shot",
+                "Short",
+                "Slurry"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL\nsound as the one represented by the letter(s) underlined",
+            "question": "ch<u>ur</u>ch"
+        },
+        {
+            "_id": "IwYGb1UzcB0hux3iM8ad",
+            "correctOption": "lit",
+            "options": [
+                "lit",
+                "get",
+                "late",
+                "life"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL sound as the one represented by the letter(s) underlined",
+            "question": "MARK<u>E</u>T"
+        },
+        {
+            "_id": "J5bhAPqDzTxKvQs06dOb",
+            "correctOption": "there is a hierarchy of rights",
+            "options": [
+                "there is a hierarchy of rights",
+                "all men possess the right to equal political affiliations",
+                "there is deprivation in the society",
+                "the negro in America are champions of equality."
+            ],
+            "passage": "When Thomas Jefferson wrote in the American Declaration Independence that\n‘all men are created equal’, he was not seeking to describe men’s endowments, but\ntheir political and legal rights. He was not saying that men do not differ from one another in the powers and dimensions of their bodies, minds and characters. He was\nasserting that, despite variations and differences, they all possessed the right to\nequal political and legal treatment. we must, however, ask of what real value are\npolitical and legal equality to a man who has no bread to eat, no clothes to wear, no\nroof to shelter him, no chance to earn a livelihood? What we understand as a\ndemocratic society must provide for its citizen’s minimum status as a member of that\nsociety, that keeps him from becoming a beggar, outcast or outlaw and that offers\nhim some protection in his deprivation, losses and fears.\nIn our time, the nations of the democratic world have installed elaborate\nsystems of social security and welfare, ranging from compensation for industrial\naccidents to subsidized housing, unemployment insurance, old age pensions,\npsychiatric care and national health services. It is encouraging that the democratic\nnations are making a serious effort to provide against the characteristic losses and\ndisasters of human life.\nThe evolving status of the negro in America is attracting the attention of the\nchampions of equality. Much has been written on the wrongs, injustices and\ninequalities of the coloured citizen of the USA and much remains to be said, because\nthe history of this struggle for human rights is still unfolding. (John Coghlan)",
+            "question": "From the passage, it is obvious that"
+        },
+        {
+            "_id": "K5X3ZUzVYAOpCnJXT8zz",
+            "correctOption": "Text Book",
+            "options": [
+                "Text Book",
+                "Dictionaries",
+                "Encyclopedia",
+                "Directory"
+            ],
+            "passage": "",
+            "question": "The following are reference materials except one"
+        },
+        {
+            "_id": "KLTQ99kJL8ys4vLrbGwr",
+            "correctOption": "Reading, speaking, listening, writing",
+            "options": [
+                "Reading, speaking, listening, writing",
+                "Reading and speaking",
+                "Listening and ready",
+                "Reading speaking and writing"
+            ],
+            "passage": "",
+            "question": "What are the major components of the study skill?"
+        },
+        {
+            "_id": "KUak3frZzU44Cp17nzrT",
+            "correctOption": "glancing through rapidly",
+            "options": [
+                "glancing through rapidly",
+                "glancing through slowly",
+                "thorough reading",
+                "reading quickly."
+            ],
+            "passage": "",
+            "question": "Skimming is a reading exercise that encourages"
+        },
+        {
+            "_id": "KapjuuSCnIrinNlBXQ23",
+            "correctOption": "survey, question, read, recall, review",
+            "options": [
+                "survey, question, read, recall, review",
+                "shoot, question and read",
+                "survey, question, read, write",
+                "survey, read, question and answer."
+            ],
+            "passage": "",
+            "question": "SQ3R means"
+        },
+        {
+            "_id": "LXl4aUScbyBtpkgEpdih",
+            "correctOption": "reduce dependence on fossil fuels.",
+            "options": [
+                "reduce dependence on fossil fuels.",
+                "always calculate a fossil fuel’s remaining life.",
+                "reduce industrial and agricultural production",
+                "review industrial dependence on energy."
+            ],
+            "passage": "If present trends continue, the world would face a major crisis by the end of\nthis century: insufficient cheap, convenient energy. For without such energy,\nindustrial production will fall, agricultural output will drop, transport will ebb\nrestricted, and standard of living in developed countries will plummet. At present,\nalmost all our energy comes from fossil fuels. The earth’s reserves of fossil fuels have\nbeen formed from organic matter subjected to enormous heat and pressure for millions of years. But such reserves are finite. Because power demand is increasing\nvery rapidly, fossil fuels will be exhausted within a relatively short time. We can\nestimate the amount of recoverable fuel under the surface of the earth and we know\nthe rate at which it is being extracted. Fairly simple calculations can therefore\ndetermine its remaining life. If present trends continue, gas and oil reserves will be\nexhausted by the middle of the 21 st century-about 70 years from now. Similar\nestimates for coal and wood reserves suggest a projected supply for 250-300 years.\nOf course, long before fossil fuels are exhausted, demand will greatly exceed supply.\nFor too many years, the world has consumed fossil fuels with little thought for the\nfuture. In fact, world energy consumption increased almost 600% between 1900 and\n1965 and it is projected to increase by another 450% between 1965 and the year\n2000. Crude oil has been pumped out of the ground for about 100 years, but over\nhalf of it has been consumed in the past 18 years. Coal has been mined for over 800\nyears, but over a half of it has been extracted in the past 37 years. In sum, most of\nthe world’s consumption of energy from fossil fuels throughout history, has taken\nplace within living memory. (Ray Williams: Panorama).",
+            "question": "The writer seems to suggest that developed nations should"
+        },
+        {
+            "_id": "LaQnPymopDKrIqxRjjA7",
+            "correctOption": "true",
+            "options": [
+                "true",
+                "false"
+            ],
+            "passage": "",
+            "question": "A formal letter must have a title"
+        },
+        {
+            "_id": "Ll17Mf1SCWvfwWK12f53",
+            "correctOption": "Survey, question, read, revise, recall",
+            "options": [
+                "Survey, question, read, revise, recall",
+                "stand, quarrel, report, refuse and repeal",
+                "supervise, query, read, report, recall",
+                "none"
+            ],
+            "passage": "",
+            "question": "What is the full meaning of this acronym “SQ3R”?"
+        },
+        {
+            "_id": "LsXOAkUwB7xO2nGR8sqI",
+            "correctOption": "To start his own enterprise",
+            "options": [
+                "To start his own enterprise",
+                "To go to school",
+                "To go and rest"
+            ],
+            "passage": "Soli learnt how to mould building blocks at an early age; his mother died when\nhe was 19 and a year later, his father died, leaving the responsibility for the entire\nhousehold on the young man’s shoulders. He started work as an apprentice in a small\nblock industry near his house. They molded building blocks made from mixture of\nclay and water with a simple locally-made wooden molding tool. Three semi-skilled\nworkers and seven labourers were employed.\nSoli worked hard and was soon\npromoted to a semi-skilled labourer and was thus involved in actually making the\nbricks for a period of two years.\nAt this stage, Soli left the factory in order to set up his own unit in a nearby\nvillage.",
+            "question": "Why did Soli leave the factory?"
+        },
+        {
+            "_id": "Nt3ehVibpkJnoXZMk8Bx",
+            "correctOption": "Ability to understand and evaluate what we hear",
+            "options": [
+                "Ability to understand and evaluate what we hear",
+                "An act of giving attention to sound",
+                "Hearing what other people say",
+                "Hearing and understanding what was said"
+            ],
+            "passage": "",
+            "question": "What is listening?"
+        },
+        {
+            "_id": "O9pbxdv7uFyEF2t8rjCr",
+            "correctOption": "true",
+            "options": [
+                "true",
+                "false."
+            ],
+            "passage": "",
+            "question": "A formal letter must have first and surname of the writer"
+        },
+        {
+            "_id": "OjxwyIFplZRwMk3RaTty",
+            "correctOption": "a proud husband.",
+            "options": [
+                "a proud husband.",
+                "a faithful husband.",
+                "a good worker.",
+                "an incurable debtor.",
+                "a tragic figure"
+            ],
+            "passage": "I dare not lift the veil that protects our tribal marriage customs and ceremonies\nfrom the eyes of outsiders. There is already too little in this world that is sacred;\nand what Fatmata and l were required to go through during the next week must\nabsolutely satisfy my parent’s choice. Fatmata was as black as a satin, and as soft.\nShe had the teeth and smile of a goddess. The Dopo tutors had done their job\nwell: she was a complete efficient lover and a mother. I brought her home with\nswelling pride, and began at once to save all I could spare towards the cost of\nacquiring my second wife. My anti-Western revolt was gaining momentum",
+            "question": "It would appear that marriage had turned him into"
+        },
+        {
+            "_id": "Oq7TGdcrJCZWt29gUmKv",
+            "correctOption": "Sir/Madam",
+            "options": [
+                "Sir/Madam",
+                "brother",
+                "Daddy",
+                "Uncle."
+            ],
+            "passage": "",
+            "question": "The accepted salutation for formal letter is Dear"
+        },
+        {
+            "_id": "PqfOFSzv6t8oyuoy1WUH",
+            "correctOption": "The head hunter",
+            "options": [
+                "The head hunter",
+                "The old men",
+                "His friend"
+            ],
+            "passage": "There were fifty men in all. I was the odd man in the group in many respects.\nThey were all seasoned hunters in garbs of hunting and armed to the teeth. They\ncarried dame-guns, except for fire men who carried automatic rifles. They also had\nsheathed machetes, hunting bags slung on their shoulders containing slugs, spices,\nherbs and gun powder. In contrast I was unarmed, so it appeared to them, for I had\nconcealed my stolen pistol in my side pocket. The camera I had carried meant nothing\nto them. I was a child in comparison to their ages. This was why my presence was\nstrongly opposed. But for the timely and strong persuasion by the head hunter, my\nuncle, I would have missed the expedition altogether. The head hunter is a stout short\nman but that day he had doubled his height overnight. He was a fearful sight. Today,\nthey had all determined to kill this man-eating beast, the buffalo that had done great\nhavoc to the village and the neighbouring ones.",
+            "question": "Who intervened to save the writer from being sent away?"
+        },
+        {
+            "_id": "Q1wyDqHiYlVE7dOHZZss",
+            "correctOption": "Legal",
+            "options": [
+                "Legal",
+                "regale",
+                "Leopard",
+                "Leone"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL sound as the one represented by the letter(s) underlined",
+            "question": "b<u>e</u>st"
+        },
+        {
+            "_id": "Qw1mR8hU0Jp0MRW456uI",
+            "correctOption": "Purposely find a balance.",
+            "options": [
+                "Purposely find a balance.",
+                "realistically find an equation",
+                "strive not to be wasteful",
+                "deliberately try to fight nature",
+                "try to fight nature"
+            ],
+            "passage": "All over the world till lately and in most of the world till today, mankind has\nbeen following the course of nature: that is to say, it has been breeding up to the\nmaximum. To let nature take her extravagant course in the reproduction of the\nhuman race may have made sense in an age in which we were also letting her take\nher course in decimating mankind by casualties of war, pestilence and famine. Being\nhuman, we have at least revolted against that senseless waste. We have started to\nimpose on nature’s heartless play a humane new order of our own but, when once\nman has begun to interfere with nature; he cannot afford to stop half way. We\ncannot, with impunity, cut down the death-rate to go on taking nature’s course. We\nmust consciously try to establish equilibrium, or sooner or later, famine will stalk\nabroad again.",
+            "question": "“We must consciously try to establish an equilibrium”, implies that mankind must"
+        },
+        {
+            "_id": "R2Mh7Is2MSFi6fhsTbTr",
+            "correctOption": "benevolent",
+            "options": [
+                "benevolent",
+                "sensible",
+                "wise",
+                "human",
+                "thorough"
+            ],
+            "passage": "All over the world till lately and in most of the world till today, mankind has\nbeen following the course of nature: that is to say, it has been breeding up to the\nmaximum. To let nature take her extravagant course in the reproduction of the\nhuman race may have made sense in an age in which we were also letting her take\nher course in decimating mankind by casualties of war, pestilence and famine. Being\nhuman, we have at least revolted against that senseless waste. We have started to\nimpose on nature’s heartless play a humane new order of our own but, when once\nman has begun to interfere with nature; he cannot afford to stop half way. We\ncannot, with impunity, cut down the death-rate to go on taking nature’s course. We\nmust consciously try to establish equilibrium, or sooner or later, famine will stalk\nabroad again.",
+            "question": "‘humane’, as used in the passage means"
+        },
+        {
+            "_id": "RJQiroYJ1jt4NrVciytL",
+            "correctOption": "second",
+            "options": [
+                "second",
+                "First",
+                "third",
+                "fourth",
+                "none"
+            ],
+            "passage": "",
+            "question": "The English is a _______________ language in Nigeria"
+        },
+        {
+            "_id": "RdDJppPZs15HBcBJxi63",
+            "correctOption": "Mutilation",
+            "options": [
+                "Mutilation",
+                "Binding",
+                "Photocopying",
+                "Renovation"
+            ],
+            "passage": "",
+            "question": "All the following are ways by which you can take care of library materials except"
+        },
+        {
+            "_id": "S1V4JU0H01gwQZWpuSTm",
+            "correctOption": "man should control the birth rate",
+            "options": [
+                "nature is heartless",
+                "man should control the birth rate",
+                "mankind will soon perish of starvation",
+                "pestilence causes more deaths than war",
+                "man should change nature’s course gradually"
+            ],
+            "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
+            "question": "The main idea of this passage is that"
+        },
+        {
+            "_id": "SHvQcZEaBYO0Bl9V5ksL",
+            "correctOption": "note-taking",
+            "options": [
+                "note-taking",
+                "summary",
+                "writing",
+                "scanning",
+                "skimming."
+            ],
+            "passage": "",
+            "question": "The activity of jotting down important points from a text or lecture is known as"
+        },
+        {
+            "_id": "ShhpCeoVSk1CXkxJHv8Z",
+            "correctOption": "three",
+            "options": [
+                "three",
+                "five",
+                "two",
+                "six"
+            ],
+            "passage": "",
+            "question": "We have _______________ types of letters"
+        },
+        {
+            "_id": "T4UbDZYdLfqVWcm2jdpK",
+            "correctOption": "Fatmata never had an issue.",
+            "options": [
+                "Fatmata never had an issue.",
+                "The lady was beautiful.",
+                "The marriage cost a lot of money.",
+                "The marriage was according to native law and custom.",
+                "The author wanted another wife."
+            ],
+            "passage": "I dare not lift the veil that protects our tribal marriage customs and ceremonies\nfrom the eyes of outsiders. There is already too little in this world that is sacred;\nand what Fatmata and l were required to go through during the next week must\nabsolutely satisfy my parent’s choice. Fatmata was as black as a satin, and as soft.\nShe had the teeth and smile of a goddess. The Dopo tutors had done their job\nwell: she was a complete efficient lover and a mother. I brought her home with\nswelling pride, and began at once to save all I could spare towards the cost of\nacquiring my second wife. My anti-Western revolt was gaining momentum",
+            "question": "Which one of the following is NOT true of the passage?"
+        },
+        {
+            "_id": "T5Hv374HXfGzH55B6QLl",
+            "correctOption": "private",
+            "options": [
+                "private",
+                "public",
+                "official",
+                "business."
+            ],
+            "passage": "",
+            "question": "Informal/Personal letters are also known as _______________ letters"
+        },
+        {
+            "_id": "TnspYx3vK3TFXLay9Khx",
+            "correctOption": "divorce",
+            "options": [
+                "divorce",
+                "love",
+                "courtship"
+            ],
+            "passage": "Marriage as a human institution is facing its greatest threat ever in this century.\nNever, since the first man and woman were joined together, has the institution been\nbeset by as many problems as it is now. And this trend, which started in the western\nworld, has spread and is fast spreading to all parts of the globe.\nThe most disturbing problem is the high rate of divorce. It is no longer a social\nstigma for woman to fill in forms indicating that they are divorced.\nMen, too,\nproclaim their ‘liberty’ from ‘shackles’ of matrimony somehow with pride. Little\nwonder that young couples resort to separation and eventually divorce, at the slightest\ndisagreement.",
+            "question": "The most common feature of the problem is"
+        },
+        {
+            "_id": "VHNxTo3BXCISLWQ3zAwJ",
+            "correctOption": "audience",
+            "options": [
+                "audience",
+                "church",
+                "mosque",
+                "university."
+            ],
+            "passage": "",
+            "question": "Speaking and writing are all directed to the"
+        },
+        {
+            "_id": "VsvViR9a0qKipxRPPY3d",
+            "correctOption": "text and reader.",
+            "options": [
+                "text and reader.",
+                "writer",
+                "text",
+                "reader"
+            ],
+            "passage": "",
+            "question": "The interactive model focuses on"
+        },
+        {
+            "_id": "XY7GqaVXpvQFtsqzS6lb",
+            "correctOption": "Work",
+            "options": [
+                "Work",
+                "Warm",
+                "Worse",
+                "Colt"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL\nsound as the one represented by the letter(s) underlined",
+            "question": "w<u>or</u>m"
+        },
+        {
+            "_id": "Xu0yO4cWluFf1GGiHPia",
+            "correctOption": "three",
+            "options": [
+                "three",
+                "one",
+                "two",
+                "four"
+            ],
+            "passage": "",
+            "question": "We can identify _______________ varieties of English in Nigeria"
+        },
+        {
+            "_id": "Y8P97nGxLRBagjBjh7ZK",
+            "correctOption": "oracy",
+            "options": [
+                "oracy",
+                "Cold",
+                "Boat",
+                "Boost"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL\nsound as the one represented by the letter(s) underlined",
+            "question": "h<u>oar</u>d"
+        },
+        {
+            "_id": "YePpG0Hh6zUE8r8afoYj",
+            "correctOption": "Catalogue cards",
+            "options": [
+                "Catalogue cards",
+                "Classification scheme",
+                "Microfilm",
+                "Retrieval tool"
+            ],
+            "passage": "",
+            "question": "Librarians use _______________ to group related books together"
+        },
+        {
+            "_id": "ZDKQqQIA6hKqjfQSOPKg",
+            "correctOption": "Man’s present relationship with nature in matters of birth and death is a happy one.",
+            "options": [
+                "Man’s present relationship with nature in matters of birth and death is a happy one.",
+                "Mankind has started to interfere with the work of nature.",
+                "Many people had died in the past through wand and disease.",
+                "Mankind should not have the maximum number of children possible.",
+                "Mankind should take care of its children."
+            ],
+            "passage": "All over the world till lately and in most of the world till today, mankind has\nbeen following the course of nature: that is to say, it has been breeding up to the\nmaximum. To let nature take her extravagant course in the reproduction of the\nhuman race may have made sense in an age in which we were also letting her take\nher course in decimating mankind by casualties of war, pestilence and famine. Being\nhuman, we have at least revolted against that senseless waste. We have started to\nimpose on nature’s heartless play a humane new order of our own but, when once\nman has begun to interfere with nature; he cannot afford to stop half way. We\ncannot, with impunity, cut down the death-rate to go on taking nature’s course. We\nmust consciously try to establish equilibrium, or sooner or later, famine will stalk\nabroad again.",
+            "question": "Which of these statements does not express the opinion of the author?"
+        },
+        {
+            "_id": "ZEMzj5S14n3pJmwrbcg4",
+            "correctOption": "false",
+            "options": [
+                "false",
+                "true"
+            ],
+            "passage": "",
+            "question": "A formal letter is largely impersonal –_______________"
+        },
+        {
+            "_id": "Zf3keoPA9BnbdJXy6hoX",
+            "correctOption": "face low energy supply and poor agricultural output",
+            "options": [
+                "face low energy supply and poor agricultural output",
+                "lose all its oil reserves in a matter of years.",
+                "face energy crisis soon if production is not stepped up.",
+                "experience scarcity and low energy price soon."
+            ],
+            "passage": "If present trends continue, the world would face a major crisis by the end of\nthis century: insufficient cheap, convenient energy. For without such energy,\nindustrial production will fall, agricultural output will drop, transport will ebb\nrestricted, and standard of living in developed countries will plummet. At present,\nalmost all our energy comes from fossil fuels. The earth’s reserves of fossil fuels have\nbeen formed from organic matter subjected to enormous heat and pressure for millions of years. But such reserves are finite. Because power demand is increasing\nvery rapidly, fossil fuels will be exhausted within a relatively short time. We can\nestimate the amount of recoverable fuel under the surface of the earth and we know\nthe rate at which it is being extracted. Fairly simple calculations can therefore\ndetermine its remaining life. If present trends continue, gas and oil reserves will be\nexhausted by the middle of the 21 st century-about 70 years from now. Similar\nestimates for coal and wood reserves suggest a projected supply for 250-300 years.\nOf course, long before fossil fuels are exhausted, demand will greatly exceed supply.\nFor too many years, the world has consumed fossil fuels with little thought for the\nfuture. In fact, world energy consumption increased almost 600% between 1900 and\n1965 and it is projected to increase by another 450% between 1965 and the year\n2000. Crude oil has been pumped out of the ground for about 100 years, but over\nhalf of it has been consumed in the past 18 years. Coal has been mined for over 800\nyears, but over a half of it has been extracted in the past 37 years. In sum, most of\nthe world’s consumption of energy from fossil fuels throughout history, has taken\nplace within living memory. (Ray Williams: Panorama).",
+            "question": "The writer warns that the world could"
+        },
+        {
+            "_id": "a0G5TCTEOEZ9CLUFtSjw",
+            "correctOption": "It is a personal activity",
+            "options": [
+                "It is a personal activity",
+                "it’s a co-operate activity",
+                "it is difficult to listen",
+                "an individual cannot do it."
+            ],
+            "passage": "",
+            "question": "Listening can be said to be difficult because"
+        },
+        {
+            "_id": "aLBz7cYEO9HwY7c46SjT",
+            "correctOption": "international",
+            "options": [
+                "international",
+                "local",
+                "regional",
+                "ethnic"
+            ],
+            "passage": "",
+            "question": "The English is an _______________ language in the world"
+        },
+        {
+            "_id": "bIkWpS3PbLuiJj5loDaI",
+            "correctOption": "stress",
+            "options": [
+                "stress",
+                "hyphen",
+                "apostrophe",
+                "intonation"
+            ],
+            "passage": "",
+            "question": "The exertion of greater muscular energy in the pronunciation of certain sounds is known as"
+        },
+        {
+            "_id": "bf9gY2KUQQEp7PY1BLwO",
+            "correctOption": "fewer people for many jobs",
+            "options": [
+                "fewer people for many jobs",
+                "lack of sufficient land for everyone",
+                "low productivity when working",
+                "more people for fewer jobs."
+            ],
+            "passage": "In many places in the world today, the poor are getting poorer while the rich\nare getting richer, and the programmes of development planning and foreign aid\nappear to be unable to reverse this trend. Nearly all the developing countries have a\nmodern sector, where the patterns of living and working are similar to those in\ndeveloped countries. But they also have a non-modern sector, where the patterns of\nliving and working are not only unsatisfactory, but in many cases are getting worse.\nWhat is the typical condition of the poor in developing countries? Their work\nopportunities are so limited that they cannot work their way out of their situation.\nThey are underemployed, or totally unemployed; when they do find occasional work,\ntheir productivity is extremely low. Some of them have land, but often too little land.\nMany have no land, and no prospect of ever getting any. There is no hope for them in\nthe rural areas and so, they drift into the big cities. But there is no work for them inthe big cities either-and of courses no housing. All the same, they flock into the cities\nbecause their chances of finding some work appear to be greater there than in the\nvillages-where they are nil. Rural unemployment, then, produces mass-migration into\nthe cities; rural unemployment becomes urban unemployment.\nThe problem can be stated quite simply: what can be done to promote\neconomic growth outside the big cities, in the small towns and villages, which still\ncontain 80 to, 90% of the total population? The primary need is workplaces, literally\nmillion of workplaces. (Ray Williams: Panorama) Where are the rich getting richer and\nthe poor poorer?",
+            "question": "Unemployment among the villagers refers to"
+        },
+        {
+            "_id": "bwyp6uBKoWTcs5EaGFlr",
+            "correctOption": "Umonyok danced with a group of young girls.",
+            "options": [
+                "Umonyok danced with a group of young girls.",
+                "Umonyok was found standing aloof",
+                "Umonyok was with her age mates"
+            ],
+            "passage": "Umonyok is the oldest woman in my village. Women of her age-group have either\ndied or are near their graves. But Umonyok is nearly as strong and as smart as a\nteenager. Her small stature has given her this advantage. And what is funny about her\nis that she claims to be a teenager and attempts to behave like one. She professes that\nher righteous dealings with man and Nature have made her “share” with many younger\ngenerations, and that she has to explore this blessing to the fullest by taking part in the\nmodern fashion and by doing what the young girls do. That makes old Umonyok’s\nbehavior in the village not only unique but also comic. During the community festival,\nUmonyok did not only adorn herself in a girl’s dancing costume but was also dancing\namong the young girls. The moving crowd ignored the other group of dancers and\nmobbed the group of young girls among which Umonyok was dancing.",
+            "question": "What happened during the community festival?"
+        },
+        {
+            "_id": "cG9L9q9UKYLxK6J5A3mw",
+            "correctOption": "ability to comprehend and recall",
+            "options": [
+                "ability to comprehend and recall",
+                "ability to pronounce words",
+                "ability to identify and pronounce words.",
+                "Ability to run your eyes through a passage"
+            ],
+            "passage": "",
+            "question": "What is reading?"
+        },
+        {
+            "_id": "d0hnPbXT7gYrTCqMtAIW",
+            "correctOption": "two",
+            "options": [
+                "two",
+                "three",
+                "four",
+                "five."
+            ],
+            "passage": "",
+            "question": "A formal letter has _______________ address(es)"
+        },
+        {
+            "_id": "daml71tcclgFmqiBS11b",
+            "correctOption": "yours faithfully",
+            "options": [
+                "yours faithfully",
+                "yours ever",
+                "yours sincerely",
+                "yours affectionately."
+            ],
+            "passage": "",
+            "question": "The formal letter ends with –-"
+        },
+        {
+            "_id": "ddjD3BPaGHKczTspVrzs",
+            "correctOption": "false",
+            "options": [
+                "false",
+                "true"
+            ],
+            "passage": "",
+            "question": "A formal letter contains contracted forms of words _______________"
+        },
+        {
+            "_id": "e8zU9vKi2YSSRPcHIMDc",
+            "correctOption": "for example",
+            "options": [
+                "for example",
+                "however.",
+                "besides",
+                "moreover",
+                "because",
+                "therefore"
+            ],
+            "passage": "",
+            "question": "Only one out of the following is used to illustrate"
+        },
+        {
+            "_id": "equQavfnGIv8gMJCmcsS",
+            "correctOption": "he resists temptation to bias",
+            "options": [
+                "he resists temptation to bias",
+                "he seeks publicity",
+                "he tries to achieve popularity",
+                "he can manipulate his story to please his employers.",
+                "He tries to protect his friends."
+            ],
+            "passage": "The Endeavour to maintain proper standards of fairness in journalism must be\npursued. It is fatally easy for the journalist to deviate from the straight path. There is\nhis natural desire to ‘make a story’ and insidious temptation to twist facts to square with his paper’s policy. Both are indefensible as the framing of misleading headlines\nfor the sake of effect. The conscientious journalist must check any tendency bias, and\nguard against the dangers inherent in personal antipathies or friendship, a din\ntraditional opposition between rivals schools of thought. When a political opponent,\nwhose stupidity habitually provokes stack, makes an effective speech, honesty\nrequires that he be given credit for it. Where personal relationships might make it\neasier and more congenial to keep silent than to criticize, the journalist must never\nforget his duty to the public and the supreme importance of recording truth.",
+            "question": "A journalist would be able to uphold the tenets of his profession if"
+        },
+        {
+            "_id": "fmhLevXqGAeO7kytmiay",
+            "correctOption": "Adjective",
+            "options": [
+                "Adjective",
+                "A preposition",
+                "Pronoun"
+            ],
+            "passage": "Soli learnt how to mould building blocks at an early age; his mother died when\nhe was 19 and a year later, his father died, leaving the responsibility for the entire\nhousehold on the young man’s shoulders. He started work as an apprentice in a small\nblock industry near his house. They molded building blocks made from mixture of\nclay and water with a simple locally-made wooden molding tool. Three semi-skilled\nworkers and seven labourers were employed.\nSoli worked hard and was soon\npromoted to a semi-skilled labourer and was thus involved in actually making the\nbricks for a period of two years.\nAt this stage, Soli left the factory in order to set up his own unit in a nearby\nvillage.",
+            "question": "The word ‘semi-skilled’ as used in the passage is"
+        },
+        {
+            "_id": "g0TpenyBbssnBmlFI1i6",
+            "correctOption": "a labourer",
+            "options": [
+                "a labourer",
+                "a semi-skilled worker",
+                "a manager"
+            ],
+            "passage": "Soli learnt how to mould building blocks at an early age; his mother died when\nhe was 19 and a year later, his father died, leaving the responsibility for the entire\nhousehold on the young man’s shoulders. He started work as an apprentice in a small\nblock industry near his house. They molded building blocks made from mixture of\nclay and water with a simple locally-made wooden molding tool. Three semi-skilled\nworkers and seven labourers were employed.\nSoli worked hard and was soon\npromoted to a semi-skilled labourer and was thus involved in actually making the\nbricks for a period of two years.\nAt this stage, Soli left the factory in order to set up his own unit in a nearby\nvillage.",
+            "question": "Soli started as"
+        },
+        {
+            "_id": "g5pVjZb16Med3Sl2Vci9",
+            "correctOption": "simple",
+            "options": [
+                "simple",
+                "complex",
+                "compound",
+                "tough."
+            ],
+            "passage": "",
+            "question": "A sentence with only independent clause is known as _______________"
+        },
+        {
+            "_id": "gNrTl7LtaD3kkNZnFKIv",
+            "correctOption": "to be protected from the effects of the weather.",
+            "options": [
+                "to be protected from the effects of the weather.",
+                "to expect no protection from the bad weather",
+                "to survive under unnatural weather conditions.",
+                "limit our natural desires to get acclimatized to the weather.",
+                "none of the above."
+            ],
+            "passage": "These two factors, the altitude and the weather, tend separately and together\nto defeat the climber. The height weakens, slows him down, it forces him to spend\ndays and night in the course of his assault on the summit; the weather, besides\nadding to the demands of his energy and moral fortitude, conspires to deny him the time he needs to complete his mission. Whereas in lower mountains and on easy\nground the weather may be no more than a handicap, in the high Himalayas it is\ndecisive, regardless of terrain.\nThe deduction to be drawn from these two factors was clear enough. We must\neither so fortify ourselves that we could continue, without detriment, to live our\nbeing above limit of natural acclimatization, or better still, we must solve the\nproblem of speed. It was desirable, in fact that we should meet both these\nrequirements and thus give to these chosen to attempt the summit and to their\nsupporting teams some measure of ignorance against the vagaries of the weather, for\nsafety in mountain climbing is as much a matter of swiftness as of sureness of foot.\nEither or both could be achieved only by the administration of oxygen in sufficient\nquantities to make up for the deficiency in the air, and for the duration of the upward\njourney above limit of successful acclimatization.",
+            "question": "‘to live and have our being above the limit of natural acclimatization’ (Paragraph 2 lines 4 and 5) means"
+        },
+        {
+            "_id": "gc0NwoLJPqeDs9GRTquE",
+            "correctOption": "sufficient quantities of oxygen.",
+            "options": [
+                "courage and speed.",
+                "energy and moral fortitude.",
+                "sufficient quantities of oxygen.",
+                "swiftness and sureness of foot",
+                "quick acclimatization."
+            ],
+            "passage": "These two factors, the altitude and the weather, tend separately and together to defeat the climber. The height weakens, slows him down, it forces him to spend days and night in the course of his assault on the summit; the weather, besides adding to the demands of his energy and moral fortitude, conspires to deny him thetime he needs to complete his mission. Whereas in lower mountains and on easy ground the weather may be no more than a handicap, in the high Himalayas it is decisive, regardless of terrain. \nThe deduction to be drawn from these two factors was clear enough. We must either so fortify ourselves that we could continue, without detriment, to live our being above limit of natural acclimatization, or better still, we must solve the problem of speed. It was desirable, in fact that we should meet both these requirements and thus give to these chosen to attempt the summit and to their supporting teams some measure of ignorance against the vagaries of the weather, for safety in mountain climbing is as much a matter of swiftness as of sureness of foot. Either or both could be achieved only by the administration of oxygen in sufficient quantities to make up for the deficiency in the air, and for the duration of the upward journey above limit of successful acclimatization.",
+            "question": "The author believes that to overcome the problem of altitude and weather, the climber needs mainly"
+        },
+        {
+            "_id": "gvTH7sM9ifIpME8w6SXK",
+            "correctOption": "great",
+            "options": [
+                "great",
+                "jovial",
+                "remarkable",
+                "happy",
+                "growing"
+            ],
+            "passage": "I dare not lift the veil that protects our tribal marriage customs and ceremonies\nfrom the eyes of outsiders. There is already too little in this world that is sacred;\nand what Fatmata and l were required to go through during the next week must\nabsolutely satisfy my parent’s choice. Fatmata was as black as a satin, and as soft.\nShe had the teeth and smile of a goddess. The Dopo tutors had done their job\nwell: she was a complete efficient lover and a mother. I brought her home with\nswelling pride, and began at once to save all I could spare towards the cost of\nacquiring my second wife. My anti-Western revolt was gaining momentum",
+            "question": "‘swelling’ (line 13) means"
+        },
+        {
+            "_id": "h2K5wMz9FXQZ4AIdwDX2",
+            "correctOption": "an adverb",
+            "options": [
+                "an adverb",
+                "an adjective",
+                "a conjunction"
+            ],
+            "passage": "Marriage as a human institution is facing its greatest threat ever in this century.\nNever, since the first man and woman were joined together, has the institution been\nbeset by as many problems as it is now. And this trend, which started in the western\nworld, has spread and is fast spreading to all parts of the globe.\nThe most disturbing problem is the high rate of divorce. It is no longer a social\nstigma for woman to fill in forms indicating that they are divorced.\nMen, too,\nproclaim their ‘liberty’ from ‘shackles’ of matrimony somehow with pride. Little\nwonder that young couples resort to separation and eventually divorce, at the slightest\ndisagreement.",
+            "question": "The word ‘slightest’ in the passage is"
+        },
+        {
+            "_id": "hSoY5dNOe0AzLCI7tdVs",
+            "correctOption": "oil, coal and natural gas",
+            "options": [
+                "oil, coal and natural gas",
+                "wood, kerosene and natural gas.",
+                "lignite, butane and charcoal.",
+                "wood, coal and oil."
+            ],
+            "passage": "If present trends continue, the world would face a major crisis by the end of\nthis century: insufficient cheap, convenient energy. For without such energy,\nindustrial production will fall, agricultural output will drop, transport will ebb\nrestricted, and standard of living in developed countries will plummet. At present,\nalmost all our energy comes from fossil fuels. The earth’s reserves of fossil fuels have\nbeen formed from organic matter subjected to enormous heat and pressure for millions of years. But such reserves are finite. Because power demand is increasing\nvery rapidly, fossil fuels will be exhausted within a relatively short time. We can\nestimate the amount of recoverable fuel under the surface of the earth and we know\nthe rate at which it is being extracted. Fairly simple calculations can therefore\ndetermine its remaining life. If present trends continue, gas and oil reserves will be\nexhausted by the middle of the 21 st century-about 70 years from now. Similar\nestimates for coal and wood reserves suggest a projected supply for 250-300 years.\nOf course, long before fossil fuels are exhausted, demand will greatly exceed supply.\nFor too many years, the world has consumed fossil fuels with little thought for the\nfuture. In fact, world energy consumption increased almost 600% between 1900 and\n1965 and it is projected to increase by another 450% between 1965 and the year\n2000. Crude oil has been pumped out of the ground for about 100 years, but over\nhalf of it has been consumed in the past 18 years. Coal has been mined for over 800\nyears, but over a half of it has been extracted in the past 37 years. In sum, most of\nthe world’s consumption of energy from fossil fuels throughout history, has taken\nplace within living memory. (Ray Williams: Panorama).",
+            "question": "Fossil fuels as used in the passage include"
+        },
+        {
+            "_id": "hztswo8VvBp1XQmSK7FP",
+            "correctOption": "official/business",
+            "options": [
+                "official/business",
+                "Informal",
+                "personal",
+                "strange"
+            ],
+            "passage": "",
+            "question": "Another name for formal letter is _______________ letter"
+        },
+        {
+            "_id": "iG40hpJtAP60beu16VQx",
+            "correctOption": "Also not bothered",
+            "options": [
+                "Also not bothered",
+                "Worried",
+                "Ashamed"
+            ],
+            "passage": "Marriage as a human institution is facing its greatest threat ever in this century.\nNever, since the first man and woman were joined together, has the institution been\nbeset by as many problems as it is now. And this trend, which started in the western\nworld, has spread and is fast spreading to all parts of the globe.\nThe most disturbing problem is the high rate of divorce. It is no longer a social\nstigma for woman to fill in forms indicating that they are divorced.\nMen, too,\nproclaim their ‘liberty’ from ‘shackles’ of matrimony somehow with pride. Little\nwonder that young couples resort to separation and eventually divorce, at the slightest\ndisagreement.",
+            "question": "According to the passage, men are"
+        },
+        {
+            "_id": "j6mwelLSJC3Wj2eTCC3m",
+            "correctOption": "person in authority",
+            "options": [
+                "person in authority",
+                "friend",
+                "brother",
+                "sister"
+            ],
+            "passage": "",
+            "question": "A formal letter is a letter to a _______________"
+        },
+        {
+            "_id": "jCjtYOGRsQjtrq83mFbm",
+            "correctOption": "the author adores his wife.",
+            "options": [
+                "the author adores his wife.",
+                "he disapproves her ways.",
+                "he thinks she is extravagant.",
+                "the author regrets the cause of his debts",
+                "she had not been properly brought up."
+            ],
+            "passage": "I dare not lift the veil that protects our tribal marriage customs and ceremonies\nfrom the eyes of outsiders. There is already too little in this world that is sacred;\nand what Fatmata and l were required to go through during the next week must\nabsolutely satisfy my parent’s choice. Fatmata was as black as a satin, and as soft.\nShe had the teeth and smile of a goddess. The Dopo tutors had done their job\nwell: she was a complete efficient lover and a mother. I brought her home with\nswelling pride, and began at once to save all I could spare towards the cost of\nacquiring my second wife. My anti-Western revolt was gaining momentum",
+            "question": "The evidence would seem to indicate that"
+        },
+        {
+            "_id": "jEryXx63HXrJv7t3WGlp",
+            "correctOption": "be able to recognize merit wherever found.",
+            "options": [
+                "be able to recognize merit wherever found.",
+                "read widely",
+                "have political acumen",
+                "make no enemies but friends.",
+                "be able to make an effective speech."
+            ],
+            "passage": "The Endeavour to maintain proper standards of fairness in journalism must be\npursued. It is fatally easy for the journalist to deviate from the straight path. There is\nhis natural desire to ‘make a story’ and insidious temptation to twist facts to square with his paper’s policy. Both are indefensible as the framing of misleading headlines\nfor the sake of effect. The conscientious journalist must check any tendency bias, and\nguard against the dangers inherent in personal antipathies or friendship, a din\ntraditional opposition between rivals schools of thought. When a political opponent,\nwhose stupidity habitually provokes stack, makes an effective speech, honesty\nrequires that he be given credit for it. Where personal relationships might make it\neasier and more congenial to keep silent than to criticize, the journalist must never\nforget his duty to the public and the supreme importance of recording truth.",
+            "question": "A dutiful journalist must"
+        },
+        {
+            "_id": "jPYKUsV7vqWmy3MKp02V",
+            "correctOption": "Library of Congress Classification Scheme",
+            "options": [
+                "Library of Congress Classification Scheme",
+                "Dewy Decimal Classification Scheme",
+                "Universal Decimal Classification Scheme",
+                "National Classification Scheme"
+            ],
+            "passage": "",
+            "question": "The University of Jos Library uses which classification scheme"
+        },
+        {
+            "_id": "lE8xLJE1c4zJj4qUufjw",
+            "correctOption": "democratic nations are expanding the provision of social welfare.",
+            "options": [
+                "democratic nations are expanding the provision of social welfare.",
+                "citizens have equal political and legal treatment in America.",
+                "the nations of the democratic world have no political and legal hierarchy.",
+                "equality obliterates differences and variations among races and nations."
+            ],
+            "passage": "When Thomas Jefferson wrote in the American Declaration Independence that\n‘all men are created equal’, he was not seeking to describe men’s endowments, but\ntheir political and legal rights. He was not saying that men do not differ from one another in the powers and dimensions of their bodies, minds and characters. He was\nasserting that, despite variations and differences, they all possessed the right to\nequal political and legal treatment. we must, however, ask of what real value are\npolitical and legal equality to a man who has no bread to eat, no clothes to wear, no\nroof to shelter him, no chance to earn a livelihood? What we understand as a\ndemocratic society must provide for its citizen’s minimum status as a member of that\nsociety, that keeps him from becoming a beggar, outcast or outlaw and that offers\nhim some protection in his deprivation, losses and fears.\nIn our time, the nations of the democratic world have installed elaborate\nsystems of social security and welfare, ranging from compensation for industrial\naccidents to subsidized housing, unemployment insurance, old age pensions,\npsychiatric care and national health services. It is encouraging that the democratic\nnations are making a serious effort to provide against the characteristic losses and\ndisasters of human life.\nThe evolving status of the negro in America is attracting the attention of the\nchampions of equality. Much has been written on the wrongs, injustices and\ninequalities of the coloured citizen of the USA and much remains to be said, because\nthe history of this struggle for human rights is still unfolding. (John Coghlan)",
+            "question": "It could be deduced from the passage that"
+        },
+        {
+            "_id": "lkbBAGzeHqBFRzLdMb5a",
+            "correctOption": "interaction.",
+            "options": [
+                "interaction.",
+                "simple",
+                "compound",
+                "complex"
+            ],
+            "passage": "",
+            "question": "Choose the odd one _______________"
+        },
+        {
+            "_id": "lkbzvZX6h9vgIDVVMjhA",
+            "correctOption": "in a majority of countries in the world",
+            "options": [
+                "in a majority of countries in the world",
+                "in nearly all developing countries.",
+                "in developing countries with modern sectors.",
+                "in countries with non-modern sectors"
+            ],
+            "passage": "In many places in the world today, the poor are getting poorer while the rich\nare getting richer, and the programmes of development planning and foreign aid\nappear to be unable to reverse this trend. Nearly all the developing countries have a\nmodern sector, where the patterns of living and working are similar to those in\ndeveloped countries. But they also have a non-modern sector, where the patterns of\nliving and working are not only unsatisfactory, but in many cases are getting worse.\nWhat is the typical condition of the poor in developing countries? Their work\nopportunities are so limited that they cannot work their way out of their situation.\nThey are underemployed, or totally unemployed; when they do find occasional work,\ntheir productivity is extremely low. Some of them have land, but often too little land.\nMany have no land, and no prospect of ever getting any. There is no hope for them in\nthe rural areas and so, they drift into the big cities. But there is no work for them in the big cities either-and of courses no housing. All the same, they flock into the cities\nbecause their chances of finding some work appear to be greater there than in the\nvillages-where they are nil. Rural unemployment, then, produces mass-migration into\nthe cities; rural unemployment becomes urban unemployment.\nThe problem can be stated quite simply: what can be done to promote\neconomic growth outside the big cities, in the small towns and villages, which still\ncontain 80 to, 90% of the total population? The primary need is workplaces, literally\nmillion of workplaces. (Ray Williams: Panorama) Where are the rich getting richer and\nthe poor poorer?",
+            "question": "Where are the rich getting richer and the poor poorer?"
+        },
+        {
+            "_id": "mQzbqbUVPT4hOLvy7GQ4",
+            "correctOption": "to develop our lives and society",
+            "options": [
+                "to develop our lives and society",
+                "to sharpen our minds",
+                "to be informed",
+                "to develop our lives and society"
+            ],
+            "passage": "",
+            "question": "Why do we need to study?"
+        },
+        {
+            "_id": "nKc7M0Hm7teyYSjNK0Ga",
+            "correctOption": "speaking",
+            "options": [
+                "speaking",
+                "listening",
+                "writing",
+                "reading."
+            ],
+            "passage": "",
+            "question": "The activity of paying attention to and trying to make meaning from something we hear is known as"
+        },
+        {
+            "_id": "oSvPfV5hGdnZHESAtRA9",
+            "correctOption": "save time",
+            "options": [
+                "save time",
+                "imposes order",
+                "enhance comprehension"
+            ],
+            "passage": "",
+            "question": "Study habits do the following in the life of a learner"
+        },
+        {
+            "_id": "opXn9SdIyXHgpMsU4JGg",
+            "correctOption": "international",
+            "options": [
+                "local",
+                "regional",
+                "ethnic",
+                "international"
+            ],
+            "question": "The English is an _______________ language in the world"
+        },
+        {
+            "_id": "pKqNB3cIWgZtFyneG6zV",
+            "correctOption": "There was a time when uncontrolled birth made sense.",
+            "options": [
+                "There was a time when uncontrolled birth made sense.",
+                "Nature was heartless and senseless.",
+                "War, pestilence and famine were caused by the extravagance of nature.",
+                "It was wise at a time when mankind did not interfere with normal reproduction."
+            ],
+            "passage": "All over the world till lately and in most of the world till today, mankind has\nbeen following the course of nature: that is to say, it has been breeding up to the\nmaximum. To let nature take her extravagant course in the reproduction of the\nhuman race may have made sense in an age in which we were also letting her take\nher course in decimating mankind by casualties of war, pestilence and famine. Being\nhuman, we have at least revolted against that senseless waste. We have started to\nimpose on nature’s heartless play a humane new order of our own but, when once\nman has begun to interfere with nature; he cannot afford to stop half way. We\ncannot, with impunity, cut down the death-rate to go on taking nature’s course. We\nmust consciously try to establish equilibrium, or sooner or later, famine will stalk\nabroad again.",
+            "question": "The author observes that"
+        },
+        {
+            "_id": "pgW7qB5vy3gaNhhmmIvF",
+            "correctOption": "wicked",
+            "options": [
+                "wicked",
+                "subtle",
+                "natural",
+                "unusual",
+                "wild"
+            ],
+            "passage": "The Endeavour to maintain proper standards of fairness in journalism must be\npursued. It is fatally easy for the journalist to deviate from the straight path. There is\nhis natural desire to ‘make a story’ and insidious temptation to twist facts to square with his paper’s policy. Both are indefensible as the framing of misleading headlines\nfor the sake of effect. The conscientious journalist must check any tendency bias, and\nguard against the dangers inherent in personal antipathies or friendship, a din\ntraditional opposition between rivals schools of thought. When a political opponent,\nwhose stupidity habitually provokes stack, makes an effective speech, honesty\nrequires that he be given credit for it. Where personal relationships might make it\neasier and more congenial to keep silent than to criticize, the journalist must never\nforget his duty to the public and the supreme importance of recording truth.",
+            "question": "‘Insidious’ means"
+        },
+        {
+            "_id": "polPso0Q80xkA5rlb3oY",
+            "correctOption": "cog",
+            "options": [
+                "cog",
+                "Come",
+                "Sun",
+                "Son"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL\nsound as the one represented by the letter(s) underlined",
+            "question": "c<u>o</u>ff"
+        },
+        {
+            "_id": "pr1F9rWyHZP7LPHxy2ab",
+            "correctOption": "build",
+            "options": [
+                "build",
+                "allege",
+                "said",
+                "beige"
+            ],
+            "passage": "From the options below, choose the word that has the same VOWEL sound as the one represented by the letter(s) underlined",
+            "question": "vill<u>a</u>ge"
+        },
+        {
+            "_id": "rb8jDFBM42ciVsfzJeIm",
+            "correctOption": "all options",
+            "options": [
+                "all options",
+                "personal development",
+                "creative imagination",
+                "scientific development"
+            ],
+            "passage": "",
+            "question": "Reading is instrumental to _______________"
+        },
+        {
+            "_id": "rxVYMX8wBkNH34sRWHio",
+            "correctOption": "When his friends act stupidly",
+            "options": [
+                "When his friends act stupidly",
+                "When he becomes weak and decrepit",
+                "When his enemies make a mistake.",
+                "When his political opponents frame misleading headlines.",
+                "After he has been given a bribe"
+            ],
+            "passage": "The Endeavour to maintain proper standards of fairness in journalism must be\npursued. It is fatally easy for the journalist to deviate from the straight path. There is\nhis natural desire to ‘make a story’ and insidious temptation to twist facts to square with his paper’s policy. Both are indefensible as the framing of misleading headlines\nfor the sake of effect. The conscientious journalist must check any tendency bias, and\nguard against the dangers inherent in personal antipathies or friendship, a din\ntraditional opposition between rivals schools of thought. When a political opponent,\nwhose stupidity habitually provokes stack, makes an effective speech, honesty\nrequires that he be given credit for it. Where personal relationships might make it\neasier and more congenial to keep silent than to criticize, the journalist must never\nforget his duty to the public and the supreme importance of recording truth.",
+            "question": "When may a journalist have to act against his own inclination?"
+        },
+        {
+            "_id": "sZwWc7HcaIUmROSGJn5x",
+            "correctOption": "the text",
+            "options": [
+                "the text",
+                "the reader",
+                "the environment",
+                "text and reader."
+            ],
+            "passage": "",
+            "question": "Top-down reading model focuses on"
+        },
+        {
+            "_id": "sqygoze5hEkeOuSH4DsG",
+            "correctOption": "should",
+            "options": [
+                "should",
+                "fool",
+                "blood",
+                "boulder"
+            ],
+            "passage": "",
+            "question": "l<u>oo</u>k"
+        },
+        {
+            "_id": "ss42MG71QsyXgmRh1Cdj",
+            "correctOption": "true",
+            "options": [
+                "true",
+                "false"
+            ],
+            "passage": "",
+            "question": "A formal letter does not allow exchange of jokes/pleasantries"
+        },
+        {
+            "_id": "t2U36vpcEcUQZycmM8yw",
+            "correctOption": "true",
+            "options": [
+                "true",
+                "false"
+            ],
+            "passage": "",
+            "question": "A formal letter must contain the signature of the writer"
+        },
+        {
+            "_id": "t5SigKjOevKZexHFDfZv",
+            "correctOption": "sentence.",
+            "options": [
+                "sentence.",
+                "clause",
+                "paragraph",
+                "essay"
+            ],
+            "passage": "",
+            "question": "A group of words that make complete sense is known as _______________"
+        },
+        {
+            "_id": "t5ptGp5vPSR4r1VJ5Irz",
+            "correctOption": "skimming",
+            "options": [
+                "skimming",
+                "scanning",
+                "summarizing",
+                "comprehension"
+            ],
+            "passage": "",
+            "question": "Reading to identify only the main ideas is known as"
+        },
+        {
+            "_id": "toKFz6JS53Z2MvE3wzud",
+            "correctOption": "She was young and beautiful",
+            "options": [
+                "She was young and beautiful",
+                "She was an old woman",
+                "She had a small stature"
+            ],
+            "passage": "Umonyok is the oldest woman in my village. Women of her age-group have either\ndied or are near their graves. But Umonyok is nearly as strong and as smart as a\nteenager. Her small stature has given her this advantage. And what is funny about her\nis that she claims to be a teenager and attempts to behave like one. She professes that\nher righteous dealings with man and Nature have made her “share” with many younger\ngenerations, and that she has to explore this blessing to the fullest by taking part in the\nmodern fashion and by doing what the young girls do. That makes old Umonyok’s\nbehavior in the village not only unique but also comic. During the community festival,\nUmonyok did not only adorn herself in a girl’s dancing costume but was also dancing\namong the young girls. The moving crowd ignored the other group of dancers and\nmobbed the group of young girls among which Umonyok was dancing.",
+            "question": "Which of these is not true of Umonyok?"
+        },
+        {
+            "_id": "vD78hx247QRjMOe2PUHu",
+            "correctOption": "its instability",
+            "options": [
+                "its instability",
+                "its joy",
+                "its holiness"
+            ],
+            "passage": "Marriage as a human institution is facing its greatest threat ever in this century.\nNever, since the first man and woman were joined together, has the institution been\nbeset by as many problems as it is now. And this trend, which started in the western\nworld, has spread and is fast spreading to all parts of the globe.\nThe most disturbing problem is the high rate of divorce. It is no longer a social\nstigma for woman to fill in forms indicating that they are divorced.\nMen, too,\nproclaim their ‘liberty’ from ‘shackles’ of matrimony somehow with pride. Little\nwonder that young couples resort to separation and eventually divorce, at the slightest\ndisagreement.",
+            "question": "The threat to marriage as stated in this passage is"
+        },
+        {
+            "_id": "vIe5JWXUNL9GrmxWzM7e",
+            "correctOption": "About to go hunting",
+            "options": [
+                "About to go hunting",
+                "About to assemble for a village meeting",
+                "About to go to farm"
+            ],
+            "passage": "There were fifty men in all. I was the odd man in the group in many respects.\nThey were all seasoned hunters in garbs of hunting and armed to the teeth. They\ncarried dame-guns, except for fire men who carried automatic rifles. They also had\nsheathed machetes, hunting bags slung on their shoulders containing slugs, spices,\nherbs and gun powder. In contrast I was unarmed, so it appeared to them, for I had\nconcealed my stolen pistol in my side pocket. The camera I had carried meant nothing\nto them. I was a child in comparison to their ages. This was why my presence was\nstrongly opposed. But for the timely and strong persuasion by the head hunter, my\nuncle, I would have missed the expedition altogether. The head hunter is a stout short\nman but that day he had doubled his height overnight. He was a fearful sight. Today,\nthey had all determined to kill this man-eating beast, the buffalo that had done great\nhavoc to the village and the neighbouring ones.",
+            "question": "‘This man-eating beast’ is _______________"
+        },
+        {
+            "_id": "vraTmyqqGQMHOPL9rUM5",
+            "correctOption": "compound",
+            "options": [
+                "compound",
+                "simple",
+                "complex",
+                "essay sentence"
+            ],
+            "passage": "",
+            "question": "In grammar when two independent clauses are joined together by conjunctions we have _______________ sentence"
+        },
+        {
+            "_id": "wmh09xvka72GOAnEz7Kf",
+            "correctOption": "False",
+            "options": [
+                "False",
+                "True"
+            ],
+            "passage": "",
+            "question": "A directory is not a reference material"
+        },
+        {
+            "_id": "wwTJh388dMQED930dGi8",
+            "correctOption": "intensive reading",
+            "options": [
+                "intensive reading",
+                "summary",
+                "scanning",
+                "skimming."
+            ],
+            "passage": "",
+            "question": "When we read slowly and thoroughly we are engaged in"
+        },
+        {
+            "_id": "x0swHwJffiRc7mFTYeBu",
+            "correctOption": "Catalogue cards",
+            "options": [
+                "Catalogue cards",
+                "Classification scheme",
+                "Microfilm",
+                "Retrieval tool"
+            ],
+            "question": "Librarians use _______________ to group related books together"
+        },
+        {
+            "_id": "xKMjAxU0UdGQspwoiYlv",
+            "correctOption": "he revolted against European values",
+            "options": [
+                "he revolted against European values",
+                "he did not like polygamy.",
+                "he hated Europeans.",
+                "he did not want to marry another wife.",
+                "he admitted everything about his wife."
+            ],
+            "passage": "I dare not lift the veil that protects our tribal marriage customs and ceremonies\nfrom the eyes of outsiders. There is already too little in this world that is sacred;\nand what Fatmata and l were required to go through during the next week must\nabsolutely satisfy my parent’s choice. Fatmata was as black as a satin, and as soft.\nShe had the teeth and smile of a goddess. The Dopo tutors had done their job\nwell: she was a complete efficient lover and a mother. I brought her home with\nswelling pride, and began at once to save all I could spare towards the cost of\nacquiring my second wife. My anti-Western revolt was gaining momentum",
+            "question": "The author said ‘My anti-Western revolt was gaining momentum’ (last sentence), he was referring to the fact that"
+        },
+        {
+            "_id": "xbOX7CPVPn1wf8drzOBD",
+            "correctOption": "He was hardworking",
+            "options": [
+                "He was hardworking",
+                "He was lucky",
+                "He loved promotion"
+            ],
+            "passage": "Soli learnt how to mould building blocks at an early age; his mother died when\nhe was 19 and a year later, his father died, leaving the responsibility for the entire\nhousehold on the young man’s shoulders. He started work as an apprentice in a small\nblock industry near his house. They molded building blocks made from mixture of\nclay and water with a simple locally-made wooden molding tool. Three semi-skilled\nworkers and seven labourers were employed.\nSoli worked hard and was soon\npromoted to a semi-skilled labourer and was thus involved in actually making the\nbricks for a period of two years.\nAt this stage, Soli left the factory in order to set up his own unit in a nearby\nvillage.",
+            "question": "Soli was promoted because"
+        },
+        {
+            "_id": "xngZCsfhIZTeMOvM9l7A",
+            "correctOption": "telling the truth",
+            "options": [
+                "telling the truth",
+                "giving credit to his political enemies",
+                "keeping quiet when necessary",
+                "trying to ‘make a story’.",
+                "defending the weak"
+            ],
+            "passage": "The Endeavour to maintain proper standards of fairness in journalism must be\npursued. It is fatally easy for the journalist to deviate from the straight path. There is\nhis natural desire to ‘make a story’ and insidious temptation to twist facts to square with his paper’s policy. Both are indefensible as the framing of misleading headlines\nfor the sake of effect. The conscientious journalist must check any tendency bias, and\nguard against the dangers inherent in personal antipathies or friendship, a din\ntraditional opposition between rivals schools of thought. When a political opponent,\nwhose stupidity habitually provokes stack, makes an effective speech, honesty\nrequires that he be given credit for it. Where personal relationships might make it\neasier and more congenial to keep silent than to criticize, the journalist must never\nforget his duty to the public and the supreme importance of recording truth.",
+            "question": "The duty of a journalist to public entails"
+        },
+        {
+            "_id": "xso2I9gIO4wyp9W7CRcF",
+            "correctOption": "ensures socio-political and legal equality for every citizen",
+            "options": [
+                "ensures socio-political and legal equality for every citizen",
+                "grants equality to all citizens",
+                "arranges welfare packages for every citizen.",
+                "absorbs the negro into its political structure"
+            ],
+            "passage": "When Thomas Jefferson wrote in the American Declaration Independence that\n‘all men are created equal’, he was not seeking to describe men’s endowments, but\ntheir political and legal rights. He was not saying that men do not differ from one another in the powers and dimensions of their bodies, minds and characters. He was\nasserting that, despite variations and differences, they all possessed the right to\nequal political and legal treatment. we must, however, ask of what real value are\npolitical and legal equality to a man who has no bread to eat, no clothes to wear, no\nroof to shelter him, no chance to earn a livelihood? What we understand as a\ndemocratic society must provide for its citizen’s minimum status as a member of that\nsociety, that keeps him from becoming a beggar, outcast or outlaw and that offers\nhim some protection in his deprivation, losses and fears.\nIn our time, the nations of the democratic world have installed elaborate\nsystems of social security and welfare, ranging from compensation for industrial\naccidents to subsidized housing, unemployment insurance, old age pensions,\npsychiatric care and national health services. It is encouraging that the democratic\nnations are making a serious effort to provide against the characteristic losses and\ndisasters of human life.\nThe evolving status of the negro in America is attracting the attention of the\nchampions of equality. Much has been written on the wrongs, injustices and\ninequalities of the coloured citizen of the USA and much remains to be said, because\nthe history of this struggle for human rights is still unfolding. (John Coghlan)",
+            "question": "According to the passage, a democratic nation is one which"
+        },
+        {
+            "_id": "zpR3AEg1d2mfO7P5LM94",
+            "correctOption": "There was a time when uncontrolled birth made sense.",
+            "options": [
+                "War, pestilence and famine were caused by the extravagance of nature.",
+                "Nature was heartless and senseless.",
+                "There was a time when uncontrolled birth made sense.",
+                "It was wise at a time when mankind did not interfere with normal reproduction.",
+                "Nature was heartless in its reproductive process."
+            ],
+            "passage": "All over the world till lately and in most of the world till today, mankind has been following the course of nature: that is to say, it has been breeding up to the maximum. To let nature take her extravagant course in the reproduction of the human race may have made sense in an age in which we were also letting her take her course in decimating mankind by casualties of war, pestilence and famine. Being human, we have at least revolted against that senseless waste. We have started to impose on nature's heartless play a humane new order of our own but, when once man has begun to interfere with nature; he cannot afford to stop half way. We cannot, with impunity, cut down the death-rate to go on taking nature's course. We must consciously try to establish equilibrium, or sooner or later, famine will stalk abroad again.",
+            "question": "The author observes that"
+        },
+        {
+            "_id": "zrRJXsYofWaJhLRzbath",
+            "correctOption": "False",
+            "options": [
+                "False",
+                "True"
+            ],
+            "passage": "",
+            "question": "Motion pictures are not a non-book library resources"
+        }
+    ]
 }

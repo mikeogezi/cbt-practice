@@ -8,7 +8,7 @@ class TextViewUtils {
         val TAG = TextViewUtils::class.java.simpleName;
 
         fun fromHtml (str: String): Spanned {
-            return Html.fromHtml(str.replace("\n", "<br />"))
+            return Html.fromHtml(str.replace("\n", "<br />").replace("\t", "    "))
         }
     }
 }

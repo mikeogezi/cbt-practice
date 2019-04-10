@@ -476,21 +476,13 @@
             ],
             "correctOption": "536870912"
         },
-	{
-            "question": "1 Terabyte is 1 trillion bytes",
-            "options": [
-                "True",
-                "False"
-            ],
-            "correctOption": "True"
-        },
         {
             "question": "1 Terabyte is 1 billion bytes",
             "options": [
                 "True",
                 "False"
             ],
-            "correctOption": "False"
+            "correctOption": "True"
         },
         {
             "question": "1 Bytes is _______ bits",
@@ -1239,7 +1231,7 @@
             "correctOption": "iPad"
         },
         {
-            "question": "Evaluate the following program block in Python 2?\n\n1<3&3==7/2",
+            "question": "Evaluate the following program block?\n\n1<3&3==7/2",
             "options": [
                 "False",
                 "True",
@@ -1247,16 +1239,6 @@
                 "9"
             ],
             "correctOption": "True"
-        },
-        {
-            "question": "Evaluate the following program block in Python 3?\n\n1<3&3==7/2",
-            "options": [
-                "False",
-                "True",
-                "9=3",
-                "9"
-            ],
-            "correctOption": "False"
         },
         {
             "question": "Which of the following is not a field in computer science",
@@ -1369,7 +1351,7 @@
             "correctOption": "True"
         },
         {
-            "question": "Convert _____________₈ to 313",
+            "question": "Convert 313 to base 8",
             "options": [
                 "200",
                 "201",
@@ -1379,7 +1361,7 @@
             "correctOption": "203"
         },
         {
-            "question": "Convert 430 from octal to hexadecimal",
+            "question": "Convert 430 from octal to base hexadecimal",
             "options": [
                 "118",
                 "117",
@@ -1802,7 +1784,7 @@
             "correctOption": "index"
         },
         {
-            "question": "What is the value of 'B' in the following program?\n\nA = [1,2,3,4,5,6,7]\nB = A[2]**A[6]",
+            "question": "What is the value of 'B' in the following program?\nA = [1,2,3,4,5,6,7]\n B = A[2]**A[6]",
             "options": [
                 "20",
                 "218",
@@ -2715,10 +2697,10 @@
             "options": [
                 "Miles",
                 "Root_of_2",
-                "Root-of-­2.0",
+                "Root­of­2",
                 "Erase"
             ],
-            "correctOption": "Root-of-­2.0"
+            "correctOption": "Root­of­2"
         },
         {
             "question": "Which of the following is an invalid identifier?",

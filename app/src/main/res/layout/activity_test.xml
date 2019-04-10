@@ -130,8 +130,8 @@
                         <mehdi.sakout.fancybuttons.FancyButton
                             android:visibility="visible"
                             android:id="@+id/show_passage_btn"
-                            android:text="Show Passage"
-                            fancy:fb_text="Show Passage"
+                            android:text="Show Passage/Instruction"
+                            fancy:fb_text="Show Passage/Instruction"
                             android:textAllCaps="true"
                             android:textSize="16sp"
                             fancy:fb_borderWidth="1.2dp"

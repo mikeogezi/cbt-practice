@@ -1,56 +1,641 @@
 {
-  "time": 30,
-  "maxQuestions": 50,
-  "questions": [
-    {
-      "question": "One of the following is the MOST ploughed source of funds for women entrepreneurs",
-      "options": [
-        "personal assets and savings",
-        "personal loans",
-        "bank financing",
-        "loans from friends/business associations"
-      ],
-      "correctOption": "personal assets and savings"
-    },
-    {
-      "question": "The LEAST favoured “business” started by women entrepreneurs are;",
-      "options": [
-        "service related",
-        "manufacturing and  construction",
-        "oil and gas",
-        "high-tech"
-      ],
-      "correctOption": "manufacturing and  construction"
-    },
-    {
-      "question": "Where is the commercial capital of Nigeria?",
-      "options": [
-        "Ibadan",
-        "Aba",
-        "Kano",
-        "Lagos"
-      ],
-      "correctOption": "Lagos"
-    },
-    {
-      "question": "Women more likely than men tend to  _____________ ",
-      "options": [
-        "have administrative experience",
-        "have experience in the field of their ventures",
-        "have middle level management experience",
-        "have higher level management experience"
-      ],
-      "correctOption": "have administrative experience"
-    },
-    {
-      "question": "One of the not so obvious obstacles women entrepreneurs face include:",
-      "options": [
-        "financial obstacles",
-        "economic obstacles",
-        "soft obstacles",
-        "emotional obstacles"
-      ],
-      "correctOption": "soft obstacles"
-    }
-  ]
+    "time": 30,
+    "maxQuestions": 50,
+    "questions": [
+        {
+            "_id": "1TspnAugdkMkJu1m3vQC",
+            "correctOption": "Military technology",
+            "options": [
+                "Military technology",
+                "Sociology",
+                "Drama",
+                "Political Science"
+            ],
+            "passage": "",
+            "question": "Peace and Conflict Resolution Studies is not a course in the domain of"
+        },
+        {
+            "_id": "7F7lkk4ihgpVXLDGXbzf",
+            "correctOption": "Ceasefire",
+            "options": [
+                "Ceasefire",
+                "Peacekeeping",
+                "Peacemaking",
+                "Peacebuilding"
+            ],
+            "passage": "",
+            "question": "When conflicting parties agree to cease hostilities, it is called?"
+        },
+        {
+            "_id": "936PWNX722KomN1L7bH8",
+            "correctOption": "Conflict management",
+            "options": [
+                "Conflict management",
+                "Conflict resolution",
+                "Peacekeeping",
+                "Peace"
+            ],
+            "passage": "",
+            "question": "_______________ involves implementing strategies to limit the negative aspects of conflicts"
+        },
+        {
+            "_id": "AK43PzUbegHooDrM2H59",
+            "correctOption": "Man and God",
+            "options": [
+                "Man and God",
+                "Tambolo and Pako",
+                "Professor and the government",
+                "James Esua and Tony"
+            ],
+            "passage": "",
+            "question": "In the play Co-Tenants, the initial conflict established was between"
+        },
+        {
+            "_id": "AXweMuy7rF4WdKrzmCb1",
+            "correctOption": "Greed and quest for power",
+            "options": [
+                "Greed and quest for power",
+                "Religious intolerance",
+                "Ethnicity",
+                "Boundary clashes"
+            ],
+            "passage": "",
+            "question": "Which of the following rates highest as a cause of violent conflicts in Africa?"
+        },
+        {
+            "_id": "DONBkXF1UOZwypXOL4X1",
+            "correctOption": "liquidation",
+            "options": [
+                "liquidation",
+                "litigation",
+                "mediation",
+                "arbitration"
+            ],
+            "passage": "",
+            "question": "In dispute resolution, _______________ is not a regular methodology"
+        },
+        {
+            "_id": "EeEScLpxpdpnVhJf6JPH",
+            "correctOption": "7",
+            "options": [
+                "7",
+                "5",
+                "4",
+                "6"
+            ],
+            "passage": "",
+            "question": "In the play Women of Owu, the Allied Forces laid siege on the kingdom of Owu for how many years?"
+        },
+        {
+            "_id": "FD5bH0Sfhrvzq9bVeZhz",
+            "correctOption": "Satire",
+            "options": [
+                "Satire",
+                "Comedy",
+                "Tragedy",
+                "Melodrama"
+            ],
+            "passage": "",
+            "question": "Co-Tenant is a type of play known as"
+        },
+        {
+            "_id": "FxdgtBakJCruDgo86Jjo",
+            "correctOption": "Revolution",
+            "options": [
+                "Revolution",
+                "Massacre",
+                "Military coup",
+                "Genocide"
+            ],
+            "passage": "",
+            "question": "The political situation which ousted President Hosni Mubarak in Egypt was a"
+        },
+        {
+            "_id": "H5o1AOaesL3rj8hF2TcY",
+            "correctOption": "High level of human intelligence",
+            "options": [
+                "High level of human intelligence",
+                "System of governance",
+                "Competitive nature of human beings",
+                "Complex nature of human interactions"
+            ],
+            "passage": "",
+            "question": "Which of these is not a reason why conflict is inevitable in human society?"
+        },
+        {
+            "_id": "H8QRvjbB0arqRiJSzmze",
+            "correctOption": "Family",
+            "options": [
+                "Family",
+                "Clan",
+                "Community",
+                "Chiefdom"
+            ],
+            "passage": "",
+            "question": "What is the first point of dispute settlement between kinsmen in a land dispute in Africa?"
+        },
+        {
+            "_id": "HSRlSKNuuVmRtCM5VXrf",
+            "correctOption": "Food scarcity",
+            "options": [
+                "Food scarcity",
+                "High unemployment",
+                "High mortality rate",
+                "High rate of crime"
+            ],
+            "passage": "",
+            "question": "When women and children are affected in violent conflicts, it can lead to a High unemployment"
+        },
+        {
+            "_id": "IEnUKQGxBLlfsXEctMEK",
+            "correctOption": "World peace",
+            "options": [
+                "World peace",
+                "International trade",
+                "World unity and cooperation",
+                "Need to control powerful nations"
+            ],
+            "passage": "",
+            "question": "The main aim of establishing the United Nations is?"
+        },
+        {
+            "_id": "INNa4wJ3sOwZLoRbCsKq",
+            "correctOption": "Marginalization",
+            "options": [
+                "Marginalization",
+                "Governance",
+                "Inflation",
+                "Exploitation"
+            ],
+            "passage": "",
+            "question": "One socio – political and economic factor which can lead to violent conflicts in a society is"
+        },
+        {
+            "_id": "IcMTe7fJSMGxgzEnTWA5",
+            "correctOption": "Boundary conflict",
+            "options": [
+                "Boundary conflict",
+                "Communal conflict",
+                "Oil conflict",
+                "Ideological conflict"
+            ],
+            "passage": "",
+            "question": "The conflict between Nigeria and Cameroun over the Bakassi Peninsula can be called"
+        },
+        {
+            "_id": "ImhRDFswqCzrmbfMemI5",
+            "correctOption": "Conflict",
+            "options": [
+                "Conflict",
+                "Will",
+                "War",
+                "Peace"
+            ],
+            "passage": "",
+            "question": "_______________ is regarded as the main business of drama?"
+        },
+        {
+            "_id": "IpC3xBaKmbZvL7OtY5IN",
+            "correctOption": "Resource control",
+            "options": [
+                "Resource control",
+                "Religion",
+                "Regionalism",
+                "Ideological differences."
+            ],
+            "passage": "",
+            "question": "Which of these causes of violent conflicts is entirely a Nigerian problem?"
+        },
+        {
+            "_id": "JBMRTIwosRXp420NvwsU",
+            "correctOption": "imprisonment",
+            "options": [
+                "imprisonment",
+                "nuclear physics",
+                "alcohol and cigarette",
+                "abandonment"
+            ],
+            "passage": "",
+            "question": "In the play Co-Tenants, Prof’s brain fag which puts him in conflict with the society was as a result of"
+        },
+        {
+            "_id": "Jn81MAhwAveTLhcBpWVe",
+            "correctOption": "Lagos",
+            "options": [
+                "Ibadan",
+                "Aba",
+                "Kano",
+                "Lagos"
+            ],
+            "question": "Where is the commercial capital of Nigeria?"
+        },
+        {
+            "_id": "JtcGzLmOiAmzkrrnyZgH",
+            "correctOption": "Third parties",
+            "options": [
+                "Third parties",
+                "a Catalysts",
+                "Litigants",
+                "Arbitrators."
+            ],
+            "passage": "",
+            "question": "Mediators in conflict resolution are regarded as"
+        },
+        {
+            "_id": "NnNkh3VPJcb3MMKXLKQj",
+            "correctOption": "“Rubbish in rubbish out”",
+            "options": [
+                "“Rubbish in rubbish out”",
+                "The Americans and Russians are enemies",
+                "Brutality does not pay",
+                "The more you steal the less you are punished"
+            ],
+            "passage": "",
+            "question": "An alternative theme for the play, Co-tenants is"
+        },
+        {
+            "_id": "P69dnnxhxf321jqny3x2",
+            "correctOption": "Peacemaking",
+            "options": [
+                "Peacemaking",
+                "Peacekeeping",
+                "Peacebuilding",
+                "Conflict resolution"
+            ],
+            "passage": "",
+            "question": "The process of normalizing relations and reconciling differences of warring parties, is?"
+        },
+        {
+            "_id": "PAstnyDK8b4rIYSQPwLt",
+            "correctOption": "human beings are catalysts to peace and war",
+            "options": [
+                "human beings are catalysts to peace and war",
+                "human beings like wars",
+                "human beings create wars",
+                "human beings are disposed to wars"
+            ],
+            "passage": "",
+            "question": "“_______________ The lesson is clear. It’s us, not the gods, Who create wars. It’s us, we human beings, who can kill it.” This quotation in the play Women of Owu, suggest that?"
+        },
+        {
+            "_id": "PxaXfaEcw6DydpK5jslJ",
+            "correctOption": "Women",
+            "options": [
+                "Women",
+                "Youths",
+                "Elders",
+                "Chiefs"
+            ],
+            "passage": "",
+            "question": "In African socio-political system, which of the following is also very active in settling conflicts?"
+        },
+        {
+            "_id": "RWnzeTVFLV9NOOAjTLHk",
+            "correctOption": "anguish",
+            "options": [
+                "anguish",
+                "oppression",
+                "defeat",
+                "hope"
+            ],
+            "passage": "",
+            "question": "“I ask you – without a shrine, without worshippers, What is a god? Who now will venerate us? Who sing our praises among these ruins.” In the play, Women of Owu, the quotation is a cry of"
+        },
+        {
+            "_id": "Ra7eYpifdskKDK0SJgcM",
+            "correctOption": "Speech",
+            "options": [
+                "Speech",
+                "Setting",
+                "Conflict",
+                "Resolution"
+            ],
+            "passage": "",
+            "question": "In Peace and Conflict Resolution Studies, the major tool of communication in drama is Action and"
+        },
+        {
+            "_id": "RoTYMWK7v4GcToAT3ypE",
+            "correctOption": "Drama",
+            "options": [
+                "Drama",
+                "Violence",
+                "Mediation",
+                "Conflict"
+            ],
+            "passage": "",
+            "question": "_______________ is the dynamic embodiment of events in a problematic human situation."
+        },
+        {
+            "_id": "S4TN0qHhAmTe6yjIoRm0",
+            "correctOption": "Refraction",
+            "options": [
+                "Refraction",
+                "Negotiation",
+                "Resolution",
+                "Mediation"
+            ],
+            "passage": "",
+            "question": "When drama is used to diagnose the nature of conflicts, it is known as?"
+        },
+        {
+            "_id": "ShqwHP5YFNE4ZvkwF2te",
+            "correctOption": "Peacekeeping",
+            "options": [
+                "Peacekeeping",
+                "Conflicting resolution",
+                "Peacemaking",
+                "Rescue Mission"
+            ],
+            "passage": "",
+            "question": "The United Nations’ current mission to Sudan is?"
+        },
+        {
+            "_id": "SmtupIx7hqKUbyeflSFz",
+            "correctOption": "James and Tony",
+            "options": [
+                "James and Tony",
+                "Tambolo and Pako",
+                "Prof and the Police",
+                "James and Agnes."
+            ],
+            "passage": "",
+            "question": "In the play Co-Tenants, the conflict of co-tenancy occurred between"
+        },
+        {
+            "_id": "VWumPwbtV77So1x246aN",
+            "correctOption": "Refugees",
+            "options": [
+                "Refugees",
+                "Armed conflicts",
+                "Border Clashes",
+                "Migrations"
+            ],
+            "passage": "",
+            "question": "A social problem which has occurred with the high level of insecurity in Nigeria today, is"
+        },
+        {
+            "_id": "VjmguY0IJRnpzvNPHHPt",
+            "correctOption": "Opposition of needs, values and interest",
+            "options": [
+                "Opposition of needs, values and interest",
+                "Freedom from disputes",
+                "Ceased hostilities",
+                "Mental calm"
+            ],
+            "passage": "",
+            "question": "Which of the following does not indicate peace?Which of the following does not indicate peace?"
+        },
+        {
+            "_id": "WYZFtcPT2cVrcXP7FkFO",
+            "correctOption": "Academia",
+            "options": [
+                "Academia",
+                "Governance",
+                "Religion",
+                "Military"
+            ],
+            "passage": "",
+            "question": "In the play, which of the following did not receive any criticism from Prof?"
+        },
+        {
+            "_id": "XciBmJfEoxwrO4PaPZi0",
+            "correctOption": "Ethno-religious intolerance.",
+            "options": [
+                "Ethno-religious intolerance.",
+                "Greed and quest for political power",
+                "Ideological differences",
+                "Resource control"
+            ],
+            "passage": "",
+            "question": "Which of the following causes of conflicts rates 15% in 3rd World Countries?"
+        },
+        {
+            "_id": "ZONoxbB4YGuooz14vPlf",
+            "correctOption": "Communal conflict",
+            "options": [
+                "Communal conflict",
+                "Land conflict",
+                "Boundary conflict",
+                "Tribal conflict"
+            ],
+            "passage": "",
+            "question": "The conflict between the Tivs and Jukuns of Nigeria can be called"
+        },
+        {
+            "_id": "bBaoJbmIPKR6Oj39hlzZ",
+            "correctOption": "Conflict",
+            "options": [
+                "Conflict",
+                "Peace",
+                "Armed struggle",
+                "War"
+            ],
+            "passage": "",
+            "question": "A situation in which opposing viewpoints come into physical confrontation, is called"
+        },
+        {
+            "_id": "dR6bHVunKytGrm7gN7FG",
+            "correctOption": "Iyunloye",
+            "options": [
+                "Iyunloye",
+                "Lawumi",
+                "Orisaye",
+                "Adumaadan"
+            ],
+            "passage": "",
+            "question": "In the play Women of Owu, Okunade, the Mayè became a soldier in order to fight the Owu because of his wife named _______________ , who was captured by Owu soldiers"
+        },
+        {
+            "_id": "equaiYFqZasb4DvvRen6",
+            "correctOption": "Cold War by Proxy",
+            "options": [
+                "Cold War by Proxy",
+                "The United States",
+                "Greed",
+                "Russia"
+            ],
+            "passage": "",
+            "question": "Violent conflicts in Africa are often heavily fueled by"
+        },
+        {
+            "_id": "fmt7Qvpnf66e4zPgZCxw",
+            "correctOption": "Conflict",
+            "options": [
+                "Conflict",
+                "Will",
+                "War",
+                "Peace"
+            ],
+            "passage": "",
+            "question": "_______________ is regarded as the main business of drama?"
+        },
+        {
+            "_id": "iJArnJ4rcfZwE7hiLrpj",
+            "correctOption": "mediator",
+            "options": [
+                "mediator",
+                "disputant",
+                "court",
+                "government"
+            ],
+            "passage": "",
+            "question": "The role of a _______________ is not judgmental in a conflict situation."
+        },
+        {
+            "_id": "k9Dp58xclE9oBn3fArFh",
+            "correctOption": "learning",
+            "options": [
+                "learning",
+                "outcomes",
+                "dependency",
+                "resistance"
+            ],
+            "passage": "",
+            "question": "The main aim of conflict management is to enhance"
+        },
+        {
+            "_id": "mHswsnvQEGefu4LbdNvV",
+            "correctOption": "Religion",
+            "options": [
+                "Religion",
+                "Ethnicity",
+                "Gender",
+                "Imposition of candidates"
+            ],
+            "passage": "",
+            "question": "Which of the following is a major issue of political distrust in Nigeria today?"
+        },
+        {
+            "_id": "mOXrst1tKETrMB7a4u3x",
+            "correctOption": "Destruction of weapons",
+            "options": [
+                "Destruction of weapons",
+                "Negotiation",
+                "Diplomacy",
+                "Peacebuilding"
+            ],
+            "passage": "",
+            "question": "Which of the following is not involved in conflict resolution"
+        },
+        {
+            "_id": "miCJeLJH56nYe1mItIni",
+            "correctOption": "Internally Displaced Persons",
+            "options": [
+                "Internally Displaced Persons",
+                "Independent Democratic Policy",
+                "Internally Diagnosed Persons",
+                "Information, Democracy and Peoples."
+            ],
+            "passage": "",
+            "question": "What is the full meaning of the acronym IDP as regards the current insecurity in Nigeria"
+        },
+        {
+            "_id": "nlPWdomn81n0BUFUmhzG",
+            "correctOption": "Lagos",
+            "options": [
+                "Lagos",
+                "Abuja",
+                "Ibadan",
+                "Benin city"
+            ],
+            "passage": "",
+            "question": "The setting of the conflict in the play Co-Tenants is?"
+        },
+        {
+            "_id": "oOF3UAAgf34xHT8gXMAR",
+            "correctOption": "Corruption",
+            "options": [
+                "Corruption",
+                "Military Rule",
+                "Advanced Fee Fraud (419)",
+                "Police brutality"
+            ],
+            "passage": "",
+            "question": "In the play Co-Tenants, Prof’s main criticism of Nigeria is on"
+        },
+        {
+            "_id": "pBiJlj0fg6Uv6nYmWjup",
+            "correctOption": "Identity Politics",
+            "options": [
+                "Identity Politics",
+                "Partisanship",
+                "Discrimination",
+                "Ethnicity"
+            ],
+            "passage": "",
+            "question": "The practice of expressing support, sympathy, acceptance and preference for somebody or issue, based on primordial considerations, is called?"
+        },
+        {
+            "_id": "rVT1CpwYjynTEt5xj6iu",
+            "correctOption": "They engage in menial jobs",
+            "options": [
+                "They engage in menial jobs",
+                "They suffer rape",
+                "They are physically abused",
+                "They suffer from unwanted pregnancies"
+            ],
+            "passage": "",
+            "question": "Which of these is not a negative effect of violent conflicts on women?"
+        },
+        {
+            "_id": "s3fr2qYoRtllVYNi3RO0",
+            "correctOption": "learning",
+            "options": [
+                "learning",
+                "outcomes",
+                "dependency",
+                "resistance"
+            ],
+            "passage": "",
+            "question": "The main aim of conflict management is to enhance"
+        },
+        {
+            "_id": "s9QrH5QtOe9RWIkYHZOH",
+            "correctOption": "Reflection",
+            "options": [
+                "Reflection",
+                "Refraction",
+                "Mediation",
+                "Reconciliation"
+            ],
+            "passage": "",
+            "question": "When drama presents a mirror image of events in the society, it is known as?"
+        },
+        {
+            "_id": "w8NBnhD4uuwuJru69LaB",
+            "correctOption": "oppression",
+            "options": [
+                "oppression",
+                "terrorism",
+                "dictatorship",
+                "anguish"
+            ],
+            "passage": "",
+            "question": "“Nowadays, When the strong fight the weak, it’s called A Liberation War To free the weak from oppression. Nowadays, in the new world order, it is suicide to be weak.” This quotation from the play, Women of Owu, is a reflection of _______________ in the world today."
+        },
+        {
+            "_id": "y1Dd5H9wXeX3tYUsCMji",
+            "correctOption": "Rituals",
+            "options": [
+                "Rituals",
+                "Title tussles",
+                "Land ownership",
+                "Inheritance"
+            ],
+            "passage": "",
+            "question": "Which of these is not a major source of conflicts in traditional African societies?"
+        },
+        {
+            "_id": "zcHB7VxgOqz3BOXx4UZ3",
+            "correctOption": "Kings-in-Council",
+            "options": [
+                "Kings-in-Council",
+                "Priests of deities",
+                "Elders",
+                "Community heads"
+            ],
+            "passage": "",
+            "question": "In African traditional system, which of these serves as the “Supreme Court”?"
+        }
+    ]
 }
