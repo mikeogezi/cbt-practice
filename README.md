@@ -1,8 +1,8 @@
 ![](./assets/cbt-practice-logo.jpg)
 
 # CBT Practice
-CBT Practice helps undergraduate students of the University of Jos practice for their computer-based examinations. This repository houses the android app. Asscoiated repositories are as follows:
-* The repository housing the web application can be found [here](https://github.com/okibeogezi/cbt-practice-web).
+CBT Practice helps undergraduate students of the University of Jos practice for their computer-based examinations. This repository houses the *Android* app. Asscoiated repositories are as follows:
+* The [CBT Practice Webapp] [here](https://github.com/okibeogezi/cbt-practice-web).
 * The [CBT Practice Question Submitter](https://github.com/okibeogezi/cbt-practice-question-submitter)
 
 ## Get it here
