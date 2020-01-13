@@ -234,20 +234,6 @@ public class TestActivity extends MyBackToolbarActivity implements
 //        AsyncTask.execute(setupQuestionsTask);
         // In the mean time
         setupQuestionsTask.run();
-
-        // Removing Ads
-        // Banner
-//        adLayout = findViewById(R.id.ad_layout);
-//        adInfo = findViewById(R.id.ad_info);
-//        MobileAds.initialize(TestActivity.this, getString(R.string.app_admob_id));
-//        adView = findViewById(R.id.ad_view);
-//        UI.loadFooterBannerAd(TestActivity.this, adLayout, adView, adInfo);
-//        // Interstitial
-//        AdRequest adRequest = UI.getAdRequest(TestActivity.this);
-//        interstitialAd = new InterstitialAd(TestActivity.this);
-//        interstitialAd.setAdUnitId(getString(R.string.test_activity_interstitial));
-//        interstitialAd.setAdListener(interstitialAdListener);
-//        interstitialAd.loadAd(adRequest);
     }
 
 

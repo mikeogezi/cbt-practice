@@ -152,54 +152,6 @@ public class ReportActivity extends MyBackToolbarActivity {
 
         correctionBtn = findViewById(R.id.correction);
         correctionBtn.setOnClickListener(onCorrectionClick);
-
-        // Removing Ads
-//        adLayout = findViewById(R.id.ad_layout);
-//        adInfo = findViewById(R.id.ad_info);
-//        MobileAds.initialize(ReportActivity.this, getString(R.string.app_admob_id));
-//        // Banner
-//        adView = findViewById(R.id.ad_view);
-//        UI.loadFooterBannerAd(ReportActivity.this, adLayout, adView, adInfo, false);
-//
-//        AdRequest adRequest = UI.getAdRequest(ReportActivity.this);
-//        // Interstitial
-//        interstitialAd = new InterstitialAd(ReportActivity.this);
-//        interstitialAd.setAdUnitId(getString(R.string.report_activity_interstitial));
-//        interstitialAd.setAdListener(interstitialAdListener);
-//        interstitialAd.loadAd(adRequest);
-
-        // Rewarded Video
-//        rewardedVideoAd = MobileAds.getRewardedVideoAdInstance(ReportActivity.this);
-//        rewardedVideoAd.setRewardedVideoAdListener(rewardedVideoListener);
-//        rewardedVideoAd.loadAd(getString(R.string.rewarded_video_ad_unit_id), adRequest);
-//        rewardedVideoAd.show();
-//        rewardedVideoAd.isLoaded();
-
-        // Native Ad
-//        nativeAdLoader = new AdLoader.Builder(ReportActivity.this, getString(R.string.native_ad_unit_id))
-//                .forAppInstallAd(new NativeAppInstallAd.OnAppInstallAdLoadedListener() {
-//                    @Override
-//                    public void onAppInstallAdLoaded(NativeAppInstallAd nativeAppInstallAd) {}
-//                })
-//                .forContentAd(new NativeContentAd.OnContentAdLoadedListener() {
-//                    @Override
-//                    public void onContentAdLoaded(NativeContentAd nativeContentAd) {}
-//                })
-//                .forCustomTemplateAd(getString(R.string.custom_template_id), new NativeCustomTemplateAd.OnCustomTemplateAdLoadedListener() {
-//                    @Override
-//                    public void onCustomTemplateAdLoaded(NativeCustomTemplateAd nativeCustomTemplateAd) {}
-//                }, new NativeCustomTemplateAd.OnCustomClickListener() {
-//                    @Override
-//                    public void onCustomClick(NativeCustomTemplateAd nativeCustomTemplateAd, String s) {}
-//                })
-//                .forPublisherAdView(new OnPublisherAdViewLoadedListener() {
-//                    @Override
-//                    public void onPublisherAdViewLoaded(PublisherAdView publisherAdView) {}
-//                }, AdSize.BANNER)
-//                .withAdListener(nativeAdListener)
-//                .withNativeAdOptions(new NativeAdOptions.Builder().build())
-//                .build();
-//        nativeAdLoader.loadAd(adRequest);
     }
 
     View.OnClickListener onSeeDeptsClick = new View.OnClickListener() {

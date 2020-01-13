@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UJCBT.iml" filepath="$PROJECT_DIR$/UJCBT.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cbt-practice.iml" filepath="$PROJECT_DIR$/cbt-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/cbt-practice-app.iml" filepath="$PROJECT_DIR$/app/cbt-practice-app.iml" />
     </modules>
   </component>
 </project>

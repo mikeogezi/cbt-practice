@@ -10,3 +10,5 @@
 data.txt
 /release
 /app/release
+/app/src/google-services.json
+/app/src/main/res/values/private_strings.xml
