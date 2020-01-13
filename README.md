@@ -20,4 +20,6 @@ Users are able to access the app's content for a fee of ₦200. This fee could e
 ![](./assets/sample-paper-pin.png)
 
 ## User Support
-Phone numbers of support personnel were provided within the app, but the most common way for users to receive support was the CBT Practice WhatsApp group.
+Phone numbers of support personnel were provided within the app, but the most common way for users to receive support was the [CBT Practice WhatsApp group](https://chat.whatsapp.com/I9aDaWoaxydJJxcu9f7sQv).
+
+## Screenshots
