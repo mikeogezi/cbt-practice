@@ -12,4 +12,12 @@ While studying computer science at the University of Jos, I observed that althou
 * Students typically made these photocopies about a week to the day of the exam and discarded them afterwards. This leads to [pollution](https://en.wikipedia.org/wiki/Environmental_impact_of_paper).
 
 ## My Solution
-My solution was an app that 
+My solution, CBT Practice, allows students of the University to practice on their android mobile devices. The students had access to instand feedback on their performance as well as corrections after taking the practice exam.
+
+## User Access
+Users are able to access the app's content for a fee of ₦200. This fee could either be paid online on the app itself or used to buy a paper PIN which looks like this.
+
+![](./assets/sample-paper-pin.png)
+
+## User Support
+Phone numbers of support personnel were provided within the app, but the most common way for users to receive support was the CBT Practice WhatsApp group.
