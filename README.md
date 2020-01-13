@@ -1,7 +1,7 @@
 ![](./assets/cbt-practice-logo.jpg)
 
 # CBT Practice
-CBT Practice helps undergraduate students of the University of Jos practice for their computer-based examinations
+CBT Practice helps undergraduate students of the University of Jos practice for their computer-based examinations. This repository houses the android app. The repository of the web application can be found [here](https://github.com/okibeogezi/cbt-practice-web).
 
 ## Get it here
 [![](./assets/google-play.svg)](https://play.google.com/store/apps/details?id=com.makerloom.ujcbt&hl=en_US)
