@@ -1,2 +1,0 @@
-app_id 625885281085068
-app_secret 3946bc4f0bbba2e68e354b8ccee3ed62
