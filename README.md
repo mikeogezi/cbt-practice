@@ -5,6 +5,13 @@ CBT Practice helps undergraduate students of the University of Jos practice for 
 * The [CBT Practice Webapp](https://github.com/okibeogezi/cbt-practice-web)
 * The [CBT Practice Question Submitter](https://github.com/okibeogezi/cbt-practice-question-submitter)
 
+## Important note
+To build and run the app yourself, please do the following:
+* Create a Firebase project, initialize cloud messaging, firestore, auth, and cloud storage then download a `google-services.json` file
+* Set `facebook_application_id` in your strings.xml
+* Set `fb_login_protocol_scheme` in your strings.xml
+* Set `app_admob_id` in your strings.xml
+
 ## Get it here
 [![](./assets/google-play.svg)](https://play.google.com/store/apps/details?id=com.makerloom.ujcbt&hl=en_US)
 
@@ -23,12 +30,5 @@ Users are able to access the app's content for a fee of ₦200. This fee could e
 
 ## User Support
 Phone numbers of support personnel were provided within the app, but the most common way for users to receive support was the [CBT Practice WhatsApp group](https://chat.whatsapp.com/I9aDaWoaxydJJxcu9f7sQv).
-
-## Important note
-In order to test the app you must do the following:
-* Create a Firebase project, initialize cloud messaging, firestore, auth, and cloud storage then download a `google-services.json` file
-* Set `facebook_application_id` in your strings.xml
-* Set `fb_login_protocol_scheme` in your strings.xml
-* Set `app_admob_id` in your strings.xml
 
 ## Screenshots
