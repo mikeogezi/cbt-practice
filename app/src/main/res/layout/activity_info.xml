@@ -127,6 +127,66 @@
 
             </androidx.cardview.widget.CardView>
 
+            <androidx.cardview.widget.CardView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="2dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:orientation="vertical">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/person_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:text="Shekinah Gonzwak"
+                        android:fontFamily="sans-serif-thin"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <include layout="@layout/horizontal_line_light" />
+
+                    <mehdi.sakout.fancybuttons.FancyButton
+                        android:id="@+id/call_person_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="15dp"
+                        android:text="Call Shekinah"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        fancy:fb_borderColor="@color/md_blue_600"
+                        fancy:fb_borderWidth="2dp"
+                        fancy:fb_defaultColor="@color/md_blue_600"
+                        fancy:fb_disabledBorderColor="@color/gray_light"
+                        fancy:fb_disabledColor="@color/gray_light"
+                        fancy:fb_disabledTextColor="@color/gray_dark"
+                        fancy:fb_focusColor="@color/white"
+                        fancy:fb_fontIconResource="&#xf095;"
+                        fancy:fb_fontIconSize="20sp"
+                        fancy:fb_iconPaddingRight="12dp"
+                        fancy:fb_iconPosition="left"
+                        fancy:fb_radius="2dp"
+                        fancy:fb_text="Call Shekinah"
+                        fancy:fb_textColor="@color/white" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -180,65 +240,6 @@
                         fancy:fb_iconPosition="left"
                         fancy:fb_radius="2dp"
                         fancy:fb_text="Call Biodun"
-                        fancy:fb_textColor="@color/white" />
-
-                </LinearLayout>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:clickable="true"
-                android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="2dp"
-                app:cardElevation="5dp"
-                app:cardUseCompatPadding="true">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:orientation="vertical">
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@+id/person_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:text="Michael Okolawon"
-                        android:fontFamily="sans-serif-thin"
-                        android:textSize="18sp"
-                        android:textStyle="bold" />
-
-                    <include layout="@layout/horizontal_line_light" />
-
-                    <mehdi.sakout.fancybuttons.FancyButton
-                        android:id="@+id/call_person_3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:paddingBottom="15dp"
-                        android:paddingLeft="10dp"
-                        android:paddingRight="15dp"
-                        android:paddingTop="15dp"
-                        android:text="Call Michael"
-                        android:textAllCaps="false"
-                        android:textSize="16sp"
-                        android:textStyle="normal"
-                        fancy:fb_borderColor="@color/md_blue_600"
-                        fancy:fb_borderWidth="2dp"
-                        fancy:fb_defaultColor="@color/md_blue_600"
-                        fancy:fb_disabledBorderColor="@color/gray_light"
-                        fancy:fb_disabledColor="@color/gray_light"
-                        fancy:fb_disabledTextColor="@color/gray_dark"
-                        fancy:fb_focusColor="@color/white"
-                        fancy:fb_fontIconResource="&#xf095;"
-                        fancy:fb_fontIconSize="20sp"
-                        fancy:fb_iconPaddingRight="12dp"
-                        fancy:fb_iconPosition="left"
-                        fancy:fb_radius="2dp"
-                        fancy:fb_text="Call Michael"
                         fancy:fb_textColor="@color/white" />
 
                 </LinearLayout>

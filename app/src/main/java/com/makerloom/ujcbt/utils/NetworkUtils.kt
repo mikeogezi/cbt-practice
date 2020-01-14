@@ -1,6 +1,6 @@
 package com.makerloom.ujcbt.utils
 
-import android.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 
 class NetworkUtils {

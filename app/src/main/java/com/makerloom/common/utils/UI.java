@@ -10,7 +10,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.SystemClock;
-import androidx.annotation.NonNull;
+
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.appcompat.app.ActionBar;
@@ -78,6 +78,135 @@ public abstract class UI {
             return POTRAIT_SPAN_COUNT;
         }
     }
+
+//    public static AdRequest getAdRequest (Context context) {
+//        Bundle extras = new Bundle();
+//        extras.putString("max_ad_content_rating", "MA"); // G | PG | T | MA
+//
+//        Location jos = new Location("Jos");
+//            jos.setLatitude(9.89);
+//            jos.setLongitude(8.85);
+//
+//        AdRequest.Builder builder = new AdRequest.Builder()
+//                .setLocation(jos)
+//                .setBirthday(new GregorianCalendar(1995, 1, 1).getTime())
+//                .setGender(AdRequest.GENDER_UNKNOWN)
+//                .setIsDesignedForFamilies(false)
+//                .tagForChildDirectedTreatment(false)
+//                .addNetworkExtrasBundle(AdMobAdapter.class, extras)
+//                .addKeyword("University")
+//                .addKeyword("Ecommerce")
+//                .addKeyword("Sports");
+//
+//        AdRequest request;
+//        request = builder.build();
+//
+//        return request;
+//    }
+//
+//    public static void loadFooterBannerAd (final Context context, final @Nullable View adLayout,
+//                                           final @NonNull AdView adView, @Nullable final TextView adInfo) {
+//        loadFooterBannerAd(context, adLayout, adView, adInfo, false);
+//    }
+//
+//    public static void loadFooterBannerAd (final Context context, final @Nullable View adLayout,
+//                                           final @NonNull AdView adView, @Nullable final TextView adInfo, final boolean showLoading) {
+//        if (null != adInfo) {
+//            adInfo.setVisibility(View.VISIBLE);
+//            adInfo.setText("Advert loading ...");
+//        }
+//
+//        final LinearLayout reportLayout = ((MyAppCompatActivity) context).findViewById(R.id.report_layout);
+//        if (null != reportLayout) {
+//            removeAdPaddingBottom(reportLayout);
+//        }
+//
+//        MobileAds.initialize(context, context.getString(R.string.app_admob_id));
+//
+//        final AdRequest adRequest = getAdRequest(context);
+//        final AdListener bannerAdListener = new AdListener() {
+//            @Override
+//            public void onAdClicked() {
+//                super.onAdClicked();
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad clicked", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            @Override
+//            public void onAdClosed() {
+//                super.onAdClosed();
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad closed", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            @Override
+//            public void onAdFailedToLoad(int i) {
+//                super.onAdFailedToLoad(i);
+//                if (null != adInfo) {
+//                    adInfo.setText("Ad failed to load");
+//                }
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad failed to load", Toast.LENGTH_SHORT).show();
+//                }
+//                if (null != adLayout) {
+//                    adLayout.setVisibility(View.GONE);
+//                }
+//                if (null != reportLayout) {
+//                    removeAdPaddingBottom(reportLayout);
+//                }
+//            }
+//
+//            @Override
+//            public void onAdImpression() {
+//                super.onAdImpression();
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad impression", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            @Override
+//            public void onAdLeftApplication() {
+//                super.onAdLeftApplication();
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad left application", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//
+//            @Override
+//            public void onAdLoaded() {
+//                super.onAdLoaded();
+//                adView.setVisibility(View.VISIBLE);
+//                if (null != adLayout) {
+//                    adLayout.setVisibility(View.VISIBLE);
+//                }
+//                if (null != adInfo) {
+//                    adInfo.setVisibility(View.INVISIBLE);
+//                }
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad loaded", Toast.LENGTH_SHORT).show();
+//                }
+//                if (null != reportLayout) {
+//                    applyAdPaddingBottom(reportLayout);
+//                }
+//            }
+//
+//            @Override
+//            public void onAdOpened() {
+//                super.onAdOpened();
+//                if (Constants.VERBOSE) {
+//                    Toast.makeText(context, "Ad opened", Toast.LENGTH_SHORT).show();
+//                }
+//            }
+//        };
+//
+//        adView.loadAd(adRequest);
+//        adView.setAdListener(bannerAdListener);
+//        if (showLoading && null != adLayout) {
+//            adLayout.setVisibility(View.VISIBLE);
+//        }
+//    }
 
     private static void applyAdPaddingBottom(View view) {
         if (null != view) {

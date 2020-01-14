@@ -135,7 +135,12 @@ class QuestionUpdateUtils {
         }
 
         fun getLastUpdateDownloaded (uPath: String): Date {
-            return Paper.book(Commons.LAST_QUESTION_UPDATE_KEY).read(genUpdateableKey(uPath), Date(0L))
+            try {
+                return Paper.book(Commons.LAST_QUESTION_UPDATE_KEY).read(genUpdateableKey(uPath), Date(0L))
+            }
+            catch (e: Exception) {
+                return Date(0L)
+            }
         }
 
         fun setLastUpdateDownloaded (uPath: String) {

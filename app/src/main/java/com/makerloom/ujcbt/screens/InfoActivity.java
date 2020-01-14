@@ -33,9 +33,9 @@ public class InfoActivity extends MyBackToolbarActivity {
         // Biodun
         callPersonTwoBtn = findViewById(R.id.call_person_2);
         callPersonTwoBtn.setOnClickListener(dialNumberOnClick("+2348064874715"));
-        // Okolawon
+        // Shekinah
         callPersonThreeBtn = findViewById(R.id.call_person_3);
-        callPersonThreeBtn.setOnClickListener(dialNumberOnClick("+2348139795382"));
+        callPersonThreeBtn.setOnClickListener(dialNumberOnClick("+2348068533781"));
 
         joinGroupBtn = findViewById(R.id.join_group_btn);
         joinGroupBtn.setOnClickListener(new View.OnClickListener() {

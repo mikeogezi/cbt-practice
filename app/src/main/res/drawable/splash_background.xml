@@ -7,15 +7,21 @@
 
     </item>
 
-    <item
-        android:left="@dimen/splash_padding"
-        android:right="@dimen/splash_padding"
-        android:top="@dimen/splash_padding"
-        android:bottom="@dimen/splash_padding">
+    <!--<item-->
+        <!--android:left="@dimen/splash_padding"-->
+        <!--android:right="@dimen/splash_padding"-->
+        <!--android:top="@dimen/splash_padding"-->
+        <!--android:bottom="@dimen/splash_padding">-->
 
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/splash" />
+        <!--<bitmap-->
+            <!--android:gravity="center"-->
+            <!--android:src="@drawable/splash" />-->
+
+    <!--</item>-->
+
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/splash">
 
     </item>
 

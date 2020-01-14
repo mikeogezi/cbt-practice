@@ -1,11 +1,11 @@
 package com.makerloom.ujcbt.screens;
 
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
+
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 import android.util.Log;
 
 import com.firebase.ui.auth.AuthUI;

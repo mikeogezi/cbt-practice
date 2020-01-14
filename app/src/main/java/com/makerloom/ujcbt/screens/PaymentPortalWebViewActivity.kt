@@ -1,10 +1,10 @@
 package com.makerloom.ujcbt.screens
 
-import android.app.AlertDialog
 import android.content.DialogInterface
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.webkit.JavascriptInterface
@@ -15,6 +15,7 @@ import android.widget.EditText
 import android.widget.LinearLayout
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import com.makerloom.common.utils.Constants
 import com.makerloom.ujcbt.R
 import com.makerloom.ujcbt.utils.EmailUtils
@@ -181,6 +182,54 @@ class PaymentPortalWebViewActivity : AppCompatActivity() {
         builder.show()
     }
 
+    fun runPINGeneration (user: FirebaseUser?) {
+        PINUtils.generateNewPIN(user!!, object: PINUtils.PINGenerateCallback {
+            override fun onPINGenerated(PIN: String) {
+                runPINRegistration(user, PIN)
+            }
+
+            override fun onFetchFailure(e: Exception) {
+                Log.e(TAG, "onFetchFailure $e")
+                if (Constants.VERBOSE) {
+                    Toast.makeText(this@PaymentPortalWebViewActivity,
+                            "onFetchFailure $e", Toast.LENGTH_LONG).show()
+                }
+                // Retry
+                showRetryToast()
+                runPINGeneration(user)
+            }
+        })
+    }
+
+    fun runPINRegistration (user: FirebaseUser?, PIN: String) {
+        PINUtils.registerPIN(user!!, PIN, object: PINUtils.PINRegisterCallback {
+            override fun onPINRegistered(PIN: String) {
+                // Go here so that user's pin is verified and the app can
+                // be used
+                val intent = Intent(this@PaymentPortalWebViewActivity,
+                        CheckPINValidityActivity::class.java)
+                startActivity(intent)
+                finish()
+            }
+
+            override fun onRegisterFailure(e: Exception) {
+                Log.e(TAG, "onRegisterFailure $e")
+                if (Constants.VERBOSE) {
+                    Toast.makeText(this@PaymentPortalWebViewActivity,
+                            "onRegisterFailure $e", Toast.LENGTH_LONG).show()
+                }
+                // Retry
+                showRetryToast()
+                runPINRegistration(user, PIN)
+            }
+        })
+    }
+
+    fun showRetryToast () {
+        Toast.makeText(this@PaymentPortalWebViewActivity,
+                "Please reconnect to the Internet so your PIN can be registered", Toast.LENGTH_LONG).show()
+    }
+
     fun showMessage (title: String, message: String, type: MessageType) {
         val builder = AlertDialog.Builder(this)
                 .setCancelable(false)
@@ -192,40 +241,42 @@ class PaymentPortalWebViewActivity : AppCompatActivity() {
                 override fun onClick(dialog: DialogInterface?, which: Int) {
                     // Get available pin
                     val user = FirebaseAuth.getInstance().currentUser
-
-                    PINUtils.generateNewPIN(user!!, object: PINUtils.PINGenerateCallback {
-                        override fun onPINGenerated(PIN: String) {
-                            PINUtils.registerPIN(user!!, PIN, object: PINUtils.PINRegisterCallback {
-                                override fun onPINRegistered(PIN: String) {
-
-                                    // Go here so that user's pin is verified and the app can
-                                    // be used
-                                    val intent = Intent(this@PaymentPortalWebViewActivity,
-                                            CheckPINValidityActivity::class.java)
-                                    startActivity(intent)
-                                    finish()
-                                }
-
-                                override fun onRegisterFailure(e: Exception) {
-                                    // TODO
-                                    Log.e(TAG, "onRegisterFailure $e")
-                                    if (Constants.VERBOSE) {
-                                        Toast.makeText(this@PaymentPortalWebViewActivity,
-                                                "onRegisterFailure $e", Toast.LENGTH_LONG).show()
-                                    }
-                                }
-                            })
-                        }
-
-                        override fun onFetchFailure(e: Exception) {
-                            // TODO
-                            Log.e(TAG, "onFetchFailure $e")
-                            if (Constants.VERBOSE) {
-                                Toast.makeText(this@PaymentPortalWebViewActivity,
-                                        "onFetchFailure $e", Toast.LENGTH_LONG).show()
-                            }
-                        }
-                    })
+                    runPINGeneration(user)
+//                  runPINGeneration replaced the below
+//                  -----------------------------------
+//                    PINUtils.generateNewPIN(user!!, object: PINUtils.PINGenerateCallback {
+//                        override fun onPINGenerated(PIN: String) {
+//                            PINUtils.registerPIN(user!!, PIN, object: PINUtils.PINRegisterCallback {
+//                                override fun onPINRegistered(PIN: String) {
+//
+//                                    // Go here so that user's pin is verified and the app can
+//                                    // be used
+//                                    val intent = Intent(this@PaymentPortalWebViewActivity,
+//                                            CheckPINValidityActivity::class.java)
+//                                    startActivity(intent)
+//                                    finish()
+//                                }
+//
+//                                override fun onRegisterFailure(e: Exception) {
+//                                    // TODO
+//                                    Log.e(TAG, "onRegisterFailure $e")
+//                                    if (Constants.VERBOSE) {
+//                                        Toast.makeText(this@PaymentPortalWebViewActivity,
+//                                                "onRegisterFailure $e", Toast.LENGTH_LONG).show()
+//                                    }
+//                                }
+//                            })
+//                        }
+//
+//                        override fun onFetchFailure(e: Exception) {
+//                            // TODO
+//                            Log.e(TAG, "onFetchFailure $e")
+//                            if (Constants.VERBOSE) {
+//                                Toast.makeText(this@PaymentPortalWebViewActivity,
+//                                        "onFetchFailure $e", Toast.LENGTH_LONG).show()
+//                            }
+//                        }
+//                    })
                 }
             })
         }
