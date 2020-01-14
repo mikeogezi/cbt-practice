@@ -17,8 +17,10 @@ package com.franmontiel.fullscreendialog;
 
 import android.view.MenuItem;
 
+import androidx.fragment.app.Fragment;
+
 /**
- * Interface that the content {@link android.support.v4.app.Fragment} must implement. It allows to control over the container dialog.
+ * Interface that the content {@link Fragment} must implement. It allows to control over the container dialog.
  */
 public interface FullScreenDialogContent {
     /**

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
                 <!--android:layout_width="80dp"-->
                 <!--android:layout_height="match_parent" />-->
 
-            <android.support.design.card.MaterialCardView
+            <com.google.android.material.card.MaterialCardView
                 android:id="@+id/department_name_cv"
                 app:cardCornerRadius="10dp"
                 app:cardElevation="0dp"
@@ -41,7 +41,7 @@
                 android:layout_width="80dp"
                 android:layout_height="80dp">
 
-                <android.support.v7.widget.AppCompatTextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/department_name_tv"
                     android:text="CS"
                     app:fontFamily="@font/montserrat_bold"
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-            </android.support.design.card.MaterialCardView>
+            </com.google.android.material.card.MaterialCardView>
 
             <LinearLayout
                 android:orientation="vertical"
@@ -106,6 +106,6 @@
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>

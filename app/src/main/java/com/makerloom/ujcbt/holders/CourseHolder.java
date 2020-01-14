@@ -2,12 +2,11 @@ package com.makerloom.ujcbt.holders;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.design.card.MaterialCardView;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
+import com.google.android.material.card.MaterialCardView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.makerloom.ujcbt.R;

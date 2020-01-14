@@ -1,11 +1,10 @@
 package com.makerloom.ujcbt.screens;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.CardView;
+import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import android.view.View;
 import android.widget.TextView;
 

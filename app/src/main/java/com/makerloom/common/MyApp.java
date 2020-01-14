@@ -1,6 +1,6 @@
 package com.makerloom.common;
 
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.makerloom.ujcbt.utils.Commons;

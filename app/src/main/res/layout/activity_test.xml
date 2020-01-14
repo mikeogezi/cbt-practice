@@ -14,7 +14,7 @@
         android:id="@+id/progress_bar"
         layout="@layout/default_progress_bar" />
 
-    <android.support.v4.widget.NestedScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/scroll_view"
         android:scrollbars="vertical"
         android:layout_below="@id/toolbar"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <android.support.v7.widget.CardView
+            <androidx.cardview.widget.CardView
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 app:cardCornerRadius="2dp"
                 app:cardElevation="5dp"
@@ -50,7 +50,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:layout_gravity="center_horizontal"
                             android:id="@+id/number_recycler_view"
                             tools:listitem="@layout/question_number"
@@ -149,7 +149,7 @@
                             android:layout_marginBottom="-8dp"
                             layout="@layout/horizontal_line_light" />
 
-                        <android.support.v7.widget.AppCompatTextView
+                        <androidx.appcompat.widget.AppCompatTextView
                             android:id="@+id/question"
                             android:padding="12dp"
                             android:layout_marginLeft="10dp"
@@ -165,7 +165,7 @@
                         <include
                             layout="@layout/horizontal_line_light" />
 
-                        <android.support.v7.widget.RecyclerView
+                        <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/option_rv"
                             tools:listitem="@layout/option_card"
                             android:clipToPadding="false"
@@ -173,13 +173,13 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content">
 
-                        </android.support.v7.widget.RecyclerView>
+                        </androidx.recyclerview.widget.RecyclerView>
 
                     </LinearLayout>
 
                 </LinearLayout>
 
-            </android.support.v7.widget.CardView>
+            </androidx.cardview.widget.CardView>
 
             <LinearLayout
                 xmlns:fancy="http://schemas.android.com/apk/res-auto"
@@ -189,7 +189,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     xmlns:app="http://schemas.android.com/apk/res-auto"
                     app:cardCornerRadius="3dp"
                     android:layout_margin="5dp"
@@ -224,9 +224,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
-                <android.support.v7.widget.CardView
+                <androidx.cardview.widget.CardView
                     xmlns:app="http://schemas.android.com/apk/res-auto"
                     android:layout_margin="5dp"
                     app:cardCornerRadius="3dp"
@@ -288,12 +288,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content" />
 
-                </android.support.v7.widget.CardView>
+                </androidx.cardview.widget.CardView>
 
             </LinearLayout>
 
         </LinearLayout>
 
-    </android.support.v4.widget.NestedScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </RelativeLayout>

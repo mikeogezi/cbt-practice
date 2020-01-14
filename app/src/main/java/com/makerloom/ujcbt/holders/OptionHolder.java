@@ -1,15 +1,13 @@
 package com.makerloom.ujcbt.holders;
 
 import android.content.Context;
-import android.support.v7.widget.AppCompatCheckBox;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.AppCompatCheckBox;
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
-import android.widget.CheckBox;
 import android.widget.TextView;
 
 import com.makerloom.ujcbt.R;
-import com.makerloom.ujcbt.models.Department;
 
 /**
  * Created by michael on 4/11/18.

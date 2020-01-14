@@ -45,7 +45,7 @@
                 android:layout_gravity="center"
                 android:layoutDirection="ltr" />
 
-            <android.support.v7.widget.AppCompatImageButton
+            <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/skip"
                 style="@style/AppIntroButtonStyleCompat"
                 android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
                 app:srcCompat="@drawable/ic_skip_white"
                 tools:ignore="ContentDescription" />
 
-            <android.support.v7.widget.AppCompatImageButton
+            <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/back"
                 style="@style/AppIntroButtonStyleCompat"
                 android:layout_width="wrap_content"
@@ -66,7 +66,7 @@
                 app:srcCompat="@drawable/ic_arrow_back_white"
                 tools:ignore="ContentDescription" />
 
-            <android.support.v7.widget.AppCompatImageButton
+            <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/next"
                 style="@style/AppIntroButtonStyleCompat"
                 android:layout_width="wrap_content"

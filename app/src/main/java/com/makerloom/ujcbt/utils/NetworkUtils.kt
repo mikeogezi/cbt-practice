@@ -1,7 +1,7 @@
 package com.makerloom.ujcbt.utils
 
 import android.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class NetworkUtils {
     companion object {
