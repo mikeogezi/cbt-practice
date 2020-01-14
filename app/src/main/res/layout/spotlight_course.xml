@@ -5,7 +5,7 @@
     android:paddingTop="20dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/arrow"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="30dp"
@@ -17,7 +17,7 @@
         android:layout_width="60dp"
         android:layout_height="wrap_content" />
 
-    <android.support.v7.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_marginTop="220dp"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"

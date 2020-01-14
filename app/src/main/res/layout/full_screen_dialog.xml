@@ -7,14 +7,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:descendantFocusability="afterDescendants">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         style="@style/FullScreenDialogToolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         tools:targetApi="lollipop">
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <FrameLayout
         android:id="@+id/content"

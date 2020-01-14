@@ -1,6 +1,7 @@
 package com.makerloom.common;
 
-import android.support.multidex.MultiDexApplication;
+import androidx.multidex.MultiDexApplication;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.makerloom.ujcbt.utils.Commons;
@@ -16,6 +17,7 @@ public class MyApp extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
 
         Paper.init(getApplicationContext());
         // Check for new questions every time the app starts

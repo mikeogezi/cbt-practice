@@ -39,7 +39,7 @@
                 android:layout_gravity="center"
                 android:layoutDirection="ltr"/>
 
-            <android.support.v7.widget.AppCompatButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/skip"
                 style="@style/AppIntroButtonStyleCompat"
                 android:layout_width="wrap_content"
@@ -50,7 +50,7 @@
                 android:text="@string/app_intro_skip_button"
                 android:textColor="@color/white" />
 
-            <android.support.v7.widget.AppCompatImageButton
+            <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/back"
                 android:tint="@color/white"
                 style="@style/AppIntroButtonStyleCompat"
@@ -63,7 +63,7 @@
                 app:srcCompat="@drawable/ic_navigate_before_white"
                 tools:ignore="ContentDescription" />
 
-            <android.support.v7.widget.AppCompatImageButton
+            <androidx.appcompat.widget.AppCompatImageButton
                 android:id="@+id/next"
                 android:tint="@color/white"
                 style="@style/AppIntroButtonStyleCompat"
@@ -75,7 +75,7 @@
                 app:srcCompat="@drawable/ic_navigate_next_white"
                 tools:ignore="ContentDescription" />
 
-            <android.support.v7.widget.AppCompatButton
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/done"
                 style="@style/AppIntroButtonStyleCompat"
                 android:layout_width="wrap_content"

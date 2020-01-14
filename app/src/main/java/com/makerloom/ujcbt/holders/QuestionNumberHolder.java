@@ -1,7 +1,7 @@
 package com.makerloom.ujcbt.holders;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
 import com.makerloom.ujcbt.R;
