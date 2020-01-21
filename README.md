@@ -53,20 +53,28 @@ This application currently only works in the [University of Jos](https://www.uni
 ### Login screen
 <img src="./assets/Screenshot_20200121-095907.png" width="400">
 
+----
+
 ### Home screen
 |Department list|Root hamburger menu
 |-----------------------------|-------------------
 |<img src="./assets/Screenshot_20200121-095935.png" width="400">|<img src="./assets/Screenshot_20200121-095944.png" width="400">
+
+----
 
 ### Course lists
 |GST course list|CS course list
 |---------------|--------------
 |<img src="./assets/Screenshot_20200121-104104.png" width="400">|<img src="./assets/Screenshot_20200121-103811.png" width="400">
 
+----
+
 ### Practice exam
 |Normal objective question|Comprehension question|Comprehension passage|Last question
 |--|--|--|--
 |<img src="./assets/Screenshot_20200121-103819.png" width="400">|<img src="./assets/Screenshot_20200121-120821.png" width="400">|<img src="./assets/Screenshot_20200121-120830.png" width="400">|<img src="./assets/Screenshot_20200121-104840.png" width="400">
+
+----
 
 ### Post-submission
 |Score|Correction (different session from Score)
