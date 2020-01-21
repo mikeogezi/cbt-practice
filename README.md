@@ -6,6 +6,12 @@ CBT Practice helps undergraduate students of the University of Jos practice for 
 * [CBT Practice Question Submitter](https://github.com/okibeogezi/cbt-practice-question-submitter) - This allows people with special access submit new questions to the question bank.
 * CBT Practice PIN Generator - This contains CLI utilities that generates unique PINS that can be used to access the application and bundles them into a PDF document that can be printed, cut into pieces and sold
 
+## Features
++ Thousands of questions 📚
++ 9 courses 👌
++ Validated corrections ✅
++ Timed sessions ⏱️
+
 ## Important note
 To build and run the app yourself, please do the following:
 * Create a Firebase project, initialize cloud messaging, firestore, auth, and cloud storage then download a `google-services.json` file and drop it in the `app/src` directory
