@@ -4,7 +4,7 @@
 CBT Practice helps undergraduate students of the University of Jos practice for their computer-based examinations. This repository houses the *Android* app. Asscoiated repositories are listed below. Please note that the second repository is private. If you would like me to make it open-source, kindly message me so that I can prioritize doing that.
 * [CBT Practice Webapp](https://github.com/okibeogezi/cbt-practice-web)
 * [CBT Practice Question Submitter](https://github.com/okibeogezi/cbt-practice-question-submitter) - This allows people with special access submit new questions to the question bank.
-* CBT Practice PIN Generator - This contains CLI utilities that generates unique PINS that can be used to access the application and bundles them into a PDF document that can be printed, cut into pieces and sold
+* CBT Practice PIN Generator - This contains a CLI application which generates and uploads unique PINS to a firebase database. A second CLI application bundles the generated PINS into a PDF document that can be printed and physically distributed to students. See the screenshots in **User access** below.
 
 ## Features
 + Thousands of questions  📚
