@@ -27,7 +27,9 @@ My solution, CBT Practice, allows students of the University to practice on thei
 ## User access
 Users are able to access the app's content for a fee of ₦200. This fee could either be paid online on the app itself or used to buy a paper PIN which looks like this.
 If you would like me to waive the fee so you could test the app, kindly contact me.
+<br />
 <img src="./assets/Screen Shot 2020-01-21 at 11.21.04.png" width="600">
+
 ![](./assets/sample-paper-pin.png)
 
 ## User support
