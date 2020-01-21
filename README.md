@@ -7,10 +7,10 @@ CBT Practice helps undergraduate students of the University of Jos practice for 
 * CBT Practice PIN Generator - This contains CLI utilities that generates unique PINS that can be used to access the application and bundles them into a PDF document that can be printed, cut into pieces and sold
 
 ## Features
-+ Thousands of questions 📚
-+ 9 courses 👌
-+ Validated corrections ✅
-+ Timed sessions ⏱️
++ Thousands of questions  📚
++ 9 courses  👌
++ Validated corrections  ✅
++ Timed sessions  ⏱️
 
 ## Important note
 To build and run the app yourself, please do the following:
