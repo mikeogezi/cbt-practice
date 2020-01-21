@@ -11,6 +11,7 @@ CBT Practice helps undergraduate students of the University of Jos practice for 
 + 9 courses  👌
 + Validated corrections  ✅
 + Timed sessions  ⏱️
++ New content is automatically downloaded  ☁️
 
 ## Important note
 To build and run the app yourself, please do the following:
